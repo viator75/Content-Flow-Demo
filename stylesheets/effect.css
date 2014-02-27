@@ -4,11 +4,9 @@
   top: 20px;
   width: 580px;
   height: 220px;
+  padding: 10px 20px;
   background-color: #ffffff;
-  border: 1px solid red;
-  padding: 10px 20px; }
+  border: 1px solid red; }
 
-#tab1, #tab2, #tab3, #tab4, #tab5 {
-  display: none; }
-  #tab1:target, #tab2:target, #tab3:target, #tab4:target, #tab5:target {
-    display: block; }
+#tab1:target, #tab2:target, #tab3:target, #tab4:target, #tab5:target {
+  z-index: 1; }
