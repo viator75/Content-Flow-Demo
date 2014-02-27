@@ -1,0 +1,17 @@
+/*layout styles*/
+.tab_content {
+  position: absolute;
+  top:20px;
+  width: 580px;
+  height: 220px;
+  background-color: #ffffff;
+  border: 1px solid red;
+  padding: 10px 20px;
+}
+
+#tab1, #tab2, #tab3, #tab4, #tab5,{
+  display: none;
+  &:target{
+    display: block;
+  }
+}
