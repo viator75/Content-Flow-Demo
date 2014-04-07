@@ -1,0 +1,12 @@
+/*layout styles*/
+.tab_content {
+  position: absolute;
+  top: 20px;
+  width: 580px;
+  height: 220px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border: 1px solid red; }
+
+#tab1:target, #tab2:target, #tab3:target, #tab4:target, #tab5:target {
+  z-index: 1; }
