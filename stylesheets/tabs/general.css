@@ -17,9 +17,9 @@ time, mark, audio, video {
   vertical-align: baseline; }
 
 a {
-  color: red; }
+  color: white; }
   a:hover {
-    color: black; }
+    color: white; }
 
 ol, ul {
   list-style: none; }
@@ -74,10 +74,6 @@ footer {
   text-align: center; }
   footer h2 {
     padding: 1em; }
-  footer a:link {
-    text-decoration: none; }
-  footer a:hover {
-    color: #cf0d0d; }
 
 h1, h2, h3, h4, h5, h6, a {
   font-family: "Lato",Serif;
@@ -101,13 +97,16 @@ h3 {
 
 .demo a {
   text-decoration: none;
+  float: left;
   padding: 0.25em 1em;
+  border: 1px solid #E6280F;
   background-color: #E6280F;
   font-size: 16px;
   color: #ffffff;
   font-weight: 100; }
   .demo a:hover {
-    color: #646464;
+    color: white;
+    border: 1px solid white;
     -webkit-transition: all .55s;
     -moz-transition: all .55s;
     -ms-transition: all .55s;
@@ -117,3 +116,5 @@ h3 {
 li {
   display: inline;
   margin: 0; }
+
+
