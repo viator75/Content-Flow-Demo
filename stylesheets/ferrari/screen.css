@@ -667,7 +667,7 @@ body li h1 {
   /* line 590, ../sass/screen.scss */
   .area {
     width: 100% -40px;
-    padding: 0 20px 20px 20px;
+    padding: 0 10px 20px 10px;
   }
 
   /* line 594, ../sass/screen.scss */
@@ -765,11 +765,10 @@ body li h1 {
   /* line 675, ../sass/screen.scss */
   .hero ul li {
     display: inline-block;
-    margin-right: 4px;
-    padding: 0 2px;
+    margin: 0;
     font-size: 12px;
+    width: auto;
     color: #c8191e;
-    border-bottom: 1px solid #c8191e;
   }
   .hero ul .small-none{
     display: none;
