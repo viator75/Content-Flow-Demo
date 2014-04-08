@@ -873,12 +873,8 @@ body li h1 {
   /* line 768, ../sass/screen.scss */
   .footer nav ul li {
     display: inline-block;
-    margin: 0 2px;
+    margin: 0;
     font-size: 12px;
-  }
-
-  .footer .small-none{
-    display: none;
   }
   /* line 774, ../sass/screen.scss */
   .footer .contact {
