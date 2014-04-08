@@ -120,7 +120,7 @@ p {
 /* line 54, ../sass/screen.scss */
 body {
   background-color: #141414;
-  font-family: "微軟正黑體", "Microsoft JhengHei", "times new roman", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   color: white;
 }
 /* line 58, ../sass/screen.scss */
@@ -644,6 +644,14 @@ body li h1 {
 @media screen and (max-width: 640px) {
   /* line 580, ../sass/screen.scss */
 
+  #toggle-view h1 {
+    font-size: 20px;
+    padding: 20px 10px;
+    margin: 0;
+    background-color: #c8191e;
+    border-top: 2px solid #fa3c32;
+    border-bottom: 2px solid #97281e;
+  }
 
   .wrapper {
     margin: 0 auto;
