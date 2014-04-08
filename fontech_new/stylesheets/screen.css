@@ -323,10 +323,10 @@ footer {
   background-color: black;
   text-align: center;
   height: 50px;
-  margin-bottom: 0;
 }
 /* line 286, ../sass/screen.sass */
 footer p {
   padding-top: 8px;
   color: rgba(255, 201, 11, 0.7);
+  margin-bottom: 0;
 }
