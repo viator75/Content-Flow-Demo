@@ -56,7 +56,7 @@ a:hover {
 }
 /* line 88, ../sass/screen.sass */
 #navigation ul li span {
-  margin-right: 8px;
+  margin-right: 12px;
 }
 /* line 90, ../sass/screen.sass */
 #navigation ul li a {
@@ -103,7 +103,7 @@ a:hover {
 }
 /* line 123, ../sass/screen.sass */
 #fixedbar #fixednav li span {
-  margin-right: 8px;
+  margin-right: 12px;
 }
 /* line 125, ../sass/screen.sass */
 #fixedbar #fixednav li a {

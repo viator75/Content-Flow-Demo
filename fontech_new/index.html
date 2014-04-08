@@ -430,11 +430,11 @@
 		<nav id="bt-menu" class="bt-menu hide-for-large-up">
 			<a href="#" class="bt-menu-trigger"><span>Menu</span></a>
 			<ul>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Services</a></li>
-				<li><a href="#">Projects</a></li>
-				<li><a href="#">Team</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="#about" title="about"><span class="fa fa-heart"></span>About</a></li>
+				<li><a href="#service" title="service"><span class="fa fa-wrench"></span>Service</a></li>
+				<li><a href="#project" title="project"><span class="fa fa-rocket"></span>Projects</a></li>
+				<li><a href="#team" title="team"><span class="fa fa-user"></span>Team</a></li>
+				<li><a href="#contact" title="contact"><span class="fa fa-envelope-o"></span>Contact</a></li>
 			</ul>
 			<ul>
 				<li><a href="" class="fa fa-facebook-square">Facebook</a></li>
@@ -458,6 +458,23 @@
 				$('#fixedbar').fadeOut(0);
 			}
 		});
+	});
+
+
+
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 600);
+	        return false;
+	      }
+	    }
+	  });
 	});
 	</script>
 
