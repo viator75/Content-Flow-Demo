@@ -165,6 +165,7 @@ section {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-style: cover;
   /*add for other browser*/
   overflow: hidden;
 }
