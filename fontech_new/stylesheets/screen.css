@@ -312,7 +312,7 @@ footer p {
   #hero {
   height: 500px;
   background-attachment: scroll !important;
-  background-position: top center;
+  background-position: 70% 0%;
   }
   #hero span {
   top: 2px;
