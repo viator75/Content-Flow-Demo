@@ -291,6 +291,28 @@ section {
   -o-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
+
+@media only screen and (max-width: 40em) {
+  #service .app {
+    width: 194px;
+    background-position: center center;
+  }
+  #service .app:hover, .app:focus {
+    background-position: center center;
+    width: 300px;
+  }
+  #hero {
+  height: 380px;
+  background-attachment: scroll !important;
+  background-position: top center;
+  }
+  #hero span {
+  top: 2px;
+  right: 1%;
+  width: 100px;
+  height: 35px;
+  }
+}
 /* line 255, ../sass/screen.sass */
 #service a {
   display: block;
