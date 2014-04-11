@@ -245,7 +245,7 @@ section {
   margin: 0 auto;
 }
 /* line 222, ../sass/screen.sass */
-#service .app:hover {
+#service .app:hover, .app:focus {
   background-position: center;
   width: 300px;
   -webkit-transition: all 0.95s ease;
@@ -265,7 +265,7 @@ section {
   margin: 0 auto;
 }
 /* line 236, ../sass/screen.sass */
-#service .dev:hover {
+#service .dev:hover, .dev:focus {
   background-image: url(../images/service/dev.png);
   background-position: left;
 
@@ -281,7 +281,7 @@ section {
   margin: 0 auto;
 }
 /* line 246, ../sass/screen.sass */
-#service .web:hover {
+#service .web:hover, .web:focus {
   background-image: url(../images/service/responsive.png);
   background-position: bottom;
   background-size: contain;
