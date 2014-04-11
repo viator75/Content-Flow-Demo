@@ -154,13 +154,18 @@ section {
 /* line 158, ../sass/screen.sass */
 #hero {
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: 70% 20%;
   background-image: url(../images/hero/12.jpg);
-  background-attachment: fixed;
+  background-attachment: fixed !important;
+  background-size: cover !important;
   height: 620px;
   width: 100%;
   position: relative;
+  /*add for other browser*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  /*add for other browser*/
   overflow: hidden;
 }
 /* line 165, ../sass/screen.sass */
@@ -233,6 +238,7 @@ section {
   background-image: url(../images/service/mobile.png);
   background-repeat: no-repeat;
   background-position: 0px center;
+  background-size: 194px 144px;
   height: 160px;
   width: 80px;
   margin: 0 auto;
@@ -251,21 +257,27 @@ section {
 #service .dev {
   background-image: url(../images/service/dev.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
+  background-size: 336px 144px;
   height: 160px;
-  width: 100%;
+  width: 168px;
+  margin: 0 auto;
 }
 /* line 236, ../sass/screen.sass */
 #service .dev:hover {
-  background-image: url(../images/service/dev_light.png);
+  background-image: url(../images/service/dev.png);
+  background-position: left;
+
 }
 /* line 240, ../sass/screen.sass */
 #service .web {
   background-image: url(../images/service/web.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 160px 120px;
   height: 160px;
-  width: 100%;
+  width: 160px;
+  margin: 0 auto;
 }
 /* line 246, ../sass/screen.sass */
 #service .web:hover {
