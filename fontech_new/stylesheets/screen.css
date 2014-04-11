@@ -1,19 +1,15 @@
-/* Welcome to Compass.
+
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* top navigation */
-/* line 45, ../sass/screen.sass */
 h1, h2, h4, h5, h6, p, a, ul, li {
   color: #545454;
   font-family: "微軟正黑體", "Microsoft JhengHei", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
-/* line 52, ../sass/screen.sass */
 #about h1, #service h1, #project h1, #team h1, #contact h1 {
   text-align: center;
 }
-/* line 54, ../sass/screen.sass */
 #about h3, #service h3, #project h3, #team h3, #contact h3 {
   color: #545454;
   text-align: center;
@@ -22,7 +18,6 @@ h1, h2, h4, h5, h6, p, a, ul, li {
   margin-bottom: 30px;
 }
 
-/* line 69, ../sass/screen.sass */
 #project .tag {
   padding: 1px 4px;
   margin-bottom: 4px;
@@ -34,7 +29,6 @@ h1, h2, h4, h5, h6, p, a, ul, li {
   border-right: 1px solid #e1b512;
 }
 
-/* line 76, ../sass/screen.sass */
 #team .tag {
   padding: 1px 4px;
   margin-bottom: 4px;
@@ -45,39 +39,32 @@ h1, h2, h4, h5, h6, p, a, ul, li {
   border-bottom: 1px solid #989898;
 }
 
-/* line 82, ../sass/screen.sass */
 a {
   color: white;
   text-decoration: none;
 }
-/* line 85, ../sass/screen.sass */
 a:hover {
   color: white;
 }
 
-/* line 90, ../sass/screen.sass */
 #navigation {
   width: 100%;
   display: block;
   height: 60px;
   background-color: #1f1f1f;
 }
-/* line 95, ../sass/screen.sass */
 #navigation ul {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
 }
-/* line 99, ../sass/screen.sass */
 #navigation ul li {
   display: inline-block;
   float: left;
 }
-/* line 102, ../sass/screen.sass */
 #navigation ul li span {
   margin-right: 12px;
 }
-/* line 104, ../sass/screen.sass */
 #navigation ul li a {
   width: 192px;
   height: 60px;
@@ -91,14 +78,11 @@ a:hover {
   -moz-transition: all 0.2s linea;
   transition: all 0.2s linear;
 }
-/* line 106, ../sass/screen.sass */
 #navigation ul li a:hover {
   background-color: #ffc90b;
   color: rgba(25, 25, 25, 0.9);
 }
 
-/* hidden fixed navigation */
-/* line 121, ../sass/screen.sass */
 #fixedbar {
   width: 100%;
   display: none;
@@ -108,23 +92,19 @@ a:hover {
   height: 44px;
   background-color: #1f1f1f;
 }
-/* line 129, ../sass/screen.sass */
 #fixedbar #fixednav {
   display: block;
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
 }
-/* line 134, ../sass/screen.sass */
 #fixedbar #fixednav li {
   display: inline-block;
   float: left;
 }
-/* line 137, ../sass/screen.sass */
 #fixedbar #fixednav li span {
   margin-right: 12px;
 }
-/* line 139, ../sass/screen.sass */
 #fixedbar #fixednav li a {
   width: 192px;
   height: 60px;
@@ -140,18 +120,15 @@ a:hover {
   height: 44px;
   line-height: 44px;
 }
-/* line 143, ../sass/screen.sass */
 #fixedbar #fixednav li a:hover {
   background-color: #ffc90b;
   color: rgba(25, 25, 25, 0.9);
 }
 
-/* line 155, ../sass/screen.sass */
 section {
   padding: 30px 0;
 }
 
-/* line 158, ../sass/screen.sass */
 #hero {
   background-repeat: no-repeat;
   background-position: 70% 20%;
@@ -161,15 +138,12 @@ section {
   height: 620px;
   width: 100%;
   position: relative;
-  /*add for other browser*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-style: cover;
-  /*add for other browser*/
   overflow: hidden;
 }
-/* line 165, ../sass/screen.sass */
 #hero span {
   background-image: url(../images/public/fontech_logo_dark.png);
   background-size: contain;
@@ -184,7 +158,6 @@ section {
   text-indent: 9999px;
   overflow: hidden;
 }
-/* line 178, ../sass/screen.sass */
 #hero h1 {
   color: white;
   height: 1.4em;
@@ -197,7 +170,6 @@ section {
   left: 0;
   text-align: left;
 }
-/* line 189, ../sass/screen.sass */
 #hero h2 {
   color: white;
   display: table;
@@ -209,32 +181,26 @@ section {
   left: 0;
 }
 
-/* line 200, ../sass/screen.sass */
 #about {
   background-color: #fffffa;
 }
-/* line 202, ../sass/screen.sass */
 #about a {
   color: #ffc90b;
 }
 
-/* line 206, ../sass/screen.sass */
 #project .columns {
   padding-bottom: 30px;
 }
 
-/* line 211, ../sass/screen.sass */
 #service {
   background-repeat: repeat;
   background-size: contain;
   background-position: center center;
   background-image: url(../images/public/grey.png);
 }
-/* line 213, ../sass/screen.sass */
 #service h4 {
   text-align: center;
 }
-/* line 215, ../sass/screen.sass */
 #service .app {
   background-image: url(../images/service/mobile.png);
   background-repeat: no-repeat;
@@ -244,7 +210,6 @@ section {
   width: 80px;
   margin: 0 auto;
 }
-/* line 222, ../sass/screen.sass */
 #service .app:hover, .app:focus {
   background-position: center;
   width: 300px;
@@ -254,7 +219,6 @@ section {
   -o-transition: all 0.95s ease;
   transition: all 0.95s ease;
 }
-/* line 230, ../sass/screen.sass */
 #service .dev {
   background-image: url(../images/service/dev.png);
   background-repeat: no-repeat;
@@ -264,13 +228,11 @@ section {
   width: 168px;
   margin: 0 auto;
 }
-/* line 236, ../sass/screen.sass */
 #service .dev:hover, .dev:focus {
   background-image: url(../images/service/dev.png);
   background-position: left;
 
 }
-/* line 240, ../sass/screen.sass */
 #service .web {
   background-image: url(../images/service/web.png);
   background-repeat: no-repeat;
@@ -280,7 +242,6 @@ section {
   width: 160px;
   margin: 0 auto;
 }
-/* line 246, ../sass/screen.sass */
 #service .web:hover, .web:focus {
   background-image: url(../images/service/responsive.png);
   background-position: bottom;
@@ -292,28 +253,6 @@ section {
   transition: all 0.25s ease-in-out;
 }
 
-@media only screen and (max-width: 40em) {
-  #service .app {
-    width: 194px;
-    background-position: center center;
-  }
-  #service .app:hover, .app:focus {
-    background-position: center center;
-    width: 300px;
-  }
-  #hero {
-  height: 460px;
-  background-attachment: scroll !important;
-  background-position: top center;
-  }
-  #hero span {
-  top: 2px;
-  right: 1%;
-  width: 100px;
-  height: 35px;
-  }
-}
-/* line 255, ../sass/screen.sass */
 #service a {
   display: block;
   width: 120px;
@@ -327,13 +266,11 @@ section {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
 }
-/* line 267, ../sass/screen.sass */
 #service a:hover {
   background-color: #ffc90b;
   color: rgba(25, 25, 25, 0.9);
 }
 
-/* line 271, ../sass/screen.sass */
 #team {
   background-repeat: repeat;
   background-size: auto;
@@ -341,27 +278,50 @@ section {
   background-image: url(../images/public/pattern.png);
   background-attachment: fixed;
 }
-/* line 275, ../sass/screen.sass */
 #team img {
   width: 40%;
   min-width: 30%;
   max-width: 120px;
 }
 
-/* line 280, ../sass/screen.sass */
 #contact span {
   margin-right: 8px;
 }
 
-/* line 282, ../sass/screen.sass */
 footer {
   background-color: black;
   text-align: center;
   height: 50px;
 }
-/* line 286, ../sass/screen.sass */
 footer p {
   padding-top: 8px;
   color: rgba(255, 201, 11, 0.7);
   margin-bottom: 0;
 }
+
+
+@media only screen and (max-width: 40em) {
+  #service .app {
+    width: 194px;
+    background-position: center center;
+  }
+  #service .app:hover, .app:focus {
+    background-position: center center;
+    width: 300px;
+  }
+  #hero {
+  height: 420px;
+  background-attachment: scroll !important;
+  background-position: top center;
+  }
+  #hero span {
+  top: 2px;
+  right: 1%;
+  width: 100px;
+  height: 35px;
+  }
+}
+
+
+
+/*Special fix over 303-323 and .service*/
