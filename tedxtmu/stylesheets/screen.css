@@ -3,45 +3,45 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* top navigation */
-/* line 45, ../sass/screen.sass */
+/* line 48, ../sass/screen.sass */
 h1, h2, h3, h4, h5, h6, p, a, ul, li {
   font-family: "微軟正黑體", "Microsoft JhengHei", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   color: #545454;
 }
 
-/* line 48, ../sass/screen.sass */
+/* line 51, ../sass/screen.sass */
 h2 {
   text-shadow: 1px 1px 3px rgba(102, 102, 102, 0.5);
 }
 
-/* line 51, ../sass/screen.sass */
+/* line 54, ../sass/screen.sass */
 a {
   text-decoration: none;
 }
 
-/* line 56, ../sass/screen.sass */
+/* line 59, ../sass/screen.sass */
 #navigation {
   width: 100%;
   display: block;
   height: 60px;
   background-color: #1f1f1f;
 }
-/* line 61, ../sass/screen.sass */
+/* line 64, ../sass/screen.sass */
 #navigation ul {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
 }
-/* line 65, ../sass/screen.sass */
+/* line 68, ../sass/screen.sass */
 #navigation ul li {
   display: inline-block;
   float: left;
 }
-/* line 68, ../sass/screen.sass */
+/* line 71, ../sass/screen.sass */
 #navigation ul li span {
   margin-right: 12px;
 }
-/* line 70, ../sass/screen.sass */
+/* line 73, ../sass/screen.sass */
 #navigation ul li a {
   width: 192px;
   height: 60px;
@@ -55,14 +55,14 @@ a {
   -moz-transition: all 0.2s linea;
   transition: all 0.2s linear;
 }
-/* line 72, ../sass/screen.sass */
+/* line 75, ../sass/screen.sass */
 #navigation ul li a:hover {
   background-color: #be1e2d;
   color: rgba(255, 255, 255, 0.9);
 }
 
 /* hidden fixed navigation */
-/* line 87, ../sass/screen.sass */
+/* line 90, ../sass/screen.sass */
 #fixedbar {
   width: 100%;
   display: none;
@@ -73,23 +73,23 @@ a {
   background-color: #1f1f1f;
   box-shadow: 1px 1px 3px black;
 }
-/* line 96, ../sass/screen.sass */
+/* line 99, ../sass/screen.sass */
 #fixedbar #fixednav {
   display: block;
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
 }
-/* line 101, ../sass/screen.sass */
+/* line 104, ../sass/screen.sass */
 #fixedbar #fixednav li {
   display: inline-block;
   float: left;
 }
-/* line 104, ../sass/screen.sass */
+/* line 107, ../sass/screen.sass */
 #fixedbar #fixednav li span {
   margin-right: 12px;
 }
-/* line 106, ../sass/screen.sass */
+/* line 109, ../sass/screen.sass */
 #fixedbar #fixednav li a {
   width: 192px;
   height: 60px;
@@ -105,13 +105,13 @@ a {
   height: 44px;
   line-height: 44px;
 }
-/* line 110, ../sass/screen.sass */
+/* line 113, ../sass/screen.sass */
 #fixedbar #fixednav li a:hover {
   background-color: #be1e2d;
   color: rgba(255, 255, 255, 0.9);
 }
 
-/* line 127, ../sass/screen.sass */
+/* line 130, ../sass/screen.sass */
 .hero {
   background-repeat: no-repeat;
   background-size: cover;
@@ -122,7 +122,7 @@ a {
   width: 100%;
   position: relative;
 }
-/* line 133, ../sass/screen.sass */
+/* line 136, ../sass/screen.sass */
 .hero h1 {
   position: absolute;
   display: block;
@@ -133,12 +133,12 @@ a {
   text-shadow: 1px 1px 3px rgba(102, 102, 102, 0.5);
   color: white;
 }
-/* line 142, ../sass/screen.sass */
+/* line 145, ../sass/screen.sass */
 .hero h1 span {
   margin-right: 12px;
   font-size: 60%;
 }
-/* line 145, ../sass/screen.sass */
+/* line 148, ../sass/screen.sass */
 .hero h3 {
   position: absolute;
   display: block;
@@ -147,7 +147,7 @@ a {
   top: 60px;
   line-height: 40px;
 }
-/* line 152, ../sass/screen.sass */
+/* line 155, ../sass/screen.sass */
 .hero .logo {
   background-color: rgba(255, 255, 255, 0.8);
   width: auto;
@@ -158,23 +158,23 @@ a {
   top: 35%;
   left: 15%;
 }
-/* line 161, ../sass/screen.sass */
+/* line 164, ../sass/screen.sass */
 .hero .logo h1 {
   text-indent: -9999px;
   opacity: 0;
 }
-/* line 164, ../sass/screen.sass */
+/* line 167, ../sass/screen.sass */
 .hero .social {
   position: absolute;
   bottom: 1%;
   right: 1%;
 }
-/* line 168, ../sass/screen.sass */
+/* line 171, ../sass/screen.sass */
 .hero .social a {
   margin-left: 4px;
   color: rgba(190, 30, 45, 0.7);
 }
-/* line 171, ../sass/screen.sass */
+/* line 174, ../sass/screen.sass */
 .hero .social a:hover {
   color: #be1e2d;
   -webkit-transition: all 0.2s linear;
@@ -182,26 +182,26 @@ a {
   transition: all 0.2s linear;
 }
 
-/* line 178, ../sass/screen.sass */
+/* line 181, ../sass/screen.sass */
 .container {
   width: 100%;
   margin: 0 auto;
 }
-/* line 181, ../sass/screen.sass */
+/* line 184, ../sass/screen.sass */
 .container #about, .container #feeling, .container #events, .container #team, .container #register, .container #contact {
   padding-bottom: 60px;
   padding-top: 20px;
 }
-/* line 185, ../sass/screen.sass */
+/* line 188, ../sass/screen.sass */
 .container #team {
   overflow: hidden;
 }
-/* line 188, ../sass/screen.sass */
+/* line 191, ../sass/screen.sass */
 .container #feeling {
   padding-bottom: 0;
   padding-top: 20px;
 }
-/* line 191, ../sass/screen.sass */
+/* line 194, ../sass/screen.sass */
 .container h2 {
   clear: both;
   display: block;
@@ -211,40 +211,40 @@ a {
   font-size: 24px;
 }
 
-/* line 202, ../sass/screen.sass */
+/* line 205, ../sass/screen.sass */
 #about .row {
   background-color: rgba(240, 240, 240, 0.8);
 }
-/* line 204, ../sass/screen.sass */
+/* line 207, ../sass/screen.sass */
 #about a {
   color: rgba(190, 30, 45, 0.9);
 }
-/* line 206, ../sass/screen.sass */
+/* line 209, ../sass/screen.sass */
 #about a:hover {
   color: rgba(190, 30, 45, 0.7);
 }
-/* line 209, ../sass/screen.sass */
+/* line 212, ../sass/screen.sass */
 #about .ted, #about .tedx, #about .tedxtmu {
   height: 120px;
   width: 100%;
   max-width: 290px;
   margin: 0 auto;
 }
-/* line 214, ../sass/screen.sass */
+/* line 217, ../sass/screen.sass */
 #about .ted {
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: center;
   background-image: url(../images/logo_ted.png);
 }
-/* line 216, ../sass/screen.sass */
+/* line 219, ../sass/screen.sass */
 #about .tedx {
   background-repeat: no-repeat;
   background-size: 55%;
   background-position: center;
   background-image: url(../images/logo_tedx.png);
 }
-/* line 218, ../sass/screen.sass */
+/* line 221, ../sass/screen.sass */
 #about .tedxtmu {
   background-repeat: no-repeat;
   background-size: 80%;
@@ -252,18 +252,18 @@ a {
   background-image: url(../images/logo_tedxtmu.png);
 }
 
-/* line 223, ../sass/screen.sass */
+/* line 226, ../sass/screen.sass */
 #team {
   background-image: url(../images/grey.png);
   background-repeat: repeat;
 }
-/* line 226, ../sass/screen.sass */
+/* line 229, ../sass/screen.sass */
 #team h2, #team p {
   color: #545454;
   font-weight: 100;
 }
 
-/* line 236, ../sass/screen.sass */
+/* line 239, ../sass/screen.sass */
 #feeling .watch {
   background-repeat: no-repeat;
   background-size: cover;
@@ -275,13 +275,13 @@ a {
   width: 100%;
   position: relative;
 }
-/* line 243, ../sass/screen.sass */
+/* line 246, ../sass/screen.sass */
 #feeling .watch img {
   position: absolute;
   left: 10%;
   top: 10%;
 }
-/* line 247, ../sass/screen.sass */
+/* line 250, ../sass/screen.sass */
 #feeling .watch .quote {
   background-color: rgba(17, 17, 17, 0.8);
   padding: 8px;
@@ -289,76 +289,105 @@ a {
   right: 0%;
   bottom: 10%;
 }
-/* line 253, ../sass/screen.sass */
+/* line 256, ../sass/screen.sass */
 #feeling .watch .quote h3 {
   line-height: 30px;
   color: white;
 }
-/* line 256, ../sass/screen.sass */
+/* line 259, ../sass/screen.sass */
 #feeling .watch .quote h4 {
   color: white;
   text-align: right;
 }
-/* line 259, ../sass/screen.sass */
+/* line 262, ../sass/screen.sass */
 #feeling .watch .quote span {
   font-size: 60%;
   margin-right: 8px;
 }
-/* line 262, ../sass/screen.sass */
+/* line 265, ../sass/screen.sass */
 #feeling h3 {
   line-height: 60px;
   text-align: center;
 }
-/* line 265, ../sass/screen.sass */
+/* line 268, ../sass/screen.sass */
 #feeling .speaker {
   padding: 12px 0;
   background-color: #be1e2d;
 }
-/* line 268, ../sass/screen.sass */
+/* line 271, ../sass/screen.sass */
 #feeling .speaker h3 {
   color: white;
   line-height: 60px;
 }
-/* line 271, ../sass/screen.sass */
+/* line 274, ../sass/screen.sass */
 #feeling .speaker h4 {
   color: white;
   line-height: 30px;
   margin: 8px 0;
 }
-/* line 275, ../sass/screen.sass */
+/* line 278, ../sass/screen.sass */
 #feeling .speaker p {
   color: white;
 }
 
-/* line 277, ../sass/screen.sass */
+/* line 280, ../sass/screen.sass */
 #event {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-image: url(../images/bike.jpg);
-  height: 680px;
   background-attachment: fixed;
 }
-/* line 282, ../sass/screen.sass */
+/* line 285, ../sass/screen.sass */
 #event h2 {
   margin-top: 0;
 }
-/* line 284, ../sass/screen.sass */
-#event h2, #event h3, #event h4, #event p {
+/* line 287, ../sass/screen.sass */
+#event h2, #event h3, #event h4, #event p, #event a {
   color: white;
 }
+/* line 289, ../sass/screen.sass */
+#event .event_title {
+  background-color: rgba(190, 30, 45, 0.8);
+  padding-top: 30px;
+}
+/* line 292, ../sass/screen.sass */
+#event .event_title ul, #event .event_title li {
+  list-style-type: none;
+  color: white;
+  text-align: center;
+}
+/* line 296, ../sass/screen.sass */
+#event .event_title li {
+  padding-bottom: 30px;
+}
+/* line 298, ../sass/screen.sass */
+#event a {
+  color: rgba(190, 30, 45, 0.9);
+  border: 1px solid rgba(190, 30, 45, 0.9);
+  padding: 5px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  background-color: white;
+}
+/* line 304, ../sass/screen.sass */
+#event a:hover {
+  color: rgba(190, 30, 45, 0.7);
+}
 
-/* line 288, ../sass/screen.sass */
+/* line 307, ../sass/screen.sass */
 #contact span {
   margin-right: 12px;
 }
 
-/* line 291, ../sass/screen.sass */
+/* line 310, ../sass/screen.sass */
 footer {
   background-color: #be1e2d;
   height: 60px;
 }
-/* line 294, ../sass/screen.sass */
+/* line 313, ../sass/screen.sass */
 footer p {
   color: white;
   text-align: center;
