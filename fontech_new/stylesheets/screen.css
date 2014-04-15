@@ -1,7 +1,3 @@
-
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 h1, h2, h4, h5, h6, p, a, ul, li {
   color: #545454;
   font-family: "微軟正黑體", "Microsoft JhengHei", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -166,7 +162,7 @@ section {
   font-weight: 700;
   background-color: rgba(255, 201, 11, 0.8);
   position: relative;
-  top: 50%;
+  top: 53%;
   left: 0;
   text-align: left;
 }
@@ -177,7 +173,7 @@ section {
   text-align: left;
   background-color: rgba(11, 21, 11, 0.8);
   position: relative;
-  top: 49%;
+  top: 52%;
   left: 0;
 }
 
@@ -231,7 +227,6 @@ section {
 #service .dev:hover, .dev:focus {
   background-image: url(../images/service/dev.png);
   background-position: left;
-
 }
 #service .web {
   background-image: url(../images/service/web.png);
@@ -300,6 +295,32 @@ footer p {
 }
 
 
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  #service .app {
+  width: 194px;
+  background-position: center center;
+  }
+  #service .app:hover, .app:focus {
+    background-position: center center;
+    width: 300px;
+  }
+  #service .dev {
+  background-position: left;
+  }
+  #hero {
+  height: 496px;
+  background-attachment: scroll !important;
+  background-position: 72% 0%;
+  }
+  #hero span {
+  top: 2px;
+  right: 1%;
+  width: 150px;
+  height: 50px;
+  }
+}
+
+
 @media only screen and (max-width: 40em) {
   #service .app {
     width: 194px;
@@ -324,4 +345,4 @@ footer p {
 
 
 
-/*Special fix over 303-323 and .service*/
+/*Special fix over 298-344 and .service*/
