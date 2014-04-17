@@ -1,0 +1,809 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+h1, h2, h3, p, ul, li, a{
+	font-weight:300;
+}
+
+p{
+	font-size: 16px;
+	line-height: 1.4;
+	color: rgba(187,187,187,1);
+}
+
+.hero{
+	h1, p{
+		color: rgba(200,25,30,1);
+	}
+}
+
+#toggle-view {
+	h1 {
+	font-size: 24px;
+	padding: 20px 40px;
+	margin:0;
+	background-color:rgba(200,25,30,1);
+	border-top: 2px solid rgba(250,60,50,1);
+	border-bottom: 2px solid rgba(151,40,30,1);
+	}
+	h2{
+	font-size: 24px;
+	margin: 24px 0 20px 0;
+	color:rgba(200,25,30,1);
+	}
+	p{
+		margin: 20px 0;
+		line-height: 1.6;
+		text-align: justify;
+	}
+	a, .more, .date{
+	font-size: 16px;
+	line-height: 1.4;
+	color: rgba(0,153,183,1);
+	display: inline;
+	}
+	.time{
+		color: rgba(200,25,30,1);
+	}
+}
+
+
+body{
+	background-color: rgba(20,20,20,1);
+	font-family: "微軟正黑體", "Microsoft JhengHei", "times new roman", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: white;
+	li h1{
+		font-family:  "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	}
+}
+
+.drop img{
+	height: 40px;
+	margin: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 960px){
+
+	.wrapper{
+		margin:0 auto;
+		max-width: 960px;
+		width:100%;
+	}
+
+	br{
+		clear: both;
+	}
+
+	.area{
+		width:100%-80px;
+		padding: 0 40px;
+	}
+	.bisection{
+		display: inline-block;
+		max-width: 420px;
+		width: 100%;
+		vertical-align: top;
+		text-align: justify;
+	}
+	.bi_margin{
+		display: inline-block;
+		width: 34px;
+	}
+	.performance{
+		display: inline-block;
+		width: auto;
+		margin: 40px 0;
+		tr{
+
+		}
+		td{
+			padding: 8px 16px;
+			height: 54px;
+		}
+		h3{
+			font-size: 20px;
+			text-align: center;
+			margin: 0;
+		}
+		h4{
+			font-size: 16px;
+			margin: 0;
+			padding: 0;
+		}
+	}
+	.table_margin{
+		display: inline-block;
+		width: 60px;
+	}
+
+	.time_table{
+		display: block;
+		width: auto;
+		margin: 20px 0;
+		color: rgba(187,187,187,1);
+
+		tr{
+
+		}
+		td{
+			padding: 8px;
+			background-repeat: no-repeat;
+			background-position: 45% 30%;
+			text-align: center;
+			vertical-align: middle;
+		}
+		h3{
+			font-size: 20px;
+			text-align: center;
+			margin: 0;
+		}
+		h4{
+			font-size: 16px;
+			margin: 0;
+			padding: 0;
+		}
+		.grayball{
+			background-image: url(../images/grayball.png);
+			color:rgba(89,89,110,1);
+		}
+		.redball{
+			background-image: url(../images/redball.png);
+		}
+	}
+	.hero{
+		background-image: url(../images/hero_2.png);
+		min-height: 800px;
+		background-repeat: no-repeat;
+		background-position: bottom;
+		background-size: cover;
+
+		.nav {
+			float: left;
+			margin-top: 20px;
+		}
+		ul li {
+			display: inline-block;
+			margin-right: 10px;
+			font-size: 12px;
+			color:rgba(200,25,30,1);
+			}
+		.browser{
+			float: right;
+		}
+		.intro{
+			width: 240px;
+			float: right;
+			margin-top: 30px;
+			margin-right: 10px;
+			h1{
+				font-size: 26px;
+				margin:0;
+				color:rgba(200,25,30,1);
+				margin-bottom: 10px;
+			}
+		}
+		.logo{
+			height: 120px;
+			width: 75px;
+			float: left;
+			margin-top: 30px;
+			background-image: url(../images/logo.png);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+		}
+	}
+
+	.welcome{
+		.sign{
+		background-image: url(../images/sign.png);
+		height: 95px;
+		width: 190px;
+		background-repeat: no-repeat;
+		background-position: center;	
+		}
+		p{
+			margin: 40px 0;
+			line-height: 1.8;
+		}
+	}
+
+	#toggle-view {
+		list-style:none;	
+		font-size:12px;
+		padding:0;
+		margin: 0;
+		li {
+			margin:0px;
+			position:relative;
+			cursor:pointer;
+		}
+		.drop {
+			position:absolute;
+			right:5px; top:0;
+			color:#ccc;
+			font-size:13px;
+		}
+		
+		.panel {
+			margin: 0;
+			display:none;
+		}
+		.view_lg{
+			width: 100%;
+			max-width: 960px;
+			// margin: 40px 0 20px 0;
+		}
+		.view_sm{
+			// width: 100%;
+			// max-width: 960px;
+			margin: 20px auto;
+			// height: 365px;
+		}
+	}
+
+
+
+
+	.footer{
+		font-size: 12px;
+		max-width: 960px;
+		background-color:rgba(200,25,30,1);
+		.logo{
+			height: 200px;
+			width: 128px;
+			float: left;
+			margin-top: 40px;
+			background-image: url(../images/logo.png);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: contain;
+		}
+		nav{
+			width: 320px;
+			float: right;
+			margin: 30px 124px 20px 0;
+			color: rgba(50,50,50,1);
+			// margin-right: 40px;
+			// 需要另一套css
+			ul li {
+				display: inline-block;
+				margin: 0 4px;
+			}
+		}
+		.contact{
+				float: right;
+				width: 420px;
+				margin-right: 20px;
+			.info{
+				display: inline-block;
+				width: 200px;
+				height: 60px;
+				padding: 10px 0;
+				line-height: 1.8;
+				letter-spacing: 0.5;
+			}
+		}
+		.floor{
+			width: 440px;
+			float: right;
+			text-align: left;
+			margin: 20px 0 30px 0;
+			color: rgba(50,50,50,1);
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 640px) and (max-width: 960px){
+
+
+	.wrapper{
+		margin:0 auto;
+		max-width: 960px;
+		width:100%;
+	}
+
+	br{
+		clear: both;
+	}
+
+	.area{
+		width:100%-80px;
+		padding: 0 40px;
+	}
+	.bisection{
+		display: inline-block;
+		// max-width: 420px;
+		width: 100%;
+		vertical-align: top;
+		text-align: justify;
+	}
+	.bi_margin{
+		display: none;
+	}
+	.performance{
+		display: inline-block;
+		width: auto;
+		margin: 40px 0;
+		tr{
+
+		}
+		td{
+			padding: 8px 16px;
+			height: 54px;
+		}
+		h3{
+			font-size: 20px;
+			text-align: center;
+			margin: 0;
+		}
+		h4{
+			font-size: 16px;
+			margin: 0;
+			padding: 0;
+		}
+	}
+	.table_margin{
+		display: none;
+	}
+
+	.time_table{
+		display: block;
+		width: auto;
+		margin: 20px 0;
+		color: rgba(187,187,187,1);
+
+		tr{
+
+		}
+		td{
+			padding: 8px;
+			background-repeat: no-repeat;
+			background-position: 45% 30%;
+			text-align: center;
+			vertical-align: middle;
+		}
+		h3{
+			font-size: 20px;
+			text-align: center;
+			margin: 0;
+		}
+		h4{
+			font-size: 16px;
+			margin: 0;
+			padding: 0;
+		}
+		.grayball{
+			background-image: url(../images/grayball.png);
+			color:rgba(89,89,110,1);
+		}
+		.redball{
+			background-image: url(../images/redball.png);
+		}
+	}
+	.hero{
+		background-image: url(../images/hero_2.png);
+		min-height: 760px;
+		background-repeat: no-repeat;
+		background-position: bottom;
+		background-size: cover;
+
+		.nav {
+			float: left;
+			margin-top: 20px;
+		}
+		ul li {
+			display: inline-block;
+			margin-right: 10px;
+			font-size: 12px;
+			color:rgba(200,25,30,1);
+			}
+		.browser{
+			float: right;
+		}
+		.intro{
+			width: 240px;
+			float: right;
+			margin-top: 30px;
+			margin-right: 10px;
+			h1{
+				font-size: 26px;
+				margin:0;
+				color:rgba(200,25,30,1);
+				margin-bottom: 10px;
+			}
+		}
+		.logo{
+			height: 120px;
+			width: 75px;
+			float: left;
+			margin-top: 30px;
+			background-image: url(../images/logo.png);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+		}
+	}
+
+	.welcome{
+		.sign{
+		background-image: url(../images/sign.png);
+		height: 95px;
+		width: 190px;
+		background-repeat: no-repeat;
+		background-position: center;	
+		}
+		p{
+			margin: 40px 0;
+			line-height: 1.8;
+		}
+	}
+
+	#toggle-view {
+		list-style:none;	
+		font-size:12px;
+		padding:0;
+		margin: 0;
+		li {
+			margin:0px;
+			position:relative;
+			cursor:pointer;
+		}
+		.drop {
+			position:absolute;
+			right:5px; top:0;
+			color:#ccc;
+			font-size:13px;
+		}
+		
+		.panel {
+			margin: 0;
+			display:none;
+		}
+		.view_lg{
+			width: 100%;
+			max-width: 960px;
+			// margin: 40px 0 20px 0;
+		}
+		.view_sm{
+			width: 100%;
+			// max-width: 960px;
+			// margin: 20px auto;
+			// height: 365px;
+		}
+	}
+
+
+
+
+	.footer{
+		font-size: 12px;
+		max-width: 960px;
+		background-color:rgba(200,25,30,1);
+		.logo{
+			height: 180px;
+			width: 108px;
+			float: left;
+			margin-top: 60px;
+			background-image: url(../images/logo.png);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: contain;
+		}
+		nav{
+			width: 320px;
+			float: right;
+			margin: 30px 104px 20px 0;
+			color: rgba(50,50,50,1);
+			// margin-right: 40px;
+			// 需要另一套css
+			ul li {
+				display: inline-block;
+				margin: 0 4px;
+			}
+		}
+		.contact{
+				float: right;
+				width: 420px;
+				// margin-right: 20px;
+			.info{
+				display: inline-block;
+				width: 200px;
+				height: 60px;
+				padding: 10px 0;
+				line-height: 1.8;
+				letter-spacing: 0.5;
+			}
+		}
+		.floor{
+			width: 420px;
+			float: right;
+			text-align: left;
+			margin: 20px 0 30px 0;
+			color: rgba(50,50,50,1);
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 640px){
+	.wrapper{
+		margin:0 auto;
+		max-width: 960px;
+		width:100%;
+	}
+
+	br{
+		clear: both;
+	}
+
+	.area{
+		width:100%-40px;
+		padding: 0 20px;
+	}
+	.bisection{
+		display: inline-block;
+		// max-width: 420px;
+		width: 100%;
+		vertical-align: top;
+		text-align: justify;
+	}
+	.bi_margin{
+		display: none;
+	}
+	.performance{
+		display: inline-block;
+		width: auto;
+		margin: 40px 0;
+		tr{
+
+		}
+		td{
+			padding: 8px 16px;
+			height: 54px;
+		}
+		h3{
+			font-size: 20px;
+			text-align: center;
+			margin: 0;
+		}
+		h4{
+			font-size: 16px;
+			margin: 0;
+			padding: 0;
+		}
+	}
+	.table_margin{
+		display: none;
+	}
+
+	.time_table{
+		display: block;
+		width: auto;
+		margin: 40px 0;
+		color: rgba(187,187,187,1);
+
+		tr{
+
+		}
+		td{
+			padding: 8px;
+			background-repeat: no-repeat;
+			background-position: 45% 30%;
+			text-align: center;
+			vertical-align: middle;
+		}
+		h3{
+			font-size: 20px;
+			text-align: center;
+			margin: 0;
+		}
+		h4{
+			font-size: 16px;
+			margin: 0;
+			padding: 0;
+		}
+		.grayball{
+			background-image: url(../images/grayball.png);
+			color:rgba(89,89,110,1);
+		}
+		.redball{
+			background-image: url(../images/redball.png);
+		}
+	}
+	.hero{
+		background-image: url(../images/hero_2.png);
+		min-height: 460px;
+		background-repeat: no-repeat;
+		background-position: bottom;
+		background-size: cover;
+
+		.nav {
+			float: left;
+			margin-top: 20px;
+		}
+		ul li {
+			display: inline-block;
+			margin-right: 10px;
+			font-size: 12px;
+			color:rgba(200,25,30,1);
+			}
+		.browser{
+			float: right;
+		}
+		.intro{
+
+			width: 100%;
+			padding: 0px;
+			margin-top: 10px;
+			h1{
+				font-size: 26px;
+				margin:0;
+				color:rgba(200,25,30,1);
+				margin-bottom: 10px;
+			}
+		}
+		.logo{
+			height: 120px;
+			width: 75px;
+			float: left;
+			margin-top: 10px;
+			background-image: url(../images/logo.png);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+		}
+	}
+
+	.welcome{
+		.sign{
+		background-image: url(../images/sign.png);
+		height: 95px;
+		width: 190px;
+		background-repeat: no-repeat;
+		background-position: center;	
+		}
+		p{
+			margin: 40px 0;
+			line-height: 1.8;
+		}
+	}
+
+	#toggle-view {
+		list-style:none;	
+		font-size:12px;
+		padding:0;
+		margin: 0;
+		li {
+			margin:0px;
+			position:relative;
+			cursor:pointer;
+		}
+		.drop {
+			position:absolute;
+			right:5px; top:0;
+			color:#ccc;
+			font-size:13px;
+		}
+		
+		.panel {
+			margin: 0;
+			display:none;
+		}
+		.view_lg{
+			width: 100%;
+			max-width: 960px;
+			// margin: 40px 0 20px 0;
+		}
+		.view_sm{
+			width: 100%;
+			// margin: 20px auto;
+		}
+	}
+
+
+
+
+	.footer{
+		font-size: 12px;
+		max-width: 960px;
+		background-color:rgba(200,25,30,1);
+		.logo{
+			display: none;
+		}
+		nav{
+			width: 100%;
+			padding: 30px 0;
+			color: rgba(50,50,50,1);
+			ul li {
+				display: inline-block;
+				margin: 0 2px;
+				font-size: 14px;
+			}
+		}
+		.contact{
+				float: 100%;
+				width: 100%;
+				// margin-right: 20px;
+			.info{
+				font-size: 14px;
+				// display: inline-block;
+				margin: 0 3% 0 0;
+				// width: 45%;
+				height: 60px;
+				padding: 20px 0;
+				line-height: 1.6;
+				letter-spacing: 0.5;
+			}
+		}
+		.floor{
+			width: 240px;
+			// float: right;
+			text-align: center;
+			margin: 20px auto;
+			color: rgba(50,50,50,1);
+			line-height: 1.4;
+		}
+	}
+}
