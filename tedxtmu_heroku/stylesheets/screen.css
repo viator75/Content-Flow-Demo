@@ -120,7 +120,7 @@ a {
 .hero {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center -124px;
+  background-position: center bottom;
   background-image: url(../images/thinker.jpg);
   background-attachment: fixed;
   height: 640px;
