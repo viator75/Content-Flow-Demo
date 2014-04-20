@@ -707,7 +707,7 @@ footer p {
     margin: 2px;
     max-width: 104px;
     padding-bottom: 38px;
-    margin-bottom: 172px;
+    margin-bottom: 136px;
   }
   /* line 526, ../sass/screen.sass */
   #team .active_container {
@@ -841,14 +841,14 @@ footer p {
     margin: 2px;
     max-width: 88px;
     padding-bottom: 32px;
-    margin-bottom: 166px;
+    margin-bottom: 126px;
   }
   /* line 634, ../sass/screen.sass */
   #team .active_container {
     display: inline-block;
     width: 92px;
     height: 92px;
-    position: relative;
+    border-bottom: 38px solid white;
   }
   /* line 639, ../sass/screen.sass */
   #team .active_container h5 {
@@ -859,9 +859,9 @@ footer p {
     font-size: 12px;
     text-align: center;
     width: 88px;
-    height: 34px;
+    height: 30px;
     display: block;
-    bottom: -34px;
+    bottom: -68px;
     left: 2px;
   }
 
