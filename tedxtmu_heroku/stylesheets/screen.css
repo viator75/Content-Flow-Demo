@@ -4,6 +4,10 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* top navigation */
 /* line 48, ../sass/screen.sass */
+body{
+  overflow: hidden;
+}
+
 h1, h2, h3, h4, h5, h6, p, a, ul, li {
   font-family: "微軟正黑體", "Microsoft JhengHei", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   color: #545454;
