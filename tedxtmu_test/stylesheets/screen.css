@@ -729,7 +729,7 @@ footer p {
 }
 @media only screen and (max-width: 40em) {
   /* line 552, ../sass/screen.sass */
-  body {
+  html {
     overflow-x: hidden;
   }
 
