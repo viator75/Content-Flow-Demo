@@ -377,7 +377,7 @@ a {
 }
 /* line 299, ../sass/screen.sass */
 .partner .partner_container h5 {
-  width: 360px;
+  width: auto;
 }
 /* line 301, ../sass/screen.sass */
 .partner .partner_container img {
