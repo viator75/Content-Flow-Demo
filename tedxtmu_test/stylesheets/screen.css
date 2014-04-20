@@ -397,6 +397,10 @@ a {
 }
 
 /* line 312, ../sass/screen.sass */
+#feeling p {
+  text-align: justify;
+}
+/* line 314, ../sass/screen.sass */
 #feeling .watch {
   background-repeat: no-repeat;
   background-size: cover;
@@ -408,13 +412,13 @@ a {
   width: 100%;
   position: relative;
 }
-/* line 319, ../sass/screen.sass */
+/* line 321, ../sass/screen.sass */
 #feeling .watch img {
   position: absolute;
   left: 10%;
   top: 15%;
 }
-/* line 323, ../sass/screen.sass */
+/* line 325, ../sass/screen.sass */
 #feeling .watch .info {
   background-color: rgba(17, 17, 17, 0.8);
   width: 380px;
@@ -423,7 +427,7 @@ a {
   right: 12%;
   top: 20%;
 }
-/* line 330, ../sass/screen.sass */
+/* line 332, ../sass/screen.sass */
 #feeling .watch .info h2 {
   color: white;
   text-align: left;
@@ -431,7 +435,7 @@ a {
   padding: 0;
   line-height: 1.4;
 }
-/* line 336, ../sass/screen.sass */
+/* line 338, ../sass/screen.sass */
 #feeling .watch .info a {
   color: #aa1923;
   padding: 10px;
@@ -448,12 +452,12 @@ a {
   -khtml-border-radius: 3px;
   -webkit-border-radius: 3px;
 }
-/* line 348, ../sass/screen.sass */
+/* line 350, ../sass/screen.sass */
 #feeling .watch .info a:hover {
   color: white;
   background-color: #b41923;
 }
-/* line 351, ../sass/screen.sass */
+/* line 353, ../sass/screen.sass */
 #feeling .watch .quote {
   background-color: rgba(17, 17, 17, 0.8);
   padding: 8px 8px 8px 20px;
@@ -461,63 +465,63 @@ a {
   right: 0%;
   top: 64%;
 }
-/* line 357, ../sass/screen.sass */
+/* line 359, ../sass/screen.sass */
 #feeling .watch .quote h3 {
   line-height: 30px;
   text-align: left;
   color: white;
 }
-/* line 361, ../sass/screen.sass */
+/* line 363, ../sass/screen.sass */
 #feeling .watch .quote h4 {
   color: white;
   text-align: right;
 }
-/* line 364, ../sass/screen.sass */
+/* line 366, ../sass/screen.sass */
 #feeling .watch .quote span {
   font-size: 60%;
   margin-right: 8px;
 }
-/* line 367, ../sass/screen.sass */
+/* line 369, ../sass/screen.sass */
 #feeling h3 {
   line-height: 60px;
   text-align: center;
 }
-/* line 370, ../sass/screen.sass */
+/* line 372, ../sass/screen.sass */
 #feeling .speaker {
   padding: 12px 0;
   background-color: #aa1923;
 }
-/* line 373, ../sass/screen.sass */
+/* line 375, ../sass/screen.sass */
 #feeling .speaker h3 {
   color: white;
   line-height: 60px;
 }
-/* line 376, ../sass/screen.sass */
+/* line 378, ../sass/screen.sass */
 #feeling .speaker h4 {
   color: white;
   line-height: 30px;
   margin: 8px 0;
 }
-/* line 380, ../sass/screen.sass */
+/* line 382, ../sass/screen.sass */
 #feeling .speaker p, #feeling .speaker a {
   color: white;
   text-align: justify;
 }
-/* line 383, ../sass/screen.sass */
+/* line 385, ../sass/screen.sass */
 #feeling .speaker a:hover {
   color: rgba(255, 255, 255, 0.7);
 }
-/* line 385, ../sass/screen.sass */
+/* line 387, ../sass/screen.sass */
 #feeling .speaker .row {
   padding-bottom: 40px;
 }
-/* line 387, ../sass/screen.sass */
+/* line 389, ../sass/screen.sass */
 #feeling .speaker .th {
   max-width: 220px;
   margin-bottom: 20px;
 }
 
-/* line 390, ../sass/screen.sass */
+/* line 392, ../sass/screen.sass */
 #event {
   background-repeat: no-repeat;
   background-size: cover;
@@ -527,24 +531,24 @@ a {
   padding-bottom: 60px;
   padding-top: 20px;
 }
-/* line 395, ../sass/screen.sass */
+/* line 397, ../sass/screen.sass */
 #event p, #event h6, #event h4, #event h5, #event a {
   color: #111111;
 }
-/* line 397, ../sass/screen.sass */
+/* line 399, ../sass/screen.sass */
 #event p {
   font-size: 14px;
 }
-/* line 399, ../sass/screen.sass */
+/* line 401, ../sass/screen.sass */
 #event h2 {
   margin-top: 0;
   color: white;
 }
-/* line 402, ../sass/screen.sass */
+/* line 404, ../sass/screen.sass */
 #event a:hover {
   color: #c82823;
 }
-/* line 404, ../sass/screen.sass */
+/* line 406, ../sass/screen.sass */
 #event .event_info {
   background-color: rgba(250, 250, 250, 0.9);
   width: 94%;
@@ -553,11 +557,11 @@ a {
   margin: 0 auto;
   display: block;
 }
-/* line 412, ../sass/screen.sass */
+/* line 414, ../sass/screen.sass */
 #event .event_info h4, #event .event_info br {
   clear: both;
 }
-/* line 414, ../sass/screen.sass */
+/* line 416, ../sass/screen.sass */
 #event .event_info .link {
   float: right;
   display: block;
@@ -573,32 +577,32 @@ a {
   -webkit-border-radius: 3px;
   background-color: #c81e2d;
 }
-/* line 427, ../sass/screen.sass */
+/* line 429, ../sass/screen.sass */
 #event .event_info .link:hover {
   background-color: white;
   color: rgba(190, 30, 45, 0.8);
 }
 
-/* line 431, ../sass/screen.sass */
+/* line 433, ../sass/screen.sass */
 #contact {
   box-shadow: 2px 1px 5px rgba(17, 17, 17, 0.3);
   padding-bottom: 40px;
   padding-top: 4px;
   background-color: #f8fafa;
 }
-/* line 436, ../sass/screen.sass */
+/* line 438, ../sass/screen.sass */
 #contact span {
   margin-right: 12px;
 }
 
-/* line 439, ../sass/screen.sass */
+/* line 441, ../sass/screen.sass */
 footer {
   background-color: #be1e2d;
   min-height: 48px;
   height: auto;
   padding-top: 12px;
 }
-/* line 444, ../sass/screen.sass */
+/* line 446, ../sass/screen.sass */
 footer p {
   color: white;
   text-align: center;
@@ -607,40 +611,40 @@ footer p {
 }
 
 @media only screen and (max-width: 64em) {
-  /* line 461, ../sass/screen.sass */
+  /* line 463, ../sass/screen.sass */
   .hero {
     background-attachment: scroll !important;
     height: 520px;
   }
-  /* line 464, ../sass/screen.sass */
+  /* line 466, ../sass/screen.sass */
   .hero h1 {
     top: 16%;
     left: 13%;
   }
-  /* line 467, ../sass/screen.sass */
+  /* line 469, ../sass/screen.sass */
   .hero .logo {
     width: 300px;
     top: 28%;
     left: 20%;
   }
-  /* line 471, ../sass/screen.sass */
+  /* line 473, ../sass/screen.sass */
   .hero .social {
     bottom: 1%;
     right: 1%;
   }
 
-  /* line 475, ../sass/screen.sass */
+  /* line 477, ../sass/screen.sass */
   #about {
     padding-top: 0;
     padding-bottom: 0;
   }
 
-  /* line 480, ../sass/screen.sass */
+  /* line 482, ../sass/screen.sass */
   #feeling .watch {
     background-attachment: scroll !important;
     height: 580px;
   }
-  /* line 483, ../sass/screen.sass */
+  /* line 485, ../sass/screen.sass */
   #feeling .watch img {
     position: absolute;
     width: 20%;
@@ -648,13 +652,13 @@ footer p {
     left: 9%;
     top: 15%;
   }
-  /* line 489, ../sass/screen.sass */
+  /* line 491, ../sass/screen.sass */
   #feeling .watch .info {
     padding: 20px;
     right: 8%;
     top: 40%;
   }
-  /* line 493, ../sass/screen.sass */
+  /* line 495, ../sass/screen.sass */
   #feeling .watch .info a {
     border: 2px solid #be1b25;
     border-radius: 7px;
@@ -662,28 +666,28 @@ footer p {
     -khtml-border-radius: 7px;
     -webkit-border-radius: 7px;
   }
-  /* line 496, ../sass/screen.sass */
+  /* line 498, ../sass/screen.sass */
   #feeling .watch .info a:hover {
     border: 2px solid white;
   }
-  /* line 498, ../sass/screen.sass */
+  /* line 500, ../sass/screen.sass */
   #feeling .watch .quote {
     right: 0%;
     top: 80%;
   }
-  /* line 501, ../sass/screen.sass */
+  /* line 503, ../sass/screen.sass */
   #feeling h3 {
     line-height: 60px;
     text-align: center;
   }
-  /* line 505, ../sass/screen.sass */
+  /* line 507, ../sass/screen.sass */
   #feeling .speaker .th {
     max-width: 150px;
     margin: 0 auto 20px auto;
     display: block;
   }
 
-  /* line 510, ../sass/screen.sass */
+  /* line 512, ../sass/screen.sass */
   #event {
     background-repeat: no-repeat;
     background-size: cover;
@@ -694,28 +698,28 @@ footer p {
     height: auto;
     padding-top: 10px;
   }
-  /* line 516, ../sass/screen.sass */
+  /* line 518, ../sass/screen.sass */
   #event .event_info {
     background-color: rgba(255, 255, 255, 0.9);
   }
 
-  /* line 520, ../sass/screen.sass */
+  /* line 522, ../sass/screen.sass */
   #team {
     padding-bottom: 60px;
   }
-  /* line 522, ../sass/screen.sass */
+  /* line 524, ../sass/screen.sass */
   #team .th {
     margin: 2px;
     max-width: 104px;
     padding-bottom: 38px;
     margin-bottom: 0;
   }
-  /* line 527, ../sass/screen.sass */
+  /* line 529, ../sass/screen.sass */
   #team .active_container {
     width: 108px;
     height: 150px;
   }
-  /* line 530, ../sass/screen.sass */
+  /* line 532, ../sass/screen.sass */
   #team .active_container h5 {
     margin: 0 0 6px 0;
     padding: 2px 0;
@@ -729,12 +733,12 @@ footer p {
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 553, ../sass/screen.sass */
+  /* line 555, ../sass/screen.sass */
   html {
     overflow-x: hidden;
   }
 
-  /* line 555, ../sass/screen.sass */
+  /* line 557, ../sass/screen.sass */
   .hero {
     background-repeat: no-repeat;
     background-size: cover;
@@ -744,32 +748,32 @@ footer p {
     background-attachment: scroll !important;
     height: 480px;
   }
-  /* line 560, ../sass/screen.sass */
+  /* line 562, ../sass/screen.sass */
   .hero h1 {
     width: 272px;
     top: 18%;
     left: 5%;
   }
-  /* line 564, ../sass/screen.sass */
+  /* line 566, ../sass/screen.sass */
   .hero .logo {
     width: 280px;
     top: 28%;
     left: 7%;
   }
 
-  /* line 569, ../sass/screen.sass */
+  /* line 571, ../sass/screen.sass */
   #feeling .watch {
     height: 480px;
     width: 100%;
   }
-  /* line 572, ../sass/screen.sass */
+  /* line 574, ../sass/screen.sass */
   #feeling .watch img {
     width: 20%;
     height: auto;
     left: 9%;
     top: 5%;
   }
-  /* line 577, ../sass/screen.sass */
+  /* line 579, ../sass/screen.sass */
   #feeling .watch .info {
     width: 100%;
     margin: 0;
@@ -777,7 +781,7 @@ footer p {
     top: 72%;
     background-color: rgba(17, 17, 17, 0.9);
   }
-  /* line 583, ../sass/screen.sass */
+  /* line 585, ../sass/screen.sass */
   #feeling .watch .info h2 {
     font-size: 20px;
     color: white;
@@ -787,24 +791,24 @@ footer p {
     margin: 0 auto;
     padding: 0;
   }
-  /* line 591, ../sass/screen.sass */
+  /* line 593, ../sass/screen.sass */
   #feeling .watch .quote {
     right: 0%;
     top: 48%;
   }
-  /* line 594, ../sass/screen.sass */
+  /* line 596, ../sass/screen.sass */
   #feeling .watch .quote h3 {
     line-height: 24px;
     text-align: left;
     color: white;
     font-size: 20px;
   }
-  /* line 600, ../sass/screen.sass */
+  /* line 602, ../sass/screen.sass */
   #feeling .speaker h4 {
     font-size: 24px;
   }
 
-  /* line 604, ../sass/screen.sass */
+  /* line 606, ../sass/screen.sass */
   #event .event_info .link {
     float: none;
     display: block;
@@ -820,40 +824,40 @@ footer p {
     -webkit-border-radius: 3px;
     background-color: #d21e2d;
   }
-  /* line 616, ../sass/screen.sass */
+  /* line 618, ../sass/screen.sass */
   #event .event_info .link:hover {
     background-color: white;
     color: rgba(190, 30, 45, 0.8);
   }
 
-  /* line 621, ../sass/screen.sass */
+  /* line 623, ../sass/screen.sass */
   #team {
     padding-bottom: 80px;
   }
-  /* line 623, ../sass/screen.sass */
+  /* line 625, ../sass/screen.sass */
   #team h2, #team p {
     color: #545454;
     font-weight: 100;
   }
-  /* line 626, ../sass/screen.sass */
+  /* line 628, ../sass/screen.sass */
   #team h4 {
     font-size: 24px;
   }
-  /* line 628, ../sass/screen.sass */
+  /* line 630, ../sass/screen.sass */
   #team .th {
     margin: 2px;
     max-width: 88px;
     padding-bottom: 36px;
     margin-bottom: 0;
   }
-  /* line 633, ../sass/screen.sass */
+  /* line 635, ../sass/screen.sass */
   #team .active_container {
     display: inline-block;
     width: 92px;
     height: 130px;
     position: relative;
   }
-  /* line 638, ../sass/screen.sass */
+  /* line 640, ../sass/screen.sass */
   #team .active_container h5 {
     margin: 0;
     color: #111111;
@@ -864,16 +868,16 @@ footer p {
     bottom: 10px;
   }
 
-  /* line 647, ../sass/screen.sass */
+  /* line 649, ../sass/screen.sass */
   .volunteer {
     background-color: #aa1923;
     padding: 60px 0 50px 0;
   }
-  /* line 650, ../sass/screen.sass */
+  /* line 652, ../sass/screen.sass */
   .volunteer h4, .volunteer p {
     color: white;
   }
-  /* line 652, ../sass/screen.sass */
+  /* line 654, ../sass/screen.sass */
   .volunteer a {
     font-size: 20px;
     color: #aa1923;
@@ -889,13 +893,13 @@ footer p {
     -khtml-border-radius: 3px;
     -webkit-border-radius: 3px;
   }
-  /* line 663, ../sass/screen.sass */
+  /* line 665, ../sass/screen.sass */
   .volunteer a:hover {
     color: white;
     background-color: #aa1923;
   }
 
-  /* line 666, ../sass/screen.sass */
+  /* line 668, ../sass/screen.sass */
   .partner {
     background-repeat: no-repeat;
     background-size: cover;
@@ -903,52 +907,52 @@ footer p {
     background-image: url(../images/glass.png);
     padding: 10px 0;
   }
-  /* line 669, ../sass/screen.sass */
+  /* line 671, ../sass/screen.sass */
   .partner h3, .partner h5 {
     color: white;
   }
-  /* line 671, ../sass/screen.sass */
+  /* line 673, ../sass/screen.sass */
   .partner h3 {
     margin-top: 40px;
     border-bottom: 1px solid #cccccc;
   }
-  /* line 674, ../sass/screen.sass */
+  /* line 676, ../sass/screen.sass */
   .partner .th {
     margin: 4px 4px 8px 4px;
     max-width: 80px;
   }
-  /* line 677, ../sass/screen.sass */
+  /* line 679, ../sass/screen.sass */
   .partner .partner_container {
     display: block;
   }
-  /* line 679, ../sass/screen.sass */
+  /* line 681, ../sass/screen.sass */
   .partner .partner_container h5, .partner .partner_container img, .partner .partner_container a {
     display: inline-block;
   }
-  /* line 681, ../sass/screen.sass */
+  /* line 683, ../sass/screen.sass */
   .partner .partner_container h5 {
     font-size: 16px;
     width: 100%;
   }
-  /* line 684, ../sass/screen.sass */
+  /* line 686, ../sass/screen.sass */
   .partner .partner_container img {
     max-height: 80px;
   }
-  /* line 686, ../sass/screen.sass */
+  /* line 688, ../sass/screen.sass */
   .partner .partner_container ul, .partner .partner_container li {
     list-style-type: none;
   }
-  /* line 688, ../sass/screen.sass */
+  /* line 690, ../sass/screen.sass */
   .partner .sponsor_container {
     display: block;
   }
-  /* line 690, ../sass/screen.sass */
+  /* line 692, ../sass/screen.sass */
   .partner .sponsor_container h5 {
     font-size: 16px;
     display: block;
   }
 
-  /* line 694, ../sass/screen.sass */
+  /* line 696, ../sass/screen.sass */
   #contact {
     padding: 4px 20px 20px 20px;
     background-color: #f8fafa;
