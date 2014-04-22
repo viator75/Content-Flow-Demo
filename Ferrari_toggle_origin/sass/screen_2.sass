@@ -9,7 +9,7 @@
 
 
 	p, a
-		font-size: 20px
+		font-size: 18px
 		margin: 0 0 60px 0
 		line-height: 28px
 		text-align: justify
@@ -22,9 +22,9 @@
 	// ----------------------
 
 	h1 
-		font-size: 28px
+		font-size: 24px
 		font-weight: bold
-		padding: 20px 40px
+		padding: 16px 20px
 		// prevent overlap
 		margin: 100px 0 0 0
 		// prevent overlap
@@ -50,26 +50,14 @@
 	a, .more
 		color: rgba(0,153,183,1)
 
-	// 大圖區設定
-	.hero
-		h1, p
-			color: rgba(200,25,30,1)
-			font-weight: bold
-			padding: 0
-			margin: 0
-			background-color: inherit
-			border: none
-			clear: both
-			text-align: left
-
 	.nav
 		position: fixed
 		z-index: 1
 		bottom: 120px
 		right: 0
 		.global, .facebook, .youtube
-			height: 64px
-			width: 64px
+			height: 48px
+			width: 48px
 			background-repeat: no-repeat
 			background-position: right
 			margin-bottom: 8px
@@ -216,24 +204,37 @@
 
 
 	.hero
-		background-image: url(../images/hero_2.png)
-		min-height: 360px
+		background-image: url(../images/hero_3.jpg)
+		min-height: 280px
+		margin-bottom: 40px
 		background-repeat: no-repeat
 		background-position: bottom
 		background-size: cover
 		.intro
-			width: 240px
+			width: 220px
 			float: right
-			margin-top: 30px
-			margin-right: 10px
-			h1
-				font-size: 26px
+			margin: 30px 0 0 0
+			h1, p
+				font-weight: bold
 				margin: 0
+				padding: 0
+				background-color: inherit
 				color: rgba(200,25,30,1)
 				margin-bottom: 10px
+				clear: both
+				border: none
+				text-align: left
+
+			h1
+				font-size: 20px
+				color: rgba(200,25,30,1)
+			p
+				font-size: 14px
+				color: white
+				font-weight: 300
 		.logo
-			height: 120px
-			width: 75px
+			height: 80px
+			width: 50px
 			float: left
 			margin-top: 30px
 			background-image: url(../images/logo.png)
@@ -282,8 +283,8 @@
 		// width: 100%
 		background-color: rgba(200,25,30,1)
 		.logo
-			height: 200px
-			width: 128px
+			height: 120px
+			width: 75px
 			float: left
 			margin-top: 40px
 			background-image: url(../images/logo.png)
@@ -294,19 +295,30 @@
 			float: right
 			width: 100%
 			max-width: 600px
+			min-width: 280px
 			margin-top: 40px
-			text-align: center
+			text-align: left
 			p
 				display: inline-block
-				width: 280px
+				width: 220px
 				padding: 0
 				margin: 0 0 40px 0
-				font-size: 16px
+				font-size: 14px
 				color: rgba(255,255,255,1)
 		.floor
+			line-height: 22px
 			clear: both
 			width: 100%
 			max-width: 590px
 			text-align: center
 			margin: 4px auto 
 	
+@media screen and (max-width: 480px)
+
+	.footer
+		.logo
+			height: 80px
+			width: 45px
+		.contact
+			width: 280px
+

@@ -24,6 +24,7 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
+/* line 22, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
@@ -69,7 +70,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 8, ../sass/screen.sass */
 body {
   background-color: #141414;
-  font-family: "微軟正黑體", "Microsoft JhengHei", "times new roman", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "微軟正黑體", "Microsoft JhengHei", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   color: white;
 }
 
@@ -146,26 +147,14 @@ p {
     color: #0099b7;
   }
 
-  /* line 189, ../sass/screen.sass */
-  .hero h1, .hero p {
-    color: #c8191e;
-    font-weight: bold;
-    padding: 0;
-    margin: 0;
-    background-color: inherit;
-    border: none;
-    clear: both;
-    text-align: left;
-  }
-
-  /* line 200, ../sass/screen.sass */
+  /* line 187, ../sass/screen.sass */
   .nav {
     position: fixed;
     z-index: 1;
     bottom: 160px;
     right: 0;
   }
-  /* line 205, ../sass/screen.sass */
+  /* line 192, ../sass/screen.sass */
   .nav .global, .nav .facebook, .nav .youtube {
     height: 80px;
     width: 80px;
@@ -174,43 +163,43 @@ p {
     margin-bottom: 10px;
     background-size: cover;
   }
-  /* line 212, ../sass/screen.sass */
+  /* line 199, ../sass/screen.sass */
   .nav .global {
     background-image: url(../images/global.png);
   }
-  /* line 214, ../sass/screen.sass */
+  /* line 201, ../sass/screen.sass */
   .nav .facebook {
     background-image: url(../images/facebook.png);
   }
-  /* line 216, ../sass/screen.sass */
+  /* line 203, ../sass/screen.sass */
   .nav .youtube {
     background-image: url(../images/youtube.png);
   }
 
-  /* line 225, ../sass/screen.sass */
+  /* line 212, ../sass/screen.sass */
   .hide-in-lg {
     display: none;
   }
 
-  /* line 230, ../sass/screen.sass */
+  /* line 217, ../sass/screen.sass */
   .wrapper {
     margin: 0 auto;
     max-width: 960px;
     width: 100%;
   }
 
-  /* line 237, ../sass/screen.sass */
+  /* line 224, ../sass/screen.sass */
   br {
     clear: both;
   }
 
-  /* line 240, ../sass/screen.sass */
+  /* line 227, ../sass/screen.sass */
   .area {
     width: 100% -80px;
     padding: 0 40px;
   }
 
-  /* line 247, ../sass/screen.sass */
+  /* line 234, ../sass/screen.sass */
   .bisection {
     display: inline-block;
     max-width: 47%;
@@ -218,50 +207,50 @@ p {
     text-align: justify;
   }
 
-  /* line 253, ../sass/screen.sass */
+  /* line 240, ../sass/screen.sass */
   .bi_margin {
     display: inline-block;
     width: 5%;
   }
 
-  /* line 262, ../sass/screen.sass */
+  /* line 249, ../sass/screen.sass */
   .performance {
     display: inline-block;
     width: auto;
     margin: 60px 0;
   }
-  /* line 269, ../sass/screen.sass */
+  /* line 256, ../sass/screen.sass */
   .performance td {
     padding: 8px 16px;
     height: 54px;
   }
-  /* line 273, ../sass/screen.sass */
+  /* line 260, ../sass/screen.sass */
   .performance h3 {
     font-size: 20px;
     text-align: center;
     margin: 0;
   }
-  /* line 278, ../sass/screen.sass */
+  /* line 265, ../sass/screen.sass */
   .performance h4 {
     font-size: 16px;
     margin: 0;
     padding: 0;
   }
 
-  /* line 284, ../sass/screen.sass */
+  /* line 271, ../sass/screen.sass */
   .table_margin {
     display: inline-block;
     width: 50px;
   }
 
-  /* line 288, ../sass/screen.sass */
+  /* line 275, ../sass/screen.sass */
   .time_table {
     display: block;
     width: auto;
     margin: 0 0 60px 0;
     color: #bbbbbb;
   }
-  /* line 297, ../sass/screen.sass */
+  /* line 284, ../sass/screen.sass */
   .time_table td {
     font-size: 16px;
     width: 36px;
@@ -269,7 +258,7 @@ p {
     text-align: center;
     vertical-align: middle;
   }
-  /* line 304, ../sass/screen.sass */
+  /* line 291, ../sass/screen.sass */
   .time_table td .grayball, .time_table td .redball {
     border-radius: 50%;
     width: 16px;
@@ -281,72 +270,89 @@ p {
     margin: 0 auto;
     vertical-align: middle;
   }
-  /* line 314, ../sass/screen.sass */
+  /* line 301, ../sass/screen.sass */
   .time_table td .grayball {
     background-color: #a6a6a6;
     color: #646464;
   }
-  /* line 317, ../sass/screen.sass */
+  /* line 304, ../sass/screen.sass */
   .time_table td .redball {
     background-color: #cf1829;
   }
-  /* line 322, ../sass/screen.sass */
+  /* line 309, ../sass/screen.sass */
   .time_table h3 {
     font-size: 22px;
     margin: 0;
     padding: 0;
   }
 
-  /* line 335, ../sass/screen.sass */
+  /* line 322, ../sass/screen.sass */
   .hero {
-    background-image: url(../images/hero_2.png);
+    background-image: url(../images/hero_3.jpg);
     min-height: 800px;
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
   }
-  /* line 341, ../sass/screen.sass */
+  /* line 328, ../sass/screen.sass */
   .hero .intro {
-    width: 240px;
+    width: 310px;
     float: right;
-    margin-top: 30px;
-    margin-right: 10px;
+    margin: 60px 0 0 0;
   }
-  /* line 346, ../sass/screen.sass */
-  .hero .intro h1 {
-    font-size: 26px;
+  /* line 332, ../sass/screen.sass */
+  .hero .intro h1, .hero .intro p {
+    font-weight: bold;
     margin: 0;
+    padding: 0;
+    background-color: inherit;
     color: #c8191e;
     margin-bottom: 10px;
+    clear: both;
+    border: none;
+    text-align: left;
   }
-  /* line 351, ../sass/screen.sass */
+  /* line 343, ../sass/screen.sass */
+  .hero .intro h1 {
+    font-size: 34px;
+    color: #c8191e;
+    margin-bottom: 40px;
+  }
+  /* line 347, ../sass/screen.sass */
+  .hero .intro p {
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+  }
+  /* line 355, ../sass/screen.sass */
   .hero .logo {
     height: 120px;
     width: 75px;
     float: left;
-    margin-top: 30px;
+    margin-top: 60px;
     background-image: url(../images/logo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
 
-  /* line 361, ../sass/screen.sass */
+  /* line 365, ../sass/screen.sass */
   .welcome .sign {
     background-image: url(../images/sign.png);
     height: 95px;
     width: 190px;
+    margin-bottom: 40px;
     background-repeat: no-repeat;
     background-position: center;
   }
 
-  /* line 403, ../sass/screen.sass */
+  /* line 408, ../sass/screen.sass */
   .footer {
     margin: 0 auto;
     max-width: 960px;
     background-color: #c8191e;
   }
-  /* line 407, ../sass/screen.sass */
+  /* line 412, ../sass/screen.sass */
   .footer .logo {
     height: 200px;
     width: 128px;
@@ -357,13 +363,13 @@ p {
     background-position: center;
     background-size: contain;
   }
-  /* line 416, ../sass/screen.sass */
+  /* line 421, ../sass/screen.sass */
   .footer .contact {
     float: right;
     width: 570px;
     margin-top: 40px;
   }
-  /* line 420, ../sass/screen.sass */
+  /* line 425, ../sass/screen.sass */
   .footer .contact p {
     display: inline-block;
     width: 280px;
@@ -372,7 +378,7 @@ p {
     font-size: 16px;
     color: white;
   }
-  /* line 427, ../sass/screen.sass */
+  /* line 432, ../sass/screen.sass */
   .footer .floor {
     width: 570px;
     float: right;
