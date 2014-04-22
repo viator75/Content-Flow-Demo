@@ -97,6 +97,7 @@ p {
 
 /* line 116, ../sass/screen.sass */
 .race_route {
+  width: 100%;
   margin: 40px auto;
   max-height: 230px;
 }
