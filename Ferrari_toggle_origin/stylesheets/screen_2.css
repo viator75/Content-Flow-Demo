@@ -190,7 +190,7 @@
   /* line 206, ../sass/screen_2.sass */
   .hero {
     background-image: url(../images/hero_3.jpg);
-    min-height: 280px;
+    min-height: 520px;
     margin-bottom: 40px;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -320,12 +320,17 @@
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 319, ../sass/screen_2.sass */
+  /* line 317, ../sass/screen_2.sass */
+  .hero {
+    min-height: 280px;
+  }
+
+  /* line 320, ../sass/screen_2.sass */
   .footer .logo {
     height: 80px;
     width: 45px;
   }
-  /* line 322, ../sass/screen_2.sass */
+  /* line 323, ../sass/screen_2.sass */
   .footer .contact {
     width: 280px;
   }
