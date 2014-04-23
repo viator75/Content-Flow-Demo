@@ -18,9 +18,18 @@
 </head>
 <body>
 
+<ul id="toggle-bar" class="hide-in-lg">
+	<li>
+		<span class="toggle-trigger"><div class="plus"></div></span>
+		<div class="panel" style="display: none;">
+			<a href="http://www.fontech.com.tw" class="global"></a>
+			<a class="facebook"></a>
+			<a class="youtube"></a>
+		</div>
+	</li>
+</ul>
 
-
-<div class="nav">
+<div class="nav hide-in-sm" >
 	<ul>
 		<li class="global"></li>
 		<li class="facebook"></li>
@@ -35,20 +44,20 @@
 		<div class="logo">
 		</div>
 		<div class="intro">
-			<h1>Ferrari <br class="hide-in-sm">Official Dealer <br class="hide-in-sm">Taiwan</h1>
-			<p>Modena Motori Taiwan <br class="hide-in-sm">e-Newsletter <br class="hide-in-lg">ISSUE 04<br class="hide-in-sm">March 2014</p>
+			<h1>FERRARI<br>OFFICIAL DEALER<br>TAIWAN</h1>
+			<p>Modena Motori Taiwan <br class="hide-in-sm">e-Newsletter <br class="hide-in-lg">ISSUE 04 March 2014</p>
 		</div>
 
 	</div>
 	<div class="welcome area">
-		<p>親愛的Ferrari法拉利車主 您好，<br><br>
+		<p>親愛的 Ferrari 法拉利車主 您好，<br><br>
 		首先，再次與您分享Ferrari法拉利品牌二度獲得全球大獎的訊息。<br>於今年2月18日Ferrari法拉利獲得全球知名機構Brand Finance頒發“全球最具影響力品牌”的殊榮，並在品牌實力指標的各種評分項目中表現卓越，無論是受歡迎度、客戶忠誠度、視覺特徵辨識度，還是品牌網路形象、員工滿意度都遙遙領先其他入圍的品牌包括谷歌、愛馬仕、可口可樂、迪士尼、勞力士...等。請容我引述一段 Brand Finance 首席執行官 David Haigh 的話：“黃色徽章上的躍馬標誌在全世界都擁有極高的辨識度，哪怕是在道路還沒有建好的地方。無論是在故鄉義大利，還是在世界各地車迷的家鄉，Ferrari法拉利不只是激發了品牌忠誠度，更引起了一種品牌狂熱，一種近似宗教信仰般的追隨，它的品牌力量是毫無爭議的。”</p>
 		<p>無獨有偶的，Ferrari 法拉利在日內瓦車展中也首度展示了與另一個有著同樣宗教信仰般魅力的品牌Apple蘋果電腦的合作成果，兩個不同領域卻都對世界有極大影響力的品牌,其核心價值都在於運用創新，來提供消費者極致且從未想像過的感官體驗。源自於賽道的 Ferrari 法拉利所一直堅持的是提供車主最具熱情、最富樂趣的跑車，而這個堅持也是 Ferrari 法拉利之所以是 Ferrari 法拉利的唯一理由。</p>
 		<div class="sign">
 		</div>
-		<p>劉冠甫 Vincent Liu Ferrari<br>
-		法拉利品牌總經理<br>
-		臺灣蒙地拿股份有限公司</p>
+		<p>劉冠甫 Vincent Liu<br>
+			Ferrari 法拉利品牌總經理<br>
+			臺灣蒙地拿股份有限公司</p>
 	</div>
 
 
@@ -657,21 +666,21 @@
 	<div class="logo"></div>
 	<div class="contact">
 			<p>訊息連絡人：行銷公關專員 葉淨詒<br>
-			jing.yeh@modenamotori.com.tw<br>
-			02-2627-1559 ext.38</p>
+			<a href="mailto:mejing.yeh@modenamotori.com.tw">mejing.yeh@modenamotori.com.tw</a><br>
+			<a href="tel: 0226271559">02-2627-1559</a> ext.38</p>
 
 			<p>台中服務中心<br>
 			台中市西屯區文心路三段109之6號<br>
-			04-2313-6599</p>
+			<a href="tel: 0423136599">04-2313-6599</a></p>
 
 
 			<p>台北展示中心<br>
 			台北市內湖區港墘路200號1樓<br>
-			02-2627-5990</p>
+			<a href="tel: 0226275990">02-2627-5990</a></p>
 
 			<p>高雄展示 & 服務中心<br>
 			高雄市左營區新莊一路315號<br>
-			07-359-2690</p>
+			<a href="tel: 073592690">07-359-2690</a></p>
 
 	</div>
 	<div class="floor">Copyright © 2014 Ferrari, All rights reserved. Modena Motori Taiwan Co. Ltd</div>
@@ -695,6 +704,28 @@ $(document).ready(function () {
 		else {
 			text.slideUp('5000');
 			$(this).children('.drop').html('<span>READ MORE</span>');		
+		}
+		
+	});
+
+});
+
+</script>
+<script type="text/javascript">
+
+$(document).ready(function () {
+	
+	$('#toggle-bar li').click(function () {
+
+		var text = $(this).children('div.panel');
+
+		if (text.is(':hidden')) {
+			text.slideDown('10');
+			$(this).children('.toggle-trigger').html('<div class="minus"></div>');		
+		} 
+		else {
+			text.slideUp('5000');
+			$(this).children('.toggle-trigger').html('<div class="plus"></div>');		
 		}
 		
 	});

@@ -22,15 +22,13 @@
 	// ----------------------
 
 	h1 
-		font-size: 22px
+		font-size: 30px
 		font-weight: bold
-		padding: 16px 20px
+		padding: 16px 0 16px 20px
 		// prevent overlap
 		margin: 100px 0 0 0
 		// prevent overlap
 		background-color: rgba(200,25,30,1)
-		border-top: 2px solid rgba(250,60,50,1)
-		border-bottom: 2px solid rgba(151,40,30,1)
 		clear: both
 
 	
@@ -205,15 +203,15 @@
 
 	.hero
 		background-image: url(../images/hero_3.jpg)
-		min-height: 520px
+		min-height: 620px
 		margin-bottom: 40px
 		background-repeat: no-repeat
-		background-position: bottom
-		background-size: cover
+		background-position: top
+		background-size: contain
 		.intro
-			width: 220px
+			width: 320px
 			float: right
-			margin: 30px 0 0 0
+			margin: 48px 0 0 0
 			h1, p
 				font-weight: bold
 				margin: 0
@@ -226,17 +224,18 @@
 				text-align: left
 
 			h1
-				font-size: 20px
+				font-size: 24px
 				color: rgba(200,25,30,1)
 			p
-				font-size: 14px
+				font-size: 18px
 				color: white
 				font-weight: 300
+				line-height: 18px
 		.logo
 			height: 80px
 			width: 50px
 			float: left
-			margin-top: 30px
+			margin-top: 48px
 			background-image: url(../images/logo.png)
 			background-repeat: no-repeat
 			background-position: center
@@ -300,10 +299,15 @@
 			text-align: left
 			p
 				display: inline-block
-				width: 220px
+				width: 260px
 				padding: 0
 				margin: 0 0 40px 0
 				font-size: 14px
+				line-height: 18px
+				color: rgba(255,255,255,1)
+			a
+				font-size: 14px
+				line-height: 18px
 				color: rgba(255,255,255,1)
 		.floor
 			line-height: 22px
@@ -311,15 +315,72 @@
 			width: 100%
 			max-width: 590px
 			text-align: center
-			margin: 4px auto 
-	
-@media screen and (max-width: 480px)
+			margin: 4px auto
+			font-size: 14px
+			line-height: 18px
+
+@media screen and (max-width: 780px)
 	.hero
-		min-height: 280px
+		min-height: 580px
+		background-position: bottom
+		background-size: cover
+
 	.footer
+		margin-top: 100px
+		// width: 100%
+		background-color: rgba(200,25,30,1)
+		.contact
+			float: left
+			width: 280px
+			margin-top: 40px
+			margin-left: 40px
+			text-align: left
+			p
+				display: inline-block
+				width: 280px
+				padding: 0
+				margin: 0 0 40px 0
+				font-size: 14px
+				color: rgba(255,255,255,1)
+			a
+				font-size: 14px
+				color: rgba(255,255,255,1)
+@media screen and (max-width: 480px)
+	h1
+		font-size: 22px
+	h2
+		font-size: 20px
+		line-height: 24px
+		margin: 24px 0 20px 0
+	p, a
+		font-size: 14px
+		line-height: 18px
+	.hero
+		min-height: 300px
+		.intro
+			width: 200px
+			margin-top: 20px
+			h1
+				font-size: 16px
+				line-height: 16px
+			p
+				font-size: 10px
+				line-height: 12px
 		.logo
-			height: 80px
-			width: 45px
+			margin-top: 20px
+		
+	.footer
 		.contact
 			width: 280px
+		p
+			font-size: 12px
+		a
+			font-size: 12px
 
+@media screen and (max-width: 410px)
+
+	.footer
+		.contact
+			margin: 40px 0 0 0
+			float: left
+			width: 320px
