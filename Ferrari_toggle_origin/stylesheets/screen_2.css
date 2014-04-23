@@ -423,12 +423,12 @@
 @media screen and (max-width: 410px) {
   /* line 384, ../sass/screen_2.sass */
   .footer .logo {
-    width: 50px;
-    height: 90px;
+    width: 45px;
+    height: 75px;
   }
   /* line 387, ../sass/screen_2.sass */
   .footer .contact {
-    margin: 40px 0 20px 16px;
+    margin: 40px 0 20px 10px;
     float: left;
     width: 220px;
     min-width: 220px;
