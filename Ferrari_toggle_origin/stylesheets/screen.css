@@ -147,7 +147,7 @@ p {
 #toggle-bar {
   width: 56px;
   height: 56px;
-  position: absolute;
+  position: fixed;
   z-index: 1;
   top: 0;
   right: 0;
