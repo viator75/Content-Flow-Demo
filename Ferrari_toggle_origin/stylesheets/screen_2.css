@@ -422,17 +422,24 @@
 }
 @media screen and (max-width: 410px) {
   /* line 384, ../sass/screen_2.sass */
-  .footer .contact {
-    margin: 40px 0 20px 0 0;
-    float: left;
-    width: 210px;
+  .footer .logo {
+    width: 50px;
+    height: 90px;
   }
-  /* line 388, ../sass/screen_2.sass */
-  .footer p {
+  /* line 387, ../sass/screen_2.sass */
+  .footer .contact {
+    margin: 40px 0 20px 16px;
+    float: left;
+    width: 220px;
+    min-width: 220px;
+  }
+  /* line 392, ../sass/screen_2.sass */
+  .footer .contact p {
+    width: 220px;
     font-size: 12px;
   }
-  /* line 390, ../sass/screen_2.sass */
-  .footer a {
+  /* line 395, ../sass/screen_2.sass */
+  .footer .contact a {
     font-size: 12px;
   }
 }
