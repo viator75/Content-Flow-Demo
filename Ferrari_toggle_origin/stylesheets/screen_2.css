@@ -1,7 +1,7 @@
 @media screen and (max-width: 960px) {
   /* line 11, ../sass/screen_2.sass */
   p, a {
-    font-size: 18px;
+    font-size: 20px;
     margin: 0 0 60px 0;
     line-height: 28px;
     text-align: justify;
@@ -14,7 +14,7 @@
 
   /* line 24, ../sass/screen_2.sass */
   h1 {
-    font-size: 30px;
+    font-size: 26px;
     font-weight: bold;
     padding: 16px 0 16px 20px;
     margin: 100px 0 0 0;
@@ -235,27 +235,19 @@
     background-position: center;
     background-size: cover;
   }
-  /* line 243, ../sass/screen_2.sass */
-  .hero .sign {
-    background-image: url(../images/sign.png);
-    height: 95px;
-    width: 190px;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
 
-  /* line 251, ../sass/screen_2.sass */
+  /* line 245, ../sass/screen_2.sass */
   #toggle-view {
     font-size: 12px;
     padding: 0;
     margin: 0;
   }
-  /* line 257, ../sass/screen_2.sass */
+  /* line 251, ../sass/screen_2.sass */
   #toggle-view li {
     margin: 0;
     position: relative;
   }
-  /* line 262, ../sass/screen_2.sass */
+  /* line 256, ../sass/screen_2.sass */
   #toggle-view .drop {
     position: absolute;
     right: 0px;
@@ -264,22 +256,22 @@
     font-size: 16px;
     font-weight: bold;
   }
-  /* line 269, ../sass/screen_2.sass */
+  /* line 263, ../sass/screen_2.sass */
   #toggle-view .drop span {
     padding: 12px;
     background-color: #646464;
   }
-  /* line 272, ../sass/screen_2.sass */
+  /* line 266, ../sass/screen_2.sass */
   #toggle-view .panel {
     margin: 0;
   }
 
-  /* line 279, ../sass/screen_2.sass */
+  /* line 273, ../sass/screen_2.sass */
   .footer {
     margin-top: 100px;
     background-color: #c8191e;
   }
-  /* line 283, ../sass/screen_2.sass */
+  /* line 277, ../sass/screen_2.sass */
   .footer .logo {
     height: 120px;
     width: 75px;
@@ -290,7 +282,7 @@
     background-position: center;
     background-size: contain;
   }
-  /* line 292, ../sass/screen_2.sass */
+  /* line 286, ../sass/screen_2.sass */
   .footer .contact {
     float: right;
     width: 100%;
@@ -299,7 +291,7 @@
     margin-top: 40px;
     text-align: left;
   }
-  /* line 299, ../sass/screen_2.sass */
+  /* line 293, ../sass/screen_2.sass */
   .footer .contact p {
     display: inline-block;
     width: 260px;
@@ -309,13 +301,13 @@
     line-height: 18px;
     color: white;
   }
-  /* line 307, ../sass/screen_2.sass */
+  /* line 301, ../sass/screen_2.sass */
   .footer .contact a {
     font-size: 14px;
     line-height: 18px;
     color: white;
   }
-  /* line 311, ../sass/screen_2.sass */
+  /* line 305, ../sass/screen_2.sass */
   .footer .floor {
     line-height: 22px;
     clear: both;
@@ -328,27 +320,28 @@
   }
 }
 @media screen and (max-width: 780px) {
-  /* line 322, ../sass/screen_2.sass */
+  /* line 316, ../sass/screen_2.sass */
   .hero {
     min-height: 580px;
     background-position: bottom;
     background-size: cover;
   }
 
-  /* line 327, ../sass/screen_2.sass */
+  /* line 321, ../sass/screen_2.sass */
   .footer {
     margin-top: 100px;
     background-color: #c8191e;
   }
-  /* line 331, ../sass/screen_2.sass */
+  /* line 325, ../sass/screen_2.sass */
   .footer .contact {
     float: left;
-    width: 280px;
+    width: 240px;
+    min-width: 240px;
     margin-top: 40px;
     margin-left: 40px;
     text-align: left;
   }
-  /* line 337, ../sass/screen_2.sass */
+  /* line 332, ../sass/screen_2.sass */
   .footer .contact p {
     display: inline-block;
     width: 280px;
@@ -357,73 +350,89 @@
     font-size: 14px;
     color: white;
   }
-  /* line 344, ../sass/screen_2.sass */
+  /* line 339, ../sass/screen_2.sass */
   .footer .contact a {
     font-size: 14px;
     color: white;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 348, ../sass/screen_2.sass */
+  /* line 344, ../sass/screen_2.sass */
   h1 {
     font-size: 22px;
   }
 
-  /* line 350, ../sass/screen_2.sass */
+  /* line 346, ../sass/screen_2.sass */
   h2 {
     font-size: 20px;
     line-height: 24px;
     margin: 24px 0 20px 0;
   }
 
-  /* line 354, ../sass/screen_2.sass */
+  /* line 350, ../sass/screen_2.sass */
   p, a {
     font-size: 14px;
     line-height: 18px;
   }
 
-  /* line 357, ../sass/screen_2.sass */
+  /* line 353, ../sass/screen_2.sass */
   .hero {
     min-height: 300px;
   }
-  /* line 359, ../sass/screen_2.sass */
+  /* line 355, ../sass/screen_2.sass */
   .hero .intro {
     width: 200px;
     margin-top: 20px;
+    margin-top: 20px;
   }
-  /* line 362, ../sass/screen_2.sass */
+  /* line 358, ../sass/screen_2.sass */
   .hero .intro h1 {
     font-size: 16px;
     line-height: 16px;
   }
-  /* line 365, ../sass/screen_2.sass */
+  /* line 361, ../sass/screen_2.sass */
   .hero .intro p {
     font-size: 10px;
     line-height: 12px;
   }
-  /* line 368, ../sass/screen_2.sass */
-  .hero .logo {
-    margin-top: 20px;
-  }
 
-  /* line 372, ../sass/screen_2.sass */
-  .footer .contact {
-    width: 280px;
+  /* line 367, ../sass/screen_2.sass */
+  .footer .logo {
+    width: 60px;
+    height: 100px;
   }
-  /* line 374, ../sass/screen_2.sass */
-  .footer p {
+  /* line 370, ../sass/screen_2.sass */
+  .footer .contact {
+    width: 220px;
+  }
+  /* line 372, ../sass/screen_2.sass */
+  .footer .contact p {
+    width: 220px;
     font-size: 12px;
+    margin-bottom: 20px;
   }
   /* line 376, ../sass/screen_2.sass */
-  .footer a {
+  .footer .contact a {
+    font-size: 12px;
+  }
+  /* line 378, ../sass/screen_2.sass */
+  .footer .floor {
     font-size: 12px;
   }
 }
 @media screen and (max-width: 410px) {
-  /* line 382, ../sass/screen_2.sass */
+  /* line 384, ../sass/screen_2.sass */
   .footer .contact {
-    margin: 40px 0 0 0;
+    margin: 40px 0 20px 0 0;
     float: left;
-    width: 320px;
+    width: 210px;
+  }
+  /* line 388, ../sass/screen_2.sass */
+  .footer p {
+    font-size: 12px;
+  }
+  /* line 390, ../sass/screen_2.sass */
+  .footer a {
+    font-size: 12px;
   }
 }
