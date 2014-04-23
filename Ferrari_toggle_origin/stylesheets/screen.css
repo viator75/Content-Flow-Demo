@@ -133,7 +133,17 @@ p {
   background-image: url(../images/minus.png);
 }
 
-/* line 139, ../sass/screen.sass */
+/* line 135, ../sass/screen.sass */
+.sign {
+  background-image: url(../images/sign.png);
+  height: 95px;
+  width: 190px;
+  margin-bottom: 48px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* line 143, ../sass/screen.sass */
 #toggle-bar {
   width: 56px;
   height: 56px;
@@ -142,7 +152,7 @@ p {
   top: 0;
   right: 0;
 }
-/* line 146, ../sass/screen.sass */
+/* line 150, ../sass/screen.sass */
 #toggle-bar .toggle-trigger {
   width: 56px;
   height: 56px;
@@ -150,13 +160,13 @@ p {
   top: 0;
   left: 0;
 }
-/* line 152, ../sass/screen.sass */
+/* line 156, ../sass/screen.sass */
 #toggle-bar .panel {
   position: absolute;
   top: 64px;
   left: 0;
 }
-/* line 156, ../sass/screen.sass */
+/* line 160, ../sass/screen.sass */
 #toggle-bar .global, #toggle-bar .facebook, #toggle-bar .youtube, #toggle-bar .plus, #toggle-bar .minus {
   display: block;
   height: 56px;
@@ -168,7 +178,7 @@ p {
 }
 
 @media screen and (min-width: 960px) {
-  /* line 185, ../sass/screen.sass */
+  /* line 189, ../sass/screen.sass */
   p, a, .more {
     font-size: 20px;
     margin: 0 0 40px 0;
@@ -176,7 +186,7 @@ p {
     text-align: justify;
   }
 
-  /* line 196, ../sass/screen.sass */
+  /* line 200, ../sass/screen.sass */
   h1 {
     font-size: 36px;
     padding: 20px 40px;
@@ -185,7 +195,7 @@ p {
     clear: both;
   }
 
-  /* line 204, ../sass/screen.sass */
+  /* line 208, ../sass/screen.sass */
   h2 {
     font-size: 30px;
     line-height: 30px;
@@ -193,31 +203,31 @@ p {
     color: #c8191e;
   }
 
-  /* line 211, ../sass/screen.sass */
+  /* line 215, ../sass/screen.sass */
   .date {
     line-height: 1.4;
     color: #0099b7;
     display: inline;
   }
 
-  /* line 215, ../sass/screen.sass */
+  /* line 219, ../sass/screen.sass */
   .time {
     color: #c8191e;
   }
 
-  /* line 217, ../sass/screen.sass */
+  /* line 221, ../sass/screen.sass */
   a, .more {
     color: #0099b7;
   }
 
-  /* line 220, ../sass/screen.sass */
+  /* line 224, ../sass/screen.sass */
   .nav {
     position: fixed;
     z-index: 1;
     bottom: 160px;
     right: 0;
   }
-  /* line 225, ../sass/screen.sass */
+  /* line 229, ../sass/screen.sass */
   .nav .global, .nav .facebook, .nav .youtube {
     height: 80px;
     width: 80px;
@@ -227,30 +237,30 @@ p {
     background-size: cover;
   }
 
-  /* line 238, ../sass/screen.sass */
+  /* line 242, ../sass/screen.sass */
   .hide-in-lg {
     display: none;
   }
 
-  /* line 243, ../sass/screen.sass */
+  /* line 247, ../sass/screen.sass */
   .wrapper {
     margin: 0 auto;
     max-width: 960px;
     width: 100%;
   }
 
-  /* line 250, ../sass/screen.sass */
+  /* line 254, ../sass/screen.sass */
   br {
     clear: both;
   }
 
-  /* line 253, ../sass/screen.sass */
+  /* line 257, ../sass/screen.sass */
   .area {
     width: 100% -80px;
     padding: 0 40px;
   }
 
-  /* line 260, ../sass/screen.sass */
+  /* line 264, ../sass/screen.sass */
   .bisection {
     display: inline-block;
     max-width: 47%;
@@ -258,43 +268,43 @@ p {
     text-align: justify;
   }
 
-  /* line 266, ../sass/screen.sass */
+  /* line 270, ../sass/screen.sass */
   .bi_margin {
     display: inline-block;
     width: 5%;
   }
 
-  /* line 275, ../sass/screen.sass */
+  /* line 279, ../sass/screen.sass */
   .performance {
     display: inline-block;
     width: auto;
     margin: 60px 0;
   }
-  /* line 282, ../sass/screen.sass */
+  /* line 286, ../sass/screen.sass */
   .performance td {
     padding: 8px 16px;
     height: 54px;
   }
-  /* line 286, ../sass/screen.sass */
+  /* line 290, ../sass/screen.sass */
   .performance h3 {
     font-size: 20px;
     text-align: center;
     margin: 0;
   }
-  /* line 291, ../sass/screen.sass */
+  /* line 295, ../sass/screen.sass */
   .performance h4 {
     font-size: 16px;
     margin: 0;
     padding: 0;
   }
 
-  /* line 297, ../sass/screen.sass */
+  /* line 301, ../sass/screen.sass */
   .table_margin {
     display: inline-block;
     width: 50px;
   }
 
-  /* line 301, ../sass/screen.sass */
+  /* line 305, ../sass/screen.sass */
   .time_table {
     display: block;
     width: auto;
@@ -309,7 +319,7 @@ p {
     text-align: center;
     vertical-align: middle;
   }
-  /* line 317, ../sass/screen.sass */
+  /* line 316, ../sass/screen.sass */
   .time_table td .grayball, .time_table td .redball {
     border-radius: 50%;
     width: 16px;
@@ -321,23 +331,23 @@ p {
     margin: 0 auto;
     vertical-align: middle;
   }
-  /* line 327, ../sass/screen.sass */
+  /* line 326, ../sass/screen.sass */
   .time_table td .grayball {
     background-color: #a6a6a6;
     color: #646464;
   }
-  /* line 330, ../sass/screen.sass */
+  /* line 329, ../sass/screen.sass */
   .time_table td .redball {
     background-color: #cf1829;
   }
-  /* line 335, ../sass/screen.sass */
+  /* line 331, ../sass/screen.sass */
   .time_table h3 {
     font-size: 22px;
     margin: 0;
     padding: 0;
   }
 
-  /* line 348, ../sass/screen.sass */
+  /* line 335, ../sass/screen.sass */
   .hero {
     background-image: url(../images/hero_3.jpg);
     min-height: 860px;
@@ -345,13 +355,13 @@ p {
     background-position: top;
     background-size: contain;
   }
-  /* line 354, ../sass/screen.sass */
+  /* line 341, ../sass/screen.sass */
   .hero .intro {
     width: 400px;
     float: right;
     margin: 60px 0 0 0;
   }
-  /* line 358, ../sass/screen.sass */
+  /* line 345, ../sass/screen.sass */
   .hero .intro h1, .hero .intro p {
     font-weight: bold;
     margin: 0;
@@ -363,14 +373,14 @@ p {
     border: none;
     text-align: left;
   }
-  /* line 369, ../sass/screen.sass */
+  /* line 355, ../sass/screen.sass */
   .hero .intro h1 {
     font-size: 35px;
     color: #c8191e;
     line-height: 35px;
     letter-spacing: 2px;
   }
-  /* line 375, ../sass/screen.sass */
+  /* line 360, ../sass/screen.sass */
   .hero .intro p {
     font-size: 18px;
     color: white;
@@ -378,7 +388,7 @@ p {
     line-height: 21px;
     letter-spacing: 1px;
   }
-  /* line 385, ../sass/screen.sass */
+  /* line 366, ../sass/screen.sass */
   .hero .logo {
     height: 150px;
     width: 95px;
@@ -390,68 +400,57 @@ p {
     background-position: center;
     background-size: cover;
   }
-
-  /* line 396, ../sass/screen.sass */
-  .welcome p {
-    font-size: 20px;
-    line-height: 30px;
-    color: #bbbbbb;
-    letter-spacing: 1px;
-  }
-  /* line 401, ../sass/screen.sass */
-  .welcome .sign {
-    background-image: url(../images/sign.png);
-    height: 95px;
-    width: 190px;
-    margin-bottom: 40px;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-
-  /* line 444, ../sass/screen.sass */
-  .footer {
-    margin: 0 auto;
-    max-width: 960px;
-    background-color: #c8191e;
-  }
-  /* line 448, ../sass/screen.sass */
-  .footer .logo {
-    height: 200px;
-    width: 128px;
-    float: left;
-    margin-top: 40px;
-    background-image: url(../images/logo.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-  }
-  /* line 457, ../sass/screen.sass */
-  .footer .contact {
-    float: right;
-    width: 620px;
-    margin-top: 40px;
-  }
-  /* line 461, ../sass/screen.sass */
-  .footer .contact p {
-    display: inline-block;
-    line-height: 22px;
-    width: 280px;
-    padding: 0;
-    margin: 0 0 40px 0;
-    font-size: 16px;
-    color: white;
-  }
-  /* line 469, ../sass/screen.sass */
-  .footer .contact a {
-    font-size: 16px;
-    line-height: 22px;
-    color: white;
-  }
-  /* line 473, ../sass/screen.sass */
-  .footer .floor {
-    width: 620px;
-    float: right;
-    text-align: left;
-    margin: 0 0 30px 0;
-  }
+}
+/* line 376, ../sass/screen.sass */
+p {
+  font-size: 30px;
+  line-height: 30px;
+  color: #bbbbbb;
+  letter-spacing: 1px;
+}
+/* line 383, ../sass/screen.sass */
+p .footer {
+  margin: 0 auto;
+  max-width: 960px;
+  background-color: #c8191e;
+}
+/* line 387, ../sass/screen.sass */
+p .footer .logo {
+  height: 200px;
+  width: 128px;
+  float: left;
+  margin-top: 40px;
+  background-image: url(../images/logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+/* line 396, ../sass/screen.sass */
+p .footer .contact {
+  float: right;
+  width: 620px;
+  margin-top: 40px;
+}
+/* line 400, ../sass/screen.sass */
+p .footer .contact p {
+  display: inline-block;
+  line-height: 22px;
+  width: 280px;
+  padding: 0;
+  margin: 0 0 40px 0;
+  font-size: 16px;
+  color: white;
+}
+/* line 408, ../sass/screen.sass */
+p .footer .contact a {
+  font-size: 16px;
+  line-height: 22px;
+  color: white;
+}
+/* line 412, ../sass/screen.sass */
+p .footer .floor {
+  width: 620px;
+  float: right;
+  text-align: left;
+  margin: 0 0 30px 0;
 }
