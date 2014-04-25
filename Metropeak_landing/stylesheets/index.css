@@ -1,0 +1,266 @@
+@charset "UTF-8";
+/* line 3, ../sass/index.sass */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 23, ../sass/index.sass */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 26, ../sass/index.sass */
+body {
+  line-height: 1;
+}
+
+/* line 28, ../sass/index.sass */
+ol, ul {
+  list-style: none;
+}
+
+/* line 30, ../sass/index.sass */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 32, ../sass/index.sass */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+/* line 36, ../sass/index.sass */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 40, ../sass/index.sass */
+h1, h2, h3, h4, h5, h6, p, a, span {
+  font-family: "Lato", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+
+/* line 44, ../sass/index.sass */
+h1, h2, h3, h4, h5, h6, p, span {
+  color: white;
+}
+
+/* line 46, ../sass/index.sass */
+p {
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+
+/* line 50, ../sass/index.sass */
+h1 {
+  line-height: 24px;
+}
+
+/* line 52, ../sass/index.sass */
+h2 {
+  line-height: 40px;
+}
+
+/* line 54, ../sass/index.sass */
+h3 {
+  font-size: 26px;
+  line-height: 36px;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* line 60, ../sass/index.sass */
+h4 {
+  font-size: 22px;
+  line-height: 48px;
+  font-weight: 300;
+}
+
+/* line 66, ../sass/index.sass */
+html {
+  background-color: black;
+}
+
+/* line 68, ../sass/index.sass */
+body {
+  height: 100%;
+  height: auto;
+  width: 100%;
+}
+
+/* line 74, ../sass/index.sass */
+#wrapper {
+  height: 100%;
+  min-height: 730px;
+  max-height: 730px;
+  margin: 0 auto -50px auto;
+  border-image-repeat: no-repeat;
+  background-image: url(../images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* line 84, ../sass/index.sass */
+.main {
+  max-width: 960px;
+  min-width: 950px;
+  margin: 0 auto;
+}
+
+/*leftwrapper starts here */
+/* line 90, ../sass/index.sass */
+#leftwrapper {
+  float: left;
+  width: 520px;
+  margin: 20px 0 0 0;
+}
+/* line 94, ../sass/index.sass */
+#leftwrapper #mainTitle {
+  margin: 0 auto;
+  height: auto;
+  text-align: center;
+}
+/* line 98, ../sass/index.sass */
+#leftwrapper #mainTitle #logo {
+  height: 120px;
+}
+/* line 101, ../sass/index.sass */
+#leftwrapper #mainTitle .logo_name {
+  text-indent: -999%;
+  overflow: hidden;
+  white-space: norwrap;
+  font-size: 12px;
+}
+/* line 107, ../sass/index.sass */
+#leftwrapper #mainTitle h1 {
+  font-size: 36px;
+}
+/* line 110, ../sass/index.sass */
+#leftwrapper #appStore {
+  margin-top: 340px;
+  margin: 20px auto;
+  margin-left: 200px;
+  width: 150px;
+}
+/* line 116, ../sass/index.sass */
+#leftwrapper #appStore:hover {
+  opacity: 0.7;
+  -webkit-transition: all 755s;
+  -moz-transition: all 755s;
+  -ms-transition: all 755s;
+  -o-transition: all 755s;
+  transition: all 0.55s;
+}
+
+/* line 124, ../sass/index.sass */
+.slider_feature {
+  position: relative;
+  right: 540px;
+  bottom: 220px;
+  clear: both;
+  height: 200px;
+  width: 440px;
+  text-align: justify;
+}
+
+/*lefttwrapper ends here */
+/*rightwrapper starts here */
+/* line 141, ../sass/index.sass */
+#rightwrapper {
+  margin-top: 88px;
+  margin-right: 108px;
+  float: right;
+  width: 260px;
+  height: 540px;
+  padding: 0 15px 0 44px;
+  background-image: url(../images/iphone5.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* line 152, ../sass/index.sass */
+#rightwrapper #carousel-example-generic {
+  margin-top: 76px;
+  height: 392px;
+  width: 223px;
+  float: right;
+}
+/* line 157, ../sass/index.sass */
+#rightwrapper .carousel-inner > .item > img {
+  height: 392px;
+  width: 223px;
+}
+
+/* line 160, ../sass/index.sass */
+.active {
+  margin: 0;
+  height: 388px;
+  display: none;
+}
+
+/*rightwrapper ends here */
+/*footer starts here */
+/* line 170, ../sass/index.sass */
+footer {
+  bottom: 0;
+  min-height: 50px;
+  height: 100%;
+  padding: 0;
+  overflow: hidden;
+  font-size: 16px;
+}
+/* line 178, ../sass/index.sass */
+footer .footer_area {
+  margin: 0 auto;
+  max-width: 960px;
+  width: 100%;
+  padding: 0 40px;
+  min-width: 950px;
+}
+/* line 184, ../sass/index.sass */
+footer .footer_area a, footer .footer_area p {
+  display: inline-block;
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: 300;
+}
+/* line 190, ../sass/index.sass */
+footer .footer_area a {
+  float: right;
+  margin-right: 20px;
+}
+/* line 193, ../sass/index.sass */
+footer .footer_area p {
+  float: left;
+  margin-left: 20px;
+}
+/* line 196, ../sass/index.sass */
+footer .footer_area p a {
+  float: none;
+  margin: 0;
+}
