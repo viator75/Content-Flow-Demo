@@ -64,15 +64,15 @@
   }
   /* line 61, ../sass/screen_2.sass */
   .nav .global {
-    background-image: url(../images/global.png);
+    background-image: url(http://ferraritaiwan-enews.com/edm05/images/global.png);
   }
   /* line 63, ../sass/screen_2.sass */
   .nav .facebook {
-    background-image: url(../images/facebook.png);
+    background-image: url(http://ferraritaiwan-enews.com/edm05/images/facebook.png);
   }
   /* line 65, ../sass/screen_2.sass */
   .nav .youtube {
-    background-image: url(../images/youtube.png);
+    background-image: url(http://ferraritaiwan-enews.com/edm05/images/youtube.png);
   }
 
   /* line 74, ../sass/screen_2.sass */
@@ -180,17 +180,17 @@
   }
   /* line 181, ../sass/screen_2.sass */
   .time_table .grayball {
-    background-image: url(../images/grayball.png);
+    background-image: url(http://ferraritaiwan-enews.com/edm05/images/grayball.png);
     color: #59596e;
   }
   /* line 185, ../sass/screen_2.sass */
   .time_table .redball {
-    background-image: url(../images/redball.png);
+    background-image: url(http://ferraritaiwan-enews.com/edm05/images/redball.png);
   }
 
   /* line 202, ../sass/screen_2.sass */
   .hero {
-    background-image: url(../images/hero.jpg);
+    background-image: url(http://ferraritaiwan-enews.com/edm05/images/hero.jpg);
     min-height: 920px;
     margin-bottom: 40px;
     background-repeat: no-repeat;
@@ -233,7 +233,7 @@
     width: 85px;
     float: left;
     margin-top: 46px;
-    background-image: url(../images/logo.png);
+    background-image: url(http://ferraritaiwan-enews.com/edm05/images/logo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -280,7 +280,7 @@
     width: 75px;
     float: left;
     margin-top: 40px;
-    background-image: url(../images/logo.png);
+    background-image: url(http://ferraritaiwan-enews.com/edm05/images/logo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
