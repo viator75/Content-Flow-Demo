@@ -235,6 +235,7 @@ p {
   }
   /* line 230, ../sass/screen.sass */
   .nav .global, .nav .facebook, .nav .youtube {
+    display: block;
     height: 80px;
     width: 80px;
     background-repeat: no-repeat;
@@ -243,30 +244,30 @@ p {
     background-size: cover;
   }
 
-  /* line 243, ../sass/screen.sass */
+  /* line 244, ../sass/screen.sass */
   .hide-in-lg {
     display: none;
   }
 
-  /* line 248, ../sass/screen.sass */
+  /* line 249, ../sass/screen.sass */
   .wrapper {
     margin: 0 auto;
     max-width: 960px;
     width: 100%;
   }
 
-  /* line 255, ../sass/screen.sass */
+  /* line 256, ../sass/screen.sass */
   br {
     clear: both;
   }
 
-  /* line 258, ../sass/screen.sass */
+  /* line 259, ../sass/screen.sass */
   .area {
     width: 100% -120px;
     padding: 0 60px;
   }
 
-  /* line 265, ../sass/screen.sass */
+  /* line 266, ../sass/screen.sass */
   .bisection {
     display: inline-block;
     max-width: 47%;
@@ -274,50 +275,50 @@ p {
     text-align: justify;
   }
 
-  /* line 271, ../sass/screen.sass */
+  /* line 272, ../sass/screen.sass */
   .bi_margin {
     display: inline-block;
     width: 5%;
   }
 
-  /* line 280, ../sass/screen.sass */
+  /* line 281, ../sass/screen.sass */
   .performance {
     display: inline-block;
     width: auto;
     margin: 60px 0;
   }
-  /* line 287, ../sass/screen.sass */
+  /* line 288, ../sass/screen.sass */
   .performance td {
     padding: 8px 16px;
     height: 54px;
   }
-  /* line 291, ../sass/screen.sass */
+  /* line 292, ../sass/screen.sass */
   .performance h3 {
     font-size: 20px;
     text-align: center;
     margin: 0;
   }
-  /* line 296, ../sass/screen.sass */
+  /* line 297, ../sass/screen.sass */
   .performance h4 {
     font-size: 16px;
     margin: 0;
     padding: 0;
   }
 
-  /* line 302, ../sass/screen.sass */
+  /* line 303, ../sass/screen.sass */
   .table_margin {
     display: inline-block;
     width: 50px;
   }
 
-  /* line 306, ../sass/screen.sass */
+  /* line 307, ../sass/screen.sass */
   .time_table {
     display: block;
     width: auto;
     margin: 0 0 40px 0;
     color: #bbbbbb;
   }
-  /* line 311, ../sass/screen.sass */
+  /* line 312, ../sass/screen.sass */
   .time_table td {
     font-size: 18px;
     width: 48px;
@@ -325,11 +326,11 @@ p {
     text-align: center;
     vertical-align: middle;
   }
-  /* line 317, ../sass/screen.sass */
+  /* line 318, ../sass/screen.sass */
   .time_table td p {
     margin: 0;
   }
-  /* line 319, ../sass/screen.sass */
+  /* line 320, ../sass/screen.sass */
   .time_table td .grayball, .time_table td .redball {
     border-radius: 50%;
     width: 16px;
@@ -341,24 +342,24 @@ p {
     margin: 0 auto;
     vertical-align: middle;
   }
-  /* line 329, ../sass/screen.sass */
+  /* line 330, ../sass/screen.sass */
   .time_table td .grayball {
     background-color: #a6a6a6;
     color: #646464;
   }
-  /* line 332, ../sass/screen.sass */
+  /* line 333, ../sass/screen.sass */
   .time_table td .redball {
     color: #e6e6e6;
     background-color: #e73124;
   }
-  /* line 335, ../sass/screen.sass */
+  /* line 336, ../sass/screen.sass */
   .time_table h3 {
     font-size: 22px;
     margin: 0;
     padding: 0;
   }
 
-  /* line 339, ../sass/screen.sass */
+  /* line 340, ../sass/screen.sass */
   .hero {
     background-image: url(../images/hero.jpg);
     min-height: 1240px;
@@ -366,13 +367,13 @@ p {
     background-position: top;
     background-size: contain;
   }
-  /* line 345, ../sass/screen.sass */
+  /* line 346, ../sass/screen.sass */
   .hero .intro {
     width: 400px;
     float: right;
     margin: 60px 0 0 0;
   }
-  /* line 349, ../sass/screen.sass */
+  /* line 350, ../sass/screen.sass */
   .hero .intro h1, .hero .intro p {
     font-weight: bold;
     margin: 0;
@@ -384,14 +385,14 @@ p {
     border: none;
     text-align: left;
   }
-  /* line 359, ../sass/screen.sass */
+  /* line 360, ../sass/screen.sass */
   .hero .intro h1 {
     font-size: 35px;
     color: #e73124;
     line-height: 35px;
     letter-spacing: 2px;
   }
-  /* line 364, ../sass/screen.sass */
+  /* line 365, ../sass/screen.sass */
   .hero .intro p {
     font-size: 18px;
     color: white;
@@ -399,7 +400,7 @@ p {
     line-height: 21px;
     letter-spacing: 1px;
   }
-  /* line 370, ../sass/screen.sass */
+  /* line 371, ../sass/screen.sass */
   .hero .logo {
     height: 150px;
     width: 95px;
@@ -412,13 +413,13 @@ p {
     background-size: cover;
   }
 
-  /* line 382, ../sass/screen.sass */
+  /* line 383, ../sass/screen.sass */
   .footer {
     margin: 0 auto;
     max-width: 840px;
     background-color: #e73124;
   }
-  /* line 386, ../sass/screen.sass */
+  /* line 387, ../sass/screen.sass */
   .footer .logo {
     height: 200px;
     width: 128px;
@@ -429,13 +430,13 @@ p {
     background-position: center;
     background-size: contain;
   }
-  /* line 395, ../sass/screen.sass */
+  /* line 396, ../sass/screen.sass */
   .footer .contact {
     float: right;
     width: 620px;
     margin-top: 40px;
   }
-  /* line 399, ../sass/screen.sass */
+  /* line 400, ../sass/screen.sass */
   .footer .contact p {
     display: inline-block;
     line-height: 22px;
@@ -445,13 +446,13 @@ p {
     font-size: 16px;
     color: white;
   }
-  /* line 407, ../sass/screen.sass */
+  /* line 408, ../sass/screen.sass */
   .footer .contact a {
     font-size: 16px;
     line-height: 22px;
     color: white;
   }
-  /* line 411, ../sass/screen.sass */
+  /* line 412, ../sass/screen.sass */
   .footer .floor {
     width: 620px;
     float: right;
