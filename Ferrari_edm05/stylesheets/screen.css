@@ -130,12 +130,12 @@ p {
 
 /* line 132, ../sass/screen.sass */
 .plus {
-  background-image: url(../images/plus.png);
+  background-image: url(../images/trigger.jpg);
 }
 
 /* line 134, ../sass/screen.sass */
 .minus {
-  background-image: url(../images/minus.png);
+  background-image: url(../images/x.jpg);
 }
 
 /* line 136, ../sass/screen.sass */
