@@ -1,59 +1,75 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" type="text/css" href="stylesheets/general.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/effect.css">
-    <meta name="description" content="content_flow_demo">
-  <meta name="keywords" content="HTML,CSS,content flow">
-  <meta name="author" content="PeterTung, tough@fontech.com.tw">
-    <title>content_flow_demo</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="author" content="PeterTung, tough@fontech.com.tw">
+		<title>節拍器速度</title>
 </head>
+<style>
+	table{
+		width: 280px;
+		margin: 0 auto;
+		text-align: center;
+		font-family: "helvetica", "sans-serif";
+		line-height: 1.6em;
+		color: #363636;
+	}
+	caption{
+		font-size: 1.2em;
+		font-weight: 700;
+		border-bottom: 1px solid #363636;
+	}
+	thead{
+		color: #858585;
+	}
+</style>
 <body>
-  <!-- Wrap the whole page -->
-  <div id ="wrapper">
-    <!-- Wrap and center the main content-->
-    <div id="container">
-      <h1>Pure CSS Tabs Demo</h1>
-        <div class="demo">
-          <ul class="tabs">
-            <li><a href="#tab1">These</a></li>
-            <li><a href="#tab2">are</a></li>
-            <li><a href="#tab3">Pure</a></li>
-            <li><a href="#tab4">CSS</a></li>
-            <li><a href="#tab5">tabs</a></li>
-          </ul>
-          <div id="tab2" class="tab_content">
-          <h2>Lorem Ipsum 2</h2>
-          <h3></h3>
-          </div>
-          <div id="tab3" class="tab_content">
-          <h2>Lorem Ipsum 3</h2>
-          <h3></h3>
-          </div>
-          <div id="tab4" class="tab_content">
-          <h2>Lorem Ipsum 4</h2>
-          <h3></h3>
-          </div>
-          <div id="tab5" class="tab_content">
-          <h2>Lorem Ipsum 5</h2>
-          <h3>
-          </h3>
-          </div>
-          <!-- Put the first tab at the end of all the tabs -->
-          <div id="tab1" class="tab_content">
-          <h2>Lorem Ipsum 1</h2>
-          <h3>
-          </h3>
-          </div>
-      </div>
-      <!-- Demo ends here -->
-    </div>
-  </div>
-  <!-- Wrapper ends here -->
-  <footer>
-    <h2>Made with passion by tough.</a> 
-    </h2>   
-  </footer>
+	<div id ="wrapper">
+		<div id="container">
+			<table>
+				<caption>節拍器速度</caption>
+				<thead>
+					<tr>
+						<th>數字區間</th>
+						<th>拉丁文記號</th>	
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>未滿60</td>
+						<td>Largo</td>
+					</tr>
+					<tr>
+						<td>60~65</td>
+						<td>Larghetto</td>
+					</tr>
+					<tr>
+						<td>66~75</td>
+						<td>Adagio</td>
+					</tr>
+					<tr>
+						<td>76~107</td>
+						<td>Andante</td>
+					</tr>
+					<tr>
+						<td>108~119</td>
+						<td>Moderato</td>
+					</tr>
+					<tr>
+						<td>120~167</td>
+						<td>Allegro</td>
+					</tr>
+					<tr>
+						<td>168~199</td>
+						<td>Presto</td>
+					</tr>
+					<tr>
+						<td>200以上</td>
+						<td>Prestissimo</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
 </body>
 </html>
