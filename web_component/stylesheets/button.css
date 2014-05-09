@@ -1,0 +1,48 @@
+/* line 18, ../sass/button.sass */
+.primary {
+  color: #67b04f;
+  border: 1px solid #67b04f;
+}
+
+/* line 21, ../sass/button.sass */
+.secondary {
+  color: #85c072;
+  border: 1px solid #85c072;
+}
+
+/* line 24, ../sass/button.sass */
+.danger {
+  color: #a4d095;
+  border: 1px solid #a4d095;
+}
+
+/* line 27, ../sass/button.sass */
+.cancel {
+  color: #c2dfb9;
+  border: 1px solid #c2dfb9;
+}
+
+/* line 30, ../sass/button.sass */
+.disable {
+  color: #e1efdc;
+  border: 1px solid #e1efdc;
+  cursor: not-allowed;
+}
+
+/* line 37, ../sass/button.sass */
+.primary, .secondary, .danger, .cancel, .disable {
+  width: auto;
+  display: inline-block;
+  padding: 0.4em 1em;
+  background-color: white;
+  font-size: 1em;
+}
+
+/* line 45, ../sass/button.sass */
+.round {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
