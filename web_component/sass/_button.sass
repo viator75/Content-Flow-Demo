@@ -1,49 +1,47 @@
-@import compass/css3/border-radius
-// button color
-$primary-color: #67B04F
-$secondary-color: lighten(#67B04F, 10%)
-$danger-color: lighten(#67B04F, 20%)
-$cancel-color: lighten(#67B04F, 30%)
-$disable-color: lighten(#67B04F, 40%)
+// ----------------
+// Set button basic style
+// ----------------
 
-
-
-.primary
-.secondary
-.danger
-.cancel
-.disable
-
-
-.primary
-	color: $primary-color
-	border: 1px solid $primary-color
-.secondary
-	color: $secondary-color
-	border: 1px solid $secondary-color
-.danger
-	color: $danger-color
-	border: 1px solid $danger-color
-.cancel
-	color: $cancel-color
-	border: 1px solid $cancel-color
-.disable
-	color: $disable-color
-	border: 1px solid $disable-color
-	cursor: not-allowed
-
-
-
-.primary, .secondary, .danger, .cancel, .disable
+%button
 	width: auto
 	display: inline-block
 	padding: 0.4em 1em
 	background-color: #ffffff
 	font-size: 1em
+	border: 1px solid
+	-webkit-border-radius: 5px
+	-moz-border-radius: 5px
+	border-radius: 5px
+
+// ----------------
+// Set button spacific style (color)
+// ----------------
 
 
-.round
-	+border-radius(5px)
+.primary
+	@extend %button
+	color: $primary-color-3
+	border: 1px solid $primary-color-3
+.secondary
+	@extend %button
+	color: $helper-color-2
+	border: 1px solid $helper-color-2
+.danger
+	@extend %button
+	color: $danger-color-2
+	border: 1px solid $danger-color-2
+.cancel
+	@extend %button
+	color: $default-color-3
+	border: 1px solid $default-color-3
+.disable
+	@extend %button
+	color: $default-color-1
+	border: 1px solid $default-color-1
+	cursor: not-allowed
+
+
+
 
 // :link   //連結平常的樣式
 // :visited   //連結查閱後的樣式
@@ -52,3 +50,7 @@ $disable-color: lighten(#67B04F, 40%)
 // :focus   //目標為焦點的樣式
 // :lang(E)   //當語言為E的樣式
 // :first-child   //第一個元素的樣式
+
+
+
+下次進度做mixin合併樣式

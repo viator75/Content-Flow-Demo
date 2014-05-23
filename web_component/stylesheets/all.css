@@ -88,104 +88,129 @@ section h1:first-child {
   margin-left: -4px;
 }
 
-/* line 41, ../sass/_color.sass */
+/* line 49, ../sass/_color.sass */
 .primary-color-1 {
   background-color: #ffeba4;
 }
 
-/* line 43, ../sass/_color.sass */
+/* line 51, ../sass/_color.sass */
 .primary-color-2 {
   background-color: #ffda58;
 }
 
-/* line 45, ../sass/_color.sass */
+/* line 53, ../sass/_color.sass */
 .primary-color-3 {
   background-color: #ffc90b;
 }
 
-/* line 47, ../sass/_color.sass */
+/* line 55, ../sass/_color.sass */
 .primary-color-4 {
   background-color: #be9400;
 }
 
-/* line 49, ../sass/_color.sass */
+/* line 57, ../sass/_color.sass */
 .primary-color-5 {
   background-color: #715800;
 }
 
-/* line 55, ../sass/_color.sass */
+/* line 63, ../sass/_color.sass */
 .secondary-color-1 {
   background-color: #b1b1b1;
 }
 
-/* line 57, ../sass/_color.sass */
+/* line 65, ../sass/_color.sass */
 .secondary-color-2 {
   background-color: #8a8a8a;
 }
 
-/* line 59, ../sass/_color.sass */
+/* line 67, ../sass/_color.sass */
 .secondary-color-3 {
   background-color: #646464;
 }
 
-/* line 61, ../sass/_color.sass */
+/* line 69, ../sass/_color.sass */
 .secondary-color-4 {
   background-color: #3e3e3e;
 }
 
-/* line 63, ../sass/_color.sass */
+/* line 71, ../sass/_color.sass */
 .secondary-color-5 {
   background-color: #181818;
 }
 
-/* line 68, ../sass/_color.sass */
+/* line 76, ../sass/_color.sass */
 .helper-color-1 {
   background-color: #7eb0db;
 }
 
-/* line 70, ../sass/_color.sass */
+/* line 78, ../sass/_color.sass */
 .helper-color-2 {
   background-color: #428bca;
 }
 
-/* line 72, ../sass/_color.sass */
+/* line 80, ../sass/_color.sass */
 .helper-color-3 {
   background-color: #2a6496;
 }
 
-/* line 74, ../sass/_color.sass */
+/* line 82, ../sass/_color.sass */
 .helper-color-4 {
   background-color: #193c5a;
 }
 
-/* line 76, ../sass/_color.sass */
+/* line 84, ../sass/_color.sass */
 .helper-color-5 {
   background-color: #09141e;
 }
 
-/* line 82, ../sass/_color.sass */
+/* line 90, ../sass/_color.sass */
 .danger-color-1 {
   background-color: #f3423f;
 }
 
-/* line 84, ../sass/_color.sass */
+/* line 92, ../sass/_color.sass */
 .danger-color-2 {
   background-color: #d8110e;
 }
 
-/* line 86, ../sass/_color.sass */
+/* line 94, ../sass/_color.sass */
 .danger-color-3 {
   background-color: #900b09;
 }
 
-/* line 88, ../sass/_color.sass */
+/* line 96, ../sass/_color.sass */
 .danger-color-4 {
   background-color: #480504;
 }
 
-/* line 90, ../sass/_color.sass */
+/* line 98, ../sass/_color.sass */
 .danger-color-5 {
   background-color: black;
+}
+
+/* line 102, ../sass/_color.sass */
+.default-color-1 {
+  background-color: #b1b1b1;
+}
+
+/* line 104, ../sass/_color.sass */
+.default-color-2 {
+  background-color: #8a8a8a;
+}
+
+/* line 106, ../sass/_color.sass */
+.default-color-3 {
+  background-color: #646464;
+}
+
+/* line 108, ../sass/_color.sass */
+.default-color-4 {
+  background-color: #3e3e3e;
+}
+
+/* line 110, ../sass/_color.sass */
+.default-color-5 {
+  background-color: #181818;
 }
 
 /* line 5, ../sass/_font.sass */
@@ -260,53 +285,48 @@ p {
   border-radius: 5px;
 }
 
-/* line 18, ../sass/_button.sass */
-.primary {
-  color: #67b04f;
-  border: 1px solid #67b04f;
-}
-
-/* line 21, ../sass/_button.sass */
-.secondary {
-  color: #85c072;
-  border: 1px solid #85c072;
-}
-
-/* line 24, ../sass/_button.sass */
-.danger {
-  color: #a4d095;
-  border: 1px solid #a4d095;
-}
-
-/* line 27, ../sass/_button.sass */
-.cancel {
-  color: #c2dfb9;
-  border: 1px solid #c2dfb9;
-}
-
-/* line 30, ../sass/_button.sass */
-.disable {
-  color: #e1efdc;
-  border: 1px solid #e1efdc;
-  cursor: not-allowed;
-}
-
-/* line 37, ../sass/_button.sass */
+/* line 5, ../sass/_button.sass */
 .primary, .secondary, .danger, .cancel, .disable {
   width: auto;
   display: inline-block;
   padding: 0.4em 1em;
   background-color: white;
   font-size: 1em;
-}
-
-/* line 45, ../sass/_button.sass */
-.round {
+  border: 1px solid;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
   border-radius: 5px;
+}
+
+/* line 21, ../sass/_button.sass */
+.primary {
+  color: #ffc90b;
+  border: 1px solid #ffc90b;
+}
+
+/* line 25, ../sass/_button.sass */
+.secondary {
+  color: #428bca;
+  border: 1px solid #428bca;
+}
+
+/* line 29, ../sass/_button.sass */
+.danger {
+  color: #d8110e;
+  border: 1px solid #d8110e;
+}
+
+/* line 33, ../sass/_button.sass */
+.cancel {
+  color: #646464;
+  border: 1px solid #646464;
+}
+
+/* line 37, ../sass/_button.sass */
+.disable {
+  color: #b1b1b1;
+  border: 1px solid #b1b1b1;
+  cursor: not-allowed;
 }
 
 /* line 2, ../sass/_form.sass */

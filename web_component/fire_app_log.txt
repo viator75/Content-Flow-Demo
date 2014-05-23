@@ -374,3 +374,39 @@
 2014-05-23 12:30:48 overwrite stylesheets/all.css 
 2014-05-23 12:31:15 overwrite stylesheets/all.css 
 2014-05-23 12:31:52 overwrite stylesheets/all.css 
+2014-05-23 16:49:46 overwrite stylesheets/all.css 
+2014-05-23 16:50:44     error sass/all.sass (Line 96 of sass/_color.sass: Undefined variable: "$defaut-color".)
+2014-05-23 16:50:44 overwrite stylesheets/all.css 
+2014-05-23 16:51:06 overwrite stylesheets/all.css 
+2014-05-23 16:52:03 identical stylesheets/all.css 
+2014-05-23 16:52:27     error sass/all.sass (Line 44 of sass/_button.sass: Undefined mixin 'border-radius'.)
+2014-05-23 16:52:27 overwrite stylesheets/all.css 
+2014-05-23 16:52:39     error sass/all.sass (Line 44 of sass/_button.sass: Undefined mixin 'border-radius'.)
+2014-05-23 16:52:39 identical stylesheets/all.css 
+2014-05-23 16:52:45     error sass/all.sass (Line 44 of sass/_button.sass: Undefined mixin 'border-radius'.)
+2014-05-23 16:52:45 identical stylesheets/all.css 
+2014-05-23 16:52:48 overwrite stylesheets/all.css 
+2014-05-23 16:52:49 identical stylesheets/all.css 
+2014-05-23 16:54:06 overwrite stylesheets/all.css 
+2014-05-23 16:54:33 overwrite stylesheets/all.css 
+2014-05-23 16:55:06 overwrite stylesheets/all.css 
+2014-05-23 16:55:17 overwrite stylesheets/all.css 
+2014-05-23 16:55:40 overwrite stylesheets/all.css 
+2014-05-23 16:55:44 overwrite stylesheets/all.css 
+2014-05-23 16:55:55 overwrite stylesheets/all.css 
+2014-05-23 16:56:02     error sass/all.sass (Line 32 of sass/_button.sass: Undefined variable: "$cancel-color".)
+2014-05-23 16:56:02 overwrite stylesheets/all.css 
+2014-05-23 16:56:31     error sass/all.sass (Line 32 of sass/_button.sass: Undefined variable: "$default-color-3".)
+2014-05-23 16:56:31 overwrite stylesheets/all.css 
+2014-05-23 16:56:40     error sass/all.sass (Line 32 of sass/_button.sass: Undefined variable: "$default-color-3".)
+2014-05-23 16:56:40 identical stylesheets/all.css 
+2014-05-23 16:57:42 overwrite stylesheets/all.css 
+2014-05-23 16:57:51 overwrite stylesheets/all.css 
+2014-05-23 16:58:14 overwrite stylesheets/all.css 
+2014-05-23 16:58:15 identical stylesheets/all.css 
+2014-05-23 16:58:19 overwrite stylesheets/all.css 
+2014-05-23 16:58:31 overwrite stylesheets/all.css 
+2014-05-23 16:59:04 overwrite stylesheets/all.css 
+2014-05-23 17:00:39 identical stylesheets/all.css 
+2014-05-23 17:02:06 overwrite stylesheets/all.css 
+2014-05-23 17:02:33 identical stylesheets/all.css 
