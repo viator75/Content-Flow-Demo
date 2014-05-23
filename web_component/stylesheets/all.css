@@ -67,11 +67,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 section {
   width: 100%;
   clear: both;
+  padding-bottom: 4em;
 }
-/* line 7, ../sass/_general.sass */
+/* line 6, ../sass/_general.sass */
 section h1:first-child {
   width: 200px;
-  margin: 3em auto 0 auto;
+  margin: 1em auto 0 auto;
+  text-align: center;
 }
 
 /* line 10, ../sass/_general.sass */
