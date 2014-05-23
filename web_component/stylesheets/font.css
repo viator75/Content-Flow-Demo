@@ -1,0 +1,45 @@
+/* line 5, ../sass/font.sass */
+h1, h2, p {
+  font-family: helvetica, sans-serif;
+}
+
+/* line 7, ../sass/font.sass */
+h3 {
+  font-family: didot, serif;
+}
+
+/* line 22, ../sass/font.sass */
+h1 {
+  color: #545454;
+  font-size: 2em;
+  line-height: 1.2em;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* line 25, ../sass/font.sass */
+h2 {
+  color: black;
+  font-size: 2em;
+  line-height: 1.2em;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+/* line 28, ../sass/font.sass */
+h3 {
+  color: black;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+/* line 31, ../sass/font.sass */
+p {
+  color: black;
+  font-size: 1em;
+  line-height: 1.2em;
+  font-weight: 300;
+  letter-spacing: 1px;
+}

@@ -115,3 +115,262 @@
 2014-05-21 18:40:20 overwrite stylesheets/screen.css 
 2014-05-21 18:41:09 overwrite stylesheets/screen.css 
 2014-05-21 18:46:56 overwrite stylesheets/screen.css 
+2014-05-23 10:14:16 overwrite stylesheets/screen.css 
+2014-05-23 10:15:33    create stylesheets/general.css 
+2014-05-23 10:16:10     error sass/general.sass (Line 1: Invalid CSS after "/": expected identifier, was " For general se...")
+2014-05-23 10:16:10 overwrite stylesheets/general.css 
+2014-05-23 10:16:20 overwrite stylesheets/general.css 
+2014-05-23 10:16:22 identical stylesheets/general.css 
+2014-05-23 10:17:17 overwrite stylesheets/general.css 
+2014-05-23 10:17:23 identical stylesheets/general.css 
+2014-05-23 10:18:02 overwrite stylesheets/general.css 
+2014-05-23 10:18:11 overwrite stylesheets/general.css 
+2014-05-23 10:18:19 identical stylesheets/screen.css 
+2014-05-23 10:18:38 overwrite stylesheets/general.css 
+2014-05-23 10:18:45 overwrite stylesheets/general.css 
+2014-05-23 10:18:49 overwrite stylesheets/general.css 
+2014-05-23 10:18:52 identical stylesheets/general.css 
+2014-05-23 10:19:10 overwrite stylesheets/general.css 
+2014-05-23 10:19:31 overwrite stylesheets/general.css 
+2014-05-23 10:19:39 overwrite stylesheets/general.css 
+2014-05-23 10:21:00 overwrite stylesheets/screen.css 
+2014-05-23 10:21:26 identical stylesheets/screen.css 
+2014-05-23 10:21:31 identical stylesheets/screen.css 
+2014-05-23 10:22:51 overwrite stylesheets/screen.css 
+2014-05-23 10:23:02 overwrite stylesheets/screen.css 
+2014-05-23 10:23:06 overwrite stylesheets/screen.css 
+2014-05-23 10:23:10 overwrite stylesheets/screen.css 
+2014-05-23 10:23:14 overwrite stylesheets/screen.css 
+2014-05-23 10:23:19 overwrite stylesheets/screen.css 
+2014-05-23 10:23:58 overwrite stylesheets/screen.css 
+2014-05-23 10:24:05 overwrite stylesheets/screen.css 
+2014-05-23 10:24:13 overwrite stylesheets/screen.css 
+2014-05-23 10:24:24 overwrite stylesheets/screen.css 
+2014-05-23 10:24:32 overwrite stylesheets/general.css 
+2014-05-23 10:24:39 overwrite stylesheets/general.css 
+2014-05-23 10:24:47 overwrite stylesheets/general.css 
+2014-05-23 10:25:14 overwrite stylesheets/general.css 
+2014-05-23 10:25:43 overwrite stylesheets/screen.css 
+2014-05-23 10:26:01 identical stylesheets/screen.css 
+2014-05-23 10:26:11 identical stylesheets/screen.css 
+2014-05-23 10:26:40 overwrite stylesheets/screen.css 
+2014-05-23 10:26:43 overwrite stylesheets/screen.css 
+2014-05-23 10:27:10 overwrite stylesheets/general.css 
+2014-05-23 10:27:12 identical stylesheets/general.css 
+2014-05-23 10:27:34 overwrite stylesheets/general.css 
+2014-05-23 10:27:52 overwrite stylesheets/general.css 
+2014-05-23 10:27:56 overwrite stylesheets/general.css 
+2014-05-23 10:28:00 overwrite stylesheets/general.css 
+2014-05-23 10:28:08 overwrite stylesheets/general.css 
+2014-05-23 10:28:12 overwrite stylesheets/general.css 
+2014-05-23 10:28:54 overwrite stylesheets/screen.css 
+2014-05-23 10:29:03 overwrite stylesheets/screen.css 
+2014-05-23 10:29:56 overwrite stylesheets/screen.css 
+2014-05-23 10:30:03 overwrite stylesheets/screen.css 
+2014-05-23 10:30:09 overwrite stylesheets/screen.css 
+2014-05-23 10:30:14 overwrite stylesheets/screen.css 
+2014-05-23 10:30:20 overwrite stylesheets/screen.css 
+2014-05-23 10:30:24 overwrite stylesheets/screen.css 
+2014-05-23 10:30:29 overwrite stylesheets/screen.css 
+2014-05-23 10:30:39 overwrite stylesheets/screen.css 
+2014-05-23 10:31:38 overwrite stylesheets/screen.css 
+2014-05-23 10:31:49 overwrite stylesheets/screen.css 
+2014-05-23 10:40:13 overwrite stylesheets/screen.css 
+2014-05-23 10:45:59    create stylesheets/color.css 
+2014-05-23 10:46:53    create stylesheets/font.css 
+2014-05-23 10:47:00 overwrite stylesheets/font.css 
+2014-05-23 10:47:08 identical stylesheets/font.css 
+2014-05-23 10:47:29 overwrite stylesheets/general.css 
+2014-05-23 10:47:30 overwrite stylesheets/color.css 
+2014-05-23 10:47:34 overwrite stylesheets/color.css 
+2014-05-23 10:48:09 overwrite stylesheets/font.css 
+2014-05-23 10:48:29 overwrite stylesheets/font.css 
+2014-05-23 10:48:35 overwrite stylesheets/font.css 
+2014-05-23 10:48:50 overwrite stylesheets/font.css 
+2014-05-23 10:49:21 overwrite stylesheets/font.css 
+2014-05-23 10:49:26 overwrite stylesheets/font.css 
+2014-05-23 10:49:57 overwrite stylesheets/general.css 
+2014-05-23 10:50:25 overwrite stylesheets/general.css 
+2014-05-23 10:50:37 overwrite stylesheets/general.css 
+2014-05-23 10:50:46 overwrite stylesheets/general.css 
+2014-05-23 10:51:00 overwrite stylesheets/general.css 
+2014-05-23 10:51:11 overwrite stylesheets/general.css 
+2014-05-23 10:51:21 overwrite stylesheets/general.css 
+2014-05-23 10:51:32 overwrite stylesheets/general.css 
+2014-05-23 10:52:26 overwrite stylesheets/font.css 
+2014-05-23 10:52:52 overwrite stylesheets/font.css 
+2014-05-23 10:53:09 overwrite stylesheets/font.css 
+2014-05-23 10:53:14 overwrite stylesheets/font.css 
+2014-05-23 10:53:28 overwrite stylesheets/font.css 
+2014-05-23 10:53:47 overwrite stylesheets/font.css 
+2014-05-23 10:53:51 overwrite stylesheets/font.css 
+2014-05-23 10:53:56 overwrite stylesheets/font.css 
+2014-05-23 10:54:14 overwrite stylesheets/font.css 
+2014-05-23 10:54:19 overwrite stylesheets/font.css 
+2014-05-23 10:54:25 overwrite stylesheets/font.css 
+2014-05-23 10:57:07     error sass/general.sass (Line 4: Invalid CSS after "...zing:border-box": expected selector, was ";")
+2014-05-23 10:57:07 overwrite stylesheets/general.css 
+2014-05-23 10:57:21 overwrite stylesheets/general.css 
+2014-05-23 10:58:01 overwrite stylesheets/general.css 
+2014-05-23 10:58:44 overwrite stylesheets/font.css 
+2014-05-23 11:01:14 overwrite stylesheets/font.css 
+2014-05-23 11:01:21 overwrite stylesheets/font.css 
+2014-05-23 11:02:22     error sass/font.sass (Line 6: Invalid mixin "mixin () {".)
+2014-05-23 11:02:22 overwrite stylesheets/font.css 
+2014-05-23 11:04:24 overwrite stylesheets/font.css 
+2014-05-23 11:04:31 identical stylesheets/font.css 
+2014-05-23 11:05:15 overwrite stylesheets/font.css 
+2014-05-23 11:05:31 overwrite stylesheets/font.css 
+2014-05-23 11:05:55     error sass/font.sass (Line 39: Inconsistent indentation: " \t" was used for indentation, but the rest of the document was indented using 1 tab.)
+2014-05-23 11:05:55 overwrite stylesheets/font.css 
+2014-05-23 11:06:05     error sass/font.sass (Line 39: Inconsistent indentation: " \t" was used for indentation, but the rest of the document was indented using 1 tab.)
+2014-05-23 11:06:05 identical stylesheets/font.css 
+2014-05-23 11:06:16 overwrite stylesheets/font.css 
+2014-05-23 11:06:51     error sass/font.sass (Line 46: Undefined variable: "$helper-color".)
+2014-05-23 11:06:51 overwrite stylesheets/font.css 
+2014-05-23 11:07:07 overwrite stylesheets/font.css 
+2014-05-23 11:07:15     error sass/font.sass (Line 47: Undefined variable: "$helper-color".)
+2014-05-23 11:07:15 overwrite stylesheets/font.css 
+2014-05-23 11:09:23     error sass/font.sass (Line 48: Undefined variable: "$helper-color".)
+2014-05-23 11:09:23 overwrite stylesheets/font.css 
+2014-05-23 11:09:25     error sass/font.sass (Line 48: Undefined variable: "$helper-color".)
+2014-05-23 11:09:25 identical stylesheets/font.css 
+2014-05-23 11:18:57     error sass/font.sass (Line 50: Undefined variable: "$helper-color".)
+2014-05-23 11:18:57 overwrite stylesheets/font.css 
+2014-05-23 11:19:08 overwrite stylesheets/font.css 
+2014-05-23 11:22:12     error sass/font.sass (Line 46: Undefined mixin 'h1'.)
+2014-05-23 11:22:12 overwrite stylesheets/font.css 
+2014-05-23 11:23:01     error sass/font.sass (Line 46: Undefined mixin 'h1'.)
+2014-05-23 11:23:01 identical stylesheets/font.css 
+2014-05-23 11:24:05     error sass/font.sass (Line 7: Invalid variable: "$primary-font-color".)
+2014-05-23 11:24:05 overwrite stylesheets/font.css 
+2014-05-23 11:25:02     error sass/font.sass (Line 48: Undefined mixin 'h1'.)
+2014-05-23 11:25:02 overwrite stylesheets/font.css 
+2014-05-23 11:25:10     error sass/font.sass (Line 56: Undefined mixin 'h2'.)
+2014-05-23 11:25:10 overwrite stylesheets/font.css 
+2014-05-23 11:25:17 overwrite stylesheets/font.css 
+2014-05-23 11:26:26 identical stylesheets/font.css 
+2014-05-23 11:27:33 identical stylesheets/font.css 
+2014-05-23 11:27:42 identical stylesheets/font.css 
+2014-05-23 11:27:55 identical stylesheets/font.css 
+2014-05-23 11:28:00 identical stylesheets/font.css 
+2014-05-23 11:28:03     error sass/font.sass (Line 24: Invalid CSS after "...00, serif, 1px)": expected expression (e.g. 1px, bold), was ";")
+2014-05-23 11:28:03 overwrite stylesheets/font.css 
+2014-05-23 11:28:07 overwrite stylesheets/font.css 
+2014-05-23 11:28:13     error sass/font.sass (Line 49: Undefined mixin 'h1'.)
+2014-05-23 11:28:13 overwrite stylesheets/font.css 
+2014-05-23 11:28:28 overwrite stylesheets/font.css 
+2014-05-23 11:28:37 identical stylesheets/font.css 
+2014-05-23 11:28:43 overwrite stylesheets/font.css 
+2014-05-23 11:30:03 identical stylesheets/font.css 
+2014-05-23 11:30:57     error sass/font.sass (Line 20: Mixin font-setting takes 5 arguments but 6 were passed.)
+2014-05-23 11:30:57 overwrite stylesheets/font.css 
+2014-05-23 11:31:08 overwrite stylesheets/font.css 
+2014-05-23 11:31:44     error sass/font.sass (Line 14: Undefined variable: "$font-family".)
+2014-05-23 11:31:44 overwrite stylesheets/font.css 
+2014-05-23 11:32:40     error sass/font.sass (Line 14: Undefined variable: "$font-family".)
+2014-05-23 11:32:40 identical stylesheets/font.css 
+2014-05-23 11:32:48 overwrite stylesheets/font.css 
+2014-05-23 11:32:52 overwrite stylesheets/font.css 
+2014-05-23 11:33:35 overwrite stylesheets/font.css 
+2014-05-23 11:33:48 identical stylesheets/font.css 
+2014-05-23 11:33:55     error sass/font.sass (Line 36: Undefined mixin 'h3'.)
+2014-05-23 11:33:55 overwrite stylesheets/font.css 
+2014-05-23 11:34:05 overwrite stylesheets/font.css 
+2014-05-23 11:34:07 overwrite stylesheets/font.css 
+2014-05-23 11:34:25 overwrite stylesheets/font.css 
+2014-05-23 11:34:28 overwrite stylesheets/font.css 
+2014-05-23 11:36:25 identical stylesheets/font.css 
+2014-05-23 11:36:47 overwrite stylesheets/font.css 
+2014-05-23 11:36:57 overwrite stylesheets/font.css 
+2014-05-23 11:37:04 overwrite stylesheets/font.css 
+2014-05-23 11:37:20 overwrite stylesheets/font.css 
+2014-05-23 11:37:24     error sass/font.sass (Line 35: Undefined mixin 'p'.)
+2014-05-23 11:37:24 overwrite stylesheets/font.css 
+2014-05-23 11:37:32 overwrite stylesheets/font.css 
+2014-05-23 11:37:37 identical stylesheets/font.css 
+2014-05-23 11:37:42 overwrite stylesheets/font.css 
+2014-05-23 11:39:12     error sass/font.sass (Line 5: Invalid CSS after "...ry-font-family:": expected pseudoclass or pseudoelement, was " helvetica, san...")
+2014-05-23 11:39:12 overwrite stylesheets/font.css 
+2014-05-23 11:39:15     error sass/font.sass (Line 5: Invalid CSS after "...ry-font-family:": expected pseudoclass or pseudoelement, was " helvetica, san...")
+2014-05-23 11:39:15 identical stylesheets/font.css 
+2014-05-23 11:39:28     error sass/font.sass (Line 5: Invalid CSS after "...ry-font-family:": expected pseudoclass or pseudoelement, was " helvetica, san...")
+2014-05-23 11:39:28 identical stylesheets/font.css 
+2014-05-23 11:39:48     error sass/font.sass (Line 7: Invalid CSS after "...ry-font-family:": expected pseudoclass or pseudoelement, was " didot, serif")
+2014-05-23 11:39:48 overwrite stylesheets/font.css 
+2014-05-23 11:39:53 overwrite stylesheets/font.css 
+2014-05-23 11:40:44 overwrite stylesheets/font.css 
+2014-05-23 11:41:33     error sass/font.sass (Line 44: Undefined variable: "$helper-color".)
+2014-05-23 11:41:33 overwrite stylesheets/font.css 
+2014-05-23 11:41:41 overwrite stylesheets/font.css 
+2014-05-23 11:42:07 overwrite stylesheets/font.css 
+2014-05-23 11:42:18 identical stylesheets/font.css 
+2014-05-23 11:46:41    create stylesheets/all.css 
+2014-05-23 11:47:43 overwrite stylesheets/all.css 
+2014-05-23 11:48:01 overwrite stylesheets/all.css 
+2014-05-23 11:48:09 overwrite stylesheets/all.css 
+2014-05-23 11:48:12 overwrite stylesheets/all.css 
+2014-05-23 11:48:40 overwrite stylesheets/all.css 
+2014-05-23 11:48:43 overwrite stylesheets/all.css 
+2014-05-23 11:48:52 overwrite stylesheets/all.css 
+2014-05-23 11:51:19 overwrite stylesheets/all.css 
+2014-05-23 11:52:44     error sass/all.sass (Line 35 of sass/_font.sass: Undefined mixin 'h1'.)
+2014-05-23 11:52:44 overwrite stylesheets/all.css 
+2014-05-23 11:53:25 overwrite stylesheets/all.css 
+2014-05-23 11:54:16 overwrite stylesheets/all.css 
+2014-05-23 11:54:25 overwrite stylesheets/all.css 
+2014-05-23 11:54:51 overwrite stylesheets/all.css 
+2014-05-23 11:55:11 overwrite stylesheets/all.css 
+2014-05-23 11:55:20 overwrite stylesheets/all.css 
+2014-05-23 11:56:19 overwrite stylesheets/all.css 
+2014-05-23 11:57:22 overwrite stylesheets/all.css 
+2014-05-23 11:57:33 overwrite stylesheets/all.css 
+2014-05-23 11:58:36 overwrite stylesheets/all.css 
+2014-05-23 11:58:49 overwrite stylesheets/all.css 
+2014-05-23 11:59:12 overwrite stylesheets/all.css 
+2014-05-23 11:59:34 overwrite stylesheets/all.css 
+2014-05-23 12:00:12 overwrite stylesheets/all.css 
+2014-05-23 12:00:29 overwrite stylesheets/all.css 
+2014-05-23 12:01:34 overwrite stylesheets/all.css 
+2014-05-23 12:01:52 overwrite stylesheets/all.css 
+2014-05-23 12:02:19 overwrite stylesheets/all.css 
+2014-05-23 12:05:28 overwrite stylesheets/all.css 
+2014-05-23 12:05:33 overwrite stylesheets/all.css 
+2014-05-23 12:05:37 overwrite stylesheets/all.css 
+2014-05-23 12:05:40 overwrite stylesheets/all.css 
+2014-05-23 12:05:48 overwrite stylesheets/all.css 
+2014-05-23 12:07:32 overwrite stylesheets/all.css 
+2014-05-23 12:08:13 overwrite stylesheets/all.css 
+2014-05-23 12:08:16 overwrite stylesheets/all.css 
+2014-05-23 12:08:30 overwrite stylesheets/all.css 
+2014-05-23 12:08:37 overwrite stylesheets/all.css 
+2014-05-23 12:08:55 overwrite stylesheets/all.css 
+2014-05-23 12:09:14 overwrite stylesheets/all.css 
+2014-05-23 12:11:08 overwrite stylesheets/all.css 
+2014-05-23 12:11:18 overwrite stylesheets/all.css 
+2014-05-23 12:11:51 overwrite stylesheets/all.css 
+2014-05-23 12:12:11 overwrite stylesheets/all.css 
+2014-05-23 12:12:20 overwrite stylesheets/all.css 
+2014-05-23 12:12:24 overwrite stylesheets/all.css 
+2014-05-23 12:12:57 overwrite stylesheets/all.css 
+2014-05-23 12:12:58 overwrite stylesheets/all.css 
+2014-05-23 12:16:48 overwrite stylesheets/all.css 
+2014-05-23 12:17:37 overwrite stylesheets/all.css 
+2014-05-23 12:22:53 overwrite stylesheets/all.css 
+2014-05-23 12:23:21 overwrite stylesheets/all.css 
+2014-05-23 12:23:45 overwrite stylesheets/all.css 
+2014-05-23 12:23:59 overwrite stylesheets/all.css 
+2014-05-23 12:25:31 overwrite stylesheets/all.css 
+2014-05-23 12:25:48 overwrite stylesheets/all.css 
+2014-05-23 12:26:45 overwrite stylesheets/all.css 
+2014-05-23 12:27:44 overwrite stylesheets/all.css 
+2014-05-23 12:28:14 overwrite stylesheets/all.css 
+2014-05-23 12:28:37 overwrite stylesheets/all.css 
+2014-05-23 12:29:08 overwrite stylesheets/all.css 
+2014-05-23 12:29:16 overwrite stylesheets/all.css 
+2014-05-23 12:29:18 overwrite stylesheets/all.css 
+2014-05-23 12:29:21 overwrite stylesheets/all.css 
+2014-05-23 12:29:23 overwrite stylesheets/all.css 
+2014-05-23 12:30:48 overwrite stylesheets/all.css 
+2014-05-23 12:31:15 overwrite stylesheets/all.css 
+2014-05-23 12:31:52 overwrite stylesheets/all.css 

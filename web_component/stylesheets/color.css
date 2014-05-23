@@ -1,0 +1,99 @@
+/* line 9, ../sass/color.sass */
+.primary-color-1 {
+  background-color: #fbf7ed;
+}
+
+/* line 11, ../sass/color.sass */
+.primary-color-2 {
+  background-color: #eedaad;
+}
+
+/* line 13, ../sass/color.sass */
+.primary-color-3 {
+  background-color: #e1be6e;
+}
+
+/* line 15, ../sass/color.sass */
+.primary-color-4 {
+  background-color: #d4a22f;
+}
+
+/* line 17, ../sass/color.sass */
+.primary-color-5 {
+  background-color: #97721f;
+}
+
+/* line 23, ../sass/color.sass */
+.secondary-color-1 {
+  background-color: #e4edd8;
+}
+
+/* line 25, ../sass/color.sass */
+.secondary-color-2 {
+  background-color: #bfd6a3;
+}
+
+/* line 27, ../sass/color.sass */
+.secondary-color-3 {
+  background-color: #9bbe6e;
+}
+
+/* line 29, ../sass/color.sass */
+.secondary-color-4 {
+  background-color: #759a45;
+}
+
+/* line 31, ../sass/color.sass */
+.secondary-color-5 {
+  background-color: #4d662e;
+}
+
+/* line 36, ../sass/color.sass */
+.helper-color-1 {
+  background-color: #cbcbf0;
+}
+
+/* line 38, ../sass/color.sass */
+.helper-color-2 {
+  background-color: #9090de;
+}
+
+/* line 40, ../sass/color.sass */
+.helper-color-3 {
+  background-color: #5555cd;
+}
+
+/* line 42, ../sass/color.sass */
+.helper-color-4 {
+  background-color: #3131a5;
+}
+
+/* line 44, ../sass/color.sass */
+.helper-color-5 {
+  background-color: #1f1f6a;
+}
+
+/* line 50, ../sass/color.sass */
+.danger-color-1 {
+  background-color: white;
+}
+
+/* line 52, ../sass/color.sass */
+.danger-color-2 {
+  background-color: #ffe7ff;
+}
+
+/* line 54, ../sass/color.sass */
+.danger-color-3 {
+  background-color: #ff9bff;
+}
+
+/* line 56, ../sass/color.sass */
+.danger-color-4 {
+  background-color: #ff4fff;
+}
+
+/* line 58, ../sass/color.sass */
+.danger-color-5 {
+  background-color: #ff02ff;
+}

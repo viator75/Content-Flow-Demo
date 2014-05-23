@@ -63,111 +63,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 9, ../sass/screen.sass */
-h1 {
-  color: red;
-  font-size: 2em;
-  font-weight: 700;
-  font-family: helvetica, sans-serif;
-  line-height: 2em;
+/* line 3, ../sass/general.sass */
+section {
+  border: 1px solid black;
+  width: 100% -8em;
+  padding: 2em 8em;
+  margin: 0 auto;
+  clear: both;
 }
 
-/* line 30, ../sass/screen.sass */
-.primary-color-1 {
-  background-color: #fbf7ed;
-}
-
-/* line 32, ../sass/screen.sass */
-.primary-color-2 {
-  background-color: #eedaad;
-}
-
-/* line 34, ../sass/screen.sass */
-.primary-color-3 {
-  background-color: #e1be6e;
-}
-
-/* line 36, ../sass/screen.sass */
-.primary-color-4 {
-  background-color: #d4a22f;
-}
-
-/* line 38, ../sass/screen.sass */
-.primary-color-5 {
-  background-color: #97721f;
-}
-
-/* line 44, ../sass/screen.sass */
-.secondary-color-1 {
-  background-color: #e4edd8;
-}
-
-/* line 46, ../sass/screen.sass */
-.secondary-color-2 {
-  background-color: #bfd6a3;
-}
-
-/* line 48, ../sass/screen.sass */
-.secondary-color-3 {
-  background-color: #9bbe6e;
-}
-
-/* line 50, ../sass/screen.sass */
-.secondary-color-4 {
-  background-color: #759a45;
-}
-
-/* line 52, ../sass/screen.sass */
-.secondary-color-5 {
-  background-color: #4d662e;
-}
-
-/* line 57, ../sass/screen.sass */
-.helper-color-1 {
-  background-color: #cbcbf0;
-}
-
-/* line 59, ../sass/screen.sass */
-.helper-color-2 {
-  background-color: #9090de;
-}
-
-/* line 61, ../sass/screen.sass */
-.helper-color-3 {
-  background-color: #5555cd;
-}
-
-/* line 63, ../sass/screen.sass */
-.helper-color-4 {
-  background-color: #3131a5;
-}
-
-/* line 65, ../sass/screen.sass */
-.helper-color-5 {
-  background-color: #1f1f6a;
-}
-
-/* line 71, ../sass/screen.sass */
-.danger-color-1 {
-  background-color: white;
-}
-
-/* line 73, ../sass/screen.sass */
-.danger-color-2 {
-  background-color: #ffe7ff;
-}
-
-/* line 75, ../sass/screen.sass */
-.danger-color-3 {
-  background-color: #ff9bff;
-}
-
-/* line 77, ../sass/screen.sass */
-.danger-color-4 {
-  background-color: #ff4fff;
-}
-
-/* line 79, ../sass/screen.sass */
-.danger-color-5 {
-  background-color: #ff02ff;
+/* line 12, ../sass/general.sass */
+.color li {
+  display: inline-block;
+  width: 5em;
+  height: 5em;
+  margin-left: -4px;
 }
