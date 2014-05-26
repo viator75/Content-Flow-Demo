@@ -699,3 +699,13 @@ nav ul li {
   -o-transition: all 0.3s;
   transition: all 0.3s;
 }
+
+/* line 42, ../sass/all.sass */
+.lateral {
+  position: fixed;
+  top: 30%;
+  left: 0;
+  height: 10em;
+  width: 10em;
+  background-color: #ffc90b;
+}
