@@ -1,0 +1,185 @@
+// ----------------
+// Set button basic style
+// ----------------
+
+
+
+
+// ----------------
+// line style
+// ----------------
+
+%line
+	background-color: rgba(255,255,255,1)
+	padding: 0.4em 1.6em
+
+.primary-line
+	@extend %p
+	@extend %line
+	color: $primary-color-3
+	border: 1px solid $primary-color-3
+.secondary-line
+	@extend %p
+	@extend %line
+	color: $secondary-color-4
+	border: 1px solid $secondary-color-4
+.helper-line
+	@extend %p
+	@extend %line
+	color: $helper-color-4
+	border: 1px solid $helper-color-4
+.danger-line
+	@extend %p
+	@extend %line
+	color: $danger-color-2
+	border: 1px solid $danger-color-2
+.disable-line
+	@extend %p
+	@extend %line
+	color: $default-color-3
+	border: 1px solid $default-color-3
+
+
+// ----------------
+// flat style
+// ----------------
+
+%flat
+	color: rgba(255,255,255,1)
+	background-color: rgba(255,255,255,1)
+	padding: 0.4em 1.6em
+	-webkit-border-radius: 5px
+	-moz-border-radius: 5px
+	border-radius: 5px
+.primary-flat
+	@extend %p
+	@extend %flat
+	background-color: $primary-color-3
+	border: 1px solid $primary-color-3
+.secondary-flat
+	@extend %p
+	@extend %flat
+	background-color: $secondary-color-4
+	border: 1px solid $secondary-color-4
+.helper-flat
+	@extend %p
+	@extend %flat
+	background-color: $helper-color-4
+	border: 1px solid $helper-color-4
+.danger-flat
+	@extend %p
+	@extend %flat
+	background-color: $danger-color-2
+	border: 1px solid $danger-color-2
+.disable-flat
+	@extend %p
+	@extend %flat
+	background-color: $default-color-3
+	border: 1px solid $default-color-3
+
+
+
+// 3D-flate, shadow style, 
+
+
+// ----------------
+// shadow style
+// ----------------
+
+
+
+// .btncss
+// 	background: #3367bb
+// 	background-image: -ms-linear-gradient(top left, #3367bb 0%, #6dbcdf 100%)
+// 	background-image: -moz-linear-gradient(top left, #3367bb 0%, #6dbcdf 100%)
+// 	background-image: -o-linear-gradient(top left, #3367bb 0%, #6dbcdf 100%)
+// 	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #3367bb), color-stop(1, #6dbcdf))
+// 	background-image: -webkit-linear-gradient(top left, #3367bb 0%, #6dbcdf 100%)
+// 	background-image: linear-gradient(to bottom right, #3367bb 0%, #6dbcdf 100%)
+
+// 	border: solid 2px #2a6cd8
+// 	border-radius: 10px 10px 10px  10px
+
+// 	padding: 10px 15px 10px  15px
+// 	text-shadow: 2px 1px 0px #000000
+
+// 	-moz-box-shadow:inset -1px 4px 18px 2px #f6f7f8
+// 	-webkit-box-shadow:inset -1px 4px 18px 2px #f6f7f8
+// 	box-shadow:inset -1px 4px 18px 2px #f6f7f8
+
+// .btncss:hover
+// 	color: #e3ece3
+// 	background: #aed5e3
+// 	background-image: -ms-linear-gradient(top left, #aed5e3 0%, #4897d6 100%)
+// 	background-image: -moz-linear-gradient(top left, #aed5e3 0%, #4897d6 100%)
+// 	background-image: -o-linear-gradient(top left, #aed5e3 0%, #4897d6 100%)
+// 	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #aed5e3), color-stop(1, #4897d6))
+// 	background-image: -webkit-linear-gradient(top left, #aed5e3 0%, #4897d6 100%)
+// 	background-image: linear-gradient(to bottom right, #aed5e3 0%, #4897d6 100%)
+// 	border-color: #28bcf2
+
+
+
+
+
+
+// // ----------------
+// // line-flat
+// // ----------------
+
+
+
+
+
+
+// %button
+// 	width: auto
+// 	padding: 0.4em 1em
+// 	background-color: #ffffff
+// 	font-size: 1em
+// 	border: 1px solid
+// 	-webkit-border-radius: 5px
+// 	-moz-border-radius: 5px
+// 	border-radius: 5px
+
+// // ----------------
+// // Set button spacific style (color)
+// // ----------------
+
+
+// .primary
+// 	@extend %button
+// 	color: $primary-color-3
+// 	border: 1px solid $primary-color-3
+// .secondary
+// 	@extend %button
+// 	color: $helper-color-2
+// 	border: 1px solid $helper-color-2
+// .danger
+// 	@extend %button
+// 	color: $danger-color-2
+// 	border: 1px solid $danger-color-2
+// .cancel
+// 	@extend %button
+// 	color: $default-color-3
+// 	border: 1px solid $default-color-3
+// .disable
+// 	@extend %button
+// 	color: $default-color-1
+// 	border: 1px solid $default-color-1
+// 	cursor: not-allowed
+
+
+
+
+// :link   //連結平常的樣式
+// :visited   //連結查閱後的樣式
+// :hover   //滑鼠滑入的樣式
+// :active   //滑鼠按下的樣式
+// :focus   //目標為焦點的樣式
+// :lang(E)   //當語言為E的樣式
+// :first-child   //第一個元素的樣式
+
+
+
+// 下次進度做mixin合併樣式

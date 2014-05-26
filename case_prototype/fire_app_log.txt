@@ -1,0 +1,50 @@
+2014-05-26 16:50:12    create stylesheets/all.css 
+2014-05-26 16:50:23 overwrite stylesheets/all.css 
+2014-05-26 16:51:31 overwrite stylesheets/all.css 
+2014-05-26 16:52:28     error sass/all.sass (Line 33 of sass/_general.sass: Invalid CSS after "/": expected identifier, was " for demo")
+2014-05-26 16:52:28 overwrite stylesheets/all.css 
+2014-05-26 16:52:40 overwrite stylesheets/all.css 
+2014-05-26 16:56:05 overwrite stylesheets/all.css 
+2014-05-26 16:56:29 overwrite stylesheets/all.css 
+2014-05-26 16:56:33 overwrite stylesheets/all.css 
+2014-05-26 16:57:41     error sass/all.sass (Line 42 of sass/_general.sass: Undefined variable: "$helper-color-1".)
+2014-05-26 16:57:41 overwrite stylesheets/all.css 
+2014-05-26 16:57:57     error sass/all.sass (Line 42 of sass/_general.sass: Undefined variable: "$helper-color-1".)
+2014-05-26 16:57:57 identical stylesheets/all.css 
+2014-05-26 16:58:14     error sass/all.sass (Line 42 of sass/_general.sass: Undefined variable: "$helper-color-1".)
+2014-05-26 16:58:14 identical stylesheets/all.css 
+2014-05-26 16:58:35     error sass/all.sass (Line 42 of sass/_general.sass: Undefined variable: "$helper-color-1".)
+2014-05-26 16:58:35 identical stylesheets/all.css 
+2014-05-26 16:58:43 overwrite stylesheets/all.css 
+2014-05-26 16:58:49 overwrite stylesheets/all.css 
+2014-05-26 16:59:03 overwrite stylesheets/all.css 
+2014-05-26 16:59:07 identical stylesheets/all.css 
+2014-05-26 16:59:13 overwrite stylesheets/all.css 
+2014-05-26 16:59:19 overwrite stylesheets/all.css 
+2014-05-26 16:59:35 overwrite stylesheets/all.css 
+2014-05-26 16:59:43     error sass/all.sass (Line 42 of sass/_general.sass: Undefined variable: "$helper-color-1".)
+2014-05-26 16:59:43 overwrite stylesheets/all.css 
+2014-05-26 16:59:49 overwrite stylesheets/all.css 
+2014-05-26 16:59:52 identical stylesheets/all.css 
+2014-05-26 16:59:53 identical stylesheets/all.css 
+2014-05-26 17:00:35 overwrite stylesheets/all.css 
+2014-05-26 17:01:27 identical stylesheets/all.css 
+2014-05-26 17:01:56 overwrite stylesheets/all.css 
+2014-05-26 17:12:15 overwrite stylesheets/all.css 
+2014-05-26 17:12:22 overwrite stylesheets/all.css 
+2014-05-26 17:12:29 overwrite stylesheets/all.css 
+2014-05-26 17:12:57 overwrite stylesheets/all.css 
+2014-05-26 17:13:20 overwrite stylesheets/all.css 
+2014-05-26 17:13:35 overwrite stylesheets/all.css 
+2014-05-26 17:13:46 overwrite stylesheets/all.css 
+2014-05-26 17:14:34     error sass/all.sass (Line 30: Invalid CSS after "0": expected expression (e.g. 1px, bold), was ";")
+2014-05-26 17:14:34 overwrite stylesheets/all.css 
+2014-05-26 17:14:41 overwrite stylesheets/all.css 
+2014-05-26 17:15:05 overwrite stylesheets/all.css 
+2014-05-26 17:15:41     error sass/all.sass (Line 38: Inconsistent indentation: "\t\t " was used for indentation, but the rest of the document was indented using 1 tab.)
+2014-05-26 17:15:41 overwrite stylesheets/all.css 
+2014-05-26 17:15:44 overwrite stylesheets/all.css 
+2014-05-26 17:15:55 overwrite stylesheets/all.css 
+2014-05-26 17:16:17 overwrite stylesheets/all.css 
+2014-05-26 17:16:25 overwrite stylesheets/all.css 
+2014-05-26 17:16:34 overwrite stylesheets/all.css 

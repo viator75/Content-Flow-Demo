@@ -1,0 +1,41 @@
+@import compass/reset
+@import general
+@import color
+@import color
+@import font
+@import button
+@import form
+
+// for demo
+.wrapper
+	width: 960px
+	margin: 0 auto
+
+nav ul li
+	display: inline-block
+	margin-right: 24px
+#about
+	background-color: $default-color-1
+	height: 30em
+#politic
+	background-color: $default-color-2
+	height: 30em
+#contact
+	background-color: $default-color-3
+	height: 30em
+
+.drop
+	position: relative
+	ul
+		opacity: 0
+		position: absolute
+		top: 16px
+		left: 0
+	&:hover > ul
+		opacity: 1
+		display: block
+		-webkit-transition: all 0.3s
+		-moz-transition: all 0.3s
+		-ms-transition: all 0.3s
+		-o-transition: all 0.3s
+		transition: all 0.3s 
