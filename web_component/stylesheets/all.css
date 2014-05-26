@@ -65,158 +65,196 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 2, ../sass/_general.sass */
 section {
-  width: 100%;
+  width: 94%;
   clear: both;
+  padding: 0 3%;
   padding-bottom: 4em;
 }
-/* line 6, ../sass/_general.sass */
+/* line 7, ../sass/_general.sass */
 section h1:first-child {
   width: 200px;
   margin: 1em auto 0 auto;
   text-align: center;
 }
 
-/* line 10, ../sass/_general.sass */
+/* line 11, ../sass/_general.sass */
 .main {
   max-width: 60em;
   margin: 0 auto;
 }
 
-/* line 14, ../sass/_general.sass */
+/* line 17, ../sass/_general.sass */
 .color li {
   display: inline-block;
-  width: 5em;
+  width: 10%;
   height: 5em;
   margin-left: -4px;
+  text-align: center;
+  padding: 1.5em 1em;
+}
+
+/* line 25, ../sass/_general.sass */
+.button ul {
+  display: inline-block;
+  width: 45%;
+}
+/* line 28, ../sass/_general.sass */
+.button ul li {
+  display: inline-block;
 }
 
 /* line 49, ../sass/_color.sass */
 .primary-color-1 {
   background-color: #ffeba4;
+  color: #d7a700;
 }
 
-/* line 51, ../sass/_color.sass */
+/* line 52, ../sass/_color.sass */
 .primary-color-2 {
   background-color: #ffda58;
-}
-
-/* line 53, ../sass/_color.sass */
-.primary-color-3 {
-  background-color: #ffc90b;
+  color: #be9400;
 }
 
 /* line 55, ../sass/_color.sass */
+.primary-color-3 {
+  background-color: #ffc90b;
+  color: #715800;
+}
+
+/* line 58, ../sass/_color.sass */
 .primary-color-4 {
   background-color: #be9400;
+  color: #fff6d7;
 }
 
-/* line 57, ../sass/_color.sass */
+/* line 61, ../sass/_color.sass */
 .primary-color-5 {
   background-color: #715800;
+  color: white;
 }
 
-/* line 63, ../sass/_color.sass */
+/* line 68, ../sass/_color.sass */
 .secondary-color-1 {
   background-color: #b1b1b1;
-}
-
-/* line 65, ../sass/_color.sass */
-.secondary-color-2 {
-  background-color: #8a8a8a;
-}
-
-/* line 67, ../sass/_color.sass */
-.secondary-color-3 {
-  background-color: #646464;
-}
-
-/* line 69, ../sass/_color.sass */
-.secondary-color-4 {
-  background-color: #3e3e3e;
+  color: #4b4b4b;
 }
 
 /* line 71, ../sass/_color.sass */
-.secondary-color-5 {
-  background-color: #181818;
+.secondary-color-2 {
+  background-color: #8a8a8a;
+  color: #3e3e3e;
 }
 
-/* line 76, ../sass/_color.sass */
-.helper-color-1 {
-  background-color: #7eb0db;
+/* line 74, ../sass/_color.sass */
+.secondary-color-3 {
+  background-color: #646464;
+  color: #181818;
 }
 
-/* line 78, ../sass/_color.sass */
-.helper-color-2 {
-  background-color: #428bca;
+/* line 77, ../sass/_color.sass */
+.secondary-color-4 {
+  background-color: #3e3e3e;
+  color: #cacaca;
 }
 
 /* line 80, ../sass/_color.sass */
-.helper-color-3 {
-  background-color: #2a6496;
+.secondary-color-5 {
+  background-color: #181818;
+  color: #fdfdfd;
 }
 
-/* line 82, ../sass/_color.sass */
-.helper-color-4 {
-  background-color: #193c5a;
+/* line 86, ../sass/_color.sass */
+.helper-color-1 {
+  background-color: #7eb0db;
+  color: #1f496e;
 }
 
-/* line 84, ../sass/_color.sass */
-.helper-color-5 {
-  background-color: #09141e;
-}
-
-/* line 90, ../sass/_color.sass */
-.danger-color-1 {
-  background-color: #f3423f;
+/* line 89, ../sass/_color.sass */
+.helper-color-2 {
+  background-color: #428bca;
+  color: #193c5a;
 }
 
 /* line 92, ../sass/_color.sass */
-.danger-color-2 {
-  background-color: #d8110e;
+.helper-color-3 {
+  background-color: #2a6496;
+  color: #09141e;
 }
 
-/* line 94, ../sass/_color.sass */
-.danger-color-3 {
-  background-color: #900b09;
-}
-
-/* line 96, ../sass/_color.sass */
-.danger-color-4 {
-  background-color: #480504;
+/* line 95, ../sass/_color.sass */
+.helper-color-4 {
+  background-color: #193c5a;
+  color: #a6c8e6;
 }
 
 /* line 98, ../sass/_color.sass */
-.danger-color-5 {
-  background-color: black;
-}
-
-/* line 102, ../sass/_color.sass */
-.default-color-1 {
-  background-color: #b1b1b1;
-}
-
-/* line 104, ../sass/_color.sass */
-.default-color-2 {
-  background-color: #8a8a8a;
+.helper-color-5 {
+  background-color: #09141e;
+  color: #f6f9fc;
 }
 
 /* line 106, ../sass/_color.sass */
+.danger-color-1 {
+  background-color: #f3423f;
+  color: #600706;
+}
+
+/* line 109, ../sass/_color.sass */
+.danger-color-2 {
+  background-color: #d8110e;
+  color: #480504;
+}
+
+/* line 112, ../sass/_color.sass */
+.danger-color-3 {
+  background-color: #900b09;
+  color: black;
+}
+
+/* line 115, ../sass/_color.sass */
+.danger-color-4 {
+  background-color: #480504;
+  color: #f6716f;
+}
+
+/* line 118, ../sass/_color.sass */
+.danger-color-5 {
+  background-color: black;
+  color: #fcd0cf;
+}
+
+/* line 123, ../sass/_color.sass */
+.default-color-1 {
+  background-color: #cecece;
+  color: dimgrey;
+}
+
+/* line 126, ../sass/_color.sass */
+.default-color-2 {
+  background-color: #a8a8a8;
+  color: #5c5c5c;
+}
+
+/* line 129, ../sass/_color.sass */
 .default-color-3 {
-  background-color: #646464;
+  background-color: #828282;
+  color: #353535;
 }
 
-/* line 108, ../sass/_color.sass */
+/* line 132, ../sass/_color.sass */
 .default-color-4 {
-  background-color: #3e3e3e;
+  background-color: #5c5c5c;
+  color: #e8e8e8;
 }
 
-/* line 110, ../sass/_color.sass */
+/* line 135, ../sass/_color.sass */
 .default-color-5 {
-  background-color: #181818;
+  background-color: #353535;
+  color: white;
 }
 
 /* line 5, ../sass/_font.sass */
-h1, h2, p {
+h1, h2, p, .primary-line, .secondary-line, .helper-line, .danger-line, .disable-line, .primary-flat, .secondary-flat, .helper-flat, .danger-flat, .disable-flat {
   font-family: helvetica, sans-serif;
 }
 
@@ -240,7 +278,7 @@ h2 {
   font-size: 2em;
   line-height: 1.2em;
   font-weight: 500;
-  letter-spacing: 1px;
+  letter-spacing: 0;
 }
 
 /* line 28, ../sass/_font.sass */
@@ -249,20 +287,23 @@ h3, .hint-information, .hint-danger {
   font-size: 1.2em;
   line-height: 1.2em;
   font-weight: 500;
-  letter-spacing: 1px;
+  letter-spacing: 0;
 }
 
 /* line 31, ../sass/_font.sass */
-p {
+p, .primary-line, .secondary-line, .helper-line, .danger-line, .disable-line, .primary-flat, .secondary-flat, .helper-flat, .danger-flat, .disable-flat {
   color: black;
   font-size: 1em;
   line-height: 1.2em;
   font-weight: 300;
-  letter-spacing: 1px;
+  letter-spacing: 0;
 }
 
 /* line 46, ../sass/_font.sass */
 .hint-information {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   color: #428bca;
   border: 1px solid #428bca;
   width: 100%;
@@ -274,8 +315,11 @@ p {
   border-radius: 5px;
 }
 
-/* line 57, ../sass/_font.sass */
+/* line 60, ../sass/_font.sass */
 .hint-danger {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   color: #d8110e;
   border: 1px solid #d8110e;
   width: 100%;
@@ -287,70 +331,88 @@ p {
   border-radius: 5px;
 }
 
-/* line 5, ../sass/_button.sass */
-.primary, .secondary, .danger, .cancel, .disable {
-  width: auto;
-  display: inline-block;
-  padding: 0.4em 1em;
+/* line 12, ../sass/_button.sass */
+.primary-line, .secondary-line, .helper-line, .danger-line, .disable-line {
   background-color: white;
-  font-size: 1em;
-  border: 1px solid;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+  padding: 0.4em 1.6em;
 }
 
-/* line 21, ../sass/_button.sass */
-.primary {
+/* line 16, ../sass/_button.sass */
+.primary-line {
   color: #ffc90b;
   border: 1px solid #ffc90b;
 }
 
-/* line 25, ../sass/_button.sass */
-.secondary {
-  color: #428bca;
-  border: 1px solid #428bca;
+/* line 21, ../sass/_button.sass */
+.secondary-line {
+  color: #3e3e3e;
+  border: 1px solid #3e3e3e;
 }
 
-/* line 29, ../sass/_button.sass */
-.danger {
+/* line 26, ../sass/_button.sass */
+.helper-line {
+  color: #193c5a;
+  border: 1px solid #193c5a;
+}
+
+/* line 31, ../sass/_button.sass */
+.danger-line {
   color: #d8110e;
   border: 1px solid #d8110e;
 }
 
-/* line 33, ../sass/_button.sass */
-.cancel {
-  color: #646464;
-  border: 1px solid #646464;
+/* line 36, ../sass/_button.sass */
+.disable-line {
+  color: #828282;
+  border: 1px solid #828282;
 }
 
-/* line 37, ../sass/_button.sass */
-.disable {
-  color: #b1b1b1;
-  border: 1px solid #b1b1b1;
-  cursor: not-allowed;
+/* line 47, ../sass/_button.sass */
+.primary-flat, .secondary-flat, .helper-flat, .danger-flat, .disable-flat {
+  color: white;
+  background-color: white;
+  padding: 0.4em 1.6em;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
-/* line 2, ../sass/_form.sass */
-input {
-  display: block;
-  margin: 2em 0;
+/* line 54, ../sass/_button.sass */
+.primary-flat {
+  background-color: #ffc90b;
+  border: 1px solid #ffc90b;
 }
 
-/* line 6, ../sass/_form.sass */
-fieldset {
-  font-size: 1.2em;
-  border: 1px solid #545454;
-  color: #545454;
-  padding: 1em;
+/* line 59, ../sass/_button.sass */
+.secondary-flat {
+  background-color: #3e3e3e;
+  border: 1px solid #3e3e3e;
 }
 
-/* line 12, ../sass/_form.sass */
+/* line 64, ../sass/_button.sass */
+.helper-flat {
+  background-color: #193c5a;
+  border: 1px solid #193c5a;
+}
+
+/* line 69, ../sass/_button.sass */
+.danger-flat {
+  background-color: #d8110e;
+  border: 1px solid #d8110e;
+}
+
+/* line 74, ../sass/_button.sass */
+.disable-flat {
+  background-color: #828282;
+  border: 1px solid #828282;
+}
+
+/* line 9, ../sass/_form.sass */
 input[type=checkbox] {
   display: none;
 }
 
-/* line 15, ../sass/_form.sass */
+/* line 12, ../sass/_form.sass */
 input[type=checkbox] + label {
   display: inline-block;
   background-color: #db574d;
@@ -364,7 +426,7 @@ input[type=checkbox] + label {
   width: 80px;
 }
 
-/* line 27, ../sass/_form.sass */
+/* line 24, ../sass/_form.sass */
 input[type=checkbox] + label,
 input[type=checkbox] + label i {
   -webkit-transition: all 350ms ease;
@@ -373,12 +435,12 @@ input[type=checkbox] + label i {
   transition: all 350ms ease;
 }
 
-/* line 31, ../sass/_form.sass */
+/* line 28, ../sass/_form.sass */
 input[type=checkbox]:checked + label {
   background-color: #67b04f;
 }
 
-/* line 34, ../sass/_form.sass */
+/* line 31, ../sass/_form.sass */
 input[type=checkbox] + label:before,
 input[type=checkbox] + label:after,
 input[type=checkbox] + label i {
@@ -388,17 +450,17 @@ input[type=checkbox] + label i {
   text-align: center;
 }
 
-/* line 42, ../sass/_form.sass */
+/* line 39, ../sass/_form.sass */
 input[type=checkbox] + label:before {
   content: attr(data-text-true);
 }
 
-/* line 45, ../sass/_form.sass */
+/* line 42, ../sass/_form.sass */
 input[type=checkbox] + label:after {
   content: attr(data-text-false);
 }
 
-/* line 48, ../sass/_form.sass */
+/* line 45, ../sass/_form.sass */
 input[type=checkbox] + label i {
   top: 10%;
   background-color: white;
@@ -408,7 +470,30 @@ input[type=checkbox] + label i {
   width: 45%;
 }
 
-/* line 56, ../sass/_form.sass */
+/* line 53, ../sass/_form.sass */
 input[type=checkbox]:checked + label i {
   left: 50%;
+}
+
+/* line 64, ../sass/_form.sass */
+fieldset {
+  width: 97%;
+  margin: 0 1.5%;
+  padding: 1.5% 1.5%;
+  border: 1px solid #cecece;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #545454;
+}
+
+/* line 77, ../sass/_form.sass */
+legend {
+  border: 0px solid black;
+}
+
+/* line 79, ../sass/_form.sass */
+input[type=date] {
+  padding: 0.2em;
+  color: red;
 }

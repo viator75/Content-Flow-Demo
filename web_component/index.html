@@ -15,54 +15,54 @@
 <title>Buttons and Forms</title>
 </head>
 <body>
-<!-- <div style="position: fixed; z-index: -99; width: 100%; height: 100%">
+<div style="position: fixed; z-index: -99; width: 100%; height: 100%">
   <iframe frameborder="0" height="100%" width="100%" preload="auto" autoplay loop="loop" muted="muted" volume="0"
     src="//www.youtube.com/embed/uJRHht55E1M?rel=0&autoplay=1&showinfo=0&autohide=1 ">
   </iframe>
-</div> -->
+</div>
 	<section class="color">
 		<div class="main">
 			<h1>顏色設定</h1>
 			<hr>
 			<ul>
 				<h2>Primary</h2>
-				<li class="primary-color-1"></li>
-				<li class="primary-color-2"></li>
-				<li class="primary-color-3"></li>
-				<li class="primary-color-4"></li>
-				<li class="primary-color-5"></li>
+				<li class="primary-color-1">$primary-color-1</li>
+				<li class="primary-color-2">$primary-color-2</li>
+				<li class="primary-color-3">$primary-color-3</li>
+				<li class="primary-color-4">$primary-color-4</li>
+				<li class="primary-color-5">$primary-color-5</li>
 			</ul>
 			<ul>
 				<h2>Secondary</h2>
-				<li class="secondary-color-1"></li>
-				<li class="secondary-color-2"></li>
-				<li class="secondary-color-3"></li>
-				<li class="secondary-color-4"></li>
-				<li class="secondary-color-5"></li>
+				<li class="secondary-color-1">$secondary-color-1</li>
+				<li class="secondary-color-2">$secondary-color-2</li>
+				<li class="secondary-color-3">$secondary-color-3</li>
+				<li class="secondary-color-4">$secondary-color-4</li>
+				<li class="secondary-color-5">$secondary-color-5</li>
 			</ul>
 			<ul>
 				<h2>Helper</h2>
-				<li class="helper-color-1"></li>
-				<li class="helper-color-2"></li>
-				<li class="helper-color-3"></li>
-				<li class="helper-color-4"></li>
-				<li class="helper-color-5"></li>
+				<li class="helper-color-1">$helper-color-1</li>
+				<li class="helper-color-2">$helper-color-2</li>
+				<li class="helper-color-3">$helper-color-3</li>
+				<li class="helper-color-4">$helper-color-4</li>
+				<li class="helper-color-5">$helper-color-5</li>
 			</ul>
 			<ul>
 				<h2>Danger</h2>
-				<li class="danger-color-1"></li>
-				<li class="danger-color-2"></li>
-				<li class="danger-color-3"></li>
-				<li class="danger-color-4"></li>
-				<li class="danger-color-5"></li>
+				<li class="helper-color-1">$helper-color-1</li>
+				<li class="helper-color-2">$helper-color-2</li>
+				<li class="helper-color-3">$helper-color-3</li>
+				<li class="helper-color-4">$helper-color-4</li>
+				<li class="helper-color-5">$helper-color-5</li>
 			</ul>
 			<ul>
 				<h2>Defaut</h2>
-				<li class="default-color-1"></li>
-				<li class="default-color-2"></li>
-				<li class="default-color-3"></li>
-				<li class="default-color-4"></li>
-				<li class="default-color-5"></li>
+				<li class="default-color-1">$default-color-1</li>
+				<li class="default-color-2">$default-color-2</li>
+				<li class="default-color-3">$default-color-3</li>
+				<li class="default-color-4">$default-color-4</li>
+				<li class="default-color-5">$default-color-5</li>
 			</ul>
 		</div>
 	</section>
@@ -72,17 +72,25 @@
 			<hr>
 			<h1>h1主標題</h1>
 				<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, sit exercitationem porro facilis enim quas laborum labore laboriosam! Nemo, ratione, ducimus laboriosam consequuntur minima voluptates aspernatur sed sunt maxime facere.</h1>
+				<br>
+				<br>
 			<h2>h2次標題</h2>
 				<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, autem animi delectus reiciendis quia alias dolores assumenda debitis eaque molestiae? Consectetur, officiis mollitia aspernatur voluptate esse tempore deserunt repellendus odio.</h2>
+				<br>
+				<br>
 			<h3>h3小標題</h3>
 				<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, placeat, perspiciatis mollitia expedita non harum dolorum earum laudantium corrupti ullam soluta quasi maxime totam maiores iusto dolor nam consequatur assumenda.</h3>
+				<br>
+				<br>
 			<p>p內文</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, corrupti, nulla, mollitia dolorum omnis vel similique velit ipsam architecto voluptatem neque distinctio repellat? Modi cumque ab quibusdam totam est impedit.</p>
+				<br>
+				<br>
 			<div class="hint-information">動態訊息通知Update Succeed</div>
 			<div class="hint-danger">動態訊息警告Update failed</div>
 		</div>
 	</section>
-	<section>
+	<section class="button">
 		<div class="main">
 			<h1>按鈕設定</h1>
 			<hr>
@@ -94,11 +102,20 @@
 				<li>Disabled</li>
 			</ul> -->
 			<ul>
-				<li><button type="submit" class="primary round">Primary</button></li>
-				<li><button type="submit" class="secondary round">Secondary</button></li>
-				<li><button type="submit" class="danger round">Danger</button></li>
-				<li><button type="submit" class="cancel round">Cancel</button></li>
-				<li><button type="submit" class="disable round">Disabled</button></li>
+				<p>Line Button</p>
+				<li><button type="submit" class="primary-line">Primary</button></li>
+				<li><button type="submit" class="secondary-line">Secondary</button></li>
+				<li><button type="submit" class="helper-line">Helper</button></li>
+				<li><button type="submit" class="danger-line">Danger</button></li>
+				<li><button type="submit" class="disable-line">Disabled</button></li>
+			</ul>
+			<ul>
+				<p>Flat Button</p>
+				<li><button type="submit" class="primary-flat">Primary</button></li>
+				<li><button type="submit" class="secondary-flat">Secondary</button></li>
+				<li><button type="submit" class="helper-flat">Helper</button></li>
+				<li><button type="submit" class="danger-flat">Danger</button></li>
+				<li><button type="submit" class="disable-flat">Disabled</button></li>
 			</ul>
 		</div>
 	</section>

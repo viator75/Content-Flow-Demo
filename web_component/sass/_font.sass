@@ -23,13 +23,13 @@
 	+font-setting(#545454, 2em, 1.2em, 700, 1px)
 	@extend %primary-font-family
 %h2
-	+font-setting(#000, 2em, 1.2em, 500, 1px)
+	+font-setting(#000, 2em, 1.2em, 500, 0)
 	@extend %primary-font-family
 %h3
-	+font-setting(#000, 1.2em, 1.2em, 500, 1px)
+	+font-setting(#000, 1.2em, 1.2em, 500, 0)
 	@extend %secondary-font-family
 %p
-	+font-setting(#000, 1em, 1.2em, 300, 1px)
+	+font-setting(#000, 1em, 1.2em, 300, 0)
 	@extend %primary-font-family
 h1
 	@extend %h1
@@ -45,6 +45,9 @@ p
 // ----------------
 .hint-information
 	@extend %h3
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
 	color: $helper-color-2
 	border: 1px solid $helper-color-2
 	width: 100%
@@ -56,6 +59,9 @@ p
 	border-radius: 5px
 .hint-danger
 	@extend %h3
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
 	color: $danger-color-2
 	border: 1px solid $danger-color-2
 	width: 100%
