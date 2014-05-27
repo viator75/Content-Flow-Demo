@@ -557,139 +557,85 @@ p, .primary-line, .secondary-line, .helper-line, .danger-line, .disable-line, .p
   border: 1px solid #828282;
 }
 
-/* line 9, ../sass/_form.sass */
-input[type=checkbox] {
-  display: none;
-}
-
-/* line 12, ../sass/_form.sass */
-input[type=checkbox] + label {
-  display: inline-block;
-  background-color: #db574d;
-  color: white;
-  font-size: 0.75em;
-  font-weight: bold;
-  height: 30px;
-  line-height: 30px;
-  position: relative;
-  text-transform: uppercase;
-  width: 80px;
-}
-
-/* line 24, ../sass/_form.sass */
-input[type=checkbox] + label,
-input[type=checkbox] + label i {
-  -webkit-transition: all 350ms ease;
-  -moz-transition: all 350ms ease;
-  -o-transition: all 350ms ease;
-  transition: all 350ms ease;
-}
-
-/* line 28, ../sass/_form.sass */
-input[type=checkbox]:checked + label {
-  background-color: #67b04f;
-}
-
-/* line 31, ../sass/_form.sass */
-input[type=checkbox] + label:before,
-input[type=checkbox] + label:after,
-input[type=checkbox] + label i {
-  width: 50%;
-  display: inline-block;
-  height: 100%;
-  text-align: center;
-}
-
-/* line 39, ../sass/_form.sass */
-input[type=checkbox] + label:before {
-  content: attr(data-text-true);
-}
-
-/* line 42, ../sass/_form.sass */
-input[type=checkbox] + label:after {
-  content: attr(data-text-false);
-}
-
-/* line 45, ../sass/_form.sass */
-input[type=checkbox] + label i {
-  top: 10%;
-  background-color: white;
-  height: 80%;
-  left: 5%;
-  position: absolute;
-  width: 45%;
-}
-
-/* line 53, ../sass/_form.sass */
-input[type=checkbox]:checked + label i {
-  left: 50%;
-}
-
-/* line 64, ../sass/_form.sass */
-fieldset {
-  width: 97%;
-  margin: 0 1.5%;
-  padding: 1.5% 1.5%;
-  border: 1px solid #cecece;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  color: #545454;
-}
-
-/* line 77, ../sass/_form.sass */
-legend {
-  border: 0px solid black;
-}
-
-/* line 79, ../sass/_form.sass */
-input[type=date] {
-  padding: 0.2em;
-  color: red;
-}
-
 /* line 10, ../sass/all.sass */
 .wrapper {
   width: 960px;
   margin: 0 auto;
 }
 
-/* line 14, ../sass/all.sass */
+/* line 16, ../sass/all.sass */
 nav ul li {
   display: inline-block;
-  margin-right: 24px;
+  float: left;
+  width: 14.28571%;
+  text-align: center;
+  line-height: 3em;
 }
 
-/* line 17, ../sass/all.sass */
-#about {
-  background-color: #cecece;
+/* line 22, ../sass/all.sass */
+#hero {
+  background-color: #7eb0db;
   height: 30em;
 }
 
-/* line 20, ../sass/all.sass */
+/* line 25, ../sass/all.sass */
+#about {
+  background-color: #cecece;
+  height: 15em;
+}
+
+/* line 28, ../sass/all.sass */
 #politic {
   background-color: #a8a8a8;
   height: 30em;
 }
 
-/* line 23, ../sass/all.sass */
+/* line 31, ../sass/all.sass */
+#links {
+  width: 100%;
+  height: 16em;
+  margin: 2em 0 4em 0;
+  padding: 0;
+}
+/* line 36, ../sass/all.sass */
+#links .link-show {
+  padding-right: 20px;
+  box-model: border-box;
+  display: inline-block;
+  width: 25%;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  line-height: 3em;
+}
+/* line 46, ../sass/all.sass */
+#links .link-show:last-child {
+  padding-right: 0;
+}
+/* line 48, ../sass/all.sass */
+#links .link-show .image {
+  background-color: #193c5a;
+  height: 12em;
+}
+
+/* line 53, ../sass/all.sass */
 #contact {
-  background-color: #828282;
+  background-color: #5c5c5c;
   height: 30em;
 }
 
-/* line 27, ../sass/all.sass */
+/* line 57, ../sass/all.sass */
 .drop {
   position: relative;
 }
-/* line 29, ../sass/all.sass */
+/* line 59, ../sass/all.sass */
 .drop ul {
   opacity: 0;
   position: absolute;
   top: 16px;
   left: 0;
 }
-/* line 34, ../sass/all.sass */
+/* line 64, ../sass/all.sass */
 .drop:hover > ul {
   opacity: 1;
   display: block;
@@ -700,7 +646,7 @@ nav ul li {
   transition: all 0.3s;
 }
 
-/* line 42, ../sass/all.sass */
+/* line 72, ../sass/all.sass */
 .lateral {
   position: fixed;
   top: 30%;
@@ -708,4 +654,20 @@ nav ul li {
   height: 10em;
   width: 10em;
   background-color: #ffc90b;
+}
+
+/* line 80, ../sass/all.sass */
+form {
+  width: 580px;
+  margin: 0 auto;
+}
+
+/* line 84, ../sass/all.sass */
+label {
+  display: inline-block;
+}
+
+/* line 88, ../sass/all.sass */
+textarea {
+  display: block;
 }
