@@ -14,7 +14,7 @@ fieldset {
 
 /* line 12, ../sass/form.sass */
 input[type=checkbox] {
-  display: none;
+  /*display: none;*/
 }
 
 /* line 15, ../sass/form.sass */
