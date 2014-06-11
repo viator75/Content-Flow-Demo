@@ -45,27 +45,27 @@ br
 	background-color: #ffd609
 	position: fixed
 	z-index: 10
-ul
-	height: 3em
-li
-	display: inline-block
-	float: left
-	width: $width/ 7
-	text-align: center
-	line-height: 3em
-	-webkit-transition: 0.3s all
-	-moz-transition: 0.3s all
-	-ms-transition: 0.3s all
-	-o-transition: 0.3s all
-	transition: 0.3s all
-	&:hover
-		color: #000000
-		background-color: rgba(255,255,255,0.3)
-		-webkit-transition: 0.55s all
-		-moz-transition: 0.55s all
-		-ms-transition: 0.55s all
-		-o-transition: 0.55s all
-		transition: 0.55s all
+	ul
+		height: 3em
+	li
+		display: inline-block
+		float: left
+		width: $width/ 7
+		text-align: center
+		line-height: 3em
+		-webkit-transition: 0.3s all
+		-moz-transition: 0.3s all
+		-ms-transition: 0.3s all
+		-o-transition: 0.3s all
+		transition: 0.3s all
+		&:hover
+			color: #000000
+			background-color: rgba(255,255,255,0.3)
+			-webkit-transition: 0.55s all
+			-moz-transition: 0.55s all
+			-ms-transition: 0.55s all
+			-o-transition: 0.55s all
+			transition: 0.55s all
 // .drop
 // 	position: relative
 // 	ul
@@ -109,12 +109,11 @@ li
 #politic
 	padding-top: 58px
 	margin-top: -30px
-	height: 30em
+	height: 48em
 	.one-third-upper,
 	.one-third-lower
 		width: 100%
 		height: 184px
-		background-color: $helper-color-4
 	.one-third-upper
 		background-image: url(http://viator75.github.io/Demo/case_prototype/images/hero.jpg)
 		background-position: 0 372px
@@ -122,9 +121,20 @@ li
 	.one-third-lower
 		background-image: url(http://viator75.github.io/Demo/case_prototype/images/hero.jpg)
 		background-position: bottom
-		background-size: cover 
+		background-size: cover
+		clear: both
 	h1
 		text-align: center
+	.politic
+		width: 840px
+		display: block
+		height: auto
+		margin: 2em auto
+		ol
+			display: inline-block
+			li
+				display: block
+				margin-bottom: 20px
 #show
 	background-image: url(http://viator75.github.io/Demo/case_prototype/images/pyramid.png)
 	background-repeat: repeat
@@ -146,6 +156,12 @@ li
 		display: block
 		position: relative
 		background-size: 100%
+		background-position: center center
+		-webkit-transition: 0.5s all
+		-moz-transition: 0.5s all
+		-ms-transition: 0.5s all
+		-o-transition: 0.5s all
+		transition: 0.5s all
 		h2
 			position: absolute
 			bottom: 0
@@ -157,12 +173,12 @@ li
 			padding: 8px 12px 8px 0
 			color: rgba(255,255,255,0.9)
 		&:hover
-			-webkit-transition: 2s all
-			-moz-transition: 2s all
-			-ms-transition: 2s all
-			-o-transition: 2s all
-			transition: 2s all
-			background-size: 103%
+			-webkit-transition: 1s all
+			-moz-transition: 1s all
+			-ms-transition: 1s all
+			-o-transition: 1s all
+			transition: 1s all
+			background-size: 102%
 			h2
 				background-color: rgba(9,37,80,0.9)
 				color: rgba(255,255,255,0.9)
@@ -184,9 +200,10 @@ li
 
 #contact
 	background-color: rgba(9,37,80, 1)
-	padding: 2em 0 4em 0
+	padding: 100px 0 4em 0
 	height: 40em
 	h1
+		margin-top: -40px
 		text-align: center
 		color: white
 	.place

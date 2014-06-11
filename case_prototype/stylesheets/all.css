@@ -291,14 +291,12 @@ img {
   position: fixed;
   z-index: 10;
 }
-
 /* line 48, ../sass/all.sass */
-ul {
+.fixedbar ul {
   height: 3em;
 }
-
 /* line 50, ../sass/all.sass */
-li {
+.fixedbar li {
   display: inline-block;
   float: left;
   width: 14.28571%;
@@ -311,7 +309,7 @@ li {
   transition: 0.3s all;
 }
 /* line 61, ../sass/all.sass */
-li:hover {
+.fixedbar li:hover {
   color: black;
   background-color: rgba(255, 255, 255, 0.3);
   -webkit-transition: 0.55s all;
@@ -348,33 +346,49 @@ li:hover {
 #politic {
   padding-top: 58px;
   margin-top: -30px;
-  height: 30em;
+  height: 48em;
 }
 /* line 113, ../sass/all.sass */
 #politic .one-third-upper,
 #politic .one-third-lower {
   width: 100%;
   height: 184px;
-  background-color: #193c5a;
 }
-/* line 118, ../sass/all.sass */
+/* line 117, ../sass/all.sass */
 #politic .one-third-upper {
   background-image: url(http://viator75.github.io/Demo/case_prototype/images/hero.jpg);
   background-position: 0 372px;
   background-size: cover;
 }
-/* line 122, ../sass/all.sass */
+/* line 121, ../sass/all.sass */
 #politic .one-third-lower {
   background-image: url(http://viator75.github.io/Demo/case_prototype/images/hero.jpg);
   background-position: bottom;
   background-size: cover;
+  clear: both;
 }
 /* line 126, ../sass/all.sass */
 #politic h1 {
   text-align: center;
 }
-
 /* line 128, ../sass/all.sass */
+#politic .politic {
+  width: 840px;
+  display: block;
+  height: auto;
+  margin: 2em auto;
+}
+/* line 133, ../sass/all.sass */
+#politic .politic ol {
+  display: inline-block;
+}
+/* line 135, ../sass/all.sass */
+#politic .politic ol li {
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* line 138, ../sass/all.sass */
 #show {
   background-image: url(http://viator75.github.io/Demo/case_prototype/images/pyramid.png);
   background-repeat: repeat;
@@ -384,7 +398,7 @@ li:hover {
   margin: 2em 0 0 0;
   padding: 2em 0;
 }
-/* line 136, ../sass/all.sass */
+/* line 146, ../sass/all.sass */
 #show .link-show {
   box-model: border-box;
   display: inline-block;
@@ -392,7 +406,7 @@ li:hover {
   float: left;
   text-align: center;
 }
-/* line 142, ../sass/all.sass */
+/* line 152, ../sass/all.sass */
 #show .show-perform, #show .show-events, #show .show-services, #show .show-news {
   height: 272px;
   width: 460px;
@@ -400,8 +414,14 @@ li:hover {
   display: block;
   position: relative;
   background-size: 100%;
+  background-position: center center;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  transition: 0.5s all;
 }
-/* line 149, ../sass/all.sass */
+/* line 165, ../sass/all.sass */
 #show .show-perform h2, #show .show-events h2, #show .show-services h2, #show .show-news h2 {
   position: absolute;
   bottom: 0;
@@ -413,16 +433,16 @@ li:hover {
   padding: 8px 12px 8px 0;
   color: rgba(255, 255, 255, 0.9);
 }
-/* line 159, ../sass/all.sass */
+/* line 175, ../sass/all.sass */
 #show .show-perform:hover, #show .show-events:hover, #show .show-services:hover, #show .show-news:hover {
-  -webkit-transition: 2s all;
-  -moz-transition: 2s all;
-  -ms-transition: 2s all;
-  -o-transition: 2s all;
-  transition: 2s all;
-  background-size: 103%;
+  -webkit-transition: 1s all;
+  -moz-transition: 1s all;
+  -ms-transition: 1s all;
+  -o-transition: 1s all;
+  transition: 1s all;
+  background-size: 102%;
 }
-/* line 166, ../sass/all.sass */
+/* line 182, ../sass/all.sass */
 #show .show-perform:hover h2, #show .show-events:hover h2, #show .show-services:hover h2, #show .show-news:hover h2 {
   background-color: rgba(9, 37, 80, 0.9);
   color: rgba(255, 255, 255, 0.9);
@@ -432,58 +452,59 @@ li:hover {
   -o-transition: 0.35s all;
   transition: 0.35s all;
 }
-/* line 174, ../sass/all.sass */
+/* line 190, ../sass/all.sass */
 #show .show-perform {
   background-image: url(http://viator75.github.io/Demo/case_prototype/images/ask.jpg);
 }
-/* line 176, ../sass/all.sass */
+/* line 192, ../sass/all.sass */
 #show .show-events {
   background-image: url(http://viator75.github.io/Demo/case_prototype/images/event.jpg);
 }
-/* line 178, ../sass/all.sass */
+/* line 194, ../sass/all.sass */
 #show .show-services {
   background-image: url(http://viator75.github.io/Demo/case_prototype/images/service.jpg);
 }
-/* line 180, ../sass/all.sass */
+/* line 196, ../sass/all.sass */
 #show .show-news {
   background-image: url(http://viator75.github.io/Demo/case_prototype/images/news.jpg);
 }
 
-/* line 185, ../sass/all.sass */
+/* line 201, ../sass/all.sass */
 #contact {
   background-color: #092550;
-  padding: 2em 0 4em 0;
+  padding: 100px 0 4em 0;
   height: 40em;
 }
-/* line 189, ../sass/all.sass */
+/* line 205, ../sass/all.sass */
 #contact h1 {
+  margin-top: -40px;
   text-align: center;
   color: white;
 }
-/* line 192, ../sass/all.sass */
+/* line 209, ../sass/all.sass */
 #contact .place {
   float: left;
   margin: 60px 0 20px 0;
   width: 540px;
 }
-/* line 196, ../sass/all.sass */
+/* line 213, ../sass/all.sass */
 #contact .place h1 {
   text-align: left;
 }
-/* line 198, ../sass/all.sass */
+/* line 215, ../sass/all.sass */
 #contact .place p, #contact .place a, #contact .place address {
   color: white;
   font-size: 1.6em;
   font-weight: 400;
 }
-/* line 202, ../sass/all.sass */
+/* line 219, ../sass/all.sass */
 #contact iframe {
   float: left;
   margin: 60px 0 0 0;
   width: 418px;
 }
 
-/* line 209, ../sass/all.sass */
+/* line 226, ../sass/all.sass */
 .lateral {
   position: fixed;
   top: 30%;
@@ -493,7 +514,7 @@ li:hover {
   background-color: #ffc90b;
 }
 
-/* line 217, ../sass/all.sass */
+/* line 234, ../sass/all.sass */
 footer {
   background-color: #092550;
   clear: both;
