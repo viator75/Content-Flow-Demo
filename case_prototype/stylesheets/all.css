@@ -346,7 +346,7 @@ img {
 #politic {
   padding-top: 58px;
   margin-top: -30px;
-  height: 48em;
+  height: 56em;
 }
 /* line 113, ../sass/all.sass */
 #politic .one-third-upper,
@@ -376,7 +376,7 @@ img {
   width: 840px;
   display: block;
   height: auto;
-  margin: 3em auto;
+  margin: 4em auto 3em auto;
 }
 /* line 133, ../sass/all.sass */
 #politic .politic ol {
