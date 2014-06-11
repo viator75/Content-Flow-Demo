@@ -325,13 +325,13 @@ li:hover {
 #about {
   padding-top: 88px;
   padding-bottom: 38px;
-  background-image: url(/images/pyramid.png);
+  background-image: url(http://viator75.github.io/Demo/case_prototype/images/pyramid.png);
   background-repeat: repeat;
   background-size: 16px;
 }
 /* line 97, ../sass/all.sass */
 #about .hero {
-  background-image: url(/images/hero.jpg);
+  background-image: url(http://viator75.github.io/Demo/case_prototype/images/hero.jpg);
   background-position: top;
   background-size: cover;
   width: 960px;
