@@ -293,7 +293,7 @@ img {
 }
 /* line 48, ../sass/all.sass */
 .fixedbar ul {
-  height: 3em;
+  height: 4em;
 }
 /* line 50, ../sass/all.sass */
 .fixedbar li {
@@ -301,7 +301,7 @@ img {
   float: left;
   width: 14.28571%;
   text-align: center;
-  line-height: 3em;
+  line-height: 4em;
   -webkit-transition: 0.3s all;
   -moz-transition: 0.3s all;
   -ms-transition: 0.3s all;
