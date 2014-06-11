@@ -3,9 +3,10 @@
 // ----------------
 
 %primary-font-family
-	font-family: helvetica, sans-serif
+	font-family:  "微軟正黑體", "Microsoft JhengHei", "LiHei Pro", "Apple LiGothic Medium", "標楷體", "DFKai-sb", helvetica, Arial, sans-serif
 %secondary-font-family
-	font-family: didot, serif
+	font-family:  "微軟正黑體", "Microsoft JhengHei", "LiHei Pro", "Apple LiGothic Medium", "標楷體", "DFKai-sb", helvetica, Arial, sans-serif
+
 
 // ----------------
 // Set other font property
@@ -20,17 +21,16 @@
 
 	
 %h1
-	+font-setting(#545454, 2em, 1.2em, 700, 1px)
+	+font-setting(#252525, 1.6em, 1.2em, 700, 1px)
 	@extend %primary-font-family
+	margin-bottom: 20px
 %h2
-	+font-setting(#000, 2em, 1.2em, 500, 0)
+	+font-setting(#252525, 1.6em, 1.2em, 500, 0)
 	@extend %primary-font-family
-%h3
-	+font-setting(#000, 1.2em, 1.2em, 500, 0)
-	@extend %secondary-font-family
 %p
-	+font-setting(#000, 1em, 1.2em, 300, 0)
+	+font-setting(#252525, 1em, 1.2em, 300, 0)
 	@extend %primary-font-family
+	margin-bottom: 12px
 h1
 	@extend %h1
 h2
@@ -39,35 +39,6 @@ h3
 	@extend %h3
 p
 	@extend %p
-
-// ----------------
-// Set information hint box
-// ----------------
-.hint-information
-	@extend %h3
-	-webkit-box-sizing: border-box
-	-moz-box-sizing: border-box
-	box-sizing: border-box
-	color: $helper-color-2
-	border: 1px solid $helper-color-2
-	width: 100%
-	heighy: auto
-	padding: 1em
-	margin: 1em auto
-	-webkit-border-radius: 5px
-	-moz-border-radius: 5px
-	border-radius: 5px
-.hint-danger
-	@extend %h3
-	-webkit-box-sizing: border-box
-	-moz-box-sizing: border-box
-	box-sizing: border-box
-	color: $danger-color-2
-	border: 1px solid $danger-color-2
-	width: 100%
-	heighy: auto
-	padding: 1em
-	margin: 1em auto
-	-webkit-border-radius: 5px
-	-moz-border-radius: 5px
-	border-radius: 5px
+ul li, a
+	@extend %primary-font-family
+	text-decoration: none
