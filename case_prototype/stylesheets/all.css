@@ -420,22 +420,22 @@ li:hover {
 }
 /* line 161, ../sass/all.sass */
 #show .show-perform {
-  background-image: url(http://viator75.github.io/Demo/case_prototype/images/services.jpg);
+  background-image: url(http://viator75.github.io/Demo/case_prototype/images/ask.jpg);
   background-position: left top;
 }
 /* line 164, ../sass/all.sass */
 #show .show-events {
-  background-image: url(http://viator75.github.io/Demo/case_prototype/images/services.jpg);
+  background-image: url(http://viator75.github.io/Demo/case_prototype/images/event.jpg);
   background-position: left bottom;
 }
 /* line 167, ../sass/all.sass */
 #show .show-services {
-  background-image: url(http://viator75.github.io/Demo/case_prototype/images/services.jpg);
+  background-image: url(http://viator75.github.io/Demo/case_prototype/images/service.jpg);
   background-position: right top;
 }
 /* line 170, ../sass/all.sass */
 #show .show-news {
-  background-image: url(http://viator75.github.io/Demo/case_prototype/images/services.jpg);
+  background-image: url(http://viator75.github.io/Demo/case_prototype/images/news.jpg);
   background-position: right bottom;
 }
 
