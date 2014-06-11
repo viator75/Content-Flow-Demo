@@ -145,31 +145,40 @@ li
 		margin-bottom: 2em
 		display: block
 		position: relative
-		&:hover
-			+filter(blur(1px))
+		background-size: 100%
 		h2
 			position: absolute
 			bottom: 0
 			left: 0
 			text-align: right
-			background-color: rgba(9,37,80,0.8)
+			background-color: rgba(9,37,80,0.7)
 			display: block
-			width: 97%
-			padding: 8px 3% 8px 0
+			width: 448px
+			padding: 8px 12px 8px 0
 			color: rgba(255,255,255,0.9)
-
+		&:hover
+			-webkit-transition: 2s all
+			-moz-transition: 2s all
+			-ms-transition: 2s all
+			-o-transition: 2s all
+			transition: 2s all
+			background-size: 103%
+			h2
+				background-color: rgba(9,37,80,0.9)
+				color: rgba(255,255,255,0.9)
+				-webkit-transition: 0.35s all
+				-moz-transition: 0.35s all
+				-ms-transition: 0.35s all
+				-o-transition: 0.35s all
+				transition: 0.35s all
 	.show-perform
 		background-image: url(http://viator75.github.io/Demo/case_prototype/images/ask.jpg)
-		background-position: left top
 	.show-events
 		background-image: url(http://viator75.github.io/Demo/case_prototype/images/event.jpg)
-		background-position: left bottom
 	.show-services
 		background-image: url(http://viator75.github.io/Demo/case_prototype/images/service.jpg)
-		background-position: right top
 	.show-news
 		background-image: url(http://viator75.github.io/Demo/case_prototype/images/news.jpg)
-		background-position: right bottom
 
 
 

@@ -399,81 +399,91 @@ li:hover {
   margin-bottom: 2em;
   display: block;
   position: relative;
+  background-size: 100%;
 }
-/* line 148, ../sass/all.sass */
-#show .show-perform:hover, #show .show-events:hover, #show .show-services:hover, #show .show-news:hover {
-  -webkit-filter: blur(1px);
-  -moz-filter: blur(1px);
-  filter: blur(1px);
-}
-/* line 150, ../sass/all.sass */
+/* line 149, ../sass/all.sass */
 #show .show-perform h2, #show .show-events h2, #show .show-services h2, #show .show-news h2 {
   position: absolute;
   bottom: 0;
   left: 0;
   text-align: right;
-  background-color: rgba(9, 37, 80, 0.8);
+  background-color: rgba(9, 37, 80, 0.7);
   display: block;
-  width: 97%;
-  padding: 8px 3% 8px 0;
+  width: 448px;
+  padding: 8px 12px 8px 0;
   color: rgba(255, 255, 255, 0.9);
 }
-/* line 161, ../sass/all.sass */
+/* line 159, ../sass/all.sass */
+#show .show-perform:hover, #show .show-events:hover, #show .show-services:hover, #show .show-news:hover {
+  -webkit-transition: 2s all;
+  -moz-transition: 2s all;
+  -ms-transition: 2s all;
+  -o-transition: 2s all;
+  transition: 2s all;
+  background-size: 103%;
+}
+/* line 166, ../sass/all.sass */
+#show .show-perform:hover h2, #show .show-events:hover h2, #show .show-services:hover h2, #show .show-news:hover h2 {
+  background-color: rgba(9, 37, 80, 0.9);
+  color: rgba(255, 255, 255, 0.9);
+  -webkit-transition: 0.35s all;
+  -moz-transition: 0.35s all;
+  -ms-transition: 0.35s all;
+  -o-transition: 0.35s all;
+  transition: 0.35s all;
+}
+/* line 174, ../sass/all.sass */
 #show .show-perform {
   background-image: url(http://viator75.github.io/Demo/case_prototype/images/ask.jpg);
-  background-position: left top;
 }
-/* line 164, ../sass/all.sass */
+/* line 176, ../sass/all.sass */
 #show .show-events {
   background-image: url(http://viator75.github.io/Demo/case_prototype/images/event.jpg);
-  background-position: left bottom;
 }
-/* line 167, ../sass/all.sass */
+/* line 178, ../sass/all.sass */
 #show .show-services {
   background-image: url(http://viator75.github.io/Demo/case_prototype/images/service.jpg);
-  background-position: right top;
 }
-/* line 170, ../sass/all.sass */
+/* line 180, ../sass/all.sass */
 #show .show-news {
   background-image: url(http://viator75.github.io/Demo/case_prototype/images/news.jpg);
-  background-position: right bottom;
 }
 
-/* line 176, ../sass/all.sass */
+/* line 185, ../sass/all.sass */
 #contact {
   background-color: #092550;
   padding: 2em 0 4em 0;
   height: 40em;
 }
-/* line 180, ../sass/all.sass */
+/* line 189, ../sass/all.sass */
 #contact h1 {
   text-align: center;
   color: white;
 }
-/* line 183, ../sass/all.sass */
+/* line 192, ../sass/all.sass */
 #contact .place {
   float: left;
   margin: 60px 0 20px 0;
   width: 540px;
 }
-/* line 187, ../sass/all.sass */
+/* line 196, ../sass/all.sass */
 #contact .place h1 {
   text-align: left;
 }
-/* line 189, ../sass/all.sass */
+/* line 198, ../sass/all.sass */
 #contact .place p, #contact .place a, #contact .place address {
   color: white;
   font-size: 1.6em;
   font-weight: 400;
 }
-/* line 193, ../sass/all.sass */
+/* line 202, ../sass/all.sass */
 #contact iframe {
   float: left;
   margin: 60px 0 0 0;
   width: 418px;
 }
 
-/* line 200, ../sass/all.sass */
+/* line 209, ../sass/all.sass */
 .lateral {
   position: fixed;
   top: 30%;
@@ -483,7 +493,7 @@ li:hover {
   background-color: #ffc90b;
 }
 
-/* line 208, ../sass/all.sass */
+/* line 217, ../sass/all.sass */
 footer {
   background-color: #092550;
   clear: both;
