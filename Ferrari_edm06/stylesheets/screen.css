@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,45 +24,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -308,38 +308,38 @@ p {
     width: auto;
     margin: 60px 0;
   }
-  /* line 297, ../sass/screen.sass */
+  /* line 294, ../sass/screen.sass */
   .performance td {
     padding: 8px 16px;
     height: 54px;
   }
-  /* line 301, ../sass/screen.sass */
+  /* line 298, ../sass/screen.sass */
   .performance h3 {
     font-size: 20px;
     text-align: center;
     margin: 0;
   }
-  /* line 306, ../sass/screen.sass */
+  /* line 303, ../sass/screen.sass */
   .performance h4 {
     font-size: 16px;
     margin: 0;
     padding: 0;
   }
 
-  /* line 312, ../sass/screen.sass */
+  /* line 309, ../sass/screen.sass */
   .table_margin {
     display: inline-block;
     width: 50px;
   }
 
-  /* line 316, ../sass/screen.sass */
+  /* line 313, ../sass/screen.sass */
   .time_table {
     display: block;
     width: auto;
     margin: 0 0 40px 0;
     color: #bbbbbb;
   }
-  /* line 321, ../sass/screen.sass */
+  /* line 318, ../sass/screen.sass */
   .time_table td {
     font-size: 18px;
     width: 48px;
@@ -347,11 +347,11 @@ p {
     text-align: center;
     vertical-align: middle;
   }
-  /* line 327, ../sass/screen.sass */
+  /* line 324, ../sass/screen.sass */
   .time_table td p {
     margin: 0;
   }
-  /* line 329, ../sass/screen.sass */
+  /* line 326, ../sass/screen.sass */
   .time_table td .grayball, .time_table td .redball {
     border-radius: 50%;
     width: 16px;
@@ -363,24 +363,24 @@ p {
     margin: 0 auto;
     vertical-align: middle;
   }
-  /* line 339, ../sass/screen.sass */
+  /* line 336, ../sass/screen.sass */
   .time_table td .grayball {
     background-color: #a6a6a6;
     color: #646464;
   }
-  /* line 342, ../sass/screen.sass */
+  /* line 339, ../sass/screen.sass */
   .time_table td .redball {
     color: #e6e6e6;
     background-color: #e73124;
   }
-  /* line 345, ../sass/screen.sass */
+  /* line 342, ../sass/screen.sass */
   .time_table h3 {
     font-size: 22px;
     margin: 0;
     padding: 0;
   }
 
-  /* line 349, ../sass/screen.sass */
+  /* line 346, ../sass/screen.sass */
   .hero {
     background-image: url(http://ferraritaiwan-enews.com/edm06/images/01.jpg);
     min-height: 920px;
@@ -388,13 +388,13 @@ p {
     background-position: top;
     background-size: contain;
   }
-  /* line 355, ../sass/screen.sass */
+  /* line 352, ../sass/screen.sass */
   .hero .intro {
     width: 400px;
     float: right;
     margin: 60px 0 0 0;
   }
-  /* line 359, ../sass/screen.sass */
+  /* line 356, ../sass/screen.sass */
   .hero .intro h1, .hero .intro p {
     font-weight: bold;
     margin: 0;
@@ -406,14 +406,14 @@ p {
     border: none;
     text-align: left;
   }
-  /* line 369, ../sass/screen.sass */
+  /* line 366, ../sass/screen.sass */
   .hero .intro h1 {
     font-size: 35px;
     color: #e73124;
     line-height: 35px;
     letter-spacing: 2px;
   }
-  /* line 374, ../sass/screen.sass */
+  /* line 371, ../sass/screen.sass */
   .hero .intro p {
     font-size: 18px;
     color: white;
@@ -421,7 +421,7 @@ p {
     line-height: 21px;
     letter-spacing: 1px;
   }
-  /* line 380, ../sass/screen.sass */
+  /* line 377, ../sass/screen.sass */
   .hero .logo {
     height: 150px;
     width: 95px;
@@ -434,13 +434,13 @@ p {
     background-size: cover;
   }
 
-  /* line 392, ../sass/screen.sass */
+  /* line 389, ../sass/screen.sass */
   .footer {
     margin: 0 auto;
     max-width: 840px;
     background-color: #e73124;
   }
-  /* line 396, ../sass/screen.sass */
+  /* line 393, ../sass/screen.sass */
   .footer .logo {
     height: 200px;
     width: 128px;
@@ -451,13 +451,13 @@ p {
     background-position: center;
     background-size: contain;
   }
-  /* line 405, ../sass/screen.sass */
+  /* line 402, ../sass/screen.sass */
   .footer .contact {
     float: right;
     width: 620px;
     margin-top: 40px;
   }
-  /* line 409, ../sass/screen.sass */
+  /* line 406, ../sass/screen.sass */
   .footer .contact p {
     display: inline-block;
     line-height: 22px;
@@ -467,13 +467,13 @@ p {
     font-size: 16px;
     color: white;
   }
-  /* line 417, ../sass/screen.sass */
+  /* line 414, ../sass/screen.sass */
   .footer .contact a {
     font-size: 16px;
     line-height: 22px;
     color: white;
   }
-  /* line 421, ../sass/screen.sass */
+  /* line 418, ../sass/screen.sass */
   .footer .floor {
     width: 620px;
     float: right;
@@ -481,7 +481,7 @@ p {
     margin: 0 0 30px 0;
   }
 
-  /* line 446, ../sass/screen.sass */
+  /* line 443, ../sass/screen.sass */
   .iframe {
     height: 560px;
   }

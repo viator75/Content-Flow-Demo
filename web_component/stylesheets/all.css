@@ -105,31 +105,31 @@ section h1:first-child {
 
 /* line 49, ../sass/_color.sass */
 .primary-color-1 {
-  background-color: #ffeba4;
-  color: #d7a700;
+  background-color: #ff999d;
+  color: #cc0009;
 }
 
 /* line 52, ../sass/_color.sass */
 .primary-color-2 {
-  background-color: #ffda58;
-  color: #be9400;
+  background-color: #ff4d54;
+  color: #b30008;
 }
 
 /* line 55, ../sass/_color.sass */
 .primary-color-3 {
-  background-color: #ffc90b;
-  color: #715800;
+  background-color: #ff000b;
+  color: #660004;
 }
 
 /* line 58, ../sass/_color.sass */
 .primary-color-4 {
-  background-color: #be9400;
-  color: #fff6d7;
+  background-color: #b30008;
+  color: #ffccce;
 }
 
 /* line 61, ../sass/_color.sass */
 .primary-color-5 {
-  background-color: #715800;
+  background-color: #660004;
   color: white;
 }
 
@@ -339,8 +339,8 @@ p, .primary-line, .secondary-line, .helper-line, .danger-line, .disable-line, .p
 
 /* line 16, ../sass/_button.sass */
 .primary-line {
-  color: #ffc90b;
-  border: 1px solid #ffc90b;
+  color: #ff000b;
+  border: 1px solid #ff000b;
 }
 
 /* line 21, ../sass/_button.sass */
@@ -379,8 +379,8 @@ p, .primary-line, .secondary-line, .helper-line, .danger-line, .disable-line, .p
 
 /* line 54, ../sass/_button.sass */
 .primary-flat {
-  background-color: #ffc90b;
-  border: 1px solid #ffc90b;
+  background-color: #ff000b;
+  border: 1px solid #ff000b;
 }
 
 /* line 59, ../sass/_button.sass */
