@@ -878,3 +878,7 @@
 2014-06-13 16:50:57 overwrite stylesheets/all.css 
 2014-06-13 16:54:47 overwrite stylesheets/all.css 
 2014-06-13 17:03:45 overwrite stylesheets/all.css 
+2014-06-13 17:06:44     error sass/all.sass (Line 53: Invalid property: "width:" (no value).)
+2014-06-13 17:06:44 overwrite stylesheets/all.css 
+2014-06-13 17:06:55 overwrite stylesheets/all.css 
+2014-06-13 17:07:11 overwrite stylesheets/all.css 
