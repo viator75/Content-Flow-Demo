@@ -225,7 +225,7 @@ h1, h2, p, ul li, a, address {
 
 /* line 23, ../sass/_font.sass */
 h1 {
-  color: #252525;
+  color: #2f2f2f;
   font-size: 1.6em;
   line-height: 1.2em;
   font-weight: 700;
@@ -235,7 +235,7 @@ h1 {
 
 /* line 27, ../sass/_font.sass */
 h2 {
-  color: #252525;
+  color: #2f2f2f;
   font-size: 1em;
   line-height: 1.2em;
   font-weight: 500;
@@ -244,7 +244,7 @@ h2 {
 
 /* line 30, ../sass/_font.sass */
 p {
-  color: #252525;
+  color: #2f2f2f;
   font-size: 1em;
   line-height: 1.2em;
   font-weight: 300;
@@ -290,12 +290,15 @@ img {
   background-color: #ffd609;
   position: fixed;
   z-index: 10;
+  -webkit-box-shadow: 0px 2px 3px rgba(17, 17, 17, 0.2);
+  -moz-box-shadow: 0px 2px 3px rgba(17, 17, 17, 0.2);
+  box-shadow: 0px 2px 3px rgba(17, 17, 17, 0.2);
 }
-/* line 48, ../sass/all.sass */
+/* line 51, ../sass/all.sass */
 .fixedbar ul {
   height: 4em;
 }
-/* line 50, ../sass/all.sass */
+/* line 53, ../sass/all.sass */
 .fixedbar li {
   display: inline-block;
   float: left;
@@ -308,10 +311,10 @@ img {
   -o-transition: 0.3s all;
   transition: 0.3s all;
 }
-/* line 61, ../sass/all.sass */
+/* line 64, ../sass/all.sass */
 .fixedbar li:hover {
   color: black;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.5);
   -webkit-transition: 0.55s all;
   -moz-transition: 0.55s all;
   -ms-transition: 0.55s all;
@@ -319,7 +322,7 @@ img {
   transition: 0.55s all;
 }
 
-/* line 90, ../sass/all.sass */
+/* line 93, ../sass/all.sass */
 #about {
   padding-top: 88px;
   padding-bottom: 38px;
@@ -327,7 +330,7 @@ img {
   background-repeat: repeat;
   background-size: 16px;
 }
-/* line 97, ../sass/all.sass */
+/* line 100, ../sass/all.sass */
 #about .hero {
   background-image: url(http://viator75.github.io/Demo/case_prototype/images/hero.jpg);
   background-position: top;
@@ -337,68 +340,68 @@ img {
   margin: 0 auto 28px auto;
   display: block;
 }
-/* line 105, ../sass/all.sass */
+/* line 108, ../sass/all.sass */
 #about p, #about h1 {
   text-align: center;
 }
 
-/* line 109, ../sass/all.sass */
+/* line 112, ../sass/all.sass */
 #politic {
-  padding-top: 58px;
-  margin-top: -30px;
+  padding-top: 5em;
+  margin-top: -2em;
   height: 56em;
 }
-/* line 113, ../sass/all.sass */
+/* line 116, ../sass/all.sass */
 #politic .one-third-upper,
 #politic .one-third-lower {
   width: 100%;
   height: 184px;
 }
-/* line 117, ../sass/all.sass */
+/* line 120, ../sass/all.sass */
 #politic .one-third-upper {
   background-image: url(http://viator75.github.io/Demo/case_prototype/images/hero.jpg);
   background-position: 0 372px;
   background-size: cover;
 }
-/* line 121, ../sass/all.sass */
+/* line 124, ../sass/all.sass */
 #politic .one-third-lower {
   background-image: url(http://viator75.github.io/Demo/case_prototype/images/hero.jpg);
   background-position: bottom;
   background-size: cover;
   clear: both;
 }
-/* line 126, ../sass/all.sass */
+/* line 129, ../sass/all.sass */
 #politic h1 {
   text-align: center;
 }
-/* line 128, ../sass/all.sass */
+/* line 131, ../sass/all.sass */
 #politic .politic {
   width: 840px;
   display: block;
   height: auto;
   margin: 4em auto 3em auto;
 }
-/* line 133, ../sass/all.sass */
+/* line 136, ../sass/all.sass */
 #politic .politic ol {
   display: inline-block;
 }
-/* line 135, ../sass/all.sass */
+/* line 138, ../sass/all.sass */
 #politic .politic ol li {
   display: block;
   margin-bottom: 20px;
 }
 
-/* line 138, ../sass/all.sass */
+/* line 141, ../sass/all.sass */
 #show {
   background-image: url(http://viator75.github.io/Demo/case_prototype/images/pyramid.png);
   background-repeat: repeat;
   background-size: 16px;
   width: 100%;
-  height: 45em;
-  margin: 2em 0 0 0;
+  height: 46em;
+  margin: 3em 0 0 0;
   padding: 2em 0;
 }
-/* line 146, ../sass/all.sass */
+/* line 149, ../sass/all.sass */
 #show .link-show {
   box-model: border-box;
   display: inline-block;
@@ -406,25 +409,29 @@ img {
   float: left;
   text-align: center;
 }
-/* line 152, ../sass/all.sass */
+/* line 155, ../sass/all.sass */
 #show .show-perform, #show .show-events, #show .show-services, #show .show-news {
   height: 272px;
   width: 460px;
   margin-bottom: 2em;
   display: block;
   position: relative;
-  background-size: 100%;
+  background-size: 103%;
   background-position: top;
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
   -ms-transition: 0.5s all;
   -o-transition: 0.5s all;
   transition: 0.5s all;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 3px 5px rgba(17, 17, 17, 0.2);
+  -moz-box-shadow: 0px 3px 5px rgba(17, 17, 17, 0.2);
+  box-shadow: 0px 3px 5px rgba(17, 17, 17, 0.2);
 }
-/* line 165, ../sass/all.sass */
+/* line 172, ../sass/all.sass */
 #show .show-perform h2, #show .show-events h2, #show .show-services h2, #show .show-news h2 {
   position: absolute;
-  bottom: 0;
+  bottom: -36px;
   left: 0;
   text-align: right;
   background-color: rgba(9, 37, 80, 0.7);
@@ -433,78 +440,79 @@ img {
   padding: 8px 12px 8px 0;
   color: rgba(255, 255, 255, 0.9);
 }
-/* line 175, ../sass/all.sass */
-#show .show-perform:hover, #show .show-events:hover, #show .show-services:hover, #show .show-news:hover {
-  -webkit-transition: 1s all;
-  -moz-transition: 1s all;
-  -ms-transition: 1s all;
-  -o-transition: 1s all;
-  transition: 1s all;
-  background-size: 102%;
-}
 /* line 182, ../sass/all.sass */
-#show .show-perform:hover h2, #show .show-events:hover h2, #show .show-services:hover h2, #show .show-news:hover h2 {
-  background-color: rgba(9, 37, 80, 0.9);
-  color: rgba(255, 255, 255, 0.9);
-  -webkit-transition: 0.35s all;
-  -moz-transition: 0.35s all;
-  -ms-transition: 0.35s all;
-  -o-transition: 0.35s all;
-  transition: 0.35s all;
+#show .show-perform:hover, #show .show-events:hover, #show .show-services:hover, #show .show-news:hover {
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
+  background-size: 109%;
 }
-/* line 190, ../sass/all.sass */
+/* line 189, ../sass/all.sass */
+#show .show-perform:hover h2, #show .show-events:hover h2, #show .show-services:hover h2, #show .show-news:hover h2 {
+  bottom: 0;
+  background-color: rgba(9, 37, 80, 0.8);
+  color: rgba(255, 255, 255, 0.9);
+  -webkit-transition: 0.25s all;
+  -moz-transition: 0.25s all;
+  -ms-transition: 0.25s all;
+  -o-transition: 0.25s all;
+  transition: 0.25s all;
+}
+/* line 198, ../sass/all.sass */
 #show .show-perform {
   background-image: url(http://viator75.github.io/Demo/case_prototype/images/ask.jpg);
 }
-/* line 192, ../sass/all.sass */
+/* line 200, ../sass/all.sass */
 #show .show-events {
   background-image: url(http://viator75.github.io/Demo/case_prototype/images/event.jpg);
 }
-/* line 194, ../sass/all.sass */
+/* line 202, ../sass/all.sass */
 #show .show-services {
   background-image: url(http://viator75.github.io/Demo/case_prototype/images/service.jpg);
 }
-/* line 196, ../sass/all.sass */
+/* line 204, ../sass/all.sass */
 #show .show-news {
   background-image: url(http://viator75.github.io/Demo/case_prototype/images/news.jpg);
 }
 
-/* line 201, ../sass/all.sass */
-#contact {
-  background-color: #092550;
-  padding: 100px 0 4em 0;
-  height: 40em;
-}
-/* line 205, ../sass/all.sass */
-#contact h1 {
-  margin-top: -40px;
-  text-align: center;
-  color: white;
-}
 /* line 209, ../sass/all.sass */
+#contact {
+  background-color: whitesmoke;
+  padding: 3em 0 4em 0;
+  margin-top: -1em;
+  height: 36em;
+}
+/* line 214, ../sass/all.sass */
+#contact h1 {
+  text-align: center;
+}
+/* line 216, ../sass/all.sass */
 #contact .place {
   float: left;
-  margin: 60px 0 20px 0;
-  width: 540px;
+  margin: 16px 40px 20px 0;
+  width: 460px;
 }
-/* line 213, ../sass/all.sass */
+/* line 220, ../sass/all.sass */
 #contact .place h1 {
   text-align: left;
 }
-/* line 215, ../sass/all.sass */
+/* line 222, ../sass/all.sass */
 #contact .place p, #contact .place a, #contact .place address {
-  color: white;
-  font-size: 1.6em;
+  font-size: 1.2em;
   font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.2em;
 }
-/* line 219, ../sass/all.sass */
+/* line 227, ../sass/all.sass */
 #contact iframe {
   float: left;
-  margin: 60px 0 0 0;
-  width: 418px;
+  margin: 32px 0 0 0;
+  width: 460px;
 }
 
-/* line 226, ../sass/all.sass */
+/* line 234, ../sass/all.sass */
 .lateral {
   position: fixed;
   top: 30%;
@@ -514,8 +522,11 @@ img {
   background-color: #ffc90b;
 }
 
-/* line 234, ../sass/all.sass */
+/* line 242, ../sass/all.sass */
 footer {
-  background-color: #092550;
+  background-color: #e6e6e6;
   clear: both;
+  height: 20px;
+  padding: 16px 0 12px 0;
+  text-align: center;
 }

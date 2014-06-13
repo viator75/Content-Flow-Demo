@@ -45,6 +45,9 @@ br
 	background-color: #ffd609
 	position: fixed
 	z-index: 10
+	-webkit-box-shadow: 0px 2px 3px rgba(17,17,17,0.2)
+	-moz-box-shadow: 0px 2px 3px rgba(17,17,17,0.2)
+	box-shadow: 0px 2px 3px rgba(17,17,17,0.2)
 	ul
 		height: 4em
 	li
@@ -60,7 +63,7 @@ br
 		transition: 0.3s all
 		&:hover
 			color: #000000
-			background-color: rgba(255,255,255,0.3)
+			background-color: rgba(255,255,255,0.5)
 			-webkit-transition: 0.55s all
 			-moz-transition: 0.55s all
 			-ms-transition: 0.55s all
@@ -107,8 +110,8 @@ br
 
 
 #politic
-	padding-top: 58px
-	margin-top: -30px
+	padding-top: 5em
+	margin-top: -2em
 	height: 56em
 	.one-third-upper,
 	.one-third-lower
@@ -140,8 +143,8 @@ br
 	background-repeat: repeat
 	background-size: 16px
 	width: 100%
-	height: 45em
-	margin: 2em 0 0 0
+	height: 46em
+	margin: 3em 0 0 0
 	padding: 2em 0 
 	.link-show
 		box-model: border-box
@@ -155,16 +158,20 @@ br
 		margin-bottom: 2em
 		display: block
 		position: relative
-		background-size: 100%
+		background-size: 103%
 		background-position: top
 		-webkit-transition: 0.5s all
 		-moz-transition: 0.5s all
 		-ms-transition: 0.5s all
 		-o-transition: 0.5s all
 		transition: 0.5s all
+		overflow: hidden
+		-webkit-box-shadow: 0px 3px 5px rgba(17,17,17,0.2)
+		-moz-box-shadow: 0px 3px 5px rgba(17,17,17,0.2)
+		box-shadow: 0px 3px 5px rgba(17,17,17,0.2)
 		h2
 			position: absolute
-			bottom: 0
+			bottom: -36px
 			left: 0
 			text-align: right
 			background-color: rgba(9,37,80,0.7)
@@ -173,20 +180,21 @@ br
 			padding: 8px 12px 8px 0
 			color: rgba(255,255,255,0.9)
 		&:hover
-			-webkit-transition: 1s all
-			-moz-transition: 1s all
-			-ms-transition: 1s all
-			-o-transition: 1s all
-			transition: 1s all
-			background-size: 102%
+			-webkit-transition: 0.1s
+			-moz-transition: 0.1s
+			-ms-transition: 0.1s
+			-o-transition: 0.1s
+			transition: 0.1s
+			background-size: 109%
 			h2
-				background-color: rgba(9,37,80,0.9)
+				bottom: 0
+				background-color: rgba(9,37,80,0.8)
 				color: rgba(255,255,255,0.9)
-				-webkit-transition: 0.35s all
-				-moz-transition: 0.35s all
-				-ms-transition: 0.35s all
-				-o-transition: 0.35s all
-				transition: 0.35s all
+				-webkit-transition: 0.25s all
+				-moz-transition: 0.25s all
+				-ms-transition: 0.25s all
+				-o-transition: 0.25s all
+				transition: 0.25s all
 	.show-perform
 		background-image: url(http://viator75.github.io/Demo/case_prototype/images/ask.jpg)
 	.show-events
@@ -199,27 +207,27 @@ br
 
 
 #contact
-	background-color: rgba(9,37,80, 1)
-	padding: 100px 0 4em 0
-	height: 40em
+	background-color: rgba(245,245,245, 1)
+	padding: 3em 0 4em 0
+	margin-top: -1em
+	height: 36em
 	h1
-		margin-top: -40px
 		text-align: center
-		color: white
 	.place
 		float: left
-		margin: 60px 0 20px 0
-		width: 540px
+		margin: 16px 40px 20px 0
+		width: 460px
 		h1
 			text-align: left
 		p, a, address
-			color: white
-			font-size: 1.6em
+			font-size: 1.2em
 			font-weight: 400
+			letter-spacing: 1px
+			line-height: 1.2em
 	iframe
 		float: left
-		margin: 60px 0 0 0
-		width: 418px
+		margin: 32px 0 0 0
+		width: 460px
 
 
 
@@ -232,7 +240,10 @@ br
 	background-color: $primary-color-3
 
 footer
-	background-color: rgba(9,37,80, 1)
+	background-color: #e6e6e6
 	clear: both
+	height: 20px
+	padding: 16px 0 12px 0
+	text-align: center
 
 
