@@ -3,7 +3,7 @@
 @import color
 @import font
 @import compass/css3/filter
-$width: 100%
+$width: 960px
 
 
 
@@ -48,9 +48,9 @@ br
 	-webkit-box-shadow: 0px 2px 3px rgba(17,17,17,0.2)
 	-moz-box-shadow: 0px 2px 3px rgba(17,17,17,0.2)
 	box-shadow: 0px 2px 3px rgba(17,17,17,0.2)
-	ul
+	.ul
 		height: 4em
-	li
+	.li
 		display: inline-block
 		float: left
 		width: $width/ 7
@@ -63,27 +63,32 @@ br
 		transition: 0.3s all
 		&:hover
 			color: #000000
-			background-color: rgba(255,255,255,0.5)
+			background-color: #fee35e
 			-webkit-transition: 0.55s all
 			-moz-transition: 0.55s all
 			-ms-transition: 0.55s all
 			-o-transition: 0.55s all
 			transition: 0.55s all
-// .drop
-// 	position: relative
-// 	ul
-// 		opacity: 0
-// 		position: absolute
-// 		top: 16px
-// 		left: 0
-// 	&:hover > ul
-// 		opacity: 1
-// 		display: block
-// 		-webkit-transition: all 0.3s
-// 		-moz-transition: all 0.3s
-// 		-ms-transition: all 0.3s
-// 		-o-transition: all 0.3s
-// 		transition: all 0.3s
+.drop
+	position: relative
+	.drop-ul
+		opacity: 0
+		position: absolute
+		top: 4em
+		left: 0
+		width: $width/ 7
+		background-color: #fee35e
+
+	&:hover > .drop-ul
+		opacity: 1
+		display: block
+		-webkit-transition: all 0.3s
+		-moz-transition: all 0.3s
+		-ms-transition: all 0.3s
+		-o-transition: all 0.3s
+		transition: all 0.3s
+	.drop-li:hover
+		background-color: #ffd609
 
 
 
@@ -205,7 +210,6 @@ br
 		background-image: url(http://viator75.github.io/Demo/case_prototype/images/news.jpg)
 
 
-
 #contact
 	background-color: rgba(245,245,245, 1)
 	padding: 2em 0 4em 0
@@ -228,16 +232,9 @@ br
 		float: left
 		margin: 32px 0 0 0
 		width: 460px
-
-
-
-.lateral
-	position: fixed
-	top: 30%
-	left: 0
-	height: 10em
-	width: 10em
-	background-color: $primary-color-3
+		-webkit-box-shadow: 1px 2px 3px rgba(17,17,17,0.2)
+		-moz-box-shadow: 1px 2px 3px rgba(17,17,17,0.2)
+		box-shadow: 1px 2px 3px rgba(17,17,17,0.2)
 
 footer
 	background-color: #e6e6e6
