@@ -277,3 +277,5 @@
 2014-06-17 16:51:50 overwrite stylesheets/cover.css 
 2014-06-17 16:52:06 overwrite stylesheets/cover.css 
 2014-06-17 16:52:33 overwrite stylesheets/cover.css 
+2014-06-17 16:58:08 overwrite stylesheets/cover.css 
+2014-06-17 16:58:13 overwrite stylesheets/cover.css 

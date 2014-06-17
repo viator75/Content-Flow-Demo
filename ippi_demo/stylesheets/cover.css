@@ -160,43 +160,41 @@ h2 {
   animation: click-me 6s infinite ease-in;
 }
 
-/* Chrome, Safari, Opera */
 @-webkit-keyframes click-me {
-  /* line 105, ../sass/cover.sass */
+  /* line 104, ../sass/cover.sass */
   0% {
     background: rgba(255, 255, 255, 0.2);
   }
 
-  /* line 107, ../sass/cover.sass */
+  /* line 106, ../sass/cover.sass */
   50% {
     background: rgba(255, 255, 255, 0.5);
   }
 
-  /* line 109, ../sass/cover.sass */
+  /* line 108, ../sass/cover.sass */
   100% {
     background: rgba(255, 255, 255, 0.2);
   }
 }
 
-/* Standard syntax */
-@keyframes myfirst {
-  /* line 114, ../sass/cover.sass */
+@keyframes click-me {
+  /* line 112, ../sass/cover.sass */
   0% {
     background: rgba(255, 255, 255, 0.2);
+  }
+
+  /* line 114, ../sass/cover.sass */
+  50% {
+    background: rgba(255, 255, 255, 0.5);
   }
 
   /* line 116, ../sass/cover.sass */
-  50% {
-    background: rgba(255, 255, 255, 0.5);
-  }
-
-  /* line 118, ../sass/cover.sass */
   100% {
     background: rgba(255, 255, 255, 0.2);
   }
 }
 
-/* line 128, ../sass/cover.sass */
+/* line 126, ../sass/cover.sass */
 .contact {
   position: fixed;
   bottom: 0;
@@ -206,7 +204,7 @@ h2 {
   border: 1px solid white;
 }
 
-/* line 145, ../sass/cover.sass */
+/* line 143, ../sass/cover.sass */
 .sticky {
   position: absolute;
   bottom: 0;
@@ -214,24 +212,24 @@ h2 {
   width: 100%;
 }
 
-/* line 150, ../sass/cover.sass */
+/* line 148, ../sass/cover.sass */
 .germany-black, .germany-yellow, .germany-red {
   float: left;
   width: 33.33333%;
   height: 6px;
 }
 
-/* line 155, ../sass/cover.sass */
+/* line 153, ../sass/cover.sass */
 .germany-black {
   border-bottom: 6px solid black;
 }
 
-/* line 157, ../sass/cover.sass */
+/* line 155, ../sass/cover.sass */
 .germany-red {
   border-bottom: 6px solid #dc0a17;
 }
 
-/* line 159, ../sass/cover.sass */
+/* line 157, ../sass/cover.sass */
 .germany-yellow {
   border-bottom: 6px solid #fece2f;
 }
