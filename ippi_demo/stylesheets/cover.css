@@ -278,11 +278,11 @@ i {
   .background-show {
     position: fixed;
     z-index: 10;
-    width: 110%;
+    width: 120%;
     min-width: 110%;
     height: auto;
-    min-height: 110%;
-    margin: -4px;
+    min-height: 120%;
+    margin: -8px;
     -webkit-filter: blur(3px) grayscale(5%);
     -moz-filter: blur(3px) grayscale(5%);
     filter: blur(3px) grayscale(5%);

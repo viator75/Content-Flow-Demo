@@ -706,3 +706,6 @@
 2014-06-17 22:27:16 identical stylesheets/cover.css 
 2014-06-17 22:31:41 overwrite stylesheets/cover.css 
 2014-06-17 22:33:42 overwrite stylesheets/cover.css 
+2014-06-17 22:34:49 overwrite stylesheets/cover.css 
+2014-06-17 22:35:06 overwrite stylesheets/cover.css 
+2014-06-17 22:35:29 overwrite stylesheets/cover.css 
