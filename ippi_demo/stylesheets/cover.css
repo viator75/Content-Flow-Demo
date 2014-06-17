@@ -344,20 +344,21 @@ i {
     display: block;
     text-align: center;
     margin-left: 4px;
+    margin-bottom: 4px;
     color: rgba(255, 255, 255, 0.7);
   }
 
-  /* line 240, ../sass/cover.sass */
+  /* line 241, ../sass/cover.sass */
   .germany-black {
     border-bottom: 4px solid black;
   }
 
-  /* line 242, ../sass/cover.sass */
+  /* line 243, ../sass/cover.sass */
   .germany-red {
     border-bottom: 4px solid #dc0a17;
   }
 
-  /* line 244, ../sass/cover.sass */
+  /* line 245, ../sass/cover.sass */
   .germany-yellow {
     border-bottom: 4px solid #fece2f;
   }
