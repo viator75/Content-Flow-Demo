@@ -328,7 +328,7 @@ i {
 
   /* line 226, ../sass/cover.sass */
   a {
-    font-size: 1.2em;
+    font-size: 1.6em;
     display: inline-block;
   }
   /* line 229, ../sass/cover.sass */
@@ -349,16 +349,21 @@ i {
   }
 
   /* line 241, ../sass/cover.sass */
+  .fa-map-marker {
+    margin-left: -2px;
+  }
+
+  /* line 243, ../sass/cover.sass */
   .germany-black {
     border-bottom: 4px solid black;
   }
 
-  /* line 243, ../sass/cover.sass */
+  /* line 245, ../sass/cover.sass */
   .germany-red {
     border-bottom: 4px solid #dc0a17;
   }
 
-  /* line 245, ../sass/cover.sass */
+  /* line 247, ../sass/cover.sass */
   .germany-yellow {
     border-bottom: 4px solid #fece2f;
   }
