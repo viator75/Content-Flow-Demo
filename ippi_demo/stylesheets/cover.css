@@ -89,9 +89,9 @@ a {
   background-position: center center;
   background-size: cover;
   background-color: black;
-  -webkit-filter: blur(2px);
-  -moz-filter: blur(2px);
-  filter: blur(2px);
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  filter: blur(3px);
 }
 
 /* line 34, ../sass/cover.sass */
@@ -283,14 +283,17 @@ i {
     height: auto;
     min-height: 108%;
     margin: -10px;
+    -webkit-filter: blur(3px) grayscale(5%);
+    -moz-filter: blur(3px) grayscale(5%);
+    filter: blur(3px) grayscale(5%);
   }
 
-  /* line 199, ../sass/cover.sass */
+  /* line 200, ../sass/cover.sass */
   .wrapper {
     background-color: rgba(0, 0, 0, 0.4);
   }
 
-  /* line 201, ../sass/cover.sass */
+  /* line 202, ../sass/cover.sass */
   .logo {
     float: left;
     width: 84px;
@@ -298,7 +301,7 @@ i {
     margin: 10px 0 0 10px;
   }
 
-  /* line 206, ../sass/cover.sass */
+  /* line 207, ../sass/cover.sass */
   .ippi {
     float: left;
     margin: 12px 0 0 10px;
@@ -306,7 +309,7 @@ i {
     line-height: 1.2em;
   }
 
-  /* line 214, ../sass/cover.sass */
+  /* line 215, ../sass/cover.sass */
   .course .center-button a {
     display: block;
     color: white;
@@ -315,7 +318,7 @@ i {
     padding: 20px 24px 16px 24px;
   }
 
-  /* line 220, ../sass/cover.sass */
+  /* line 221, ../sass/cover.sass */
   .contact {
     position: fixed;
     bottom: 8px;
@@ -323,17 +326,17 @@ i {
     z-index: 30;
   }
 
-  /* line 225, ../sass/cover.sass */
+  /* line 226, ../sass/cover.sass */
   a {
     font-size: 1.2em;
     display: inline-block;
   }
-  /* line 228, ../sass/cover.sass */
+  /* line 229, ../sass/cover.sass */
   a p {
     display: none;
   }
 
-  /* line 231, ../sass/cover.sass */
+  /* line 232, ../sass/cover.sass */
   i {
     font-size: 1.2em;
     width: 36px;
@@ -344,17 +347,17 @@ i {
     color: rgba(255, 255, 255, 0.7);
   }
 
-  /* line 239, ../sass/cover.sass */
+  /* line 240, ../sass/cover.sass */
   .germany-black {
     border-bottom: 4px solid black;
   }
 
-  /* line 241, ../sass/cover.sass */
+  /* line 242, ../sass/cover.sass */
   .germany-red {
     border-bottom: 4px solid #dc0a17;
   }
 
-  /* line 243, ../sass/cover.sass */
+  /* line 244, ../sass/cover.sass */
   .germany-yellow {
     border-bottom: 4px solid #fece2f;
   }
