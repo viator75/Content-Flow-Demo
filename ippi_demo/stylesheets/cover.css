@@ -79,8 +79,8 @@ a {
 .background-show {
   position: fixed;
   z-index: 10;
-  width: 105%;
-  min-width: 105%;
+  width: 103%;
+  min-width: 103%;
   height: auto;
   min-height: 103%;
   margin: -10px;
