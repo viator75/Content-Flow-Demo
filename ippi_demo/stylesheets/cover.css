@@ -64,7 +64,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 9, ../sass/cover.sass */
-h1, h2 {
+h1, h2, p {
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -156,8 +156,8 @@ h2 {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.3);
   border: 2px solid rgba(255, 255, 255, 0.6);
-  -webkit-animation: click-me 6s infinite ease-in;
-  animation: click-me 6s infinite ease-in;
+  -webkit-animation: click-me 5s infinite ease-in;
+  animation: click-me 5s infinite ease-in;
 }
 
 @-webkit-keyframes click-me {
@@ -200,11 +200,10 @@ h2 {
   bottom: 0;
   right: 6px;
   width: 300px;
-  height: 80px;
-  border: 1px solid white;
+  height: 96px;
 }
 
-/* line 143, ../sass/cover.sass */
+/* line 142, ../sass/cover.sass */
 .sticky {
   position: absolute;
   bottom: 0;
@@ -212,24 +211,24 @@ h2 {
   width: 100%;
 }
 
-/* line 148, ../sass/cover.sass */
+/* line 147, ../sass/cover.sass */
 .germany-black, .germany-yellow, .germany-red {
   float: left;
   width: 33.33333%;
   height: 6px;
 }
 
-/* line 153, ../sass/cover.sass */
+/* line 152, ../sass/cover.sass */
 .germany-black {
   border-bottom: 6px solid black;
 }
 
-/* line 155, ../sass/cover.sass */
+/* line 154, ../sass/cover.sass */
 .germany-red {
   border-bottom: 6px solid #dc0a17;
 }
 
-/* line 157, ../sass/cover.sass */
+/* line 156, ../sass/cover.sass */
 .germany-yellow {
   border-bottom: 6px solid #fece2f;
 }
