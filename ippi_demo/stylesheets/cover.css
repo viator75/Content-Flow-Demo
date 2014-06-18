@@ -165,7 +165,7 @@ a {
   width: 300px;
   height: auto;
   margin: 0 auto;
-  padding: 24px 28px 20px 28px;
+  padding: 18px 24px 16px 18px;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.2);
   border: 2px solid rgba(255, 255, 255, 0.4);
@@ -315,7 +315,7 @@ i {
     color: white;
     font-size: 1.2em;
     width: 240px;
-    padding: 20px 24px 16px 24px;
+    padding: 20px 12px 18px 12px;
   }
 
   /* line 221, ../sass/cover.sass */
