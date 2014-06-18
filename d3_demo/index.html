@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title></title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/stylesheets/screen.css">
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+</head>
+<body>
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<!-- Add your site or application content here -->
+
+<div class="container">
+		<svg width="100%" height="160px" fill="url(#Gradient1)">
+			<defs>
+				<radialGradient id="Gradient1" cy="60%" fx="45%" fy="45%" r="2">
+					<stop offset="0%" stop-color="#48afc1" />
+					<stop offset="10%" stop-color="#b4c63b" />
+					<stop offset="20%" stop-color="#ef5b2b" />
+					<stop offset="30%" stop-color="#503969" />
+					<stop offset="40%" stop-color="#ab6294" />
+					<stop offset="50%" stop-color="#1cb98f" /> 
+					<stop offset="60%" stop-color="#48afc1" />
+					<stop offset="70%" stop-color="#b4c63b" />
+					<stop offset="80%" stop-color="#ef5b2b" />
+					<stop offset="90%" stop-color="#503969" />
+					<stop offset="100%" stop-color="#ab6294" />
+				</radialGradient>
+			</defs>
+		<text class="text" x="0" y="60%">D3.js Demo</text>
+		</svg>
+		<div class="main">
+			<script type="text/javascript">
+
+			//Width and height
+			var w = 600;
+			var h = 250;
+			
+			var dataset = [ 15, 10, 13, 52, 61, 45, 27, 28, 45, 63,
+							21, 42, 25, 23, 48, 47, 16, 18, 23, 35 ];
+
+			var xScale = d3.scale.ordinal()
+							.domain(d3.range(dataset.length))
+							.rangeRoundBands([0, w], 0);
+
+			var yScale = d3.scale.linear()
+							.domain([0, d3.max(dataset)])
+							.range([0, h]);
+
+			var svg = d3.select(".main")
+						.append("svg")
+						.attr("width", w)
+						.attr("height", h);
+
+			svg.selectAll("rect")
+			   .data(dataset)
+			   .enter()
+			   .append("rect")
+			   .attr("x", function(d, i) {
+			   		return xScale(i);
+			   })
+			   .attr("y", function(d) {
+			   		return h - yScale(d);
+			   })
+			   .attr("width", xScale.rangeBand())
+			   .attr("height", function(d) {
+			   		return yScale(d);
+			   })
+			   .attr("fill", function(d) {
+					return "rgb(105, 180, " + (d * 5) + ")";
+			   })
+			   .on("mouseover", function() {
+			   		d3.select(this)
+			   			.attr("fill", "rgba(225, 230, 250, 1)");
+			   })
+			   .on("mouseout", function(d) {
+				   d3.select(this)
+				   		.transition()
+				   		.duration(250)
+						.attr("fill", "rgb(105, 180, " + (d * 5) + ")");
+			   })
+			   .on("click", function() {
+			   		sortBars();
+			   });
+
+			//Create labels
+			svg.selectAll("text")
+			   .data(dataset)
+			   .enter()
+			   .append("text")
+			   .text(function(d) {
+			   		return d;
+			   })
+			   .attr("text-anchor", "middle")
+			   .attr("x", function(d, i) {
+			   		return xScale(i) + xScale.rangeBand() / 2;
+			   })
+			   .attr("y", function(d) {
+			   		return h - yScale(d) + 14;
+			   })
+			   .attr("font-family", "sans-serif")
+			   .attr("font-size", "12px")
+			   .attr("fill", "white");
+			
+			//Define sort function
+			var sortBars = function() {
+
+				svg.selectAll("rect")
+				   .sort(function(a, b) {
+					   return d3.ascending(a, b);
+				   	})
+				   .transition()
+				   .duration(1000)
+				   .attr("x", function(d, i) {
+				   		return xScale(i);
+				   });
+				svg.selectAll("text")
+				    .sort(function(a, b) {
+				 	   return d3.ascending(a, b);
+				    	})
+				    .transition()
+				    .duration(800)
+				    .attr("x", function(d, i) {
+				    		return xScale(i);
+				    });
+
+			};
+
+			
+			</script>
+		</div>
+		<p class="p">Demo by <a href="http://www.fontech.com.tw">Fontech</a>.</p>
+	</div>
+</body>
+</html>
