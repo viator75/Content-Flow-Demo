@@ -66,16 +66,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 4, ../sass/course.sass */
 body {
   position: relative;
+  background-color: rgba(40, 40, 40, 0.1);
+  color: #2c2c2c;
 }
 
-/* line 6, ../sass/course.sass */
+/* line 8, ../sass/course.sass */
 .container {
   max-width: 940px;
   margin: 0 auto;
   height: auto;
 }
 
-/* line 12, ../sass/course.sass */
+/* line 14, ../sass/course.sass */
 h3 {
   text-align: center;
   font-size: 1.5em;
@@ -83,17 +85,17 @@ h3 {
   padding-bottom: 40px;
 }
 
-/* line 17, ../sass/course.sass */
+/* line 19, ../sass/course.sass */
 a {
   text-decoration: none;
 }
 
-/* line 19, ../sass/course.sass */
+/* line 21, ../sass/course.sass */
 i {
   width: 24px;
 }
 
-/* line 25, ../sass/course.sass */
+/* line 27, ../sass/course.sass */
 .hero {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -109,10 +111,10 @@ i {
   background-size: cover;
   background-color: black;
   background-attachment: fixed;
-  margin: 0 0 -60px 0;
+  margin: 0 0 -4em 0;
 }
 
-/* line 40, ../sass/course.sass */
+/* line 42, ../sass/course.sass */
 .hero-logo {
   float: left;
   width: 120px;
@@ -124,7 +126,7 @@ i {
   overflow: hidden;
 }
 
-/* line 49, ../sass/course.sass */
+/* line 51, ../sass/course.sass */
 .hero-logo-title {
   width: 100%;
   height: 1px;
@@ -132,8 +134,9 @@ i {
   overflow: hidden;
 }
 
-/* line 54, ../sass/course.sass */
+/* line 56, ../sass/course.sass */
 .hero-title {
+  color: white;
   float: left;
   margin: 0 0 0 20px;
   font-size: 1em;
@@ -142,40 +145,61 @@ i {
   vertical-align: baseline;
 }
 
-/* line 71, ../sass/course.sass */
+/* line 64, ../sass/course.sass */
+.social {
+  float: right;
+  width: 120px;
+}
+/* line 67, ../sass/course.sass */
+.social i {
+  width: 40px;
+  display: inline-block;
+}
+
+/* line 81, ../sass/course.sass */
 nav {
   width: 100%;
-  height: 60px;
+  height: 64px;
+  background-color: rgba(3, 46, 91, 0.6);
 }
-/* line 74, ../sass/course.sass */
+/* line 85, ../sass/course.sass */
 nav ul {
   float: right;
 }
-/* line 76, ../sass/course.sass */
+/* line 87, ../sass/course.sass */
 nav li {
-  padding: 1em 0.5em;
+  padding: 1.5em 1.2em;
   display: inline-block;
 }
-/* line 81, ../sass/course.sass */
+/* line 90, ../sass/course.sass */
+nav li:hover {
+  background-color: rgba(3, 46, 91, 0.8);
+}
+/* line 92, ../sass/course.sass */
 nav a {
+  color: white;
   height: 100%;
 }
 
-/* line 83, ../sass/course.sass */
+/* line 95, ../sass/course.sass */
 .nav-program {
   float: left;
+  color: white;
+  font-size: 1.6em;
+  display: block;
+  padding: 0.75em 0;
 }
 
-/* line 93, ../sass/course.sass */
+/* line 109, ../sass/course.sass */
 .vision {
   max-width: 680px;
 }
-/* line 96, ../sass/course.sass */
+/* line 112, ../sass/course.sass */
 .vision ol li {
   list-style-type: decimal;
 }
 
-/* line 108, ../sass/course.sass */
+/* line 124, ../sass/course.sass */
 .leader {
   color: white;
   position: relative;
@@ -186,7 +210,7 @@ nav a {
   background-color: black;
   background-attachment: fixed;
 }
-/* line 118, ../sass/course.sass */
+/* line 134, ../sass/course.sass */
 .leader .leader-filter {
   display: block;
   padding: 4em 0;
@@ -195,17 +219,17 @@ nav a {
   background-color: rgba(3, 46, 91, 0.8);
 }
 
-/* line 125, ../sass/course.sass */
+/* line 141, ../sass/course.sass */
 .leader-title {
   font-size: 1.2em;
 }
 
-/* line 127, ../sass/course.sass */
+/* line 143, ../sass/course.sass */
 .host {
   font-size: 1.6em;
 }
 
-/* line 139, ../sass/course.sass */
+/* line 155, ../sass/course.sass */
 .team-speaker {
   float: left;
   height: 180px;
@@ -215,7 +239,7 @@ nav a {
   box-sizing: border-box;
 }
 
-/* line 158, ../sass/course.sass */
+/* line 174, ../sass/course.sass */
 .h2-program {
   clear: both;
   font-size: 2em;
@@ -225,33 +249,33 @@ nav a {
   background-color: #032e5b;
 }
 
-/* line 165, ../sass/course.sass */
+/* line 181, ../sass/course.sass */
 .lesson {
   max-width: 620px;
   padding-bottom: 4em;
 }
 
-/* line 168, ../sass/course.sass */
+/* line 184, ../sass/course.sass */
 .lesson-series {
   font-size: 1.4em;
   border-bottom: 1px solid #032e5b;
   margin-bottom: 20px;
 }
 
-/* line 172, ../sass/course.sass */
+/* line 188, ../sass/course.sass */
 .lesson-name {
   font-size: 1.2em;
   margin-bottom: 8px;
 }
 
-/* line 175, ../sass/course.sass */
+/* line 191, ../sass/course.sass */
 .lesson-content {
   font-size: 1em;
   margin-bottom: 16px;
   line-height: 1.2;
 }
 
-/* line 181, ../sass/course.sass */
+/* line 197, ../sass/course.sass */
 .download {
   text-align: center;
   border-radius: 16px;
@@ -261,7 +285,7 @@ nav a {
   display: block;
 }
 
-/* line 198, ../sass/course.sass */
+/* line 214, ../sass/course.sass */
 .register {
   color: white;
   position: relative;
@@ -272,7 +296,7 @@ nav a {
   background-color: black;
   background-attachment: fixed;
 }
-/* line 207, ../sass/course.sass */
+/* line 223, ../sass/course.sass */
 .register .register-filter {
   display: block;
   padding: 0em 0 4em 0;
@@ -281,28 +305,28 @@ nav a {
   background-color: rgba(20, 20, 20, 0.7);
 }
 
-/* line 226, ../sass/course.sass */
+/* line 242, ../sass/course.sass */
 footer {
   color: white;
   background-color: #032e5b;
-  height: 6em;
-  padding-top: 12em;
-  overflow: hidden;
+  height: 5em;
+  padding-top: 13em;
 }
 
-/* line 232, ../sass/course.sass */
+/* line 247, ../sass/course.sass */
 .footer-logo {
   float: right;
   width: 120px;
-  height: 114px;
+  height: 76px;
+  margin: -10px 0 0 0;
   background-image: url(../images/ippi_taipei.jpg);
   background-repeat: no-repeat;
   background-position: top;
-  background-size: contain;
+  background-size: cover;
   overflow: hidden;
 }
 
-/* line 241, ../sass/course.sass */
+/* line 257, ../sass/course.sass */
 .footer-logo-title {
   width: 100%;
   height: 1px;
@@ -310,15 +334,15 @@ footer {
   overflow: hidden;
 }
 
-/* line 246, ../sass/course.sass */
+/* line 262, ../sass/course.sass */
 .footer-contact {
   float: right;
   width: 320px;
-  height: 114px;
+  height: 76px;
   margin: 0 0 0 20px;
 }
 
-/* line 251, ../sass/course.sass */
+/* line 267, ../sass/course.sass */
 .sticky {
   position: absolute;
   bottom: 0;
@@ -327,24 +351,24 @@ footer {
   z-index: 20;
 }
 
-/* line 257, ../sass/course.sass */
+/* line 273, ../sass/course.sass */
 .germany-black, .germany-yellow, .germany-red {
   float: left;
   width: 33.33333%;
   height: 4px;
 }
 
-/* line 261, ../sass/course.sass */
+/* line 277, ../sass/course.sass */
 .germany-black {
   border-bottom: 4px solid black;
 }
 
-/* line 263, ../sass/course.sass */
+/* line 279, ../sass/course.sass */
 .germany-red {
   border-bottom: 4px solid #dc0a17;
 }
 
-/* line 265, ../sass/course.sass */
+/* line 281, ../sass/course.sass */
 .germany-yellow {
   border-bottom: 4px solid #fece2f;
 }
