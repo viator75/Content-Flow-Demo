@@ -1,6 +1,251 @@
-// Welcome to Compass.
-//  * In this file you should write your main styles. (or centralize your imports)
-//  * Import this file using the following HTML or equivalent:
-//  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
-
 @import compass/reset
+@import compass/css3/box-sizing
+$all-width: 100%
+body
+	position: relative
+.container
+	max-width: 940px
+
+	margin: 0 auto
+	height: auto
+
+h3
+	text-align: center
+	font-size: 1.5em
+	padding-top: 60px
+	padding-bottom: 40px
+a
+	text-decoration: none
+// -------------
+// Hero image
+// -------------
+
+.hero
+	+box-sizing(border-box)
+	width: 100%
+	min-width: 100%
+	height: 628px
+	min-height: 100%
+	padding-top: 20px
+	box-sizing
+	background-image: url(../images/ippi_cover.jpg)
+	background-repeat: no-repeat
+	background-position: center center
+	background-size: cover
+	background-color: rgba(0,0,0,1)
+	background-attachment: fixed
+	margin: 0 0 -60px 0
+.hero-logo
+	float: left
+	width: 120px
+	height: 114px
+	background-image: url(../images/ippi_taipei.jpg)
+	background-repeat: no-repeat
+	background-position: top
+	background-size: contain
+	overflow: hidden
+.hero-logo-title
+	width: 100%
+	height: 1px
+	text-indent: 9999px
+	overflow: hidden
+.hero-title
+	float: left
+	margin: 0 0 0 20px
+	font-size: 1em
+	line-height: 1.4em
+	letter-spacing: 0.2px
+	vertical-align: baseline
+// -------------
+// Hero image
+// -------------
+
+
+
+
+// -------------
+// Navbar
+// -------------
+nav
+	width: 100%
+	height: 60px
+	ul
+		float: right
+	li
+		padding: 1em 0.5em
+		display: inline-block
+		
+		// width: 40px
+	a
+		height: 100%
+.nav-program
+	float: left
+
+
+
+
+// -------------
+// vision
+// -------------
+
+.vision
+	max-width: 680px
+	p
+	ol li
+		list-style-type: decimal
+
+
+
+// -------------
+// vision
+// -------------
+// -------------
+// leader
+// -------------
+
+.leader
+	color: white
+	position: relative
+	background-image: url(../images/ippi_cover.jpg)
+	background-repeat: no-repeat
+	background-position: center center
+	background-size: cover
+	background-color: rgba(0,0,0,1)
+	background-attachment: fixed
+	// background-color: rgba(3, 46, 91, 1)
+	.leader-filter
+		display: block
+		padding: 4em 0
+		width: 100%
+		height: 100%
+		background-color: rgba(3, 46, 91, 0.8)
+
+.leader-title
+	font-size: 1.2em
+.host
+	font-size: 1.6em
+
+// -------------
+// leader
+// -------------
+
+// -------------
+// team
+// -------------
+
+
+.team-speaker
+	float: left
+	height: 180px
+	width: 50%
+	+box-sizing(border-box)
+
+
+
+
+
+// -------------
+// team
+// -------------
+
+
+// -------------
+// program
+// -------------
+
+.h2-program
+	clear: both
+	font-size: 2em
+	color: white
+	padding: 1em 0
+	text-align: center
+	background-color: rgba(3, 46, 91, 1)
+.lesson
+	max-width: 620px
+.lesson-series
+	font-size: 1.4em
+	border-bottom: 1px solid rgba(3, 46, 91, 1)
+	margin-bottom: 20px
+.lesson-name
+	font-size: 1.2em
+	margin-bottom: 8px
+.lesson-content
+	font-size: 1em
+	margin-bottom: 16px
+	line-height: 1.2
+.lesson-date
+.lesson-price
+.download
+	text-align: center
+	border-radius: 16px
+	width: 88px
+	padding: 8px 18px
+	border: 1px solid rgba(3, 46, 91, 1)
+	display: block
+
+// -------------
+// program
+// -------------
+
+// -------------
+// register
+// -------------
+
+
+.register
+	
+
+
+
+
+// -------------
+// register
+// -------------
+
+
+
+// -------------
+// footer
+// -------------
+
+
+footer
+	color: white
+	background-color: rgba(3, 46, 91, 1)
+	height: 14em
+	padding-top: 4em
+.footer-logo
+	float: left
+	width: 120px
+	height: 114px
+	background-image: url(../images/ippi_taipei.jpg)
+	background-repeat: no-repeat
+	background-position: top
+	background-size: contain
+	overflow: hidden
+.footer-logo-title
+	width: 100%
+	height: 1px
+	text-indent: 9999px
+	overflow: hidden
+.sticky
+	position: absolute
+	bottom: 0
+	height: 6px
+	width: 100%
+	z-index: 20
+.germany-black, .germany-yellow, .germany-red
+	float: left
+	width: $all-width/3
+	height: 4px
+.germany-black
+	border-bottom: 4px solid rgba(0,0,0,1)
+.germany-red
+	border-bottom: 4px solid rgba(220,10,23,1)
+.germany-yellow
+	border-bottom: 4px solid rgba(254,206,47,1)
+
+
+// -------------
+// footer
+// -------------
