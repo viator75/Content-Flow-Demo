@@ -1118,3 +1118,4 @@
 2014-06-20 15:58:58     error sass/course.sass (Line 6: Undefined variable: "$color".)
 2014-06-20 15:58:58 overwrite stylesheets/course.css 
 2014-06-20 15:59:00 overwrite stylesheets/course.css 
+2014-06-20 16:01:06 overwrite stylesheets/course.css 
