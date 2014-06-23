@@ -54,24 +54,16 @@ article {
   margin: 0 10px;
   width: 220px;
 }
-/* line 42, ../sass/presentation.sass */
-.item:nth-child(4n+1) {
-  margin-left: 0;
-}
-/* line 44, ../sass/presentation.sass */
-.item:nth-child(4n+0) {
-  margin-right: 0;
-}
-/* line 46, ../sass/presentation.sass */
+/* line 43, ../sass/presentation.sass */
 .item img {
   width: 100%;
 }
-/* line 48, ../sass/presentation.sass */
+/* line 45, ../sass/presentation.sass */
 .item h2 {
   text-align: center;
   margin: 12px auto;
 }
-/* line 51, ../sass/presentation.sass */
+/* line 48, ../sass/presentation.sass */
 .item p {
   text-align: center;
   font-size: 12px;
