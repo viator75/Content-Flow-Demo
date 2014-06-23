@@ -33,7 +33,7 @@ article {
 /* line 26, ../sass/presentation.sass */
 .presentation li {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 6px 20px;
   margin: 0 4px;
   border-radius: 20px;
   font-weight: 300;
@@ -50,20 +50,21 @@ article {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   float: left;
-  height: 260px;
+  height: 280px;
   margin: 0 10px;
   width: 220px;
 }
 /* line 43, ../sass/presentation.sass */
 .item img {
-  width: 100%;
+  width: 220px;
+  height: 165px;
 }
-/* line 45, ../sass/presentation.sass */
+/* line 46, ../sass/presentation.sass */
 .item h2 {
   text-align: center;
   margin: 12px auto;
 }
-/* line 48, ../sass/presentation.sass */
+/* line 49, ../sass/presentation.sass */
 .item p {
   text-align: center;
   font-size: 12px;
