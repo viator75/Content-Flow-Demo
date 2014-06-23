@@ -54,17 +54,29 @@ article {
   margin: 0 10px;
   width: 220px;
 }
-/* line 43, ../sass/presentation.sass */
-.item img {
+/* line 42, ../sass/presentation.sass */
+.item .item-image-box {
   width: 220px;
   height: 165px;
+  background-size: cover;
+  background-position: center center;
 }
-/* line 46, ../sass/presentation.sass */
+/* line 47, ../sass/presentation.sass */
+.item img {
+  margin: 0 auto;
+  max-width: 100%;
+  min-width: 100%;
+  width: auto;
+  max-height: 100%;
+  min-height: 100%;
+  height: 100%;
+}
+/* line 56, ../sass/presentation.sass */
 .item h2 {
   text-align: center;
   margin: 12px auto;
 }
-/* line 49, ../sass/presentation.sass */
+/* line 59, ../sass/presentation.sass */
 .item p {
   text-align: center;
   font-size: 12px;
