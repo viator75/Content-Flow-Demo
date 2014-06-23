@@ -1,0 +1,381 @@
+/* line 17, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 2, ../sass/_general.sass */
+section {
+  clear: both;
+}
+
+/* line 49, ../sass/_color.sass */
+.primary-color-1 {
+  background-color: #ffeba4;
+  color: #d7a700;
+}
+
+/* line 52, ../sass/_color.sass */
+.primary-color-2 {
+  background-color: #ffda58;
+  color: #be9400;
+}
+
+/* line 55, ../sass/_color.sass */
+.primary-color-3 {
+  background-color: #ffc90b;
+  color: #715800;
+}
+
+/* line 58, ../sass/_color.sass */
+.primary-color-4 {
+  background-color: #be9400;
+  color: #fff6d7;
+}
+
+/* line 61, ../sass/_color.sass */
+.primary-color-5 {
+  background-color: #715800;
+  color: white;
+}
+
+/* line 68, ../sass/_color.sass */
+.secondary-color-1 {
+  background-color: #b1b1b1;
+  color: #4b4b4b;
+}
+
+/* line 71, ../sass/_color.sass */
+.secondary-color-2 {
+  background-color: #8a8a8a;
+  color: #3e3e3e;
+}
+
+/* line 74, ../sass/_color.sass */
+.secondary-color-3 {
+  background-color: #646464;
+  color: #181818;
+}
+
+/* line 77, ../sass/_color.sass */
+.secondary-color-4 {
+  background-color: #3e3e3e;
+  color: #cacaca;
+}
+
+/* line 80, ../sass/_color.sass */
+.secondary-color-5 {
+  background-color: #181818;
+  color: #fdfdfd;
+}
+
+/* line 86, ../sass/_color.sass */
+.helper-color-1 {
+  background-color: #7eb0db;
+  color: #1f496e;
+}
+
+/* line 89, ../sass/_color.sass */
+.helper-color-2 {
+  background-color: #428bca;
+  color: #193c5a;
+}
+
+/* line 92, ../sass/_color.sass */
+.helper-color-3 {
+  background-color: #2a6496;
+  color: #09141e;
+}
+
+/* line 95, ../sass/_color.sass */
+.helper-color-4 {
+  background-color: #193c5a;
+  color: #a6c8e6;
+}
+
+/* line 98, ../sass/_color.sass */
+.helper-color-5 {
+  background-color: #09141e;
+  color: #f6f9fc;
+}
+
+/* line 106, ../sass/_color.sass */
+.danger-color-1 {
+  background-color: #f3423f;
+  color: #600706;
+}
+
+/* line 109, ../sass/_color.sass */
+.danger-color-2 {
+  background-color: #d8110e;
+  color: #480504;
+}
+
+/* line 112, ../sass/_color.sass */
+.danger-color-3 {
+  background-color: #900b09;
+  color: black;
+}
+
+/* line 115, ../sass/_color.sass */
+.danger-color-4 {
+  background-color: #480504;
+  color: #f6716f;
+}
+
+/* line 118, ../sass/_color.sass */
+.danger-color-5 {
+  background-color: black;
+  color: #fcd0cf;
+}
+
+/* line 123, ../sass/_color.sass */
+.default-color-1 {
+  background-color: #cecece;
+  color: dimgrey;
+}
+
+/* line 126, ../sass/_color.sass */
+.default-color-2 {
+  background-color: #a8a8a8;
+  color: #5c5c5c;
+}
+
+/* line 129, ../sass/_color.sass */
+.default-color-3 {
+  background-color: #828282;
+  color: #353535;
+}
+
+/* line 132, ../sass/_color.sass */
+.default-color-4 {
+  background-color: #5c5c5c;
+  color: #e8e8e8;
+}
+
+/* line 135, ../sass/_color.sass */
+.default-color-5 {
+  background-color: #353535;
+  color: white;
+}
+
+/* line 5, ../sass/_font.sass */
+h1, h2, p, ul li, a, address {
+  font-family: "微軟正黑體", "Microsoft JhengHei", "LiHei Pro", "Apple LiGothic Medium", "標楷體", "DFKai-sb", helvetica, Arial, sans-serif;
+}
+
+/* line 23, ../sass/_font.sass */
+h1 {
+  color: #2f2f2f;
+  font-size: 1.6em;
+  line-height: 1.2em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+/* line 27, ../sass/_font.sass */
+h2 {
+  color: #2f2f2f;
+  font-size: 1em;
+  line-height: 1.2em;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+/* line 30, ../sass/_font.sass */
+p {
+  color: #2f2f2f;
+  font-size: 1em;
+  line-height: 1.2em;
+  font-weight: 300;
+  letter-spacing: 0;
+  margin-bottom: 12px;
+}
+
+/* line 42, ../sass/_font.sass */
+ul li, a, address {
+  text-decoration: none;
+}
+
+/* line 13, ../sass/backend.sass */
+h1 {
+  text-align: center;
+}
+
+/* line 16, ../sass/backend.sass */
+a {
+  color: black;
+}
+
+/* line 19, ../sass/backend.sass */
+img {
+  display: block;
+}
+
+/* line 24, ../sass/backend.sass */
+.pull-right {
+  margin-right: 40px;
+}
+
+/* line 31, ../sass/backend.sass */
+html, body, .wrapper, section {
+  height: 100%;
+  min-height: 580px;
+}
+
+/* line 35, ../sass/backend.sass */
+section {
+  margin-bottom: -48px;
+}
+
+/* line 39, ../sass/backend.sass */
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 43, ../sass/backend.sass */
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* line 47, ../sass/backend.sass */
+.backend-main {
+  background-size: 16px;
+  padding-top: 88px;
+  height: 100%;
+  height: auto;
+  min-height: 25em;
+}
+
+/* line 60, ../sass/backend.sass */
+.manager-bar {
+  width: 100%;
+  background-color: #ffd609;
+  position: fixed;
+  z-index: 10;
+  -webkit-box-shadow: 0px 2px 3px rgba(17, 17, 17, 0.2);
+  -moz-box-shadow: 0px 2px 3px rgba(17, 17, 17, 0.2);
+  box-shadow: 0px 2px 3px rgba(17, 17, 17, 0.2);
+}
+/* line 68, ../sass/backend.sass */
+.manager-bar h2 {
+  float: left;
+  line-height: 4em;
+}
+/* line 72, ../sass/backend.sass */
+.manager-bar .ul {
+  height: 4em;
+  float: right;
+}
+/* line 75, ../sass/backend.sass */
+.manager-bar .li {
+  display: inline-block;
+  width: 138px;
+  text-align: center;
+  line-height: 4em;
+  -webkit-transition: 0.3s all;
+  -moz-transition: 0.3s all;
+  -ms-transition: 0.3s all;
+  -o-transition: 0.3s all;
+  transition: 0.3s all;
+}
+/* line 85, ../sass/backend.sass */
+.manager-bar .li:hover {
+  color: black;
+  background-color: #fee35e;
+  -webkit-transition: 0.55s all;
+  -moz-transition: 0.55s all;
+  -ms-transition: 0.55s all;
+  -o-transition: 0.55s all;
+  transition: 0.55s all;
+}
+/* line 93, ../sass/backend.sass */
+.manager-bar .logout {
+  line-height: 2em;
+  width: 4em;
+  color: #646464;
+}
+
+/* line 98, ../sass/backend.sass */
+.login {
+  width: 360px;
+  height: 200px;
+  border: 1px solid #b4b4b4;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+/* line 108, ../sass/backend.sass */
+footer {
+  background-color: #e6e6e6;
+  clear: both;
+  height: 20px;
+  padding: 16px 0 12px 0;
+  text-align: center;
+}

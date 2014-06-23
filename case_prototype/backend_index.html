@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="title" content="我是新黨，陳彥伯">
+<meta name="KeyWords" content="陳彥伯, 新黨候選人, 台北市議員">
+<meta name="description" content="台北市議員新黨候選人陳彥伯官方網站">
+<meta property="og:title" content="我是新黨，陳彥伯">
+<meta property="og:type" content="website">
+<meta property="og:url" content=""><!-- 未知 -->
+<meta property="og:image" content=""><!-- 未知 -->
+<meta property="og:site_name" content="我是新黨，陳彥伯">
+<meta property="og:description" content="台北市議員新黨候選人陳彥伯官方網站">
+<link rel="shortcut icon" href="http://www.fontech.com.tw/assets/public/favicon.png" type="image/png" /><!-- 未知 -->
+<link rel="Bookmark" href="http://www.fontech.com.tw/assets/public/favicon.png" type="image/png" /><!-- 未知 -->
+<link rel="icon" href="http://www.fontech.com.tw/assets/public/favicon.png" type="image/png" /><!-- 未知 -->
+<link rel="image_src" type="image/jpeg" href="http://www.fontech.com.tw/assets/public/facebook_show.jpg" /><!-- 未知 -->
+<meta name="Author" content="Fontech方客特有限公司">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link href="stylesheets/backend.css" media="screen" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=yes">  
+<!--[if lt IE 9]>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<!--[if lt IE 8]>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<title>我是新黨，陳彥伯（後台）</title>
+</head>
+<body>
+<!-- 參考http://www.cssnewbie.com/intelligent-navigation/#.U5e9uJS1ZDs -->
+<div class="wrapper">
+	<nav class="manager-bar">
+	<div class="container">
+		<h2>管理後台</h2>
+		<ul class="ul">
+			<a href="#" title="問政成績單"><li class="li">問政成績單</li></a>
+			<a href="#" title="服務大小事"><li class="li">服務大小事</li></a>
+			<a href="#" title="活動萬花筒"><li class="li">活動萬花筒</li></a>
+			<a href="#" title="新聞播報室"><li class="li">新聞播報室</li></a>
+			<a href="#" title="登出"><li class="li logout">登出</li></a>
+		</ul>
+	</div>
+
+	</nav><!-- fixed bar -->
+
+
+
+	<section>
+		<div class="container backend-main">
+			<h1>登入系統</h1>
+			<div class="login">
+				<label for="manager">管理者</label>
+				<input type="text" name="manager" value="" placeholder="請輸入管理員帳號">
+				<label for="password">密碼</label>
+				<input type="password" name="password" value="" placeholder="請輸入密碼">
+				<label for="remember">記住我的帳號</label>
+				<input type="radio" name="remember" value="記住我的帳號" placeholder="">
+				<label for="login">登入</label>
+				<input type="button" name="login" value="登入">
+			</div>
+		</div>
+	</section><!-- about -->
+
+
+	<footer>
+		<p>Copyright @ 2014 All Rights Reserved</p>
+	</footer>
+</div><!-- wrapper -->
+
+<script type="text/javascript">
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 600);
+        return false;
+      }
+    }
+  });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+html, body, .wrapper, article
+	height: 100%
+	min-height: 100%
+article
+	margin-bottom: -48px
+
+.presentation
+	background-size: 16px
+	padding-top: 88px
+	height: 100%
+	height: auto
+	min-height: 25em
+	h1
+		width: auto
+		display: block
+		text-align: center
+		margin: 0 auto
+	ul
+		width: auto
+		margin: 1em auto 2em auto
+		text-align: center
+	li
+		display: inline-block
+		padding: 6px 20px
+		margin: 0 4px
+		+border-radius(20px)
+		font-weight: 300
+	.active
+		background-color: rgba(100, 100, 100, 0.8)
+		color: white
+
+.item
+	+box-sizing(border-box)
+	float: left
+	height: 280px
+	margin: 0 10px
+	width: 220px
+	.item-image-box
+		width: 220px
+		height: 165px
+		background-size: cover
+		background-position: center center
+		background-repeat: no-repeat
+	h2
+		text-align: center
+		margin: 12px auto
+	p
+		text-align: center
+		font-size: 12px
+		display: inline-block
+		color: rgba(180, 180, 180, 1)
