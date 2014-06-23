@@ -1,0 +1,55 @@
+@import compass/css3/box-sizing
+$width: 960px
+
+html, body, .wrapper, article
+	height: 100%
+	min-height: 100%
+article
+	// padding-top: 88px
+	margin-bottom: -48px
+
+.presentation
+	background-size: 16px
+	padding-top: 88px
+	height: 100%
+	height: auto
+	min-height: 25em
+	h1
+		width: auto
+		display: block
+		text-align: center
+		margin: 0 auto
+	ul
+		width: auto
+		margin: 1em auto 2em auto
+		text-align: center
+	li
+		display: inline-block
+		padding: 10px 20px
+		margin: 0 4px
+		border-radius: 20px
+		font-weight: 300
+	.active
+		background-color: rgba(7, 50, 166, 1)
+		color: white
+
+.item
+	+box-sizing(border-box)
+	float: left
+	height: 260px
+	margin: 0 10px
+	width: 220px
+	&:nth-child(4n+1)
+		margin-left: 0
+	&:nth-child(4n+0)
+		margin-right: 0
+	img
+		width: 100%
+	h2
+		text-align: center
+		margin: 12px auto
+	p
+		text-align: center
+		font-size: 12px
+		display: inline-block
+		color: rgba(180, 180, 180, 1)

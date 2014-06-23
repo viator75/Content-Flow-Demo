@@ -9,10 +9,11 @@
 <title></title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/stylesheets/screen.css">
+<link rel="stylesheet" href="stylesheets/screen.css">
 <!-- <link rel="stylesheet" href="http://viator75.github.io/Demo/d3_demo/stylesheets/screen.css"> -->
 <script src="http://d3js.org/d3.v3.min.js"></script>
-<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+<script src="js/d3.v3.js"></script>
+<!-- <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script> -->
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 </head>
 <body>
@@ -45,15 +46,24 @@
 			<script type="text/javascript">
 
 			//Width and height
-			var w = 600;
-			var h = 250;
+			var w = 840;
+			var h = 340;
 			
 			var dataset = [ 15, 10, 13, 52, 61, 45, 27, 28, 45, 63,
 							21, 42, 25, 23, 48, 47, 16, 18, 23, 35 ];
 
+
+
+
+
+
+
 			var xScale = d3.scale.ordinal()
 							.domain(d3.range(dataset.length))
 							.rangeRoundBands([0, w], 0);
+
+
+
 
 			var yScale = d3.scale.linear()
 							.domain([0, d3.max(dataset)])
@@ -68,27 +78,39 @@
 			   .data(dataset)
 			   .enter()
 			   .append("rect")
+			   
 			   .attr("x", function(d, i) {
 			   		return xScale(i);
 			   })
+			   
 			   .attr("y", function(d) {
 			   		return h - yScale(d);
 			   })
-			   .attr("width", xScale.rangeBand())
+			   
+			   .attr("width", xScale.rangeBand() - 4)
+			   
+
 			   .attr("height", function(d) {
 			   		return yScale(d);
 			   })
+			   
+
 			   .attr("fill", function(d) {
 					return "rgb(105, 180, " + (d * 5) + ")";
 			   })
+			   
+
 			   .on("mouseover", function() {
 			   		d3.select(this)
-			   			.attr("fill", "rgba(225, 230, 250, 1)");
+			   			.attr("fill", "rgba(255, 255, 255, 1)");
 			   })
+
+
+
 			   .on("mouseout", function(d) {
 				   d3.select(this)
 				   		.transition()
-				   		.duration(250)
+				   		.duration(150)
 						.attr("fill", "rgb(105, 180, " + (d * 5) + ")");
 			   })
 			   .on("click", function() {
@@ -108,7 +130,7 @@
 			   		return xScale(i) + xScale.rangeBand() / 2;
 			   })
 			   .attr("y", function(d) {
-			   		return h - yScale(d) + 14;
+			   		return h - yScale(d) + 20;
 			   })
 			   .attr("font-family", "sans-serif")
 			   .attr("font-size", "12px")
@@ -133,12 +155,19 @@
 				    .transition()
 				    .duration(800)
 				    .attr("x", function(d, i) {
-				    		return xScale(i);
-				    });
+				    		return xScale(i) + xScale.rangeBand() / 2;
+				    })
+				    .attr("y", function(d) {
+				    		return h - yScale(d) + 16;
+				    })
+				    .attr("font-family", "sans-serif")
+				    .attr("font-size", "14px")
+				    .attr("fill", "black");
+				    ;
+
 
 			};
 
-			
 			</script>
 		</div>
 		<p class="p">Demo by <a href="http://www.fontech.com.tw">Fontech</a>.</p>
