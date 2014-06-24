@@ -108,19 +108,18 @@ label
 		height: auto
 	.lightbox-content
 		margin: 8px auto
-	.lightbox-link
-		margin: 0 auto 8px auto
+	.lightbox-link, .lightbox-link-url
+		margin: 8px 0 0 0 
 		display: block
-		float: right
 		border-bottom: 1px solid rgba(0,0,0,0.8)
-		&:hover
-			color: rgba(0,0,0,0.3)
-			border-bottom: 1px solid rgba(0,0,0,0.3)
-			-webkit-transition: 0.15s all
-			-moz-transition: 0.15s all
-			-ms-transition: 0.15s all
-			-o-transition: 0.15s all
-			transition: 0.15s all
+	.lightbox-link-url:hover
+		color: rgba(0,0,0,0.3)
+		border-bottom: 1px solid rgba(0,0,0,0.3)
+		-webkit-transition: 0.15s all
+		-moz-transition: 0.15s all
+		-ms-transition: 0.15s all
+		-o-transition: 0.15s all
+		transition: 0.15s all
 
 .lightbox-contents > img
 	display: block
