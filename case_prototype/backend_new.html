@@ -17,7 +17,7 @@
 <link rel="image_src" type="image/jpeg" href="http://www.fontech.com.tw/assets/public/facebook_show.jpg" /><!-- 未知 -->
 <meta name="Author" content="Fontech方客特有限公司">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<link href="stylesheets/all.css" media="screen" rel="stylesheet" type="text/css">
+<link href="stylesheets/backend.css" media="screen" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=yes">  
 <!--[if lt IE 9]>
@@ -26,190 +26,74 @@
 <!--[if lt IE 8]>
 <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 <![endif]-->
-<title>我是新黨，陳彥伯</title>
+<title>我是新黨，陳彥伯（後台）</title>
 </head>
 <body>
-<!-- 參考http://www.cssnewbie.com/intelligent-navigation/#.U5e9uJS1ZDs -->
 <div class="wrapper">
-	<nav class="fixedbar">
+	<nav class="manager-bar">
+	<div class="container">
+		<h2>管理後台</h2>
 		<ul class="ul">
-			<a href="#about" title="about"><li class="li">關於彥伯</li></a>
-			<a href="#politic" title="politic"><li class="li">政見報馬仔</li></a>
-			
-			<a href="perform.html" title="perform"><li class="drop li">問政成績單
-				<ul class="drop-ul">
-					<a href="" title="書面質詢"><li class="drop-li">書面質詢</li></a>
-					<a href="" title="部門質詢"><li class="drop-li">部門質詢</li></a>
-					<a href="" title="質詢影音"><li class="drop-li">質詢影音</li></a>
-				</ul>
-			</li></a>
-			
-			<a href="service.html" title="service"><li class="drop li">服務大小事</a>
-				<ul class="drop-ul">
-					<a href="" title="會勘"><li class="drop-li">會勘</li></a>
-					<a href="" title="義剪活動"><li class="drop-li">義剪活動</li></a>
-					<a href="" title="免費法服"><li class="drop-li">免費法服</li></a>
-					<a href="" title="其他"><li class="drop-li">其他</li></a>
-				</ul>
-			</li></a>
-			
-			<a href="events.html" title="events"><li class="li">活動萬花筒</li></a>
-			
-			<a href="news.html" title="news"><li class="drop li">新聞播報室
-				<ul class="drop-ul">
-					<a href="" title="新聞稿"><li class="drop-li">新聞稿</li></a>
-					<a href="" title="媒體報導"><li class="drop-li">媒體報導</li></a>
-				</ul>
-			</li></a>
-			<a href="#contact" title="contact"><li class="li">聯絡我們</li></a>
+			<a href="#" title="問政成績單"><li class="li">問政成績單</li></a>
+			<a href="#" title="服務大小事"><li class="li">服務大小事</li></a>
+			<a href="#" title="活動萬花筒"><li class="li">活動萬花筒</li></a>
+			<a href="#" title="新聞播報室"><li class="li">新聞播報室</li></a>
+			<a href="#" title="登出"><li class="li logout">登出</li></a>
 		</ul>
+	</div>
+
 	</nav><!-- fixed bar -->
 
 
 
-	<section id="about">
-		<div class="container">
-			<div class="hero"></div>
-			<h1>關於彥伯</h1>
-			<p>學歷：景美國小、仁愛國小、中正高中、淡江大學學士、台灣師範大學碩士</p>
-			<p>經歷：中時晚報、聯合晚報政治組記者、大學講師、媒體新聞評論員</p>	
-		</div>
-	</section><!-- about -->
+	<section>
+		<div class="container backend-main backend-workarea">
+			<p class="backend-underline-text">上傳</p>
+			<form class="fill-area">
+				<label for="category">分類</label>
+				<select name="category">
+					<option value="0">問政成績單</option>
+					<option value="1">服務大小事</option>
+					<option value="2">活動萬花筒</option>
+					<option value="3">新聞播報室</option>
+				</select>
+				<label for="sub-category">子分類</label>
+				<select name="sub-category">
+					<option value="0">子分類一</option>
+					<option value="1">子分類二</option>
+					<option value="2">子分類三</option>
+				</select>
+
+				<label for="date">日期</label>
+				<input type="date" name="" value="" placeholder="">
+				<label for="image">上傳圖片</label>
+				<input type="file" name="image" value="" placeholder="">
+				<label for="title">標題</label>
+				<input type="text" name="title" value="" placeholder="">
+
+				<p class="form-hint">請檢查此欄位</p>
 
 
 
-
-
-	<section id="politic">
-		<div class="container">
-			<h1>政見報馬仔</h1>
-			<div class="one-third-upper"></div>
-			<div class="politic">
-				<ol class="pull-right">
-					<li>
-						<p>一、終結商圈黑暗期，杜絕公共工程牛步化。</p>
-					</li>
-					<li>
-						<p>二、爭取商圈導航計畫，品牌商圈價值再創新。</p>
-					</li>
-					<li>
-						<p>三、都更一次到位，爭取通盤規劃老舊社區改建。</p>
-					</li>
-					<li>
-						<p>四、推動區域聯防，全面護衛婦幼、打擊宵小。</p>
-					</li>
-					<li>
-						<p>五、持續一綱一本，強化特教、增加輔導教師員額。</p>
-					</li>
-					<li>
-						<p>六、活化公有市場營運，便利在地生活機能。</p>
-					</li>
-					<li>
-						<p>七、老有所護，爭取推動失智老人照護管理社福機制。</p>
-					</li>
-				</ol>
-				<ol >
-					<li>
-						<p>八、學無止境，爭取銀髮終身學習活動空間。</p>
-					</li>
-					<li>
-						<p>九、文創產業落腳文山，名符其實的文教區。</p>
-					</li>
-					<li>
-						<p>十、台北創意學院，爭取設立在文山區。</p>
-					</li>
-					<li>
-						<p>十一、設立表演藝術工廠，文山是表演藝術的搖籃。</p>
-					</li>
-					<li>
-						<p>十二、景美夜市賣文化，打造國際水準的文化生活市集。</p>
-					</li>
-					<li>
-						<p>十三、拒作二等公民，要求捷運環狀路網儘速動工。</p>
-					</li>
-					<li>
-						<p>十四、環境安全總檢討，守護坡地社區住的安全。</p>
-					</li>
-				</ol>
-			</div>
-			<div class="one-third-lower"></div>
-		</div>
-	</section><!-- politic -->
-
-
-
-	<section id="show">
-		<div class="container">
-			<div class="link-show pull-right">
-				<h1>問政成績單</h1>
-				<a href="#" class="show-perform">
-					<h2>畫面質詢、部門質詢、質詢影音</h2>
-				</a>
-				<h1>活動萬花筒</h1>
-				<a href="#" class=" show-events">
-					<h2>更多照片</h2>
-				</a>
-			</div>
-			<div class="link-show">
-				<h1>服務大小事</h1>
-				<a href="#" class="show-services">
-					<h2>會勘、義剪活動、免費法律服務、其他</h2>
-				</a>
-				<h1>新聞播報室</h1>
-				<a href="#" class="show-news">
-					<h2>更多新聞</h2>
-				</a>
-			</div>
-		</div>
-	</section><!-- links -->
-
-
-
-	<section id="contact">
-			<div class="container">
-			<h1>聯絡我們</h1>
-			<div class="place pull-right">
-				<h1>彥伯服務處</h1>
-				<address>地址：臺北市興隆路三段265號一樓</address>
-				<a href="tel:0222301681">電話：02-22301681</a>
+				<label for="content" class="textarea-anchor"></label>
+				<textarea name="content" placeholder="請在此輸入內容介紹，字數上限250字。"></textarea>
+				<label for="url">網址連結</label>
+				<input type="text" name="" value="" placeholder="例如：http://www.fontech.com.tw/">
 				<br>
-				<a href="tel:0222300861">傳真：02-22300861</a>
 				<br>
-				<a href="mailto:tcc9912@tcc.gov.tw">信箱：tcc9912@tcc.gov.tw</a>
-			</div>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3616.234074397522!2d121.55884000000002!3d24.992160999999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442aa0cc6a3050f%3A0x98acf4fbefc32b5d!2zMTE25Y-w5YyX5biC5paH5bGx5Y2A6IiI6ZqG6Lev5LiJ5q61MjY16Jmf!5e0!3m2!1szh-TW!2stw!4v1402475231836" width="100%" height="240" frameborder="0" style="border:0"></iframe>
-			<div class="place">
-				<h1>彥伯研究室</h1>
-				<address>地址：臺北市仁愛路四段507號736研究室</address>
-				<a href="tel:0227297708">電話：02-27297708 #7036</a>
-				<br>
-				<a href="tel:0287863279">傳真：02-87863279</a>
-				<br>
-				<a href="mailto:tcc9912@tcc.gov.tw">信箱：tcc9912@tcc.gov.tw</a>
-			</div>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.8824444667525!2d121.56197449999998!3d25.038063199999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abb8257d80f9%3A0xaf069bde53b5b1a0!2zMTEw5Y-w5YyX5biC5L-h576p5Y2A5LuB5oSb6Lev5Zub5q61NTA36Jmf!5e0!3m2!1szh-TW!2stw!4v1402476006368" width="100%" height="240" frameborder="0" style="border:0"></iframe>
+				<button type="" class="delete left-btn">刪除</button>
+				<div class="btn-pull-right">
+					<button type="" class="cancel right-btn">取消</button>
+					<button type="" class="upload  right-btn">上傳</button>
+				</div>
+			</form>
 		</div>
-	</section><!-- contact -->
+	</section>
+
+
 	<footer>
 		<p>Copyright @ 2014 All Rights Reserved</p>
 	</footer>
 </div><!-- wrapper -->
-
-<script type="text/javascript">
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 600);
-        return false;
-      }
-    }
-  });
-});
-</script>
 </body>
 </html>

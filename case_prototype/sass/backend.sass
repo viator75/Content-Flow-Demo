@@ -12,6 +12,7 @@ $width: 960px
 
 h1
 	text-align: center
+	color: #f1333a
 
 a
 	color: #000000
@@ -21,18 +22,21 @@ img
 br
 	clear:both
 
-.pull-right
-	margin-right: 40px
+.center
+	margin: 0 auto
 // ---------------
 // general setting
 // ---------------
 
 
 html, body, .wrapper, section
+	height: auto
 	height: 100%
 	min-height: 580px
 
 section
+	min-height: 100%
+	height: auto
 	margin-bottom: -48px
 
 
@@ -50,7 +54,24 @@ section
 	height: 100%
 	height: auto
 	min-height: 25em
-
+.backend-workarea
+	width: 620px
+	padding-bottom: 4em
+.backend-main-text
+	text-align: center
+	margin-bottom: 16px
+.backend-underline-text
+	text-align: left
+	padding-bottom: 8px
+	margin-bottom: 16px
+	border-bottom: 1px solid rgba(180, 180, 180, 1)
+.fill-area
+	+box-sizing(border-box)
+	padding: 0 8em 3em 2em
+.info-red
+	color: #f1333a
+.info-blue
+	color: #145bc5
 
 // ---------------
 // fixbar
@@ -121,8 +142,8 @@ section
 
 .login
 	width: 280px
-	height: 168px
-	padding: 20px
+	height: auto
+	padding: 20px 20px 92px 20px
 	border: 1px solid rgba(180, 180, 180, 1)
 	+border-radius(5px)
 	margin: 0 auto
@@ -136,8 +157,6 @@ section
 		width: 74px
 		float: right
 		margin: 0 0 0 4px
-
-
 	input
 		display: inline-block
 		padding: 8px 12px
@@ -169,6 +188,114 @@ section
 // ---------------
 
 
+// ---------------
+// upload button
+// ---------------
+.upload, .delete, .cancel
+	display: block
+	width: auto
+	clear: both
+	cursor: pointer
+	font-size: 1em
+	+border-radius(3px)
+.upload
+	border: 1px solid #1573d0
+	background-color: #1573d0
+	color: white
+	padding: 0.6em 2em
+.delete
+	border: 0
+	background-color: white
+	color: rgba(255, 180, 180, 1)
+	margin: 0.6em 84px
+
+.cancel
+	// border: 1px solid rgba(200, 200, 200, 1)
+	border: 0
+	background-color: white
+	color: rgba(160, 160, 160, 1)
+.btn-pull-right
+	float: right
+.left-btn
+	float: left
+.right-btn
+	display: inline-block
+// ---------------
+// upload button
+// ---------------
+// ---------------
+// form
+// ---------------
+form
+	position: relative
+label, select, input, textarea
+	+box-sizing(border-box)
+
+label
+	display: inline-block
+	width: 27%
+	text-align: right
+	margin-right: 8px
+select
+	width: 70%
+	display: inline-block
+	height: 2em
+	font-size: 1em
+	margin-bottom: 12px
+	background-color: white
+	border: 1px solid rgba(120, 120, 120, 1)
+input, textarea
+	width: 70%
+	display: inline-block
+	padding: 8px 12px
+	margin-bottom: 12px
+	background-color: white
+	border: 1px solid rgba(120, 120, 120, 1)
+	+border-radius(5px)
+	&[type="button"]
+		display: block
+		float: right
+		width: 80px
+		margin: 2em 0 0 0 
+		clear: both
+		border: 1px solid #1573d0
+		background-color: #1573d0
+		color: white
+		cursor: pointer
+textarea
+	max-width: 70%
+	max-height: 220px
+	position: relative
+.textarea-anchor
+	position: relative
+	height: 100%
+.form-hint
+	width: auto
+	height: auto
+	font-size: 12px
+	font-weight: 300
+	color: white
+	padding: 8px 12px
+	position: absolute
+	top: 0
+	right: 16px
+	background-color: rgba(241, 51, 58, 0.7)
+	+border-radius(3px)
+	&:before
+		border-left: 0px
+		border-top: 8px solid transparent
+		border-bottom: 8px solid transparent
+		border-right: 12px solid rgba(241, 51, 58, 0.7)
+		width: 0px
+		height: 0px
+		position: absolute
+		top: 8px
+		left: -12px
+		content: ""
+
+// ---------------
+// form
+// ---------------
 footer
 	background-color: #e6e6e6
 	clear: both

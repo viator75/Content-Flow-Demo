@@ -29,7 +29,6 @@
 <title>我是新黨，陳彥伯（後台）</title>
 </head>
 <body>
-<!-- 參考http://www.cssnewbie.com/intelligent-navigation/#.U5e9uJS1ZDs -->
 <div class="wrapper">
 	<nav class="manager-bar">
 	<div class="container">
@@ -49,41 +48,16 @@
 
 	<section>
 		<div class="container backend-main">
-			<h1>登入系統</h1>
-			<div class="login">
-				<label for="manager">管理者</label>
-				<input type="text" name="manager" value="" placeholder="請輸入管理員帳號">
-				<label for="password">密碼</label>
-				<input type="password" name="password" value="" placeholder="請輸入密碼">
-				<label for="remember">記住我的帳號</label>
-				<input type="radio" name="remember" value="記住我的帳號" placeholder="">
-				<label for="login">登入</label>
-				<input type="button" name="login" value="登入">
-			</div>
+			<h1>上傳資料</h1>
+			<p class="backend-main-text">請點選下方按鈕新增，或由頁面上方連結查看已上傳之項目清單。</p>
+			<input type="button" name="" value="開始上傳" class="upload center">
 		</div>
-	</section><!-- about -->
+	</section>
 
 
 	<footer>
 		<p>Copyright @ 2014 All Rights Reserved</p>
 	</footer>
 </div><!-- wrapper -->
-
-<script type="text/javascript">
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 600);
-        return false;
-      }
-    }
-  });
-});
-</script>
 </body>
 </html>
