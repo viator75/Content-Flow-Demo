@@ -431,13 +431,13 @@ label {
 /* line 111, ../sass/_presentation.sass */
 .lightbox-contents .lightbox-link {
   margin: 8px 0 0 0;
-  display: block;
+  display: inline-block;
   border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 /* line 115, ../sass/_presentation.sass */
 .lightbox-contents .lightbox-link-url {
   margin: 8px 0 0 0;
-  display: block;
+  display: inline-block;
   border-bottom: 1px solid rgba(0, 0, 0, 0.8);
 }
 /* line 119, ../sass/_presentation.sass */
