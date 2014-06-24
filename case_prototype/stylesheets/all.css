@@ -710,7 +710,7 @@ img {
 /* line 196, ../sass/all.sass */
 #show .show-perform:hover h2, #show .show-events:hover h2, #show .show-services:hover h2, #show .show-news:hover h2 {
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.6);
   color: rgba(255, 255, 255, 0.9);
   -webkit-transition: 0.25s all;
   -moz-transition: 0.25s all;
