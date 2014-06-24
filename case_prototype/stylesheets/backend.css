@@ -400,7 +400,7 @@ section {
 }
 /* line 148, ../sass/backend.sass */
 .login input[type="text"], .login input[type="password"] {
-  width: 190px;
+  width: 186px;
 }
 /* line 150, ../sass/backend.sass */
 .login input[type="checkbox"] {
