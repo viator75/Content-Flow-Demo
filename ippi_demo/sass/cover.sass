@@ -100,13 +100,13 @@ a
 		vertical-align: middle
 		a
 			font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "MingLiU", "微軟正黑體"
-			display: block
 			color: white
-			font-size: 1.4em
+			font-size: 1.8em
+			display: block
 			width: 300px
 			height: auto
 			margin: 0 auto
-			padding: 32px 24px 32px 24px
+			padding: 12px 24px 12px 24px
 			text-align: center
 			background-color: rgba(255,255,255,0.2)
 			border: 1px solid rgba(255,255,255,0.6)
@@ -114,6 +114,11 @@ a
 			animation: click-me 1.5s infinite ease-in-out
 			&:hover
 				border: 2px solid rgba(255,255,255,0.9)
+			.year
+				font-size: 20px
+				display: block
+				margin: 4px auto 8px auto
+				text-align: center
 
 
 @-webkit-keyframes click-me
@@ -179,13 +184,16 @@ i
 	float: left
 	// position: fixed
 	width: $all-width/3
-	height: 6px
+	height: 3px
 .germany-black
-	border-bottom: 6px solid rgba(0,0,0,1)
+	background-color: rgba(0,0,0,0.4)
+	border-top: 2px solid rgba(0,0,0,1)
 .germany-red
-	border-bottom: 6px solid rgba(220,10,23,1)
+	background-color: rgba(220,10,23, 0.5)
+	border-top: 2px solid rgba(220,10,23,1)
 .germany-yellow
-	border-bottom: 6px solid rgba(254,206,47,1)
+	background-color: rgba(254,206,47,0.5)
+	border-top: 2px solid rgba(254,206,47,1)
 
 @media screen and (max-width: 580px)
 	.background-show
@@ -240,9 +248,14 @@ i
 		color: rgba(255,255,255,0.7)
 	.fa-map-marker
 		margin-left: -2px
+	.germany-black, .germany-yellow, .germany-red
+		height: 3px
 	.germany-black
-		border-bottom: 4px solid rgba(0,0,0,1)
+		background-color: rgba(0,0,0,0.4)
+		border-top: 2px solid rgba(0,0,0,1)
 	.germany-red
-		border-bottom: 4px solid rgba(220,10,23,1)
+		background-color: rgba(220,10,23, 0.5)
+		border-top: 2px solid rgba(220,10,23,1)
 	.germany-yellow
-		border-bottom: 4px solid rgba(254,206,47,1)
+		background-color: rgba(254,206,47,0.5)
+		border-top: 2px solid rgba(254,206,47,1)
