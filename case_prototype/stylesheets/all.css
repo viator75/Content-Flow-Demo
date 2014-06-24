@@ -565,7 +565,7 @@ img {
 /* line 99, ../sass/all.sass */
 #about .hero {
   background-image: url(http://viator75.github.io/Demo/case_prototype/images/hero.jpg);
-  background-position: to;
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
   width: 960px;
@@ -737,7 +737,7 @@ img {
 
 /* line 215, ../sass/all.sass */
 #contact {
-  background-color: whitesmoke;
+  background-color: #fafafa;
   padding: 2em 0 4em 0;
   margin-top: -1em;
   height: 36em;
