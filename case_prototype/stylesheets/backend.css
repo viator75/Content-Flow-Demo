@@ -464,7 +464,7 @@ section {
   cursor: pointer;
 }
 
-/* line 196, ../sass/backend.sass */
+/* line 197, ../sass/backend.sass */
 .upload, .delete, .cancel {
   display: block;
   width: auto;
@@ -478,7 +478,7 @@ section {
   border-radius: 3px;
 }
 
-/* line 203, ../sass/backend.sass */
+/* line 204, ../sass/backend.sass */
 .upload {
   border: 1px solid #1573d0;
   background-color: #1573d0;
@@ -486,7 +486,7 @@ section {
   padding: 0.6em 2em;
 }
 
-/* line 208, ../sass/backend.sass */
+/* line 209, ../sass/backend.sass */
 .delete {
   border: 0;
   background-color: white;
@@ -494,50 +494,47 @@ section {
   margin: 0.6em 84px;
 }
 
-/* line 214, ../sass/backend.sass */
+/* line 215, ../sass/backend.sass */
 .cancel {
   border: 0;
   background-color: white;
   color: #a0a0a0;
 }
 
-/* line 219, ../sass/backend.sass */
+/* line 220, ../sass/backend.sass */
 .btn-pull-right {
   float: right;
 }
 
-/* line 221, ../sass/backend.sass */
+/* line 222, ../sass/backend.sass */
 .left-btn {
   float: left;
 }
 
-/* line 223, ../sass/backend.sass */
+/* line 224, ../sass/backend.sass */
 .right-btn {
   display: inline-block;
 }
 
-/* line 231, ../sass/backend.sass */
+/* line 232, ../sass/backend.sass */
 form {
   position: relative;
 }
-
-/* line 233, ../sass/backend.sass */
-label, select, input, textarea {
+/* line 234, ../sass/backend.sass */
+form label, form select, form input, form textarea {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
-/* line 236, ../sass/backend.sass */
-label {
+/* line 237, ../sass/backend.sass */
+form label {
   display: inline-block;
   width: 27%;
   text-align: right;
   margin-right: 8px;
 }
-
-/* line 241, ../sass/backend.sass */
-select {
+/* line 242, ../sass/backend.sass */
+form select {
   width: 70%;
   display: inline-block;
   height: 2em;
@@ -546,9 +543,8 @@ select {
   background-color: white;
   border: 1px solid #787878;
 }
-
-/* line 249, ../sass/backend.sass */
-input, textarea {
+/* line 250, ../sass/backend.sass */
+form input, form textarea {
   width: 70%;
   display: inline-block;
   padding: 8px 12px;
@@ -561,8 +557,8 @@ input, textarea {
   -o-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 257, ../sass/backend.sass */
-input[type="button"], textarea[type="button"] {
+/* line 258, ../sass/backend.sass */
+form input[type="button"], form textarea[type="button"] {
   display: block;
   float: right;
   width: 80px;
@@ -573,22 +569,19 @@ input[type="button"], textarea[type="button"] {
   color: white;
   cursor: pointer;
 }
-
-/* line 267, ../sass/backend.sass */
-textarea {
+/* line 268, ../sass/backend.sass */
+form textarea {
   max-width: 70%;
   max-height: 220px;
   position: relative;
 }
-
-/* line 271, ../sass/backend.sass */
-.textarea-anchor {
+/* line 272, ../sass/backend.sass */
+form .textarea-anchor {
   position: relative;
   height: 100%;
 }
-
-/* line 274, ../sass/backend.sass */
-.form-hint {
+/* line 275, ../sass/backend.sass */
+form .form-hint {
   width: auto;
   height: auto;
   font-size: 12px;
@@ -605,8 +598,8 @@ textarea {
   -o-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 286, ../sass/backend.sass */
-.form-hint:before {
+/* line 287, ../sass/backend.sass */
+form .form-hint:before {
   border-left: 0px;
   border-top: 8px solid transparent;
   border-bottom: 8px solid transparent;
@@ -619,7 +612,7 @@ textarea {
   content: "";
 }
 
-/* line 301, ../sass/backend.sass */
+/* line 302, ../sass/backend.sass */
 footer {
   background-color: #e6e6e6;
   clear: both;
