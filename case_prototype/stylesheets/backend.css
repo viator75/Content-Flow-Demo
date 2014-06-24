@@ -219,7 +219,7 @@ section {
 }
 
 /* line 5, ../sass/_font.sass */
-h1, h2, p, ul li, a, address {
+h1, h2, p, ul li, a, address, label, select, input, textarea {
   font-family: "微軟正黑體", "Microsoft JhengHei", "LiHei Pro", "Apple LiGothic Medium", "標楷體", "DFKai-sb", helvetica, Arial, sans-serif;
 }
 
@@ -253,7 +253,7 @@ p {
 }
 
 /* line 42, ../sass/_font.sass */
-ul li, a, address {
+ul li, a, address, label, select, input, textarea {
   text-decoration: none;
 }
 
