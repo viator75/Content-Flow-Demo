@@ -95,14 +95,78 @@ section
 		width: 4em
 		color: rgba( 100, 100, 100, 1)
 
+
+
+
+
+
+
+
+// ---------------
+// fixbar
+// ---------------
+
+
+
+
+
+
+
+
+
+
+// ---------------
+// login
+// ---------------
+
 .login
-	width: 360px
-	height: 200px
+	width: 280px
+	height: 168px
+	padding: 20px
 	border: 1px solid rgba(180, 180, 180, 1)
 	+border-radius(5px)
 	margin: 0 auto
+	label
+		display: inline-block
+		width: 52px
+		text-align: right
+		margin-right: 8px
+	.remember-me
+		font-size: 0.75em
+		width: 74px
+		float: right
+		margin: 0 0 0 4px
 
 
+	input
+		display: inline-block
+		padding: 8px 12px
+		margin-bottom: 12px
+		background-color: white
+		border: 1px solid rgba(120, 120, 120, 1)
+		+border-radius(5px)
+		&[type="text"], &[type="password"]
+			width: 190px
+		&[type="checkbox"]
+			float: right
+			margin: 0
+		&[type="button"]
+			display: block
+			float: right
+			width: 80px
+			margin: 2em 0 0 0 
+			clear: both
+			border: 1px solid #1573d0
+			background-color: #1573d0
+			color: white
+			cursor: pointer
+
+
+
+
+// ---------------
+// login
+// ---------------
 
 
 footer

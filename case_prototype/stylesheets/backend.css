@@ -358,10 +358,11 @@ section {
   color: #646464;
 }
 
-/* line 98, ../sass/backend.sass */
+/* line 122, ../sass/backend.sass */
 .login {
-  width: 360px;
-  height: 200px;
+  width: 280px;
+  height: 168px;
+  padding: 20px;
   border: 1px solid #b4b4b4;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -370,8 +371,56 @@ section {
   border-radius: 5px;
   margin: 0 auto;
 }
+/* line 129, ../sass/backend.sass */
+.login label {
+  display: inline-block;
+  width: 52px;
+  text-align: right;
+  margin-right: 8px;
+}
+/* line 134, ../sass/backend.sass */
+.login .remember-me {
+  font-size: 0.75em;
+  width: 74px;
+  float: right;
+  margin: 0 0 0 4px;
+}
+/* line 141, ../sass/backend.sass */
+.login input {
+  display: inline-block;
+  padding: 8px 12px;
+  margin-bottom: 12px;
+  background-color: white;
+  border: 1px solid #787878;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 148, ../sass/backend.sass */
+.login input[type="text"], .login input[type="password"] {
+  width: 190px;
+}
+/* line 150, ../sass/backend.sass */
+.login input[type="checkbox"] {
+  float: right;
+  margin: 0;
+}
+/* line 153, ../sass/backend.sass */
+.login input[type="button"] {
+  display: block;
+  float: right;
+  width: 80px;
+  margin: 2em 0 0 0;
+  clear: both;
+  border: 1px solid #1573d0;
+  background-color: #1573d0;
+  color: white;
+  cursor: pointer;
+}
 
-/* line 108, ../sass/backend.sass */
+/* line 172, ../sass/backend.sass */
 footer {
   background-color: #e6e6e6;
   clear: both;
