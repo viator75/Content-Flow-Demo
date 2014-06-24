@@ -343,6 +343,94 @@ article {
   color: #b4b4b4;
 }
 
+/* line 53, ../sass/_presentation.sass */
+body {
+  margin: 0;
+}
+
+/* line 55, ../sass/_presentation.sass */
+label {
+  cursor: pointer;
+}
+
+/* line 57, ../sass/_presentation.sass */
+.wrapper {
+  overflow-x: hidden;
+}
+
+/* line 60, ../sass/_presentation.sass */
+.lightbox {
+  position: relative;
+}
+
+/* line 62, ../sass/_presentation.sass */
+.lightbox-checkbox,
+.lightbox-cancel,
+.lightbox-container {
+  display: none;
+}
+
+/* line 67, ../sass/_presentation.sass */
+.lightbox-checkbox:checked + .lightbox-segue .lightbox-cancel {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  min-height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/* line 77, ../sass/_presentation.sass */
+.lightbox-checkbox:checked + .lightbox-segue .lightbox-container {
+  position: relative;
+  left: 25%;
+  display: block;
+  float: left;
+  height: 0px;
+  margin-bottom: 0px;
+}
+
+/* line 85, ../sass/_presentation.sass */
+.lightbox-contents {
+  width: 620px;
+  position: relative;
+  left: -50%;
+  z-index: 2;
+  float: left;
+  padding: 12px;
+  background: white;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+/* line 96, ../sass/_presentation.sass */
+.lightbox-contents .lightbox-title {
+  padding: 12px;
+}
+/* line 98, ../sass/_presentation.sass */
+.lightbox-contents .lightbox-content {
+  margin: 12px auto;
+}
+
+/* line 102, ../sass/_presentation.sass */
+.lightbox-contents > img {
+  display: block;
+}
+
+/* line 108, ../sass/_presentation.sass */
+.float-left {
+  float: left;
+  padding: 0 1em 1em 0;
+}
+
+/* line 112, ../sass/_presentation.sass */
+.float-right {
+  float: right;
+  padding: 0 0 1em 1em;
+}
+
 /* line 11, ../sass/all.sass */
 a {
   color: black;

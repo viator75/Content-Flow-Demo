@@ -50,3 +50,69 @@ article
 		font-size: 12px
 		display: inline-block
 		color: rgba(180, 180, 180, 1)
+body
+	margin: 0
+label
+	cursor: pointer
+.wrapper
+	// min-height: 100%
+	overflow-x: hidden
+.lightbox
+	position: relative
+.lightbox-checkbox,
+.lightbox-cancel,
+.lightbox-container
+	display: none
+
+.lightbox-checkbox:checked + .lightbox-segue .lightbox-cancel
+	position: fixed
+	left: 0
+	top: 0
+	z-index: 1
+	display: block
+	width: 100%
+	min-height: 100%
+	background: rgba(0, 0, 0, 0.7)
+
+.lightbox-checkbox:checked + .lightbox-segue .lightbox-container
+	position: relative
+	left: 25%
+	display: block
+	float: left
+	height: 0px
+	margin-bottom: 0px
+
+.lightbox-contents
+	width: 620px
+	position: relative
+	left: -50%
+	z-index: 2
+	float: left
+	padding: 12px
+	background: #fff
+	border-radius: 3px
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5)
+	box-shadow: 0 0 10px rgba(0,0,0,0.5)
+	.lightbox-title
+		padding: 12px
+	.lightbox-content
+		margin: 12px auto
+
+
+.lightbox-contents > img
+	display: block
+
+
+
+
+.float-left
+	float: left
+	padding: 0 1em 1em 0
+
+.float-right
+	float: right
+	padding: 0 0 1em 1em
+
+
+
+
