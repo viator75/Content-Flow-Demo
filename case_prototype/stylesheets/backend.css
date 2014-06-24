@@ -442,7 +442,7 @@ section {
 }
 /* line 167, ../sass/backend.sass */
 .login input[type="text"], .login input[type="password"] {
-  width: 184px;
+  width: 188px;
 }
 /* line 169, ../sass/backend.sass */
 .login input[type="checkbox"] {
@@ -458,8 +458,8 @@ section {
   width: 80px;
   margin: 2em 0 0 0;
   clear: both;
-  border: 1px solid #1573d0;
-  background-color: #1573d0;
+  border: 1px solid rgba(200, 200, 200, 0.8);
+  background-color: rgba(200, 200, 200, 0.8);
   color: white;
   cursor: pointer;
 }
