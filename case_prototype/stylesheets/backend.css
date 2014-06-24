@@ -460,7 +460,7 @@ section {
   clear: both;
   border: 1px solid rgba(200, 200, 200, 0.8);
   background-color: rgba(200, 200, 200, 0.8);
-  color: white;
+  color: #545454;
   cursor: pointer;
 }
 
