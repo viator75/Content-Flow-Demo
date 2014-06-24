@@ -1219,3 +1219,4 @@
 2014-06-24 18:14:59 overwrite stylesheets/cover.css 
 2014-06-24 18:15:07 overwrite stylesheets/cover.css 
 2014-06-24 18:17:44 overwrite stylesheets/cover.css 
+2014-06-24 18:18:39 overwrite stylesheets/cover.css 
