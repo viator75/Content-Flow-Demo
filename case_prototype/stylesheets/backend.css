@@ -446,10 +446,12 @@ section {
 }
 /* line 169, ../sass/backend.sass */
 .login input[type="checkbox"] {
+  width: 12px;
+  height: 12px;
   float: right;
   margin: 0;
 }
-/* line 172, ../sass/backend.sass */
+/* line 174, ../sass/backend.sass */
 .login input[type="button"] {
   display: block;
   float: right;
@@ -462,7 +464,7 @@ section {
   cursor: pointer;
 }
 
-/* line 194, ../sass/backend.sass */
+/* line 196, ../sass/backend.sass */
 .upload, .delete, .cancel {
   display: block;
   width: auto;
@@ -476,7 +478,7 @@ section {
   border-radius: 3px;
 }
 
-/* line 201, ../sass/backend.sass */
+/* line 203, ../sass/backend.sass */
 .upload {
   border: 1px solid #1573d0;
   background-color: #1573d0;
@@ -484,7 +486,7 @@ section {
   padding: 0.6em 2em;
 }
 
-/* line 206, ../sass/backend.sass */
+/* line 208, ../sass/backend.sass */
 .delete {
   border: 0;
   background-color: white;
@@ -492,41 +494,41 @@ section {
   margin: 0.6em 84px;
 }
 
-/* line 212, ../sass/backend.sass */
+/* line 214, ../sass/backend.sass */
 .cancel {
   border: 0;
   background-color: white;
   color: #a0a0a0;
 }
 
-/* line 217, ../sass/backend.sass */
+/* line 219, ../sass/backend.sass */
 .btn-pull-right {
   float: right;
 }
 
-/* line 219, ../sass/backend.sass */
+/* line 221, ../sass/backend.sass */
 .left-btn {
   float: left;
 }
 
-/* line 221, ../sass/backend.sass */
+/* line 223, ../sass/backend.sass */
 .right-btn {
   display: inline-block;
 }
 
-/* line 229, ../sass/backend.sass */
+/* line 231, ../sass/backend.sass */
 form {
   position: relative;
 }
 
-/* line 231, ../sass/backend.sass */
+/* line 233, ../sass/backend.sass */
 label, select, input, textarea {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 234, ../sass/backend.sass */
+/* line 236, ../sass/backend.sass */
 label {
   display: inline-block;
   width: 27%;
@@ -534,7 +536,7 @@ label {
   margin-right: 8px;
 }
 
-/* line 239, ../sass/backend.sass */
+/* line 241, ../sass/backend.sass */
 select {
   width: 70%;
   display: inline-block;
@@ -545,7 +547,7 @@ select {
   border: 1px solid #787878;
 }
 
-/* line 247, ../sass/backend.sass */
+/* line 249, ../sass/backend.sass */
 input, textarea {
   width: 70%;
   display: inline-block;
@@ -559,7 +561,7 @@ input, textarea {
   -o-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 255, ../sass/backend.sass */
+/* line 257, ../sass/backend.sass */
 input[type="button"], textarea[type="button"] {
   display: block;
   float: right;
@@ -572,20 +574,20 @@ input[type="button"], textarea[type="button"] {
   cursor: pointer;
 }
 
-/* line 265, ../sass/backend.sass */
+/* line 267, ../sass/backend.sass */
 textarea {
   max-width: 70%;
   max-height: 220px;
   position: relative;
 }
 
-/* line 269, ../sass/backend.sass */
+/* line 271, ../sass/backend.sass */
 .textarea-anchor {
   position: relative;
   height: 100%;
 }
 
-/* line 272, ../sass/backend.sass */
+/* line 274, ../sass/backend.sass */
 .form-hint {
   width: auto;
   height: auto;
@@ -603,7 +605,7 @@ textarea {
   -o-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 284, ../sass/backend.sass */
+/* line 286, ../sass/backend.sass */
 .form-hint:before {
   border-left: 0px;
   border-top: 8px solid transparent;
@@ -617,7 +619,7 @@ textarea {
   content: "";
 }
 
-/* line 299, ../sass/backend.sass */
+/* line 301, ../sass/backend.sass */
 footer {
   background-color: #e6e6e6;
   clear: both;
