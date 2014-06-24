@@ -58,7 +58,8 @@ label
 	// min-height: 100%
 	overflow-x: hidden
 .lightbox
-	position: relative
+	position: fixed
+	top: 72px
 .lightbox-checkbox,
 .lightbox-cancel,
 .lightbox-container
@@ -68,7 +69,7 @@ label
 	position: fixed
 	left: 0
 	top: 0
-	z-index: 1
+	z-index: 10
 	display: block
 	width: 100%
 	min-height: 100%
@@ -84,20 +85,42 @@ label
 
 .lightbox-contents
 	width: 620px
+	height: 610px
 	position: relative
-	left: -50%
-	z-index: 2
+	left: 0
+	z-index: 11
 	float: left
-	padding: 12px
+	padding: 8px 16px
 	background: #fff
 	border-radius: 3px
 	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5)
 	box-shadow: 0 0 10px rgba(0,0,0,0.5)
 	.lightbox-title
-		padding: 12px
+		margin: 4px 0
+		text-align: left
+	.lightbox-time
+		font-size: 0.75em
+		color: rgba(0,0,0,0.3)
+		margin-bottom: 4px
+		text-align: left
+	.lightbox-image
+		width: 100%
+		height: auto
 	.lightbox-content
-		margin: 12px auto
-
+		margin: 8px auto
+	.lightbox-link
+		margin: 0 auto 8px auto
+		display: block
+		float: right
+		border-bottom: 1px solid rgba(0,0,0,0.8)
+		&:hover
+			color: rgba(0,0,0,0.3)
+			border-bottom: 1px solid rgba(0,0,0,0.3)
+			-webkit-transition: 0.15s all
+			-moz-transition: 0.15s all
+			-ms-transition: 0.15s all
+			-o-transition: 0.15s all
+			transition: 0.15s all
 
 .lightbox-contents > img
 	display: block

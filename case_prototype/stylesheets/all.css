@@ -360,29 +360,30 @@ label {
 
 /* line 60, ../sass/_presentation.sass */
 .lightbox {
-  position: relative;
+  position: fixed;
+  top: 72px;
 }
 
-/* line 62, ../sass/_presentation.sass */
+/* line 63, ../sass/_presentation.sass */
 .lightbox-checkbox,
 .lightbox-cancel,
 .lightbox-container {
   display: none;
 }
 
-/* line 67, ../sass/_presentation.sass */
+/* line 68, ../sass/_presentation.sass */
 .lightbox-checkbox:checked + .lightbox-segue .lightbox-cancel {
   position: fixed;
   left: 0;
   top: 0;
-  z-index: 1;
+  z-index: 10;
   display: block;
   width: 100%;
   min-height: 100%;
   background: rgba(0, 0, 0, 0.7);
 }
 
-/* line 77, ../sass/_presentation.sass */
+/* line 78, ../sass/_presentation.sass */
 .lightbox-checkbox:checked + .lightbox-segue .lightbox-container {
   position: relative;
   left: 25%;
@@ -392,40 +393,71 @@ label {
   margin-bottom: 0px;
 }
 
-/* line 85, ../sass/_presentation.sass */
+/* line 86, ../sass/_presentation.sass */
 .lightbox-contents {
   width: 620px;
+  height: 610px;
   position: relative;
-  left: -50%;
-  z-index: 2;
+  left: 0;
+  z-index: 11;
   float: left;
-  padding: 12px;
+  padding: 8px 16px;
   background: white;
   border-radius: 3px;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-/* line 96, ../sass/_presentation.sass */
-.lightbox-contents .lightbox-title {
-  padding: 12px;
-}
 /* line 98, ../sass/_presentation.sass */
+.lightbox-contents .lightbox-title {
+  margin: 4px 0;
+  text-align: left;
+}
+/* line 101, ../sass/_presentation.sass */
+.lightbox-contents .lightbox-time {
+  font-size: 0.75em;
+  color: rgba(0, 0, 0, 0.3);
+  margin-bottom: 4px;
+  text-align: left;
+}
+/* line 106, ../sass/_presentation.sass */
+.lightbox-contents .lightbox-image {
+  width: 100%;
+  height: auto;
+}
+/* line 109, ../sass/_presentation.sass */
 .lightbox-contents .lightbox-content {
-  margin: 12px auto;
+  margin: 8px auto;
+}
+/* line 111, ../sass/_presentation.sass */
+.lightbox-contents .lightbox-link {
+  margin: 0 auto 8px auto;
+  display: block;
+  float: right;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+}
+/* line 116, ../sass/_presentation.sass */
+.lightbox-contents .lightbox-link:hover {
+  color: rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  -webkit-transition: 0.15s all;
+  -moz-transition: 0.15s all;
+  -ms-transition: 0.15s all;
+  -o-transition: 0.15s all;
+  transition: 0.15s all;
 }
 
-/* line 102, ../sass/_presentation.sass */
+/* line 125, ../sass/_presentation.sass */
 .lightbox-contents > img {
   display: block;
 }
 
-/* line 108, ../sass/_presentation.sass */
+/* line 131, ../sass/_presentation.sass */
 .float-left {
   float: left;
   padding: 0 1em 1em 0;
 }
 
-/* line 112, ../sass/_presentation.sass */
+/* line 135, ../sass/_presentation.sass */
 .float-right {
   float: right;
   padding: 0 0 1em 1em;
@@ -463,7 +495,7 @@ img {
   width: 100%;
   background-color: #ffd609;
   position: fixed;
-  z-index: 10;
+  z-index: 1;
   -webkit-box-shadow: 0px 2px 3px rgba(17, 17, 17, 0.2);
   -moz-box-shadow: 0px 2px 3px rgba(17, 17, 17, 0.2);
   box-shadow: 0px 2px 3px rgba(17, 17, 17, 0.2);
@@ -508,7 +540,7 @@ img {
   top: 4em;
   left: 0;
   width: 138px;
-  background-color: rgba(254, 227, 94, 0.6);
+  background-color: rgba(254, 227, 94, 0.9);
   -webkit-box-shadow: 0px 2px 3px rgba(17, 17, 17, 0.2);
   -moz-box-shadow: 0px 2px 3px rgba(17, 17, 17, 0.2);
   box-shadow: 0px 2px 3px rgba(17, 17, 17, 0.2);
