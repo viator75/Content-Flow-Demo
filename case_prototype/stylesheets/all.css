@@ -429,12 +429,18 @@ label {
   margin: 8px auto;
 }
 /* line 111, ../sass/_presentation.sass */
-.lightbox-contents .lightbox-link, .lightbox-contents .lightbox-link-url {
+.lightbox-contents .lightbox-link {
+  margin: 8px 0 0 0;
+  display: block;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+/* line 115, ../sass/_presentation.sass */
+.lightbox-contents .lightbox-link-url {
   margin: 8px 0 0 0;
   display: block;
   border-bottom: 1px solid rgba(0, 0, 0, 0.8);
 }
-/* line 115, ../sass/_presentation.sass */
+/* line 119, ../sass/_presentation.sass */
 .lightbox-contents .lightbox-link-url:hover {
   color: rgba(0, 0, 0, 0.3);
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
@@ -445,18 +451,18 @@ label {
   transition: 0.15s all;
 }
 
-/* line 124, ../sass/_presentation.sass */
+/* line 128, ../sass/_presentation.sass */
 .lightbox-contents > img {
   display: block;
 }
 
-/* line 130, ../sass/_presentation.sass */
+/* line 134, ../sass/_presentation.sass */
 .float-left {
   float: left;
   padding: 0 1em 1em 0;
 }
 
-/* line 134, ../sass/_presentation.sass */
+/* line 138, ../sass/_presentation.sass */
 .float-right {
   float: right;
   padding: 0 0 1em 1em;
