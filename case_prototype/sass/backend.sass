@@ -44,6 +44,7 @@ section
 .wrapper
 	width: 100%
 	margin: 0 auto
+	min-width: 960px
 
 .container
 	width: 960px
@@ -58,6 +59,7 @@ section
 .backend-workarea
 	width: 620px
 	padding-bottom: 4em
+	position: relative
 .backend-main-text
 	text-align: center
 	margin-bottom: 16px
@@ -65,6 +67,11 @@ section
 	text-align: left
 	padding-bottom: 8px
 	margin-bottom: 16px
+	border-bottom: 1px solid rgba(180, 180, 180, 1)
+.show-underline-text
+	text-align: left
+	padding-bottom: 8px
+	margin-bottom: 8px
 	border-bottom: 1px solid rgba(180, 180, 180, 1)
 .fill-area
 	+box-sizing(border-box)
@@ -91,6 +98,7 @@ section
 		float: left
 		line-height: 64px
 		font-size: 1.2em
+		padding-left: 10px
 
 	.ul
 		height: 4em
@@ -326,6 +334,69 @@ form
 // ---------------
 // form
 // ---------------
+// ---------------
+// show
+// ---------------
+
+.aside-bar
+	position: absolute
+	top: 76px
+	left: -160px
+	.upload
+		margin-bottom: 8px
+		width: 100%
+	.categories
+		border: 1px solid rgba(160, 160, 160, 1)
+		+border-radius(3px)
+		+box-sizing(border-box)
+		width: 140px
+		height: auto
+		padding: 10px 0 2px 0
+	a
+		display: block
+		color: #9f9f9f
+		padding-left: 28px
+		margin-bottom: 16px
+	.active
+		a
+			color: #545454
+			position: relative
+			&:before
+				content: ""
+				height: 8px
+				width: 8px
+				+border-radius(50%)
+				position: absolute
+				left: 12px
+				top: 4px
+				background-color: #2a6dd5
+
+.uploaded-item
+	width: 100%
+	+box-sizing(border-box)
+	td
+		color: #545454
+		padding-bottom: 18px
+		&:last-child
+			text-align: right
+		a
+			color: #545454
+			&:hover
+				color: #f1333a
+
+			
+
+.uploaded-thead-title
+	width: 70%
+.uploaded-thead-date
+	width: 20%
+
+
+		
+// ---------------
+// show
+// ---------------
+
 footer
 	background-color: #e6e6e6
 	clear: both
