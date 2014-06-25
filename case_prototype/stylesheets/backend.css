@@ -511,12 +511,12 @@ section {
 }
 /* line 230, ../sass/backend.sass */
 .upload:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#0d3f8b), to(#0d3f8b));
-  background-image: -webkit-linear-gradient(top, #0d3f8b, #0d3f8b);
-  background-image: -moz-linear-gradient(top, #0d3f8b, #0d3f8b);
-  background-image: -ms-linear-gradient(top, #0d3f8b, #0d3f8b);
-  background-image: -o-linear-gradient(top, #0d3f8b, #0d3f8b);
-  background-image: linear-gradient(to bottom, #0d3f8b, #0d3f8b);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0d3f8b), to(#0d459c));
+  background-image: -webkit-linear-gradient(top, #0d3f8b, #0d459c);
+  background-image: -moz-linear-gradient(top, #0d3f8b, #0d459c);
+  background-image: -ms-linear-gradient(top, #0d3f8b, #0d459c);
+  background-image: -o-linear-gradient(top, #0d3f8b, #0d459c);
+  background-image: linear-gradient(to bottom, #0d3f8b, #0d459c);
 }
 
 /* line 238, ../sass/backend.sass */
