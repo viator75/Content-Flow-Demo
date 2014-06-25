@@ -29,7 +29,6 @@
 <title>我是新黨，陳彥伯</title>
 </head>
 <body>
-<!-- 參考http://www.cssnewbie.com/intelligent-navigation/#.U5e9uJS1ZDs -->
 <div class="wrapper">
 	<nav class="fixedbar">
 		<ul class="ul">
@@ -67,19 +66,33 @@
 
 
 
+
+
+
+
+
+
+
+
+
 	<article>
 		<div class="container presentation">
 			<h1>服務大小事</h1>
+
+			<!-- ------------------- -->
+			<!-- sub-navbar starts here-->
+			<!-- ------------------- -->
+
 			<ul>
 
 				<!-- ------------------- -->
-				<!-- 使用.active做瀏覽指示 -->
+				<!-- 使用".active"做瀏覽指示，目前估計用js判斷url加上class="active" -->
 				<!-- ------------------- -->
 
 				<li class="filter active">會勘</li>
 
 				<!-- ------------------- -->
-				<!-- 使用.active做瀏覽指示 -->
+				<!-- 使用".active"做瀏覽指示，目前估計用js判斷url加上class="active" -->
 				<!-- ------------------- -->
 
 
@@ -89,84 +102,185 @@
 				<li class="filter">免費法服</li>
 				<li class="filter">其他</li>
 			</ul>
+
+
+			<!-- ------------------- -->
+			<!-- sub-navbar starts here-->
+			<!-- ------------------- -->
+			
+
+
+
+
+
+
+
+
+			<!-- ------------------- -->
+			<!-- 以下為主要gallery區域-->
+			<!-- ------------------- -->
 			<div class="presentation-list">
 
 
 				<!-- --------- -->
 				<!-- 可新增項目 -->
 				<!-- --------- -->
+				<label for="lightbox-1"><!-- 這邊要注意lightbox編號！！！ -->
 				<div class="item">
-					<div class="item-image-box" style="background-image: url(../images/news.jpg) "></div>
-					<h2>圖片標題放這裡</h2><!-- 標題 -->
-					<p>圖片敘述放這裡，要限制字數，最多兩行，最多兩行，最多兩行...</p><!-- 圖片敘述放這裡，要限制字數，最多兩行 -->
+					<div class="item-image-box" style="background-image: url(http://viator75.github.io/Demo/case_prototype/images/news.jpg) "><!-- image -->
+					</div>
+					<h2>只有這個可以按</h2><!-- 標題，要限制字數，最多12字-->
+					<p>圖片敘述放這裡，要限制字數，最多兩行，最多兩行，最多兩行...</p><!-- 圖片敘述放這裡，要限制字數，最多兩行，最多30字 -->
 				</div>
+				</label>
+
+				<div class="lightbox"><!-- Lightbox區域 -->
+					<input type="checkbox" class="lightbox-checkbox" id="lightbox-1">
+					<div class="lightbox-segue">
+						<label class="lightbox-cancel" for="lightbox-1"></label>
+						<div class="lightbox-container">
+							<div class="lightbox-contents">
+							<!-- 內容 -->
+								<h1 class="lightbox-title">1圖片標題放這裡</h1><!-- 標題 -->
+								<p class="lightbox-time">2014/05/06</p><!-- 時間 -->
+								<img src="images/news.jpg" alt="" class="lightbox-image">
+								<p class="lightbox-content">圖片敘述放這裡，顯示所有的字，最多250字，圖片敘述放這裡，顯示所有的字，最多250字圖片敘述放這裡，顯示所有的字，最多250字，圖片敘述放這裡，顯示所有的字，最多250字圖片敘述放這裡，顯示所有的字，最多250字，圖片敘述放這裡，顯示所有的字，最多250字，圖片敘述放這裡，顯示所有的字，最多250字，圖片敘述放這裡，顯示所有的字，最多250字圖片敘述放這裡，顯示所有的字，最多250字，圖片敘述放這裡，顯示所有的字，最多250字圖片敘述放這裡，圖片敘述放這裡，顯示所有的字，最多250字。</p>
+								<p class="lightbox-link">更多資訊：</p><a href="#" title="" class="lightbox-link-url">www.fontech.com.tw</a>
+							<!-- 內容 -->
+							</div>
+						</div>
+					</div>
+				</div><!-- Lightbox區域 -->
+
 				<!-- --------- -->
 				<!-- 可新增項目 -->
 				<!-- --------- -->
 
+
+
+
+				<label for="lightbox-2">
 				<div class="item">
-					<div class="item-image-box" style="background-image: url(../images/news.jpg) "></div>
-					<h2>圖片標題放這裡</h2>
-					<p>圖片敘述放這裡，要限制字數，最多兩行</p>
+					<div class="item-image-box" style="background-image: url(http://viator75.github.io/Demo/case_prototype/images/news.jpg) "><!-- image -->
+					</div>
+					<h2>只有這個可以按</h2><!-- 標題，要限制字數 -->
+					<p>圖片敘述放這裡，要限制字數，最多兩行，最多兩行，最多兩行...</p><!-- 圖片敘述放這裡，要限制字數，最多兩行 -->
 				</div>
-				<div class="item">
-					<div class="item-image-box" style="background-image: url(../images/news.jpg) "></div>
-					<h2>圖片標題放這裡</h2>
-					<p>圖片敘述放這裡，要限制字數，最多兩行</p>
+				</label>
+
+				<div class="lightbox">
+					<input type="checkbox" class="lightbox-checkbox" id="lightbox-2">
+					<div class="lightbox-segue">
+						<label class="lightbox-cancel" for="lightbox-2"></label>
+						<div class="lightbox-container">
+							<div class="lightbox-contents">
+							<!-- 內容 -->
+								<h1 class="lightbox-title">2圖片標題放這裡</h1><!-- 標題 -->
+								<p class="lightbox-time">2014/05/06</p><!-- 時間 -->
+								<img src="images/news.jpg" alt="" class="lightbox-image">
+								<p class="lightbox-content">圖片敘述放這裡，顯示所有的字，最多250字，圖片敘述放這裡，顯示所有的字，最多250字圖片敘述放這裡，顯示所有的字，最多250字，圖片敘述放這裡，顯示所有的字，最多250字圖片敘述放這裡，顯示所有的字，最多250字，圖片敘述放這裡，顯示所有的字，最多250字，圖片敘述放這裡，顯示所有的字，最多250字，圖片敘述放這裡，顯示所有的字，最多250字圖片敘述放這裡，顯示所有的字，最多250字，圖片敘述放這裡，顯示所有的字，最多250字圖片敘述放這裡，圖片敘述放這裡，顯示所有的字，最多250字。</p>
+								<p class="lightbox-link">更多資訊：</p><a href="#" title="" class="lightbox-link-url">www.fontech.com.tw</a>
+							<!-- 內容 -->
+							</div>
+						</div>
+					</div>
 				</div>
+
+				<label for="lightbox-3">
 				<div class="item">
-					<div class="item-image-box" style="background-image: url(../images/news.jpg) "></div>
-					<h2>圖片標題放這裡</h2>
-					<p>圖片敘述放這裡，要限制字數，最多兩行</p>
+					<div class="item-image-box" style="background-image: url(http://viator75.github.io/Demo/case_prototype/images/news.jpg) "><!-- image -->
+					</div>
+					<h2>只有這個可以按</h2><!-- 標題，要限制字數 -->
+					<p>圖片敘述放這裡，要限制字數，最多兩行，最多兩行，最多兩行...</p><!-- 圖片敘述放這裡，要限制字數，最多兩行 -->
 				</div>
-				<div class="item">
-					<div class="item-image-box" style="background-image: url(../images/news.jpg) "></div>
-					<h2>圖片標題放這裡</h2>
-					<p>圖片敘述放這裡，要限制字數，最多兩行</p>
+				</label>
+
+				<div class="lightbox">
+					<input type="checkbox" class="lightbox-checkbox" id="lightbox-3">
+					<div class="lightbox-segue">
+						<label class="lightbox-cancel" for="lightbox-3"></label>
+						<div class="lightbox-container">
+							<div class="lightbox-contents">
+							<!-- 內容 -->
+								<h1 class="lightbox-title">3圖片標題放這裡</h1><!-- 標題 -->
+								<p class="lightbox-time">2014/05/06</p><!-- 時間 -->
+								<img src="images/news.jpg" alt="" class="lightbox-image">
+								<p class="lightbox-content">圖片敘述放這裡，顯示所有的字，最多250字，圖片敘述放這裡，顯示所有的字，最多250字圖片敘述放這裡，顯示所有的字，最多250字，圖片敘述放這裡，顯示所有的字，最多250字圖片敘述放這裡，顯示所有的字，最多250字，圖片敘述放這裡，顯示所有的字，最多250字，圖片敘述放這裡，顯示所有的字，最多250字，圖片敘述放這裡，顯示所有的字，最多250字圖片敘述放這裡，顯示所有的字，最多250字，圖片敘述放這裡，顯示所有的字，最多250字圖片敘述放這裡，圖片敘述放這裡，顯示所有的字，最多250字。</p>
+								<p class="lightbox-link">更多資訊：</p><a href="#" title="" class="lightbox-link-url">www.fontech.com.tw</a>
+							<!-- 內容 -->
+							</div>
+						</div>
+					</div>
 				</div>
+
+				<label for="lightbox-4">
 				<div class="item">
-					<div class="item-image-box" style="background-image: url(../images/news.jpg) "></div>
-					<h2>圖片標題放這裡</h2>
-					<p>圖片敘述放這裡，要限制字數，最多兩行</p>
+					<div class="item-image-box" style="background-image: url(http://viator75.github.io/Demo/case_prototype/images/news.jpg) "><!-- image -->
+					</div>
+					<h2>只有這個可以按</h2><!-- 標題，要限制字數 -->
+					<p>圖片敘述放這裡，要限制字數，最多兩行，最多兩行，最多兩行...</p><!-- 圖片敘述放這裡，要限制字數，最多兩行 -->
 				</div>
-				<div class="item">
-					<div class="item-image-box" style="background-image: url(../images/news.jpg) "></div>
-					<h2>圖片標題放這裡</h2>
-					<p>圖片敘述放這裡，要限制字數，最多兩行</p>
+				</label>
+
+				<div class="lightbox">
+					<input type="checkbox" class="lightbox-checkbox" id="lightbox-4">
+					<div class="lightbox-segue">
+						<label class="lightbox-cancel" for="lightbox-4"></label>
+						<div class="lightbox-container">
+							<div class="lightbox-contents">
+							<!-- 內容 -->
+								<h1 class="lightbox-title">4圖片標題放這裡</h1><!-- 標題 -->
+								<p class="lightbox-time">2014/05/06</p><!-- 時間 -->
+								<img src="images/news.jpg" alt="" class="lightbox-image">
+								<p class="lightbox-content">圖片敘述放這裡，顯示所有的字，最多250字，圖片敘述放這裡，顯示所有的字，最多250字圖片敘述放這裡，顯示所有的字，最多250字，圖片敘述放這裡，顯示所有的字，最多250字圖片敘述放這裡，顯示所有的字，最多250字，圖片敘述放這裡，顯示所有的字，最多250字，圖片敘述放這裡，顯示所有的字，最多250字，圖片敘述放這裡，顯示所有的字，最多250字圖片敘述放這裡，顯示所有的字，最多250字，圖片敘述放這裡，顯示所有的字，最多250字圖片敘述放這裡，圖片敘述放這裡，顯示所有的字，最多250字。</p>
+								<p class="lightbox-link">更多資訊：</p><a href="#" title="" class="lightbox-link-url">www.fontech.com.tw</a>
+							<!-- 內容 -->
+							</div>
+						</div>
+					</div>
 				</div>
+
+				<label for="lightbox-5">
 				<div class="item">
-					<div class="item-image-box" style="background-image: url(../images/news.jpg) "></div>
-					<h2>圖片標題放這裡</h2>
-					<p>圖片敘述放這裡，要限制字數，最多兩行</p>
+					<div class="item-image-box" style="background-image: url(http://viator75.github.io/Demo/case_prototype/images/news.jpg) "><!-- image -->
+					</div>
+					<h2>只有這個可以按</h2><!-- 標題，要限制字數 -->
+					<p>圖片敘述放這裡，要限制字數，最多兩行，最多兩行，最多兩行...</p><!-- 圖片敘述放這裡，要限制字數，最多兩行 -->
 				</div>
-				<div class="item">
-					<div class="item-image-box" style="background-image: url(../images/news.jpg) "></div>
-					<h2>圖片標題放這裡</h2>
-					<p>圖片敘述放這裡，要限制字數，最多兩行</p>
-				</div>
-				<div class="item">
-					<div class="item-image-box" style="background-image: url(../images/news.jpg) "></div>
-					<h2>圖片標題放這裡</h2>
-					<p>圖片敘述放這裡，要限制字數，最多兩行</p>
-				</div>
-				<div class="item">
-					<div class="item-image-box" style="background-image: url(../images/news.jpg) "></div>
-					<h2>圖片標題放這裡</h2>
-					<p>圖片敘述放這裡，要限制字數，最多兩行</p>
-				</div>
-				<div class="item">
-					<div class="item-image-box" style="background-image: url(../images/news.jpg) "></div>
-					<h2>圖片標題放這裡</h2>
-					<p>圖片敘述放這裡，要限制字數，最多兩行</p>
-				</div>
-				<div class="item">
-					<div class="item-image-box" style="background-image: url(../images/news.jpg) "></div>
-					<h2>圖片標題放這裡</h2>
-					<p>圖片敘述放這裡，要限制字數，最多兩行</p>
+				</label>
+
+				<div class="lightbox">
+					<input type="checkbox" class="lightbox-checkbox" id="lightbox-5">
+					<div class="lightbox-segue">
+						<label class="lightbox-cancel" for="lightbox-5"></label>
+						<div class="lightbox-container">
+							<div class="lightbox-contents">
+							<!-- 內容 -->
+								<h1 class="lightbox-title">5圖片標題放這裡</h1><!-- 標題 -->
+								<p class="lightbox-time">2014/05/06</p><!-- 時間 -->
+								<img src="images/news.jpg" alt="" class="lightbox-image">
+								<p class="lightbox-content">圖片敘述放這裡，顯示所有的字，最多250字，圖片敘述放這裡，顯示所有的字，最多250字圖片敘述放這裡，顯示所有的字，最多250字，圖片敘述放這裡，顯示所有的字，最多250字圖片敘述放這裡，顯示所有的字，最多250字，圖片敘述放這裡，顯示所有的字，最多250字，圖片敘述放這裡，顯示所有的字，最多250字，圖片敘述放這裡，顯示所有的字，最多250字圖片敘述放這裡，顯示所有的字，最多250字，圖片敘述放這裡，顯示所有的字，最多250字圖片敘述放這裡，圖片敘述放這裡，顯示所有的字，最多250字。</p>
+								<p class="lightbox-link">更多資訊：</p><a href="#" title="" class="lightbox-link-url">www.fontech.com.tw</a>
+							<!-- 內容 -->
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
+			<!-- ------------------- -->
+			<!-- 以上為主要gallery區域-->
+			<!-- ------------------- -->
+
+
+
+
 		</div>
 	</article><!-- about -->
+
+
+
+
+
 
 
 
