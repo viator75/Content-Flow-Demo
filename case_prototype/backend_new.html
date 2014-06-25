@@ -3,31 +3,17 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="title" content="我是新黨，陳彥伯">
-<meta name="KeyWords" content="陳彥伯, 新黨候選人, 台北市議員">
-<meta name="description" content="台北市議員新黨候選人陳彥伯官方網站">
-<meta property="og:title" content="我是新黨，陳彥伯">
-<meta property="og:type" content="website">
-<meta property="og:url" content=""><!-- 未知 -->
-<meta property="og:image" content=""><!-- 未知 -->
-<meta property="og:site_name" content="我是新黨，陳彥伯">
-<meta property="og:description" content="台北市議員新黨候選人陳彥伯官方網站">
-<link rel="shortcut icon" href="http://www.fontech.com.tw/assets/public/favicon.png" type="image/png" /><!-- 未知 -->
-<link rel="Bookmark" href="http://www.fontech.com.tw/assets/public/favicon.png" type="image/png" /><!-- 未知 -->
-<link rel="icon" href="http://www.fontech.com.tw/assets/public/favicon.png" type="image/png" /><!-- 未知 -->
-<link rel="image_src" type="image/jpeg" href="http://www.fontech.com.tw/assets/public/facebook_show.jpg" /><!-- 未知 -->
+<meta name="description" content="台北市議員新黨候選人陳彥伯網站後台">
+<link rel="shortcut icon" href="http://viator75.github.io/Demo/case_prototype/images/logo.png" type="image/png" />
+<link rel="Bookmark" href="http://viator75.github.io/Demo/case_prototype/images/logo.png" type="image/png" />
+<link rel="icon" href="http://viator75.github.io/Demo/case_prototype/images/logo.png" type="image/png" />
+<link rel="image_src" type="image/jpeg" href="http://viator75.github.io/Demo/case_prototype/images/facebook_show.jpg" />
 <meta name="Author" content="Fontech方客特有限公司">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<!-- <link href="stylesheets/backend.css" media="screen" rel="stylesheet" type="text/css"> -->
-<link href="http://viator75.github.io/Demo/case_prototype/stylesheets/backend.css" media="screen" rel="stylesheet" type="text/css">
+<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=yes">
+<link href="stylesheets/backend.css" media="screen" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=yes">  
-<!--[if lt IE 9]>
-<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-<![endif]-->
-<!--[if lt IE 8]>
-<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-<![endif]-->
-<title>我是新黨，陳彥伯（後台）</title>
+<title>新黨候選人陳彥伯網站後台</title>
 </head>
 <body>
 <div class="wrapper">
@@ -47,32 +33,43 @@
 
 
 
+
+
+
+
+
+
+
+
+	<!-- 新增（編輯）頁面 -->
 	<section>
 		<div class="container backend-main backend-workarea">
-			<p class="backend-underline-text">上傳</p>
+			<p class="backend-underline-text">上傳</p><!-- 若為編輯狀態則顯示「編輯」 -->
 			<form class="fill-area">
-				<label for="category">分類</label>
+				<label for="category">分類</label><!-- 此為主分類，選完後才會開始讀取子分類 -->
 				<select name="category">
-					<option value="0">問政成績單</option>
-					<option value="1">服務大小事</option>
-					<option value="2">活動萬花筒</option>
-					<option value="3">新聞播報室</option>
+					<option value="0"></option>
+					<option value="1">問政成績單</option>
+					<option value="2">服務大小事</option>
+					<option value="3">活動萬花筒</option>
+					<option value="4">新聞播報室</option>
 				</select>
-				<label for="sub-category">子分類</label>
+				<label for="sub-category">子分類</label><!-- 此為子分類，在選完主分類之後才會讀取出來，若為「活動萬花筒」則不需要選擇子分類，因為該分類以「年份」做分類 -->
 				<select name="sub-category">
-					<option value="0">子分類一</option>
-					<option value="1">子分類二</option>
-					<option value="2">子分類三</option>
+					<option value="0"></option>
+					<option value="1">子分類一</option>
+					<option value="2">子分類二</option>
+					<option value="3">子分類三</option>
 				</select>
 
 				<label for="date">日期</label>
-				<input type="date" name="" value="" placeholder="">
+				<input type="date" name="" value="" placeholder=""><!-- 日期填寫的表格某些瀏覽器不支援HTML5，不知道rails的套件是怎麼安排這個地方？想說接完後台再修前台，格式為年、月、日 -->
 				<label for="image">上傳圖片</label>
-				<input type="file" name="image" value="" placeholder="">
+				<input type="file" name="image" value="" placeholder="請上傳圖片">
 				<label for="title">標題</label>
-				<input type="text" name="title" value="" placeholder="">
+				<input type="text" name="title" value="" placeholder="請輸入標題">
 
-				<p class="form-hint">請檢查此欄位</p>
+				<p class="form-hint">請檢查此欄位</p><!-- 此為驗證用訊息，再出現錯誤的欄位出現提示 -->
 
 
 
@@ -82,14 +79,24 @@
 				<input type="text" name="" value="" placeholder="例如：http://www.fontech.com.tw/">
 				<br>
 				<br>
-				<button type="" class="delete left-btn">刪除</button>
+				<button type="" class="delete left-btn">刪除</button><!-- 若為編輯狀態則不顯示此按鈕 -->
 				<div class="btn-pull-right">
-					<button type="" class="cancel right-btn">取消</button>
+					<button type="" class="cancel right-btn">取消</button><!-- 回上一頁 -->
 					<button type="" class="upload  right-btn">上傳</button>
 				</div>
 			</form>
 		</div>
 	</section>
+
+
+
+
+
+
+
+
+
+
 
 
 	<footer>

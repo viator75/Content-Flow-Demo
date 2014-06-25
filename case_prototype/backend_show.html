@@ -68,7 +68,7 @@
 					<tr>
 						<td>標題名稱稱標題名稱標題名（最多20個字）</td>
 						<td>2014/11/03</td>
-						<td><a href="#">編輯</a></td>
+						<td><a href="#">編輯</a></td><!-- 點選編輯後連到「編輯畫面」（即backend_new.html） -->
 					</tr>
 					<!-- ------ -->
 					<!-- 可新增區 -->
@@ -119,13 +119,20 @@
 				</tbody>
 			</table>
 			<aside class="aside-bar">
-				<button class="upload">上傳資料</button>
+				<button class="upload">上傳資料</button><!-- 連到backend_new.html頁面 -->
 				<div class="categories">
+
+					<!-- ------ -->
+					<!-- 分類顯示，確定url後將以js判斷位址，加上.active最為導航 -->
+					<!-- ------ -->
 					<ol>
 						<li><a href="#">書面質詢</a></li>
 						<li class="active"><a href="#">部門質詢</a></li>
 						<li><a href="#">質詢影音</a></li>
 					</ol>
+					<!-- ------ -->
+					<!-- 分類顯示 -->
+					<!-- ------ -->
 				</div>
 			</aside>
 		</div>
