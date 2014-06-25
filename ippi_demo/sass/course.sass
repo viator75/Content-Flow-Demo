@@ -1,12 +1,20 @@
 @import compass/reset
 @import compass/css3/box-sizing
+@import compass/css3/border-radius
+@import compass/css3
 $all-width: 100%
+$lesson-color: #5a5a5a
+h1, h2, p, a
+	font-family: "HelveticaNeue", "Helvetica", "Heiti TC","儷黑 Pro" , "Arial",sans-serif
+	font-style: normal
+	font-weight: 300
+
 body
 	position: relative
 	background-color: #ededed
 	color: #444444
 .container
-	max-width: 940px
+	max-width: 1160px
 
 	margin: 0 auto
 	height: auto
@@ -20,12 +28,15 @@ a
 	text-decoration: none
 i
 	width: 24px
+	margin-right: 4px
+	text-align: center
 // -------------
 // Hero image
 // -------------
 
 .hero
 	+box-sizing(border-box)
+	+box-shadow(0px 3px 10px rgba(0, 0, 0, 0.7))
 	width: 100%
 	min-width: 100%
 	height: 628px
@@ -43,6 +54,7 @@ i
 	float: left
 	width: 120px
 	height: 114px
+	margin-left: 10px
 	background-image: url(../images/ippi_taipei.jpg)
 	background-repeat: no-repeat
 	background-position: top
@@ -61,12 +73,17 @@ i
 	line-height: 1.4em
 	letter-spacing: 0.2px
 	vertical-align: baseline
+	+text-shadow(2px 2px 5px rgba(0, 0, 0, 0.2))
 .social
 	float: right
-	width: 120px
+	width: auto
+	margin-right: 10px
+	color: rgba(255, 255, 255, 0.5)
 	i
 		width: 40px
 		display: inline-block
+		&:hover
+			color: rgba(255, 255, 255, 0.9)
 
 // -------------
 // Hero image
@@ -81,14 +98,23 @@ i
 nav
 	width: 100%
 	height: 64px
-	background-color: rgba(3, 46, 91, 0.6)
+	background-color: rgba(1, 40, 81, 0.7)
+	border-bottom: 2px solid rgba(0,0,0,1)
 	ul
 		float: right
 	li
 		padding: 1.5em 1.2em
+		margin: auto 0 auto -4px
 		display: inline-block
+		border-bottom: 2px solid rgba(220,10,23,1)
+		+transition-duration(0.4s)
+
 		&:hover
-			background-color: rgba(3, 46, 91, 0.8)
+			border-bottom: 2px solid rgba(254,206,47,1)
+			background-color: #09134a
+			+transition-duration(0s)
+			+transition-timing-function(ease-in)
+
 	a
 		color: white
 		height: 100%
@@ -96,8 +122,11 @@ nav
 	float: left
 	color: white
 	font-size: 1.6em
+	margin-left: 10px
 	display: block
 	padding: 0.75em 0
+	font-family: "Times New Roman", "Georgia", Times, serif
+	font-style: italic
 
 
 
@@ -108,7 +137,12 @@ nav
 
 .vision
 	max-width: 680px
+	line-height: 1.6
 	p
+		text-indent: 32px
+		margin-bottom: 1em
+	ol
+		padding-left: 20px
 	ol li
 		list-style-type: decimal
 
@@ -181,26 +215,59 @@ nav
 .lesson
 	max-width: 620px
 	padding-bottom: 4em
+	clear: both
 .lesson-series
-	font-size: 1.4em
+	font-family: "Times New Roman", "Georgia", Times, serif
+	font-style: italic
+	font-size: 1.6em
 	border-bottom: 1px solid rgba(3, 46, 91, 1)
 	margin-bottom: 20px
+	clear: both
+
 .lesson-name
+	font-family: "Times New Roman", "Georgia", Times, "Heiti TC", serif
+
 	font-size: 1.2em
-	margin-bottom: 8px
+	margin-bottom: 16px
+	clear: both
 .lesson-content
 	font-size: 1em
-	margin-bottom: 16px
-	line-height: 1.2
+	margin-bottom: 24px
+	line-height: 1.4
+	color: $lesson-color
 .lesson-date
+	margin-bottom: 8px
+	color: $lesson-color
 .lesson-price
+	color: $lesson-color
+
 .download
+	margin: 1em 0 4em 0
 	text-align: center
-	border-radius: 16px
+	+border-radius(3px)
+	float: right
 	width: 88px
 	padding: 8px 18px
-	border: 1px solid rgba(3, 46, 91, 1)
 	display: block
+	border: 1px solid #09467f
+	background-color: #157ee4
+	color: white
+	// +box-shadow(#0d3f8b 0px 2px 0px)
+	background-color: #3093c7
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#157ee4), to(rgba(3, 46, 91, 1)))
+	background-image: -webkit-linear-gradient(top, #157ee4, rgba(3, 46, 91, 1))
+	background-image: -moz-linear-gradient(top, #157ee4, rgba(3, 46, 91, 1))
+	background-image: -ms-linear-gradient(top, #157ee4, rgba(3, 46, 91, 1))
+	background-image: -o-linear-gradient(top, #157ee4, rgba(3, 46, 91, 1))
+	background-image: linear-gradient(to bottom, #157ee4, rgba(3, 46, 91, 1))
+	&:hover
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#0d3f8b), to(#157ee4))
+		background-image: -webkit-linear-gradient(top, #0d3f8b, #1573d0)
+		background-image: -moz-linear-gradient(top, #0d3f8b, #1573d0)
+		background-image: -ms-linear-gradient(top, #0d3f8b,#1573d0)
+		background-image: -o-linear-gradient(top, #0d3f8b, #1573d0)
+		background-image: linear-gradient(to bottom, #0d3f8b, #1573d0)
+
 
 // -------------
 // program
@@ -220,6 +287,7 @@ nav
 	background-size: cover
 	background-color: rgba(0,0,0,1)
 	background-attachment: fixed
+	clear: both
 	.register-filter
 		display: block
 		padding: 0em 0 4em 0
@@ -272,14 +340,18 @@ footer
 	z-index: 20
 .germany-black, .germany-yellow, .germany-red
 	float: left
+	// position: fixed
 	width: $all-width/3
-	height: 4px
+	height: 3px
 .germany-black
-	border-bottom: 4px solid rgba(0,0,0,1)
+	background-color: rgba(0, 0, 0, 0.7)
+	border-top: 2px solid rgba(60, 60, 60, 1)
 .germany-red
-	border-bottom: 4px solid rgba(220,10,23,1)
+	background-color: #8f050e
+	border-top: 2px solid rgba(220,10,23,1)
 .germany-yellow
-	border-bottom: 4px solid rgba(254,206,47,1)
+	background-color: #9e8a1b
+	border-top: 2px solid rgba(254,206,47,1)
 
 
 // -------------
