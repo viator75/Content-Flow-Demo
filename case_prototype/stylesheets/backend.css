@@ -658,18 +658,18 @@ form .form-hint:before {
   content: "";
 }
 
-/* line 334, ../sass/backend.sass */
+/* line 335, ../sass/backend.sass */
 .aside-bar {
   position: absolute;
   top: 88px;
   left: -160px;
 }
-/* line 338, ../sass/backend.sass */
+/* line 339, ../sass/backend.sass */
 .aside-bar .upload {
   margin-bottom: 8px;
   width: 100%;
 }
-/* line 341, ../sass/backend.sass */
+/* line 342, ../sass/backend.sass */
 .aside-bar .categories {
   border: 1px solid #a0a0a0;
   -webkit-border-radius: 3px;
@@ -684,19 +684,19 @@ form .form-hint:before {
   height: auto;
   padding: 10px 0 2px 0;
 }
-/* line 348, ../sass/backend.sass */
+/* line 349, ../sass/backend.sass */
 .aside-bar a {
   display: block;
   color: #9f9f9f;
   padding-left: 28px;
   margin-bottom: 16px;
 }
-/* line 354, ../sass/backend.sass */
+/* line 355, ../sass/backend.sass */
 .aside-bar .active a {
   color: #545454;
   position: relative;
 }
-/* line 357, ../sass/backend.sass */
+/* line 358, ../sass/backend.sass */
 .aside-bar .active a:before {
   content: "";
   height: 8px;
@@ -712,42 +712,42 @@ form .form-hint:before {
   background-color: #2a6dd5;
 }
 
-/* line 367, ../sass/backend.sass */
+/* line 368, ../sass/backend.sass */
 .uploaded-item {
   width: 100%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 370, ../sass/backend.sass */
+/* line 371, ../sass/backend.sass */
 .uploaded-item td {
   color: #545454;
   padding-bottom: 18px;
 }
-/* line 373, ../sass/backend.sass */
+/* line 374, ../sass/backend.sass */
 .uploaded-item td:last-child {
   text-align: right;
 }
-/* line 375, ../sass/backend.sass */
+/* line 376, ../sass/backend.sass */
 .uploaded-item td a {
   color: #787878;
 }
-/* line 377, ../sass/backend.sass */
+/* line 378, ../sass/backend.sass */
 .uploaded-item td a:hover {
   color: #f1333a;
 }
 
-/* line 382, ../sass/backend.sass */
+/* line 383, ../sass/backend.sass */
 .uploaded-thead-title {
   width: 70%;
 }
 
-/* line 384, ../sass/backend.sass */
+/* line 385, ../sass/backend.sass */
 .uploaded-thead-date {
   width: 20%;
 }
 
-/* line 393, ../sass/backend.sass */
+/* line 394, ../sass/backend.sass */
 footer {
   background-color: #e6e6e6;
   clear: both;

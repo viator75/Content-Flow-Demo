@@ -472,31 +472,33 @@ label {
 /* line 11, ../sass/all.sass */
 a {
   color: black;
+  width: auto;
+  height: auto;
 }
 
-/* line 14, ../sass/all.sass */
+/* line 16, ../sass/all.sass */
 img {
   display: block;
 }
 
-/* line 19, ../sass/all.sass */
+/* line 21, ../sass/all.sass */
 .pull-right {
   margin-right: 40px;
 }
 
-/* line 25, ../sass/all.sass */
+/* line 27, ../sass/all.sass */
 .wrapper {
   width: 100%;
   margin: 0 auto;
 }
 
-/* line 29, ../sass/all.sass */
+/* line 31, ../sass/all.sass */
 .container {
   width: 960px;
   margin: 0 auto;
 }
 
-/* line 41, ../sass/all.sass */
+/* line 43, ../sass/all.sass */
 .fixedbar {
   width: 100%;
   background-color: #ffd609;
@@ -506,13 +508,13 @@ img {
   -moz-box-shadow: 0px 2px 3px rgba(17, 17, 17, 0.2);
   box-shadow: 0px 2px 3px rgba(17, 17, 17, 0.2);
 }
-/* line 49, ../sass/all.sass */
+/* line 51, ../sass/all.sass */
 .fixedbar .ul {
   height: 4em;
   width: 966px;
   margin: 0 auto;
 }
-/* line 53, ../sass/all.sass */
+/* line 55, ../sass/all.sass */
 .fixedbar .li {
   float: left;
   width: 138px;
@@ -524,7 +526,7 @@ img {
   -o-transition: 0.3s all;
   transition: 0.3s all;
 }
-/* line 63, ../sass/all.sass */
+/* line 65, ../sass/all.sass */
 .fixedbar .li:hover {
   color: black;
   background-color: #fee979;
@@ -535,11 +537,11 @@ img {
   transition: 0.55s all;
 }
 
-/* line 71, ../sass/all.sass */
+/* line 74, ../sass/all.sass */
 .drop {
   position: relative;
 }
-/* line 73, ../sass/all.sass */
+/* line 76, ../sass/all.sass */
 .drop .drop-ul {
   display: none;
   position: absolute;
@@ -551,16 +553,16 @@ img {
   -moz-box-shadow: 0px 2px 3px rgba(17, 17, 17, 0.2);
   box-shadow: 0px 2px 3px rgba(17, 17, 17, 0.2);
 }
-/* line 83, ../sass/all.sass */
+/* line 86, ../sass/all.sass */
 .drop:hover > .drop-ul {
   display: block;
 }
-/* line 85, ../sass/all.sass */
+/* line 88, ../sass/all.sass */
 .drop .drop-li:hover {
   background-color: rgba(254, 214, 9, 0.6);
 }
 
-/* line 92, ../sass/all.sass */
+/* line 95, ../sass/all.sass */
 #about {
   padding-top: 88px;
   padding-bottom: 38px;
@@ -568,7 +570,7 @@ img {
   background-repeat: repeat;
   background-size: 16px;
 }
-/* line 99, ../sass/all.sass */
+/* line 102, ../sass/all.sass */
 #about .hero {
   background-image: url(http://viator75.github.io/Demo/case_prototype/images/hero.jpg);
   background-position: top;
@@ -584,28 +586,28 @@ img {
   -o-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 109, ../sass/all.sass */
+/* line 112, ../sass/all.sass */
 #about p, #about h1 {
   text-align: center;
 }
-/* line 111, ../sass/all.sass */
+/* line 114, ../sass/all.sass */
 #about p {
   font-size: 1.4em;
 }
 
-/* line 115, ../sass/all.sass */
+/* line 118, ../sass/all.sass */
 #politic {
   padding-top: 5em;
   margin-top: -2em;
   height: 50em;
 }
-/* line 119, ../sass/all.sass */
+/* line 122, ../sass/all.sass */
 #politic .one-third-upper,
 #politic .one-third-lower {
   width: 100%;
   height: 180px;
 }
-/* line 123, ../sass/all.sass */
+/* line 126, ../sass/all.sass */
 #politic .one-third-upper {
   background-image: url(http://viator75.github.io/Demo/case_prototype/images/hero.jpg);
   background-position: 0 370px;
@@ -616,7 +618,7 @@ img {
   -o-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 129, ../sass/all.sass */
+/* line 132, ../sass/all.sass */
 #politic .one-third-lower {
   background-image: url(http://viator75.github.io/Demo/case_prototype/images/hero.jpg);
   background-position: bottom;
@@ -628,28 +630,28 @@ img {
   -o-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 136, ../sass/all.sass */
+/* line 139, ../sass/all.sass */
 #politic h1 {
   text-align: center;
 }
-/* line 138, ../sass/all.sass */
+/* line 141, ../sass/all.sass */
 #politic .politic {
   width: 840px;
   display: block;
   height: auto;
   margin: 4em auto 3em auto;
 }
-/* line 143, ../sass/all.sass */
+/* line 146, ../sass/all.sass */
 #politic .politic ol {
   display: inline-block;
 }
-/* line 145, ../sass/all.sass */
+/* line 148, ../sass/all.sass */
 #politic .politic ol li {
   display: block;
   margin-bottom: 20px;
 }
 
-/* line 148, ../sass/all.sass */
+/* line 151, ../sass/all.sass */
 #show {
   background-image: url(http://viator75.github.io/Demo/case_prototype/images/pyramid.png);
   background-repeat: repeat;
@@ -659,7 +661,7 @@ img {
   margin: 3em 0 0 0;
   padding: 2em 0;
 }
-/* line 156, ../sass/all.sass */
+/* line 159, ../sass/all.sass */
 #show .link-show {
   display: inline-block;
   -webkit-box-sizing: border-box;
@@ -668,7 +670,7 @@ img {
   float: left;
   text-align: center;
 }
-/* line 161, ../sass/all.sass */
+/* line 164, ../sass/all.sass */
 #show .show-perform, #show .show-events, #show .show-services, #show .show-news {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -692,7 +694,7 @@ img {
   -moz-box-shadow: 0px 3px 5px rgba(17, 17, 17, 0.2);
   box-shadow: 0px 3px 5px rgba(17, 17, 17, 0.2);
 }
-/* line 179, ../sass/all.sass */
+/* line 182, ../sass/all.sass */
 #show .show-perform h2, #show .show-events h2, #show .show-services h2, #show .show-news h2 {
   position: absolute;
   bottom: -36px;
@@ -704,7 +706,7 @@ img {
   padding: 8px 12px 8px 0;
   color: rgba(255, 255, 255, 0.9);
 }
-/* line 189, ../sass/all.sass */
+/* line 192, ../sass/all.sass */
 #show .show-perform:hover, #show .show-events:hover, #show .show-services:hover, #show .show-news:hover {
   -webkit-transition: 0.1s;
   -moz-transition: 0.1s;
@@ -713,7 +715,7 @@ img {
   transition: 0.1s;
   background-size: 109%;
 }
-/* line 196, ../sass/all.sass */
+/* line 199, ../sass/all.sass */
 #show .show-perform:hover h2, #show .show-events:hover h2, #show .show-services:hover h2, #show .show-news:hover h2 {
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.6);
@@ -724,53 +726,53 @@ img {
   -o-transition: 0.25s all;
   transition: 0.25s all;
 }
-/* line 205, ../sass/all.sass */
+/* line 208, ../sass/all.sass */
 #show .show-perform {
   background-image: url(http://viator75.github.io/Demo/case_prototype/images/ask.jpg);
 }
-/* line 207, ../sass/all.sass */
+/* line 210, ../sass/all.sass */
 #show .show-events {
   background-image: url(http://viator75.github.io/Demo/case_prototype/images/event.jpg);
 }
-/* line 209, ../sass/all.sass */
+/* line 212, ../sass/all.sass */
 #show .show-services {
   background-image: url(http://viator75.github.io/Demo/case_prototype/images/service.jpg);
 }
-/* line 211, ../sass/all.sass */
+/* line 214, ../sass/all.sass */
 #show .show-news {
   background-image: url(http://viator75.github.io/Demo/case_prototype/images/news.jpg);
 }
 
-/* line 215, ../sass/all.sass */
+/* line 218, ../sass/all.sass */
 #contact {
   background-color: white;
   padding: 2em 0 4em 0;
   margin-top: -1em;
   height: 36em;
 }
-/* line 220, ../sass/all.sass */
+/* line 223, ../sass/all.sass */
 #contact h1 {
   text-align: center;
 }
-/* line 222, ../sass/all.sass */
+/* line 225, ../sass/all.sass */
 #contact .place {
   float: left;
   margin: 16px 40px 20px 0;
   width: 460px;
 }
-/* line 226, ../sass/all.sass */
+/* line 229, ../sass/all.sass */
 #contact .place h1 {
   text-align: left;
   font-size: 1.4em;
 }
-/* line 229, ../sass/all.sass */
+/* line 232, ../sass/all.sass */
 #contact .place p, #contact .place a, #contact .place address {
   font-size: 1em;
   font-weight: 400;
   letter-spacing: 1px;
   line-height: 1.2em;
 }
-/* line 234, ../sass/all.sass */
+/* line 237, ../sass/all.sass */
 #contact iframe {
   float: left;
   margin: 32px 0 0 0;
@@ -785,7 +787,7 @@ img {
   border-radius: 5px;
 }
 
-/* line 244, ../sass/all.sass */
+/* line 247, ../sass/all.sass */
 footer {
   background-color: #e6e6e6;
   clear: both;
