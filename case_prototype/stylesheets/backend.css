@@ -501,9 +501,9 @@ section {
   background-color: #157ee4;
   color: white;
   padding: 0.6em 2em;
-  -webkit-box-shadow: rgba(19, 132, 243, 0.9) 0px 6px 10px inset, rgba(10, 25, 110, 0.5) 0px -4px 8px inset;
-  -moz-box-shadow: rgba(19, 132, 243, 0.9) 0px 6px 10px inset, rgba(10, 25, 110, 0.5) 0px -4px 8px inset;
-  box-shadow: rgba(19, 132, 243, 0.9) 0px 6px 10px inset, rgba(10, 25, 110, 0.5) 0px -4px 8px inset;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.3) 0px 2px 2px inset, rgba(10, 25, 110, 0.5) 0px -2px 4px inset;
+  -moz-box-shadow: rgba(255, 255, 255, 0.3) 0px 2px 2px inset, rgba(10, 25, 110, 0.5) 0px -2px 4px inset;
+  box-shadow: rgba(255, 255, 255, 0.3) 0px 2px 2px inset, rgba(10, 25, 110, 0.5) 0px -2px 4px inset;
   background-color: #157ee4;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#157ee4), to(#106ac1));
   background-image: -webkit-linear-gradient(top, #157ee4, #106ac1);
