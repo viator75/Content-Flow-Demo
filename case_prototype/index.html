@@ -2,7 +2,7 @@
 <!-- 前台的meta tag以這份為主 -->
 
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<!DOCTYPE html public "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -26,13 +26,9 @@
 <!-- -------------- -->
 <!-- 前台的css使用all.css，all.css是由"_"為開頭的檔案組成的，請勿直接修改all.css以免崩潰～ -->
 
-<link href="stylesheets/all.css" media="screen" rel="stylesheet" type="text/css">
+<link href="stylesheets/index.css" media="screen" rel="stylesheet" type="text/css">
 
 <!-- -------------- -->
-
-
-
-
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 <title>我是新黨，陳彥伯</title>
@@ -60,35 +56,41 @@
 	<!-- -------------- -->
 	<nav class="fixedbar"><!-- fixed bar -->
 		<ul class="ul">
-			<a href="#about" title="about"><li class="li">關於彥伯</li></a>
-			<a href="#politic" title="politic"><li class="li">政見報馬仔</li></a>
+			<li class="li"><a href="#about" title="about">關於彥伯</a></li>
+			<li class="li"><a href="#politic" title="politic">政見報馬仔</a></li>
 			
-			<a href="perform.html" title="perform"><li class="drop li">問政成績單
+			
+			<li class="drop li">
+				<a href="perform.html" title="perform">問政成績單</a>
 				<ul class="drop-ul">
-					<a href="" title="書面質詢"><li class="drop-li">書面質詢</li></a>
-					<a href="" title="部門質詢"><li class="drop-li">部門質詢</li></a>
-					<a href="" title="質詢影音"><li class="drop-li">質詢影音</li></a>
+					<li class="drop-li"><a href="" title="書面質詢">書面質詢</a></li>
+					<li class="drop-li"><a href="" title="部門質詢">部門質詢</a></li>
+					<li class="drop-li"><a href="" title="質詢影音">質詢影音</a></li>
 				</ul>
-			</li></a>
+			</li>
 			
-			<a href="service.html" title="service"><li class="drop li">服務大小事</a>
+			
+			<li class="drop li">
+				<a href="service.html" title="service">服務大小事</a>
 				<ul class="drop-ul">
-					<a href="" title="會勘"><li class="drop-li">會勘</li></a>
-					<a href="" title="義剪活動"><li class="drop-li">義剪活動</li></a>
-					<a href="" title="免費法服"><li class="drop-li">免費法服</li></a>
-					<a href="" title="其他"><li class="drop-li">其他</li></a>
+					<li class="drop-li"><a href="" title="會勘">會勘</a></li>
+					<li class="drop-li"><a href="" title="義剪活動">義剪活動</a></li>
+					<li class="drop-li"><a href="" title="免費法服">免費法服</a></li>
+					<li class="drop-li"><a href="" title="其他">其他</a></li>
 				</ul>
-			</li></a>
+			</li>
 			
-			<a href="events.html" title="events"><li class="li">活動萬花筒</li></a>
+			<li class="li"><a href="events.html" title="events">活動萬花筒</a></li>
 			
-			<a href="news.html" title="news"><li class="drop li">新聞播報室
+			
+			<li class="drop li">
+				<a href="news.html" title="news">新聞播報室</a>
 				<ul class="drop-ul">
-					<a href="" title="新聞稿"><li class="drop-li">新聞稿</li></a>
-					<a href="" title="媒體報導"><li class="drop-li">媒體報導</li></a>
+					<li class="drop-li"><a href="" title="新聞稿">新聞稿</a></li>
+					<li class="drop-li"><a href="" title="媒體報導">媒體報導</a></li>
 				</ul>
-			</li></a>
-			<a href="#contact" title="contact"><li class="li">聯絡我們</li></a>
+			</li>
+			<li class="li"><a href="#contact" title="contact">聯絡我們</a></li>
 		</ul>
 	</nav><!-- fixed bar -->
 	<!-- -------------- -->
@@ -243,7 +245,7 @@
 
 
 <!-- -------------- -->
-<!-- 滾軸特效的JS，不知為何有問題，待確認！！！！！！！！！！！！！！ -->
+<!-- 滾軸特效的JS -->
 <!-- -------------- -->
 <script type="text/javascript">
 $(function() {
@@ -253,13 +255,15 @@ $(function() {
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
         $('html,body').animate({
-          scrollTop: target.offset().top
+          scrollTop: target.offset().top - 48
         }, 600);
         return false;
       }
     }
   });
 });
+
+
 </script>
 <!-- -------------- -->
 <!-- 滾軸特效的JS -->
