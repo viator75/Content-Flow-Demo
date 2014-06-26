@@ -73,18 +73,24 @@ h1, h2, p, a {
 /* line 12, ../sass/course.sass */
 body {
   position: relative;
-  background-color: #ededed;
-  color: #444444;
+  background-color: #ececec;
+  background: #d5d5d5;
+  background: -moz-linear-gradient(left, lightgrey, #fbfbfb 30%, #fbfbfb 70%, lightgrey 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, lightgrey), color-stop(30%, #fbfbfb), color-stop(70%, #fbfbfb), color-stop(100%, lightgrey));
+  background: -webkit-linear-gradient(left, lightgrey, #fbfbfb 30%, #fbfbfb 70%, lightgrey 100%);
+  background: -o-linear-gradient(left, lightgrey, #fbfbfb 30%, #fbfbfb 70%, lightgrey 100%);
+  background: -ms-linear-gradient(left, lightgrey, #fbfbfb 30%, #fbfbfb 70%, lightgrey 100%);
+  background: linear-gradient(to right, #d3d3d3, #fbfbfb 30%, #fbfbfb 70%, #d3d3d3 100%);
 }
 
-/* line 16, ../sass/course.sass */
+/* line 23, ../sass/course.sass */
 .container {
   max-width: 1160px;
   margin: 0 auto;
   height: auto;
 }
 
-/* line 22, ../sass/course.sass */
+/* line 29, ../sass/course.sass */
 h3 {
   text-align: center;
   font-size: 1.5em;
@@ -92,19 +98,19 @@ h3 {
   padding-bottom: 40px;
 }
 
-/* line 27, ../sass/course.sass */
+/* line 34, ../sass/course.sass */
 a {
   text-decoration: none;
 }
 
-/* line 29, ../sass/course.sass */
+/* line 36, ../sass/course.sass */
 i {
   width: 24px;
   margin-right: 4px;
   text-align: center;
 }
 
-/* line 37, ../sass/course.sass */
+/* line 44, ../sass/course.sass */
 .hero {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -126,7 +132,7 @@ i {
   margin: 0 0 -4em 0;
 }
 
-/* line 53, ../sass/course.sass */
+/* line 60, ../sass/course.sass */
 .hero-logo {
   float: left;
   width: 120px;
@@ -139,7 +145,7 @@ i {
   overflow: hidden;
 }
 
-/* line 63, ../sass/course.sass */
+/* line 70, ../sass/course.sass */
 .hero-logo-title {
   width: 100%;
   height: 1px;
@@ -147,7 +153,7 @@ i {
   overflow: hidden;
 }
 
-/* line 68, ../sass/course.sass */
+/* line 75, ../sass/course.sass */
 .hero-title {
   color: white;
   float: left;
@@ -159,35 +165,35 @@ i {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* line 77, ../sass/course.sass */
+/* line 84, ../sass/course.sass */
 .social {
   float: right;
   width: auto;
   margin-right: 10px;
   color: rgba(255, 255, 255, 0.5);
 }
-/* line 82, ../sass/course.sass */
+/* line 89, ../sass/course.sass */
 .social i {
   width: 40px;
   display: inline-block;
 }
-/* line 85, ../sass/course.sass */
+/* line 92, ../sass/course.sass */
 .social i:hover {
   color: rgba(255, 255, 255, 0.9);
 }
 
-/* line 98, ../sass/course.sass */
+/* line 105, ../sass/course.sass */
 nav {
   width: 100%;
   height: 64px;
   background-color: rgba(1, 40, 81, 0.7);
   border-bottom: 2px solid black;
 }
-/* line 103, ../sass/course.sass */
+/* line 110, ../sass/course.sass */
 nav ul {
   float: right;
 }
-/* line 105, ../sass/course.sass */
+/* line 112, ../sass/course.sass */
 nav li {
   padding: 1.5em 1.2em;
   margin: auto 0 auto -4px;
@@ -198,7 +204,7 @@ nav li {
   -o-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
-/* line 112, ../sass/course.sass */
+/* line 119, ../sass/course.sass */
 nav li:hover {
   border-bottom: 2px solid #fece2f;
   background-color: #09134a;
@@ -211,13 +217,13 @@ nav li:hover {
   -o-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
 }
-/* line 118, ../sass/course.sass */
+/* line 125, ../sass/course.sass */
 nav a {
   color: white;
   height: 100%;
 }
 
-/* line 121, ../sass/course.sass */
+/* line 128, ../sass/course.sass */
 .nav-program {
   float: left;
   color: white;
@@ -229,26 +235,26 @@ nav a {
   font-style: italic;
 }
 
-/* line 138, ../sass/course.sass */
+/* line 145, ../sass/course.sass */
 .vision {
   max-width: 680px;
   line-height: 1.6;
 }
-/* line 141, ../sass/course.sass */
+/* line 148, ../sass/course.sass */
 .vision p {
   text-indent: 32px;
   margin-bottom: 1em;
 }
-/* line 144, ../sass/course.sass */
+/* line 151, ../sass/course.sass */
 .vision ol {
   padding-left: 20px;
 }
-/* line 146, ../sass/course.sass */
+/* line 153, ../sass/course.sass */
 .vision ol li {
   list-style-type: decimal;
 }
 
-/* line 158, ../sass/course.sass */
+/* line 165, ../sass/course.sass */
 .leader {
   color: white;
   position: relative;
@@ -259,7 +265,7 @@ nav a {
   background-color: black;
   background-attachment: fixed;
 }
-/* line 168, ../sass/course.sass */
+/* line 175, ../sass/course.sass */
 .leader .leader-filter {
   display: block;
   padding: 4em 0;
@@ -268,17 +274,17 @@ nav a {
   background-color: rgba(3, 46, 91, 0.8);
 }
 
-/* line 175, ../sass/course.sass */
+/* line 182, ../sass/course.sass */
 .leader-title {
   font-size: 1.2em;
 }
 
-/* line 177, ../sass/course.sass */
+/* line 184, ../sass/course.sass */
 .host {
   font-size: 1.6em;
 }
 
-/* line 189, ../sass/course.sass */
+/* line 196, ../sass/course.sass */
 .team-speaker {
   float: left;
   height: 180px;
@@ -288,7 +294,7 @@ nav a {
   box-sizing: border-box;
 }
 
-/* line 208, ../sass/course.sass */
+/* line 215, ../sass/course.sass */
 .h2-program {
   clear: both;
   font-size: 2em;
@@ -298,14 +304,14 @@ nav a {
   background-color: #032e5b;
 }
 
-/* line 215, ../sass/course.sass */
+/* line 222, ../sass/course.sass */
 .lesson {
   max-width: 620px;
   padding-bottom: 4em;
   clear: both;
 }
 
-/* line 219, ../sass/course.sass */
+/* line 226, ../sass/course.sass */
 .lesson-series {
   font-family: "Times New Roman", "Georgia", Times, serif;
   font-style: italic;
@@ -315,7 +321,7 @@ nav a {
   clear: both;
 }
 
-/* line 227, ../sass/course.sass */
+/* line 234, ../sass/course.sass */
 .lesson-name {
   font-family: "Times New Roman", "Georgia", Times, "Heiti TC", serif;
   font-size: 1.2em;
@@ -323,7 +329,7 @@ nav a {
   clear: both;
 }
 
-/* line 233, ../sass/course.sass */
+/* line 240, ../sass/course.sass */
 .lesson-content {
   font-size: 1em;
   margin-bottom: 24px;
@@ -331,18 +337,18 @@ nav a {
   color: #5a5a5a;
 }
 
-/* line 238, ../sass/course.sass */
+/* line 245, ../sass/course.sass */
 .lesson-date {
   margin-bottom: 8px;
   color: #5a5a5a;
 }
 
-/* line 241, ../sass/course.sass */
+/* line 248, ../sass/course.sass */
 .lesson-price {
   color: #5a5a5a;
 }
 
-/* line 244, ../sass/course.sass */
+/* line 251, ../sass/course.sass */
 .download {
   margin: 1em 0 4em 0;
   text-align: center;
@@ -366,7 +372,7 @@ nav a {
   background-image: -o-linear-gradient(top, #157ee4, #032e5b);
   background-image: linear-gradient(to bottom, #157ee4, #032e5b);
 }
-/* line 263, ../sass/course.sass */
+/* line 270, ../sass/course.sass */
 .download:hover {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#0d3f8b), to(#157ee4));
   background-image: -webkit-linear-gradient(top, #0d3f8b, #1573d0);
@@ -376,7 +382,7 @@ nav a {
   background-image: linear-gradient(to bottom, #0d3f8b, #1573d0);
 }
 
-/* line 281, ../sass/course.sass */
+/* line 288, ../sass/course.sass */
 .register {
   color: white;
   position: relative;
@@ -388,7 +394,7 @@ nav a {
   background-attachment: fixed;
   clear: both;
 }
-/* line 291, ../sass/course.sass */
+/* line 298, ../sass/course.sass */
 .register .register-filter {
   display: block;
   padding: 0em 0 4em 0;
@@ -397,7 +403,7 @@ nav a {
   background-color: rgba(20, 20, 20, 0.7);
 }
 
-/* line 310, ../sass/course.sass */
+/* line 317, ../sass/course.sass */
 footer {
   color: white;
   background-color: #032e5b;
@@ -405,7 +411,7 @@ footer {
   padding-top: 13em;
 }
 
-/* line 315, ../sass/course.sass */
+/* line 322, ../sass/course.sass */
 .footer-logo {
   float: right;
   width: 120px;
@@ -418,7 +424,7 @@ footer {
   overflow: hidden;
 }
 
-/* line 325, ../sass/course.sass */
+/* line 332, ../sass/course.sass */
 .footer-logo-title {
   width: 100%;
   height: 1px;
@@ -426,7 +432,7 @@ footer {
   overflow: hidden;
 }
 
-/* line 330, ../sass/course.sass */
+/* line 337, ../sass/course.sass */
 .footer-contact {
   float: right;
   width: 320px;
@@ -434,7 +440,7 @@ footer {
   margin: 0 0 0 20px;
 }
 
-/* line 335, ../sass/course.sass */
+/* line 342, ../sass/course.sass */
 .sticky {
   position: absolute;
   bottom: 0;
@@ -443,26 +449,26 @@ footer {
   z-index: 20;
 }
 
-/* line 341, ../sass/course.sass */
+/* line 348, ../sass/course.sass */
 .germany-black, .germany-yellow, .germany-red {
   float: left;
   width: 33.33333%;
   height: 3px;
 }
 
-/* line 346, ../sass/course.sass */
+/* line 353, ../sass/course.sass */
 .germany-black {
   background-color: rgba(0, 0, 0, 0.7);
   border-top: 2px solid #3c3c3c;
 }
 
-/* line 349, ../sass/course.sass */
+/* line 356, ../sass/course.sass */
 .germany-red {
   background-color: #8f050e;
   border-top: 2px solid #dc0a17;
 }
 
-/* line 352, ../sass/course.sass */
+/* line 359, ../sass/course.sass */
 .germany-yellow {
   background-color: #9e8a1b;
   border-top: 2px solid #fece2f;
