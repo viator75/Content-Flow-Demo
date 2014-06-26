@@ -444,7 +444,7 @@ footer {
 .sticky {
   position: absolute;
   bottom: 0;
-  height: 6px;
+  height: 3px;
   width: 100%;
   z-index: 20;
 }
