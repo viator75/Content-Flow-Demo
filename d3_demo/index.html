@@ -186,6 +186,7 @@
 		      var sampleHTML = d3.select("#viz")
 		        .append("table")
 		        .style("border-collapse", "collapse")
+		        .style("background-color", "#e7e7e7")
 		        .style("border", "2px black solid")
 		    
 		        .selectAll("tr")
@@ -197,10 +198,10 @@
 		        .enter().append("td")
 		        .style("border", "1px black solid")
 		        .style("padding", "5px")
-		        .on("mouseover", function(){d3.select(this).style("background-color", "aliceblue")})
-		        .on("mouseout", function(){d3.select(this).style("background-color", "white")})
+		        .on("mouseover", function(){d3.select(this).style("background-color", "#e5ac39")})
+		        .on("mouseout", function(){d3.select(this).style("background-color", "#e7e7e7")})
 		        .text(function(d){return d;})
-		        .style("font-size", "12px");
+		        .style("font-size", "16px");
 		      });           
 		    </script>     
 		<p class="p">Demo by <a href="http://www.fontech.com.tw">Fontech</a>.</p>
