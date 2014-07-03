@@ -24,187 +24,40 @@
 <!-- Add your site or application content here -->
 
 <div class="container">
-<!-- 		<svg width="100%" height="160px" fill="url(#Gradient1)">
-			<defs>
-				<radialGradient id="Gradient1" cy="60%" fx="45%" fy="45%" r="2">
-					<stop offset="0%" stop-color="#48afc1" />
-					<stop offset="10%" stop-color="#b4c63b" />
-					<stop offset="20%" stop-color="#ef5b2b" />
-					<stop offset="30%" stop-color="#503969" />
-					<stop offset="40%" stop-color="#ab6294" />
-					<stop offset="50%" stop-color="#1cb98f" /> 
-					<stop offset="60%" stop-color="#48afc1" />
-					<stop offset="70%" stop-color="#b4c63b" />
-					<stop offset="80%" stop-color="#ef5b2b" />
-					<stop offset="90%" stop-color="#503969" />
-					<stop offset="100%" stop-color="#ab6294" />
-				</radialGradient>
-			</defs>
-		<text class="text" x="0" y="60%">D3.js Demo</text>
-		</svg> -->
-		<div class="main">
-			<script type="text/javascript">
-
-			// //Width and height
-			// var w = 840;
-			// var h = 340;
-			
-			// var dataset = [ 15, 10, 13, 52, 61, 45, 27, 28, 45, 63,
-			// 				21, 42, 25, 23, 48, 47, 16, 18, 23, 35 ];
-
-
-
-
-
-
-
-			// var xScale = d3.scale.ordinal()
-			// 				.domain(d3.range(dataset.length))
-			// 				.rangeRoundBands([0, w], 0);
-
-
-
-
-			// var yScale = d3.scale.linear()
-			// 				.domain([0, d3.max(dataset)])
-			// 				.range([0, h]);
-
-			// var svg = d3.select(".main")
-			// 			.append("svg")
-			// 			.attr("width", w)
-			// 			.attr("height", h);
-
-			// svg.selectAll("rect")
-			//    .data(dataset)
-			//    .enter()
-			//    .append("rect")
-			   
-			//    .attr("x", function(d, i) {
-			//    		return xScale(i);
-			//    })
-			   
-			//    .attr("y", function(d) {
-			//    		return h - yScale(d);
-			//    })
-			   
-			//    .attr("width", xScale.rangeBand() - 4)
-			   
-
-			//    .attr("height", function(d) {
-			//    		return yScale(d);
-			//    })
-			   
-
-			//    .attr("fill", function(d) {
-			// 		return "rgb(105, 180, " + (d * 5) + ")";
-			//    })
-			   
-
-			//    .on("mouseover", function() {
-			//    		d3.select(this)
-			//    			.attr("fill", "rgba(255, 255, 255, 1)");
-			//    })
-
-
-
-			//    .on("mouseout", function(d) {
-			// 	   d3.select(this)
-			// 	   		.transition()
-			// 	   		.duration(150)
-			// 			.attr("fill", "rgb(105, 180, " + (d * 5) + ")");
-			//    })
-			//    .on("click", function() {
-			//    		sortBars();
-			//    });
-
-			// //Create labels
-			// svg.selectAll("text")
-			//    .data(dataset)
-			//    .enter()
-			//    .append("text")
-			//    .text(function(d) {
-			//    		return d;
-			//    })
-			//    .attr("text-anchor", "middle")
-			//    .attr("x", function(d, i) {
-			//    		return xScale(i) + xScale.rangeBand() / 2;
-			//    })
-			//    .attr("y", function(d) {
-			//    		return h - yScale(d) + 20;
-			//    })
-			//    .attr("font-family", "sans-serif")
-			//    .attr("font-size", "12px")
-			//    .attr("fill", "white");
-			
-			// //Define sort function
-			// var sortBars = function() {
-
-			// 	svg.selectAll("rect")
-			// 	   .sort(function(a, b) {
-			// 		   return d3.ascending(a, b);
-			// 	   	})
-			// 	   .transition()
-			// 	   .duration(1000)
-			// 	   .attr("x", function(d, i) {
-			// 	   		return xScale(i);
-			// 	   });
-			// 	svg.selectAll("text")
-			// 	    .sort(function(a, b) {
-			// 	 	   return d3.ascending(a, b);
-			// 	    	})
-			// 	    .transition()
-			// 	    .duration(800)
-			// 	    .attr("x", function(d, i) {
-			// 	    		return xScale(i) + xScale.rangeBand() / 2;
-			// 	    })
-			// 	    .attr("y", function(d) {
-			// 	    		return h - yScale(d) + 16;
-			// 	    })
-			// 	    .attr("font-family", "sans-serif")
-			// 	    .attr("font-size", "14px")
-			// 	    .attr("fill", "black");
-			// 	    ;
-
-
-			// };
-
-			</script>
-		</div>
-		<script>
-		    var dataset = [];
-		    d3.csv("gold.csv", function(data) {
-		      dataset = data.map( function(d) { return [ +d["model year"], +d["origin"]]; });
-		      console.log(dataset);
-		    });                
-		</script>
-		<div id="viz"></div>
+	<div id="viz">
 		    <script>
-		      d3.text("gold.csv", function(datasetText) {
-		 
-		      var parsedCSV = d3.csv.parseRows(datasetText);
-		      
-		      var sampleHTML = d3.select("#viz")
-		        .append("table")
-		        .style("border-collapse", "collapse")
-		        .style("background-color", "#e7e7e7")
-		        .style("border", "2px black solid")
-		    
-		        .selectAll("tr")
-		        .data(parsedCSV)
-		        .enter().append("tr")
-		    
-		        .selectAll("td")
-		        .data(function(d){return d;})
-		        .enter().append("td")
-		        .style("border", "1px black solid")
-		        .style("padding", "5px")
-		        .on("mouseover", function(){d3.select(this).style("background-color", "#e5ac39")})
-		        .on("mouseout", function(){d3.select(this).style("background-color", "#e7e7e7")})
-		        .text(function(d){return d;})
-		        .style("font-size", "16px");
-		      });           
-		    </script>     
-		<p class="p">Demo by <a href="http://www.fontech.com.tw">Fontech</a>.</p>
+				d3.text("gold.csv", function(datasetText) {
+				
+				var parsedCSV = d3.csv.parseRows(datasetText);
+
+				var gold = d3.select("#viz").selectAll("div")
+				.data(parsedCSV)
+				// .append("table")
+				// .style("border-collapse", "collapse")
+				// .style("background-color", "#e7e7e7")
+				// .style("border", "2px black solid")
+	    		.enter()
+	    		.append("div")
+	    		.attr("class" , "bar")
+				.style("height" , function(d) {
+					var barheight = d / 2;
+					return barheight + "px";
+				})
+
+
+				// .selectAll("div")
+				// .data(function(d){return d;})
+				// .enter()
+				// .append("td")
+				// .style("border", "1px black solid")
+				// .style("padding", "5px")
+
+
+				.on("mouseover", function(){d3.select(this).style("background-color", "#e5ac39")})
+				.on("mouseout", function(){d3.select(this).style("background-color", "#e7e7e7")});
+				});
+			</script>
 	</div>
+</div>
 </body>
 </html>
