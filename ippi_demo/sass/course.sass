@@ -217,6 +217,10 @@ nav
 		bottom: 25px
 
 	&:hover
+		+transform(scale(1.08))
+		+transition(0.1s)
+		+box-shadow(rgba(200, 200, 200, 0.8) 0px 8px 4px -4px)
+
 		h4
 			+opacity(1)
 			top: 16px
@@ -231,7 +235,7 @@ nav
 			+box-sizing(border-box)
 			font-size: 14px
 			color: rgba(250,  250, 250, 0.9)
-			background-color: rgba(7, 36, 76, 0.8)
+			background-color: rgba(7, 36, 76, 0.3)
 			+transition(0.1s)
 	&:last-child
 		margin-bottom: 6em
@@ -335,6 +339,8 @@ nav
 	&:hover
 		transition: 0.1s
 		+box-shadow(rgba(255, 255, 255, 0.2) 0px -3px 3px inset)
+		+box-shadow(rgba(200, 200, 200, 0.8) 0px 8px 4px -4px)
+
 
 
 // -------------
