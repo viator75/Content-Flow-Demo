@@ -66,7 +66,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 9, ../sass/cover.sass */
 h1, h2, p, a {
   color: white;
-  font-family: "HelveticaNeue", "Helvetica", "Heiti TC", "儷黑 Pro", "Arial", sans-serif;
+  font-family: "HelveticaNeue", "Helvetica", "Heiti TC", "LiHei Pro", "Apple LiGothic Medium", "Arial", sans-serif;
   font-style: normal;
   font-weight: 300;
 }
@@ -179,15 +179,22 @@ a {
   padding: 12px 24px 12px 24px;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.5);
   -webkit-animation: click-me 1.5s infinite ease-in-out;
   animation: click-me 1.5s infinite ease-in-out;
 }
 /* line 123, ../sass/cover.sass */
 .course .center-button a:hover {
-  border: 2px solid rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  -webkit-animation: none;
+  animation: none;
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
 }
-/* line 125, ../sass/cover.sass */
+/* line 129, ../sass/cover.sass */
 .course .center-button a .year {
   font-size: 20px;
   display: block;
@@ -196,40 +203,40 @@ a {
 }
 
 @-webkit-keyframes click-me {
-  /* line 133, ../sass/cover.sass */
+  /* line 137, ../sass/cover.sass */
   0% {
     background: rgba(255, 255, 255, 0.1);
   }
 
-  /* line 135, ../sass/cover.sass */
+  /* line 139, ../sass/cover.sass */
   50% {
     background: rgba(255, 255, 255, 0.3);
   }
 
-  /* line 137, ../sass/cover.sass */
+  /* line 141, ../sass/cover.sass */
   100% {
     background: rgba(255, 255, 255, 0.1);
   }
 }
 
 @keyframes click-me {
-  /* line 141, ../sass/cover.sass */
+  /* line 145, ../sass/cover.sass */
   0% {
     background: rgba(255, 255, 255, 0.1);
   }
 
-  /* line 143, ../sass/cover.sass */
+  /* line 147, ../sass/cover.sass */
   50% {
     background: rgba(255, 255, 255, 0.3);
   }
 
-  /* line 145, ../sass/cover.sass */
+  /* line 149, ../sass/cover.sass */
   100% {
     background: rgba(255, 255, 255, 0.1);
   }
 }
 
-/* line 155, ../sass/cover.sass */
+/* line 159, ../sass/cover.sass */
 .contact {
   position: fixed;
   bottom: 14px;
@@ -237,7 +244,7 @@ a {
   z-index: 30;
 }
 
-/* line 162, ../sass/cover.sass */
+/* line 166, ../sass/cover.sass */
 a, p {
   color: rgba(255, 255, 255, 0.9);
   font-size: 1em;
@@ -245,12 +252,12 @@ a, p {
   display: block;
 }
 
-/* line 168, ../sass/cover.sass */
+/* line 172, ../sass/cover.sass */
 p {
   display: inline;
 }
 
-/* line 171, ../sass/cover.sass */
+/* line 175, ../sass/cover.sass */
 i {
   font-size: 1.2em;
   width: 36px;
@@ -261,7 +268,7 @@ i {
   color: rgba(255, 255, 255, 0.7);
 }
 
-/* line 186, ../sass/cover.sass */
+/* line 190, ../sass/cover.sass */
 .sticky {
   position: absolute;
   bottom: 0;
@@ -269,33 +276,33 @@ i {
   width: 100%;
 }
 
-/* line 191, ../sass/cover.sass */
+/* line 195, ../sass/cover.sass */
 .germany-black, .germany-yellow, .germany-red {
   float: left;
   width: 33.33333%;
   height: 3px;
 }
 
-/* line 196, ../sass/cover.sass */
+/* line 200, ../sass/cover.sass */
 .germany-black {
   background-color: rgba(0, 0, 0, 0.6);
   border-top: 2px solid black;
 }
 
-/* line 199, ../sass/cover.sass */
+/* line 203, ../sass/cover.sass */
 .germany-red {
   background-color: rgba(220, 10, 23, 0.5);
   border-top: 2px solid #dc0a17;
 }
 
-/* line 202, ../sass/cover.sass */
+/* line 206, ../sass/cover.sass */
 .germany-yellow {
   background-color: rgba(254, 206, 47, 0.5);
   border-top: 2px solid #fece2f;
 }
 
 @media screen and (max-width: 580px) {
-  /* line 207, ../sass/cover.sass */
+  /* line 211, ../sass/cover.sass */
   .background-show {
     position: fixed;
     z-index: 10;
@@ -309,12 +316,12 @@ i {
     filter: blur(3px) grayscale(5%);
   }
 
-  /* line 216, ../sass/cover.sass */
+  /* line 220, ../sass/cover.sass */
   .wrapper {
     background-color: rgba(0, 0, 0, 0.4);
   }
 
-  /* line 218, ../sass/cover.sass */
+  /* line 222, ../sass/cover.sass */
   .logo {
     float: left;
     width: 84px;
@@ -322,7 +329,7 @@ i {
     margin: 10px 0 0 10px;
   }
 
-  /* line 223, ../sass/cover.sass */
+  /* line 227, ../sass/cover.sass */
   .ippi {
     float: left;
     margin: 12px 0 0 10px;
@@ -330,7 +337,7 @@ i {
     line-height: 1.2em;
   }
 
-  /* line 231, ../sass/cover.sass */
+  /* line 235, ../sass/cover.sass */
   .course .center-button a {
     display: block;
     color: white;
@@ -338,7 +345,7 @@ i {
     width: 240px;
     padding: 16px 12px 16px 12px;
   }
-  /* line 237, ../sass/cover.sass */
+  /* line 241, ../sass/cover.sass */
   .course .center-button a .year {
     font-size: 14px;
     display: block;
@@ -346,7 +353,7 @@ i {
     text-align: center;
   }
 
-  /* line 242, ../sass/cover.sass */
+  /* line 246, ../sass/cover.sass */
   .contact {
     position: fixed;
     bottom: 8px;
@@ -354,17 +361,17 @@ i {
     z-index: 30;
   }
 
-  /* line 247, ../sass/cover.sass */
+  /* line 251, ../sass/cover.sass */
   a {
     font-size: 1.6em;
     display: inline-block;
   }
-  /* line 250, ../sass/cover.sass */
+  /* line 254, ../sass/cover.sass */
   a p {
     display: none;
   }
 
-  /* line 253, ../sass/cover.sass */
+  /* line 257, ../sass/cover.sass */
   i {
     font-size: 1.2em;
     width: 36px;
@@ -376,29 +383,29 @@ i {
     color: rgba(255, 255, 255, 0.7);
   }
 
-  /* line 262, ../sass/cover.sass */
+  /* line 266, ../sass/cover.sass */
   .fa-map-marker {
     margin-left: -2px;
   }
 
-  /* line 264, ../sass/cover.sass */
+  /* line 268, ../sass/cover.sass */
   .germany-black, .germany-yellow, .germany-red {
     height: 3px;
   }
 
-  /* line 266, ../sass/cover.sass */
+  /* line 270, ../sass/cover.sass */
   .germany-black {
     background-color: rgba(0, 0, 0, 0.6);
     border-top: 2px solid black;
   }
 
-  /* line 269, ../sass/cover.sass */
+  /* line 273, ../sass/cover.sass */
   .germany-red {
     background-color: rgba(220, 10, 23, 0.5);
     border-top: 2px solid #dc0a17;
   }
 
-  /* line 272, ../sass/cover.sass */
+  /* line 276, ../sass/cover.sass */
   .germany-yellow {
     background-color: rgba(254, 206, 47, 0.5);
     border-top: 2px solid #fece2f;

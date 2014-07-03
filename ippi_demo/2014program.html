@@ -65,7 +65,7 @@
 </nav>
 
 <section id="vision">
-	<div class="container vision">
+	<div class="container-min vision">
 		<h3>課程設計理念</h3>
 		<p>
 			隨著科技進步與經濟成長，全球健康醫療觀念大幅改變，特別是當代口腔醫療概念，植體支持膺復假牙（implant supported prosthesis）取代傳統全口假牙（mucosa-supported complete denture），各項美容牙周手術精緻的健康美觀治療將會漸漸取代僅有功能性疼痛的傳統牙科治療。
@@ -89,11 +89,12 @@
 
 <section class="leader">
 	<div class="leader-filter">
-		<div class="container">
+		<div class="container vision">
+			<img src="images/profile/chen.jpg" alt="" class="leader-img">
 			<h4 class="leader-title">IPPI 主持醫師</h4>
 			<h4 class="host">陳亮州 醫師</h4>
 			<ul>
-			    <li>台北醫科大學牙醫學系畢業</li>
+			    <li>台北醫學大學牙醫學系畢業</li>
 			    <li>德國海德堡大學牙醫學系畢業</li>
 			    <li>德國海德堡大學牙 醫學博士</li>
 			    <li>德國海德堡大學醫學中心人工植牙專科醫師</li>
@@ -111,7 +112,7 @@
 	<div class="container">
 
 		<h3>講師陣容</h3>
-		<div class="team-speaker">
+		<div class="team-speaker profile-1">
 			<h4>唐耀臨 醫師</h4>
 			<ul>
 				<li>台北醫學大學牙醫系學士</li>
@@ -122,7 +123,7 @@
 			</ul>
 		</div>
 
-		<div class="team-speaker">
+		<div class="team-speaker profile-2">
 			<h4>戴奇凡 醫師</h4>
 			<ul>
 				<li>台北醫學大學牙醫系學士</li>
@@ -133,8 +134,8 @@
 			</ul>
 		</div>
 
-		<div class="team-speaker">
-			<h4>Dr.Jörg Neugebauer, D.M.D</h4>
+		<div class="team-speaker profile-3">
+			<h4>Dr.Jörg Neugebauer</h4>
 			<ul>
 				<li>德國海德堡大學牙醫學博士</li>
 				<li>德國 Ffiadent 植體研發部主任</li>
@@ -143,7 +144,7 @@
 		</div>
 
 
-		<div class="team-speaker">
+		<div class="team-speaker profile-4">
 			<h4>Dr.Helmut Steveling, D.M.D</h4>
 			<ul>
 				<li>德國烏茲堡大學牙醫學博士</li>
@@ -151,7 +152,7 @@
 			</ul>
 		</div>
 
-		<div class="team-speaker">
+		<div class="team-speaker profile-5">
 			<h4>Dr.Claus Bregler, D.M.D</h4>
 			<ul>
 				<li>德國弗來堡大學牙醫學博士</li>
@@ -160,7 +161,7 @@
 			</ul>
 		</div>
 
-		<div class="team-speaker">
+		<div class="team-speaker profile-6">
 			<h4>尹榮美醫師</h4>
 			<ul>
 				<li>台北醫學大學牙醫系畢業</li>
@@ -170,7 +171,7 @@
 		</div>
 		
 
-		<div class="team-speaker">
+		<div class="team-speaker profile-7">
 			<h4>李冠賢醫師</h4>
 			<ul>
 				<li>台灣中山醫學大學牙醫學系畢業 </li>
@@ -181,7 +182,7 @@
 		</div>
 
 
-		<div class="team-speaker">
+		<div class="team-speaker profile-8">
 			<h4>施柏聖醫師</h4>
 			<ul>
 				<li>台北醫學大學牙醫系畢業</li>
@@ -272,7 +273,7 @@
 
 <section id="register" class="register">
 	<div class="register-filter">
-		<div class="container">
+		<div class="container-min">
 			<h3>報名資訊</h3>
 			<p>
 			<i class="fa fa-phone"></i>+886-2-8772-0981<br>
@@ -298,11 +299,68 @@
 			<h1 class="footer-logo-title">Institute of advanced education for Periodontology Prosthodontology Implantology 牙周植牙再教育中心</h1>
 		</div>
 	</div>
+	<div id="map"></div>
+	       <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
+    
+    <script type="text/javascript">
+        google.maps.event.addDomListener(window, 'load', init);
+
+        function init() {
+            // Basic options for a simple Google Map
+            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+            var mapOptions = {
+                // How zoomed in you want the map to start at (always required)
+                zoom: 15,
+
+                // The latitude and longitude to center the map (always required)
+                center: new google.maps.LatLng(25.041156, 121.546180), // New York
+
+                // How you would like to style the map. 
+                // This is where you would paste any style found on Snazzy Maps.
+                styles: [{
+                		featureType:"all",
+                		elementType:"all",
+                		stylers:[
+                		{invert_lightness: true},
+                		{saturation: 2},
+                		{lightness: 20},
+                		{gamma:0.8},
+                		{hue:"#3f3c4d"}
+                		]}]
+                	};
+
+            // Get the HTML DOM element that will contain your map 
+            // We are using a div with id="map" seen below in the <body>
+            var mapElement = document.getElementById('map');
+
+            // Create the Google Map using out element and options defined above
+            var map = new google.maps.Map(mapElement, mapOptions);
+        }
+    </script>
 </footer>
 <div class="sticky">
 	<div class="germany-black"></div>
 	<div class="germany-red"></div>
 	<div class="germany-yellow"></div>
 </div>
+<script type="text/javascript">
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 600);
+        return false;
+      }
+    }
+  });
+});
+
+
+</script>
 </body>
+
 </html>

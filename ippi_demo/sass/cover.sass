@@ -3,12 +3,12 @@
 //  * Import this file using the following HTML or equivalent:
 //  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
 @import compass/reset
-@import compass/css3/filter
+@import compass/css3
 $all-width: 100%
 
 h1, h2, p, a
 	color: rgba(255,255,255,1)
-	font-family: "HelveticaNeue", "Helvetica","Heiti TC","儷黑 Pro" , "Arial",sans-serif
+	font-family: "HelveticaNeue", "Helvetica", "Heiti TC","LiHei Pro",  "Apple LiGothic Medium" , "Arial",sans-serif
 	font-style: normal
 	font-weight: 300
 .course
@@ -117,11 +117,15 @@ a
 			padding: 12px 24px 12px 24px
 			text-align: center
 			background-color: rgba(255,255,255,0.2)
-			border: 1px solid rgba(255,255,255,0.6)
+			border: 1px solid rgba(255,255,255,0.5)
 			-webkit-animation: click-me 1.5s infinite ease-in-out
 			animation: click-me 1.5s infinite ease-in-out
 			&:hover
-				border: 2px solid rgba(255,255,255,0.9)
+				border: 1px solid rgba(255,255,255,0.9)
+				-webkit-animation: none
+				animation: none
+				background-color: rgba(255,255,255,0.4)
+				+transition(0.1s)
 			.year
 				font-size: 20px
 				display: block
