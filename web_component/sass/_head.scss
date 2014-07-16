@@ -1,9 +1,4 @@
-/* Choose your size */
-
 $size: 12px; 
-
-
-/* SASS function - centering */
 
 @function calc-width($s) {
   @return ($size*38);
