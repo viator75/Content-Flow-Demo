@@ -980,3 +980,17 @@
 2014-07-16 17:54:19 overwrite stylesheets/all.css 
 2014-07-16 17:54:36 overwrite stylesheets/all.css 
 2014-07-16 17:54:59 overwrite stylesheets/all.css 
+2014-07-16 17:56:13 overwrite stylesheets/all.css 
+2014-07-16 17:56:38 overwrite stylesheets/all.css 
+2014-07-16 17:56:50 overwrite stylesheets/all.css 
+2014-07-16 17:57:31     error sass/all.sass (Line 31 of sass/_head.scss: Invalid CSS after "...bkit-transition": expected ";", was ": all .25s ease;")
+2014-07-16 17:57:31 overwrite stylesheets/all.css 
+2014-07-16 17:57:36 overwrite stylesheets/all.css 
+2014-07-16 17:57:57 overwrite stylesheets/all.css 
+2014-07-16 17:58:18 overwrite stylesheets/all.css 
+2014-07-16 18:00:26 overwrite stylesheets/all.css 
+2014-07-16 18:00:35 overwrite stylesheets/all.css 
+2014-07-16 18:01:54 identical stylesheets/all.css 
+2014-07-16 18:02:13 overwrite stylesheets/all.css 
+2014-07-16 18:02:31 overwrite stylesheets/all.css 
+2014-07-16 18:02:52 overwrite stylesheets/all.css 
