@@ -2515,7 +2515,7 @@ $size: 12px;
 
 }
 
-.character:hover:after, .character:active:after {
+.character:hover:after{
   content: "";
   position: absolute;
   top: 0;

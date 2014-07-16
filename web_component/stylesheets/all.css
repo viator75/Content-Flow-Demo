@@ -526,7 +526,7 @@ input[type=date] {
 }
 
 /* line 2518, ../sass/_head.scss */
-.character:hover:after, .character:active:after {
+.character:hover:after {
   content: "";
   position: absolute;
   top: 0;
