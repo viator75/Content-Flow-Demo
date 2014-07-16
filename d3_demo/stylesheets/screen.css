@@ -74,8 +74,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 11, ../sass/screen.sass */
 .bar {
   display: inline-block;
-  width: 16px;
-  margin: 0 0 0 2px;
+  width: 6px;
+  margin: 0 0 0 1px;
   background-color: #e7e7e7;
   overflow: auto;
+  line-height: 1em;
 }
